@@ -17,6 +17,7 @@ body {
 .terms { font-size: .9em; }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
+.back_to_top { font-size: .85em }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
@@ -59,3 +60,4 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
