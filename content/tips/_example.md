@@ -47,10 +47,6 @@ When creating a new post, you have to decide whether the post format is Markdown
 blogdown::new_post("Post Title", rmd = FALSE)
 ```
 
-Actually I recommend you to use the RStudio addin "New Post" instead:
-
-![RStudio addin New Post](https://bookdown.org/yihui/blogdown/images/new-post.png)
-
 ## 2. Sample Text
 {{< back_to_top >}}
 
@@ -96,8 +92,3 @@ A table (centered by default):
 |          5.0|         3.6|          1.4|         0.2|setosa  |
 |          5.4|         3.9|          1.7|         0.4|setosa  |
 
-An image (automatically centered when it is appropriate):
-
-![Happy Elmo](https://slides.yihui.org/gif/happy-elmo.gif)
-
-Looks good?
