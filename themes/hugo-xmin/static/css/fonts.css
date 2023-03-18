@@ -1,7 +1,7 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  font-family: "Atkinson Hyperlegible", Atkinson-Hyperlegible, AtkinsonHyperlegible, "Open Dyslexic", Open-Dyslexic, OpenDyslexic, serif;
 }
 code {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "MonoLisa Variable", "MonoLisa", "DejaVu Sans Mono", "Lucida Console", Monaco, monospace;
   font-size: 85%;
 }

@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<main>
+<form action="/search" method="GET">
+    <input type="search" name="q" id="search-query" title="Search query" placeholder="Search....">
+    <input type="submit" value="Search" title="Search">
+</form>
+
+<hr />
+
+    <div id="search-results"></div>
+    <div class="search-loading"></div>
+
+    <script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+        <hr />
+        <h3><a href="${link}">${title}</a></h3>
+        <p>${snippet}</p>
+        <p>
+            <small>
+                ${ isset tags }Tags: ${tags}<br>${ end }
+            </small>
+        </p>
+    </div>
+    </script>
+
+
+<script src="{{ "js/fuse.min.js" | absURL }}"></script>
+<script src="{{ "js/mark.min.js" | absURL }}"></script>
+<script src="{{ "js/search.js" | absURL }}"></script>
+</main>
+
+{{ partial "footer.html" . }}

@@ -6,17 +6,27 @@
 
 {{ .Content }}
 
+{{ if not .IsHome }}
 <ul>
+
   {{ $pages := .Pages }}
-  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
-  {{ range $paginator.Pages }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
+  {{ if (eq .Type "tips") }}
+    {{ range sort $paginator.Pages ".Title" }}
+    <li>
+     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
+  {{ else }}
+    {{ range sort $paginator.Pages }}
+    <li>
+      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
   {{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}
