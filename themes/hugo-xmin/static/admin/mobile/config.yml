@@ -22,8 +22,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post", required: true}
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Author", name: "author", widget: "string", required: true}
-      - {label: "Publish Date", name: "pubDate", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
-      - {label: "Last Modified", name: "modDate", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
+      - {label: "Publish Date", name: "publishDate", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
+      - {label: "Last Modified", name: "lastMod", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
       - {label: "Show TOC?", name: "toc", widget: "boolean", default: true}
       - {label: "Draft?", name: "draft", widget: "boolean", default: true}
       - label: "Categories"
