@@ -1,18 +1,42 @@
+site_url: https://kb.accessible.tips
+display_url: https://kb.accessible.tips
+
 media_folder: "static/uploads"
 public_folder: "/uploads"
+
+search: false
+
 backend:
   name: git-gateway
   branch: main
+
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "content/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    show_preview_links: true
+    preview_path: "posts/{{slug}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post", required: true}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Author", name: "author", widget: "string", required: true}
+      - {label: "Publish Date", name: "pubDate", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
+      - {label: "Last Modified", name: "modDate", widget: "datetime", date_format: 'YYYY-MM-DD', time_format: false, required: true}
+      - {label: "Show TOC?", name: "toc", widget: "boolean", default: true}
+      - {label: "Draft?", name: "draft", widget: "boolean", default: true}
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        allow_add: false
+        default: ["blog"]
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        fields: 
+          - label: "Tag"
+            name: "tag"
+            widget: "string"
+        required: true
+      - {label: "Body", name: "body", widget: "markdown", required: true}

@@ -19,7 +19,7 @@ footnotereturnlinkcontents = '↩'
 uglyURLs = false
 [permalinks]
   tips = '/tips/:slug/'
-  posts = '/posts/:slug/'
+  posts = '/posts/:year-:month-:day-:slug/'
   tags = '/tags/:title/'
 
 [sitemap]
