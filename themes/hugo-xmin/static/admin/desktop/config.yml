@@ -30,6 +30,8 @@ collections:
         label: Categories
         widget: list
         allow_add: false
+        allow_delete: false
+        collapsed: true
         default:
           - 'blog'
         fields:
