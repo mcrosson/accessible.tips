@@ -14,11 +14,13 @@ tags:
 ---
 
 ## Changelog
-{{< back_to_top >}}
 {{< changelog >}}
+{{< back_to_top >}}
 {{< change 2023-03-17 "test change 1" >}}
 {{< change 2023-03-18 "test change 2" >}}
 {{< /changelog >}}
+
+{{< end_section >}}
 
 This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. If you do not use **blogdown**, you can skip the first section.
 
@@ -44,6 +46,8 @@ When creating a new post, you have to decide whether the post format is Markdown
 ```r
 blogdown::new_post("Post Title", rmd = FALSE)
 ```
+
+{{< end_section >}}
 
 ## 2. Sample Text
 {{< back_to_top >}}
@@ -90,3 +94,4 @@ A table (centered by default):
 |          5.0|         3.6|          1.4|         0.2|setosa  |
 |          5.4|         3.9|          1.7|         0.4|setosa  |
 
+{{< end_section >}}

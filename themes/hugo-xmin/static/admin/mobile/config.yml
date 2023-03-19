@@ -44,9 +44,9 @@ collections:
         required: true
         default: >-
           ## Changelog
-          
-          {{< back_to_top >}}
-          
+           
+          {{< changelog >}}
+
           {{< changelog >}}
            
           {{< change 2000-12-30 "change 1" >}}
@@ -54,6 +54,8 @@ collections:
           {{< change 2000-12-31 "change 2" >}}
           
           {{< /changelog >}}
+          
+          {{< end_section >}}
   - name: "tips" # Used in routes, e.g., /admin/collections/blog
     label: "Tips" # Used in the UI
     folder: "content/tips" # The path to the folder where the documents are stored
@@ -90,9 +92,9 @@ collections:
         required: true
         default: >-
           ## Changelog
-          
-          {{< back_to_top >}}
-          
+           
+          {{< changelog >}}
+
           {{< changelog >}}
            
           {{< change 2000-12-30 "change 1" >}}
@@ -100,4 +102,5 @@ collections:
           {{< change 2000-12-31 "change 2" >}}
           
           {{< /changelog >}}
-
+          
+          {{< end_section >}}
