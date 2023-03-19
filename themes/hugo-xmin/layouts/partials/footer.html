@@ -2,7 +2,7 @@
   {{ partial "foot_custom.html" . }}
   {{ with .Site.Params.footer }}
   <hr/>
-  <a href="#top">Back to top</a>
+  <a class="back_to_top" href="#top">Back to top</a>
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}
   {{ if .GitInfo}}

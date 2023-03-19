@@ -27,13 +27,13 @@
 
 {{ if $.Scratch.Get "has_related" }}
   <h2>See Also</h2>
-  <a href="#top">Back to top</a>
   <ul>
   {{ $num_to_show := .Site.Params.related_content_limit | default 15 }}
   {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
+  <a class="back_to_top" href="#top">Back to top</a>
 {{ end }}
 
 {{ partial "footer.html" . }}
