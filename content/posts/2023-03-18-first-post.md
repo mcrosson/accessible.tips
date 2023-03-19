@@ -2,8 +2,8 @@
 layout: post
 title: First Post
 author: KemoNine
-pubDate: 2023-03-18
-modDate: 2023-03-18
+publishDate: 2023-03-18
+lastMod: 2023-03-18
 toc: false
 draft: false
 categories:
