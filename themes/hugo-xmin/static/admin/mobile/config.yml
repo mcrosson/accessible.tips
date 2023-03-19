@@ -44,6 +44,8 @@ collections:
         required: true
         default: >-
           ## Changelog
+          
+          {{< back_to_top >}}
            
           {{< changelog >}}
           
@@ -90,6 +92,8 @@ collections:
         required: true
         default: >-
           ## Changelog
+          
+          {{< back_to_top >}}
            
           {{< changelog >}}
 
