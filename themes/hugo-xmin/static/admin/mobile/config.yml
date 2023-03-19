@@ -36,4 +36,6 @@ collections:
         widget: "list"
         allow_add: true
         required: true
+        summary: '{{fields.tag}}'
+        field: {label: Tag, name: tag, widget: string}
       - {label: "Body", name: "body", widget: "markdown", required: true}
