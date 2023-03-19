@@ -55,8 +55,6 @@ collections:
            
           {{< changelog >}}
 
-          {{< changelog >}}
-           
           {{< change 2000-12-30 "change 1" >}}
           
           {{< change 2000-12-31 "change 2" >}}
