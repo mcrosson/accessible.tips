@@ -12,14 +12,14 @@
   {{ $pages := .Pages }}
   {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
   {{ if (eq .Type "posts") }}
-    {{ range sort $paginator.Pages ".Title" }}
+    {{ range sort $paginator.Pages ".Date" "desc"}}
     <li>
      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
     </li>
     {{ end }}
   {{ else }}
-    {{ range sort $paginator.Pages }}
+    {{ range sort $paginator.Pages ".Title" }}
     <li>
      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
     </li>
