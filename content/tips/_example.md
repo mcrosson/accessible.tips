@@ -1,19 +1,17 @@
-+++
-title = "_Example"
-author = "KemoNine"
-publishDate = 2023-03-16
-lastmod = 2023-03-18
-toc = true
-draft = false
-categories = [
-  "blog",
-  "tips"
-]
-tags = [
-  "faq",
-  "example"
-]
-+++
+---
+title: _Example
+author: KemoNine
+publishDate: 2023-03-16
+lastMod: 2023-03-18
+toc: true
+draft: false
+categories:
+  - blog
+  - tips
+tags:
+  - faq
+  - example
+---
 
 ## Changelog
 {{< back_to_top >}}
