@@ -47,7 +47,9 @@ collections:
           - name: tag
             label: Tag
             widget: string
-      - {label: "Body", name: "body", widget: "markdown", required: true}
+      - name: body
+        label: Blog post content
+        widget: markdown
   - name: "tips" # Used in routes, e.g., /admin/collections/blog
     label: "Tips" # Used in the UI
     folder: "content/tips" # The path to the folder where the documents are stored
@@ -84,4 +86,6 @@ collections:
           - name: tag
             label: Tag
             widget: string
-      - {label: "Body", name: "body", widget: "markdown", required: true}
+      - name: body
+        label: Blog post content
+        widget: markdown
