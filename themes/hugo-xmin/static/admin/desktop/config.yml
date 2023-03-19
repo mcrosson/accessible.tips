@@ -48,8 +48,21 @@ collections:
             label: Tag
             widget: string
       - name: body
-        label: Blog post content
+        label: Content
         widget: markdown
+        default: >-
+          ## Changelog
+          
+          {{< back_to_top >}}
+          
+          {{< changelog >}}
+           
+          {{< change 2000-12-30 "change 1" >}}
+          
+          {{< change 2000-12-31 "change 2" >}}
+          
+          {{< /changelog >}}
+
   - name: "tips" # Used in routes, e.g., /admin/collections/blog
     label: "Tips" # Used in the UI
     folder: "content/tips" # The path to the folder where the documents are stored
@@ -87,5 +100,17 @@ collections:
             label: Tag
             widget: string
       - name: body
-        label: Blog post content
+        label: Content
         widget: markdown
+        default: >-
+          ## Changelog
+          
+          {{< back_to_top >}}
+          
+          {{< changelog >}}
+           
+          {{< change 2000-12-30 "change 1" >}}
+          
+          {{< change 2000-12-31 "change 2" >}}
+          
+          {{< /changelog >}}
