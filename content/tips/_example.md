@@ -1,10 +1,10 @@
 ---
-title: _Example
+title: _ Example _
 author: KemoNine
 publishDate: 2023-03-16
 lastMod: 2023-03-18
 toc: true
-draft: true
+draft: false
 categories:
   - blog
   - tips
@@ -22,6 +22,8 @@ tags:
 {{< /changelog >}}
 
 {{< end_section >}}
+
+Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references
 
 This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. If you do not use **blogdown**, you can skip the first section.
 

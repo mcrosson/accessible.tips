@@ -1,16 +1,16 @@
 ---
-title: _Tip Template_
+title: _ Tip Template _
 author: YourName
 publishDate: 1900-12-30
 lastMod: 1900-12-31
 toc: true
-draft: true
+draft: false
 categories:
   - tips
-  - faq
+  - a-main-category
 tags:
-  - example
   - template
+  - example-tag
 ---
 
 ## Changelog
@@ -40,6 +40,6 @@ This is where some useful content would go
 ## Conclusion
 {{< back_to_top >}}
 
-In summary...
+In summary... Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references
 
 {{< end_section >}}
