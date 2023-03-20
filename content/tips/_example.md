@@ -8,9 +8,10 @@ draft: true
 categories:
   - blog
   - tips
-tags:
   - faq
+tags:
   - example
+  - testing
 ---
 
 ## Changelog
