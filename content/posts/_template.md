@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _Template_
+title: _Post Template_
 author: YourName
 publishDate: 1900-12-31
 lastMod: 1900-12-31

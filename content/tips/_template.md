@@ -1,5 +1,5 @@
 ---
-title: _Template_
+title: _Tip Template_
 author: YourName
 publishDate: 1900-12-30
 lastMod: 1900-12-31
