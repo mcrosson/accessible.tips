@@ -21,7 +21,15 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post", required: true}
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Author", name: "author", widget: "string", required: true}
+      - name: authors
+        label: Authors
+        widget: list
+        required: true
+        collapsed: false
+        fields:
+          - name: author
+            label: Author
+            widget: string
       - {label: "Publish Date", name: "publishDate", widget: "datetime", date_format: 'yyyy-MM-dd', time_format: false, required: true}
       - {label: "Last Modified", name: "lastMod", widget: "datetime", date_format: 'yyyy-MM-dd', time_format: false, required: true}
       - {label: "Show TOC?", name: "toc", widget: "boolean", default: true}
@@ -75,7 +83,15 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post", required: true}
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Author", name: "author", widget: "string", required: true}
+      - name: authors
+        label: Authors
+        widget: list
+        required: true
+        collapsed: false
+        fields:
+          - name: author
+            label: Author
+            widget: string
       - {label: "Publish Date", name: "publishDate", widget: "datetime", date_format: 'yyyy-MM-dd', time_format: false, required: true}
       - {label: "Last Modified", name: "lastMod", widget: "datetime", date_format: 'yyyy-MM-dd', time_format: false, required: true}
       - {label: "Show TOC?", name: "toc", widget: "boolean", default: true}
