@@ -1,6 +1,7 @@
 ---
 title: _ Tip Template _
-author: YourName
+author: 
+  - Your Name
 publishDate: 1900-12-30
 lastMod: 1900-12-31
 toc: true

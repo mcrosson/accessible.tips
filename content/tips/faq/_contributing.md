@@ -1,6 +1,7 @@
 ---
 title: _ Contributing _
-author: KemoNine
+author: 
+  - KemoNine
 publishDate: 2023-03-20
 lastMod: 2023-03-20
 toc: true

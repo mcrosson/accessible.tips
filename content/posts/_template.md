@@ -1,7 +1,8 @@
 ---
 layout: post
 title: _Post Template_
-author: YourName
+author: 
+  - Your Name
 publishDate: 1900-12-31
 lastMod: 1900-12-31
 toc: false

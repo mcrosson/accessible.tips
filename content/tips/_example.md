@@ -1,6 +1,7 @@
 ---
 title: _ Example _
-author: KemoNine
+author: 
+  - KemoNine
 publishDate: 2023-03-16
 lastMod: 2023-03-18
 toc: true

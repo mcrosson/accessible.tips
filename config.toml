@@ -44,7 +44,7 @@ uglyURLs = false
 
 [params]
   description = 'A collection of accessibility tips and tricks'
-  footer = '&copy; KemoNine {Year}'
+  footer = '&copy; {Year}'
 
 [menu]
 [[menu.main]]
