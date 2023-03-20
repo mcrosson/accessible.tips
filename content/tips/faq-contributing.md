@@ -96,7 +96,7 @@ We have tried to keep tags to a well curated list that help tie many different `
 
 Given how many words have large numbers of synonyms (alternatives), we have tried to stick to single tags for single concepts.
 
-Please review the main tag list [here](/tags) prior to creating a new tag. If one is missing, please add it.
+Please review the main tag list [here](/tags) (warning: this list can be large and take awhile to load) prior to creating a new tag. If one is missing, please add it.
 
 Long term we hope to build a tag glossary to enhance discovery, search and synonym management. If/when this glossary is created, we will update our guidelines related to tagging.
 
@@ -106,7 +106,7 @@ Long term we hope to build a tag glossary to enhance discovery, search and synon
 
 If you are cross referencing information you can use the following code.
 
-<code>[Link Text]]({{&lt; ref "[category]/[file].md" &gt;}})</code> where `[category]` is the category you defined and `[file]` is the markdown file name with the content you would like to reference.
+<code>[Link Text]]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the category you defined and `[file]` is the markdown file name with the content you would like to reference.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 
@@ -118,10 +118,10 @@ Files and folders are setup with the following overall layout.
 
 ``` txt
 /content/
-         tips/category/
-                       index.md
-                       topic_1.md
-                       topic_2.md
+         tips/
+              category-topic_1.md
+              category-topic_2.md
+              category-topic_3/index.md
          posts/yyyy-MM-dd-title.md
                yyyy-MM-dd-title/index.md
 ```
@@ -130,13 +130,15 @@ Files and folders are setup with the following overall layout.
 
 ### Tips Directory
 
-The `tips` directory contains the main knowledge base data. Each folder is a dedicated `Category` an the `index.md` file is the `Stub` with links out to the topics (`topic_1.md`, `topic_2.md`, etc).
+The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[category]-[title].md` with `[category]` being the category set in the page metadata and `[title]` being the title set in the page metadata.
 
 This allows us to easily cross reference information within a category (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
 
 This rigid, tree'd structure is imposed by Hugo and we have adapted our file and folder organization to work with Hugo instead of against it.
 
 This is also why we can have *only one* primary category for content currently.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 {{< back_to_top >}}
 

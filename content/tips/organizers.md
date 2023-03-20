@@ -47,6 +47,7 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Very flexible or rigid based on how much of the standard system you use
 - Can be overhwelming as there is a lot of published info and ideas on the internet
 - Best results seen when a loose structure is preferred
+- [Additional Reading]({{< ref "organizers-bujo" >}})
 
 {{< back_to_top >}}
 
@@ -58,6 +59,7 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Difficult to adapt
 - Easy to start using but can quickly overhwelm due to the rigid and structured workflow
 - Best results seen when a rigid structure and workflow are preferred
+- [Additional Reading]({{< ref "organizers-gtd" >}})
 
 {{< back_to_top >}}
 
