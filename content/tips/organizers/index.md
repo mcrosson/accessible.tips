@@ -21,7 +21,7 @@ tags:
 {{< back_to_top >}}
 
 {{< changelog >}}
-{{< change 1900-12-30 "Initial creation" >}}
+{{< change 2023-03-20 "Initial creation" >}}
 {{< /changelog >}}
 
 {{< end_section >}}
@@ -38,7 +38,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 ## Common Options
 {{< back_to_top >}}
 
-### [Bullet Journal (BuJo)](https://bulletjournal.com/)
+### Bullet Journal
+
+[External Site](https://bulletjournal.com/)
 
 - An analog setup that's very adaptable
 - Very flexible or rigid based on how much of the standard system you use
@@ -47,7 +49,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 {{< back_to_top >}}
 
-### [Getting Things Done (GTD)](https://gettingthingsdone.com/)
+### Getting Things Done (GTD)
+
+[External Site](https://gettingthingsdone.com/)
 
 - Highly structured and rigid
 - Difficult to adapt
@@ -56,7 +60,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 {{< back_to_top >}}
 
-### [Mind Mapping](https://en.wikipedia.org/wiki/Mind_map)
+### Mind Mapping
+
+[External Site](https://en.wikipedia.org/wiki/Mind_map)
 
 - Completely open ended and flexible
 - Easy to adapt
@@ -65,7 +71,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 {{< back_to_top >}}
 
-### [org-mode](https://orgmode.org/)
+### org-mode
+
+[External Site](https://orgmode.org/)
 
 - A style of bullet journal with some pre-made workflows that can be used if desired
 - This is a digital text form of bullet journal
@@ -75,7 +83,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 {{< back_to_top >}}
 
-### [zettelkasten](https://zettelkasten.de/)
+### zettelkasten
+
+[External Site](https://zettelkasten.de/)
 
 - A style of mind map with general guidelines for maximizing the utility of a mind map
 - This is a digital text form of mind map
@@ -85,7 +95,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 {{< back_to_top >}}
 
-### [Obsidian](https://obsidian.md/)
+### Obsidian
+
+[External Site](https://obsidian.md/)
 
 - A gui mind mapping application that's cross platform
 - Regarded as one of the best graphical mind mappers available
