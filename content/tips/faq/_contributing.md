@@ -109,4 +109,40 @@ If you are cross referencing information you can use the following code.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 
+{{< end_section >}}
+
+## File and Folder Organization
+
+Files and folders are setup with the following overall layout.
+
+``` txt
+/content/
+         tips/category/
+                       index.md
+                       topic_1.md
+                       topic_2.md
+         posts/yyyy-MM-dd-title.md
+               yyyy-MM-dd-title/index.md
+```
+
+{{< back_to_top >}}
+
+### Tips Directory
+
+The `tips` directory contains the main knowledge base data. Each folder is a dedicated `Category` an the `index.md` file is the `Stub` with links out to the topics (`topic_1.md`, `topic_2.md`, etc).
+
+This allows us to easily cross reference information within a category (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
+
+This rigid, tree'd structure is imposed by Hugo and we have adapted our file and folder organization to work with Hugo instead of against it.
+
+This is also why we can have *only one* primary category for content currently.
+
+{{< back_to_top >}}
+
+### Posts Directory
+
+In this layout the `posts` directory contains all of the blog posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+
 {{< back_to_top >}}
