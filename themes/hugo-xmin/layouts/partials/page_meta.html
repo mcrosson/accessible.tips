@@ -22,6 +22,11 @@
     <p class="terms">
       {{ partial "related.html" . }}
     </p>
+    <p>
+        {{ if (gt .ReadingTime 0) }}<small>Reading Time: {{ .ReadingTime }} minutes</small>{{ end }}
+        &nbsp;|&nbsp;
+        {{ if (gt .WordCount 0) }}<small>Word Count: {{ .WordCount }} words</small>{{ end }}
+    </p>
     </div>
     
     {{ if .Params.toc }}
