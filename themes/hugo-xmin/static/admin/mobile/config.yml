@@ -51,8 +51,6 @@ collections:
         default: >-
           ## Changelog
           
-          {{< back_to_top >}}
-           
           {{< changelog >}}
           
           {{< change 2000-12-30 "change 1" >}}
@@ -104,9 +102,7 @@ collections:
         required: true
         default: >-
           ## Changelog
-          
-          {{< back_to_top >}}
-           
+
           {{< changelog >}}
 
           {{< change 2000-12-30 "change 1" >}}

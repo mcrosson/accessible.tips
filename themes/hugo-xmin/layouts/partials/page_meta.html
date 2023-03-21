@@ -1,4 +1,9 @@
 <div class="article-meta">
+    {{ if .Params.toc }}
+    <a class="back_to_top" href="#top">Jump to ToC</a>
+    {{ else }}
+    <a class="back_to_top" href="#top">Jump to content</a>
+    {{ end }}
     <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     {{ with .Params.author }}
         <h3 class="author">By: 

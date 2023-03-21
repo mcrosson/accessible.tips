@@ -15,8 +15,6 @@ tags:
 ---
 
 ## Changelog
-{{< back_to_top >}}
-
 {{< changelog >}}
 {{< change 1900-12-30 "Add additional detail, tags" >}}
 {{< change 1900-12-30 "Initial creation" >}}

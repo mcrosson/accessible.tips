@@ -1,12 +1,35 @@
   <footer>
   {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
+
   <hr/>
+
+  {{ if .Page.Params.toc }}
+  <a class="back_to_top" href="#top">Back to ToC</a>
+  {{ else }}
   <a class="back_to_top" href="#top">Back to top</a>
-  &nbsp;|&nbsp;<a class="back_to_top" href="#categories_tags">Back to categories and tags</a>
-  &nbsp;|&nbsp;<a class="back_to_top" href="#nav_menu">Back to menu</a>
+  {{ end }}
+
+  {{ with .Page.Params.categories }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Back to categories</a>
+  {{ end }}
+
+  {{ with .Page.Params.tags }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Back to tags</a>
+  {{ end }}
+
+  {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+  {{ $.Scratch.Set "has_related" true }}
+{{ end }}
+{{ if $.Scratch.Get "has_related" }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#related">Back to related pages</a>
+{{ end }}
+
+  &nbsp;|&nbsp;<a class="back_to_top" href="#nav_menu">Back to site menu</a>
+
+  {{ with .Site.Params.footer }}
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}
+
   {{ if .GitInfo}}
   <br />
   Revision <a href="https://github.com/mcrosson/accessible.tips/commit/{{ .GitInfo.Hash }}" rel="noopener">{{ .GitInfo.Hash }}</a>

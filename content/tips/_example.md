@@ -17,7 +17,6 @@ tags:
 
 ## Changelog
 {{< changelog >}}
-{{< back_to_top >}}
 {{< change 2023-03-17 "test change 1" >}}
 {{< change 2023-03-18 "test change 2" >}}
 {{< /changelog >}}

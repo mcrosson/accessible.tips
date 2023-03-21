@@ -19,8 +19,6 @@ tags:
 ---
 
 ## Changelog
-{{< back_to_top >}}
-
 {{< changelog >}}
 {{< change 2023-03-20 "Initial creation" >}}
 {{< /changelog >}}
