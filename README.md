@@ -2,7 +2,7 @@
 
 Welcome to the accessible.tips knowledge base code repository.
 
-Here you will find a variety of tips that can help manage living with disability. The intent of the site is to be something of a zettelkasten mind map of various things that make living with disability easier.
+The intent of this repo and the deployed website is to be a [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) knowledge base of highly cross referenced, highly focused tips, tricks and life hacks. Most of the tips are intentionally kept short to keep from overwhelming our users with information on a single page. We have included links to related material and additional details for each tip so you can easily discover additional detail and do a deep dive into a topic.
 
 ## Licensing
 
