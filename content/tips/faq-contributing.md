@@ -3,7 +3,7 @@ title: _ Contributing _
 author: 
   - KemoNine
 publishDate: 2023-03-20
-lastMod: 2023-03-20
+lastMod: 2023-03-21
 toc: true
 draft: false
 categories:
@@ -15,6 +15,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-03-21 "Add note that change log is exempt from 2nd level heading 'back to top'" >}}
 {{< change 2023-03-20 "Initial creation" >}}
 {{< /changelog >}}
 
@@ -40,6 +41,7 @@ We welcome our user's feedback ; including but not limited to
 If submitting content or copy edits, please note the following
 
 - Each 2nd level heading should have the <code>{{&lt; back_to_top &gt;}}</code> short code on the line following the heading
+  - The `Changelog` heading is exempt from this rule as it is used for the `Back to top` and `Back to ToC` page links
 - Each 3rd or higher level heading should have the <code>{{&lt; end_section &gt;}}</code> or <code>{{&lt; back_to_top &gt;}}</code> shortcode present at the end of the section. Use your best judgement on which of these two shortcodes to use
 - If there are any sections beyond `Changelog`, the table of contents must be enabled
 - When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
