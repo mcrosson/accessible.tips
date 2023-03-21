@@ -7,10 +7,9 @@ lastMod: 2023-03-21
 toc: true
 draft: false
 categories:
-  - tips
   - faq
 tags:
-  - contributing
+  - faq
 ---
 
 ## Changelog
