@@ -4,7 +4,7 @@ title: Home
 
 ## A collection of accessibility tips, tricks and life hacks
 
-Welcome to the accessible.tips knowledge base. Here you will find a variety of tips that can help manage living with disability. 
+Welcome to the accessible.tips knowledge base. Here you will find a variety of tips that can help manage living with disability.
 
 ## Intent
 
