@@ -14,6 +14,9 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-03-21 "Remove source code section as it's spurrious info presently" >}}
+{{< change 2023-03-21 "Re-order sections to be more similar to the order of the initial sections of content pages" >}}
+{{< change 2023-03-21 "Add detail on submitting content updates" >}}
 {{< change 2023-03-21 "Add missing jump links" >}}
 {{< change 2023-03-21 "Re-order some sections for better flow and clarity" >}}
 {{< change 2023-03-21 "Add note about source code" >}}
@@ -24,16 +27,7 @@ tags:
 
 {{< end_section >}}
 
-## Source Code
-{{< back_to_top >}}
-
-The source code for the site can be found on GitHub [here](https://github.com/mcrosson/accessible.tips).
-
-The site has been developed using [Hugo](https://gohugo.io/) and the main site pages are in the `content` directory of the `Code`
-
-{{< end_section >}}
-
-## Contributing
+## Submitting Contributions
 {{< back_to_top >}}
 
 We welcome contributions to the site and ask that you use our [GitHub repository](https://github.com/mcrosson/accessible.tips) for any contributions.
@@ -55,6 +49,23 @@ If there is not an exiting issue for your need, please create a new issue. We po
 {{< back_to_top >}}
 
 We welcome updates to the contents of this website. Please use the `Issues` section [here](https://github.com/mcrosson/accessible.tips/issues) to submit any change requests for the site.
+
+Changes can be:
+
+- accessibility concerns, issues, needs, etc
+- simple edits with info on what changes to make (ie. spelling and grammer mistakes, bad sentence structure)
+- full markdown files that are updates to existing pages
+- asking for a tag to be added to a page
+- asking to adjust categorization of a page or multiple pages
+- various forms of the above
+- pull requests (see below for an important note)
+- more
+
+If you'd like to submit full markdown files or larger edits, please review the contents of this page prior to submission. We've outlined some details on how we manage the content of this site below and ask our contributors follow these guidelines when submitting markdown changes.
+
+{{< back_to_top >}}
+
+### Pull Requests
 
 If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an avanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
 
@@ -119,18 +130,7 @@ We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-managemen
 
 {{< end_section >}}
 
-## Style Guidelines
-{{< back_to_top >}}
 
-If submitting content or copy edits, please note the following
-
-- Each 2nd level heading should have the <code>{{&lt; back_to_top &gt;}}</code> short code on the line following the heading
-  - The `Changelog` heading is exempt from this rule as it is used for the `Back to top` and `Back to ToC` page links
-- Each 3rd or higher level heading should have the <code>{{&lt; end_section &gt;}}</code> or <code>{{&lt; back_to_top &gt;}}</code> shortcode present at the end of the section. Use your best judgement on which of these two shortcodes to use
-- If there are any sections beyond `Changelog`, the table of contents must be enabled
-- When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
-
-{{< end_section >}}
 
 ## Authorship
 {{< back_to_top >}}
@@ -145,21 +145,6 @@ Please note: Authorship metadata will be publicly visible.
 {{< back_to_top >}}
 
 When editing an exiting post, we require you update the `lastMod` date in the front matter of all content pages. The date you use here should match the date used on the `Changelog` entry. See [Changelog Entries]({{< ref "#changelog-entries" >}}) for more info on `Changelog` dates.
-
-{{< end_section >}}
-
-## Changelog Entries
-{{< back_to_top >}}
-
-This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
-
-However, that does *not* do our readers any good and we require all content pages have a `Changelog` section at the top. We require at least an entry for `Initial creation` as well.
-
-If you are editing an existing page, we require that you add a dated entry with a summary of the changes made.
-
-If you are not sure what date to use, please use the first date you worked on the changes you plan to submit for inclusion on the website.
-
-Programmers take note: this can be a copy/paste of your git commit. However, this assumes you write meaningful commit messages. Which you do, right?
 
 {{< end_section >}}
 
@@ -188,6 +173,47 @@ Given how many words have large numbers of synonyms (alternatives), we have trie
 Please review the main tag list [here](/tags) (warning: this list can be large and take awhile to load) prior to creating a new tag. If one is missing, please add it.
 
 Long term we hope to build a tag glossary to enhance discovery, search and synonym management. If/when this glossary is created, we will update our guidelines related to tagging.
+
+{{< back_to_top >}}
+
+### Extra Considerations
+{{< back_to_top >}}
+
+#### FAQ
+
+For the `FAQ` section of the site we ask that you *only tag* entries with the `faq` tag. This allows the FAQ pages to be related to each other but still remain independent of the main site content. Adding additional tags will tie the FAQ pages into other content which is exactly what we want to avoid.
+
+#### News 
+
+For the `News` section of the site we ask that you do **NOT** tag entries. The news pages are meant to be minimal and kept independent of the main site information. Adding a tag will tie the news pages into other content which is exactly what we want to avoid.
+
+{{< end_section >}}
+
+## Changelog Entries
+{{< back_to_top >}}
+
+This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
+
+However, that does *not* do our readers any good and we require all content pages have a `Changelog` section at the top. We require at least an entry for `Initial creation` as well.
+
+If you are editing an existing page, we require that you add a dated entry with a summary of the changes made.
+
+If you are not sure what date to use, please use the first date you worked on the changes you plan to submit for inclusion on the website.
+
+Programmers take note: this can be a copy/paste of your git commit. However, this assumes you write meaningful commit messages. Which you do, right?
+
+{{< end_section >}}
+
+## Style Guidelines
+{{< back_to_top >}}
+
+If submitting content or copy edits, please note the following
+
+- Each 2nd level heading should have the <code>{{&lt; back_to_top &gt;}}</code> short code on the line following the heading
+  - The `Changelog` heading is exempt from this rule as it is used for the `Back to top` and `Back to ToC` page links
+- Each 3rd or higher level heading should have the <code>{{&lt; end_section &gt;}}</code> or <code>{{&lt; back_to_top &gt;}}</code> shortcode present at the end of the section. Use your best judgement on which of these two shortcodes to use
+- If there are any sections beyond `Changelog`, the table of contents must be enabled
+- When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
 
 {{< end_section >}}
 
