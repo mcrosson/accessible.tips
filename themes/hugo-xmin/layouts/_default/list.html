@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
 
 {{ if not .Params.isBranchWithContent }}
+<a id="top" />
+<a id="page_menu" />
 {{if not .IsHome }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ end }}

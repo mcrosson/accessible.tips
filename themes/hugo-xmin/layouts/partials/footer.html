@@ -9,23 +9,8 @@
   <a class="back_to_top" href="#top">Back to top</a>
   {{ end }}
 
-  {{ with .Page.Params.categories }}
-  &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Back to categories</a>
-  {{ end }}
-
-  {{ with .Page.Params.tags }}
-  &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Back to tags</a>
-  {{ end }}
-
-  {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-  {{ $.Scratch.Set "has_related" true }}
-{{ end }}
-{{ if $.Scratch.Get "has_related" }}
-  &nbsp;|&nbsp;<a class="back_to_top" href="#related">Back to related pages</a>
-{{ end }}
   &nbsp;|&nbsp;<a class="back_to_top" href="#page_menu">Back to page menu</a>
   &nbsp;|&nbsp;<a class="back_to_top" href="#nav_menu">Back to site menu</a>
-
   {{ with .Site.Params.footer }}
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}
