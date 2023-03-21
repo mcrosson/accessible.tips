@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <nav>
+    <nav id="nav_menu">
     <ul class="menu">
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>

@@ -9,26 +9,28 @@
             {{ end }}
         </h3>
     {{ end }}
-    
+
     {{ if (gt .Date 0) }}<h4 class="date">Published: {{ .Date.Format "2006/01/02" }}</h4>{{ end }}
     {{ if (gt .Lastmod 0) }}<h4 class="date">Last Modified: {{ .Lastmod.Format "2006/01/02" }}</h4>{{ end }}
-    <p class="terms">
-      {{ range $i := (slice "categories" "tags") }}
-      {{ with ($.Param $i) }}
-      {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
-      {{ end }}
-      {{ end }}
-    </p>
-    <p class="terms">
-      {{ partial "related.html" . }}
-    </p>
+
     <p>
         {{ if (gt .ReadingTime 0) }}<small>Reading Time: {{ .ReadingTime }} minutes</small>{{ end }}
         &nbsp;|&nbsp;
         {{ if (gt .WordCount 0) }}<small>Word Count: {{ .WordCount }} words</small>{{ end }}
     </p>
-    </div>
+
+    <p class="terms">
+        {{ partial "categories_tags.html" . }}
+      </p>
+    <p class="terms">
+      {{ partial "related.html" . }}
+    </p>
+
+</div>
     
+    <a id="top" />
+
     {{ if .Params.toc }}
     {{ .TableOfContents }}
+    {{ else }}
     {{ end }}

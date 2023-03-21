@@ -1,3 +1,5 @@
+<a id="related" />
+
 {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
   {{ $.Scratch.Set "has_related" true }}
 {{ end }}

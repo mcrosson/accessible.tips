@@ -3,6 +3,8 @@
   {{ with .Site.Params.footer }}
   <hr/>
   <a class="back_to_top" href="#top">Back to top</a>
+  &nbsp;|&nbsp;<a class="back_to_top" href="#categories_tags">Back to categories and tags</a>
+  &nbsp;|&nbsp;<a class="back_to_top" href="#nav_menu">Back to menu</a>
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}
   {{ if .GitInfo}}
