@@ -1,9 +1,29 @@
 <div class="article-meta">
-    {{ if .Params.toc }}
+
+    <a id="page_menu" />
+
+    {{ if .Page.Params.toc }}
     <a class="back_to_top" href="#top">Jump to ToC</a>
     {{ else }}
     <a class="back_to_top" href="#top">Jump to content</a>
     {{ end }}
+  
+    {{ with .Page.Params.categories }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>
+    {{ end }}
+  
+    {{ with .Page.Params.tags }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
+    {{ end }}
+  
+    {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+    {{ $.Scratch.Set "has_related" true }}
+  {{ end }}
+  {{ if $.Scratch.Get "has_related" }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
+  {{ end }}
+
+
     <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     {{ with .Params.author }}
         <h3 class="author">By: 
