@@ -14,9 +14,22 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-03-21 "Add missing jump links" >}}
+{{< change 2023-03-21 "Re-order some sections for better flow and clarity" >}}
+{{< change 2023-03-21 "Add note about source code" >}}
+{{< change 2023-03-21 "Add additional info on GitHub and how it's used for contributions" >}}
 {{< change 2023-03-21 "Add note that change log is exempt from 2nd level heading 'back to top'" >}}
 {{< change 2023-03-20 "Initial creation" >}}
 {{< /changelog >}}
+
+{{< end_section >}}
+
+## Source Code
+{{< back_to_top >}}
+
+The source code for the site can be found on GitHub [here](https://github.com/mcrosson/accessible.tips).
+
+The site has been developed using [Hugo](https://gohugo.io/) and the main site pages are in the `content` directory of the `Code`
 
 {{< end_section >}}
 
@@ -25,12 +38,84 @@ tags:
 
 We welcome contributions to the site and ask that you use our [GitHub repository](https://github.com/mcrosson/accessible.tips) for any contributions.
 
-We welcome our user's feedback ; including but not limited to
+{{< back_to_top >}}
 
-- Issue submissions
-- Code updates
-- Website content updates
-- More
+### Issues and Questions
+{{< back_to_top >}}
+
+If you run into any problems with the website or have specific questions, please use the `Issues` section of our GitHub repository [here](https://github.com/mcrosson/accessible.tips/issues).
+
+We politely ask you review the open issues for exiting items that overlap. Please comment on an existing issue that is relevant prior to creating a new issue.
+
+If there is not an exiting issue for your need, please create a new issue. We politely ask you provide us as much detail as possible so we can hopefully respond without having to play a game of 20 questions.
+
+{{< back_to_top >}}
+
+### Website Content Updates
+{{< back_to_top >}}
+
+We welcome updates to the contents of this website. Please use the `Issues` section [here](https://github.com/mcrosson/accessible.tips/issues) to submit any change requests for the site.
+
+If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an avanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
+
+{{< back_to_top >}}
+
+### And More
+{{< back_to_top >}}
+
+Any other requests we ask be submitted as GitHub `Issues` [here](https://github.com/mcrosson/accessible.tips/issues).
+
+{{< end_section >}}
+
+## File and Folder Organization
+{{< back_to_top >}}
+
+Files and folders are setup with the following overall layout.
+
+``` txt
+/content/
+         tips/
+              category-topic-1.md
+              category-topic-2.md
+              category-topic-3/index.md
+         posts/yyyy-MM-dd-title.md
+               yyyy-MM-dd-title/index.md
+         faq/title-1.md
+             title-2/index.md
+```
+
+{{< back_to_top >}}
+
+### Tips Directory
+{{< back_to_top >}}
+
+The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[category]-[title].md` with `[category]` being the category set in the page metadata and `[title]` being the title set in the page metadata.
+
+This allows us to easily cross reference information within a category (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
+
+This rigid, tree'd structure is imposed by Hugo and we have adapted our file and folder organization to work with Hugo instead of against it.
+
+This is also why we can have *only one* primary category for content currently.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+
+{{< back_to_top >}}
+
+### Posts Directory
+{{< back_to_top >}}
+
+In this layout the `posts` directory contains all of the blog posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+
+{{< back_to_top >}}
+
+### FAQ Directory
+{{< back_to_top >}}
+
+In this layout the `faq` directory contains all of the FAQ pages with file names matching the page title. It's a pretty standard and simple folder organization scheme.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 {{< end_section >}}
 
@@ -48,6 +133,7 @@ If submitting content or copy edits, please note the following
 {{< end_section >}}
 
 ## Authorship
+{{< back_to_top >}}
 
 Fell free set your preferred name as the author, we like to attribute our authors. If you prefer to remain anonymous, please set authorship to `Anonymous`.
 
@@ -56,12 +142,14 @@ Please note: Authorship metadata will be publicly visible.
 {{< end_section >}}
 
 ## Last Modified Date
+{{< back_to_top >}}
 
 When editing an exiting post, we require you update the `lastMod` date in the front matter of all content pages. The date you use here should match the date used on the `Changelog` entry. See [Changelog Entries]({{< ref "#changelog-entries" >}}) for more info on `Changelog` dates.
 
 {{< end_section >}}
 
 ## Changelog Entries
+{{< back_to_top >}}
 
 This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
 
@@ -76,6 +164,7 @@ Programmers take note: this can be a copy/paste of your git commit. However, thi
 {{< end_section >}}
 
 ## Categories
+{{< back_to_top >}}
 
 We have tried to keep categories to a small, very high level set and we would like to keep this list focused and small presently.
 
@@ -90,6 +179,7 @@ Please note: the submitted content page(s) do *not* have to be exhaustive or all
 {{< end_section >}}
 
 ## Tags
+{{< back_to_top >}}
 
 We have tried to keep tags to a well curated list that help tie many different `Tips` togther. We have also tried to ensure tags are relevant to the category specified on each `Tip`.
 
@@ -102,49 +192,12 @@ Long term we hope to build a tag glossary to enhance discovery, search and synon
 {{< end_section >}}
 
 ## Cross References
+{{< back_to_top >}}
 
 If you are cross referencing information you can use the following code.
 
 <code>[Link Text]]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the category you defined and `[file]` is the markdown file name with the content you would like to reference.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
-
-{{< end_section >}}
-
-## File and Folder Organization
-
-Files and folders are setup with the following overall layout.
-
-``` txt
-/content/
-         tips/
-              category-topic_1.md
-              category-topic_2.md
-              category-topic_3/index.md
-         posts/yyyy-MM-dd-title.md
-               yyyy-MM-dd-title/index.md
-```
-
-{{< back_to_top >}}
-
-### Tips Directory
-
-The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[category]-[title].md` with `[category]` being the category set in the page metadata and `[title]` being the title set in the page metadata.
-
-This allows us to easily cross reference information within a category (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
-
-This rigid, tree'd structure is imposed by Hugo and we have adapted our file and folder organization to work with Hugo instead of against it.
-
-This is also why we can have *only one* primary category for content currently.
-
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
-
-{{< back_to_top >}}
-
-### Posts Directory
-
-In this layout the `posts` directory contains all of the blog posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
-
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 {{< back_to_top >}}
