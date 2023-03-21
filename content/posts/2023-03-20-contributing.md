@@ -11,4 +11,4 @@ categories:
   - blog
 ---
 
-We have published guidelines on submitting contributions to the site [here]({{< ref "/tips/faq-contributing" >}})
+We have published guidelines on submitting contributions to the site [here]({{< ref "/faq/contributing" >}})
