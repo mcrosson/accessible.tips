@@ -73,10 +73,15 @@ uglyURLs = false
   url = '/posts/'
   weight = 50
 [[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/'
+  weight = 60
+[[menu.main]]
   identifier = 'rss'
   name = 'RSS'
   url = 'index.xml'
-  weight = 60
+  weight = 70
 
 #[[menu.main]]
 #  identifier = 'tags'
