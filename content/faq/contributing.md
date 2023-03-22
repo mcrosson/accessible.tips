@@ -14,6 +14,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-03-22 "Fix typo" >}}
 {{< change 2023-03-21 "Remove source code section as it's spurrious info presently" >}}
 {{< change 2023-03-21 "Re-order sections to be more similar to the order of the initial sections of content pages" >}}
 {{< change 2023-03-21 "Add detail on submitting content updates" >}}
@@ -41,7 +42,7 @@ If you run into any problems with the website or have specific questions, please
 
 We politely ask you review the open issues for exiting items that overlap. Please comment on an existing issue that is relevant prior to creating a new issue.
 
-If there is not an exiting issue for your need, please create a new issue. We politely ask you provide us as much detail as possible so we can hopefully respond without having to play a game of 20 questions.
+If there is not an existing issue for your need, please create a new issue. We politely ask you provide us as much detail as possible so we can hopefully respond without having to play a game of 20 questions.
 
 {{< back_to_top >}}
 
