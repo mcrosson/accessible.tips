@@ -271,4 +271,13 @@ Where `[filename]` is the filename, including extension, of the image file. `[al
 
 Please note: we *require* contributors include `alt-text` on all images if not using the `figure` short code.
 
+{{< end_section >}}
+
+## Related Pages and Anecdotes
 {{< back_to_top >}}
+
+We encourage contributors to include `Related Pages` and `Related Anecdotes` sections to cross link information on the site.
+
+However, we know this may not be possible and will accept pages lacking these sections.
+
+These sections should be simple bulleted lists with links to related content.
