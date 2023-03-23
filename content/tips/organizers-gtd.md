@@ -8,7 +8,7 @@ toc: true
 draft: false
 categories:
   - tips
-  - organizer
+  - organizers
 tags:
   - gtd
 ---
