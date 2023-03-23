@@ -53,6 +53,6 @@ So this is really about speaking up for accommodations other don't even realize 
 ## Related Anecdotes
 {{< back_to_top >}}
 
-- [Minor Day Surgery]({{< ref "anecdotes/minor-day-surgery-0001" >}})
+- [Minor Day Surgery]({{< ref "/anecdotes/anon-minor-day-surgery-0001.md" >}})
 
 {{< back_to_top >}}

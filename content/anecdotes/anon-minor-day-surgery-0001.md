@@ -64,7 +64,7 @@ So this is really about speaking up for accommodations other don't even realize 
 ## Related Tips
 {{< back_to_top >}}
 
-- [Negotiating With Doctors]({{< ref "tips/negotiating-with-doctors" >}})
+- [Negotiating With Doctors]({{< ref "/tips/doctors-negotiating-with-doctors.md" >}})
 
 {{< end_section >}}
 
