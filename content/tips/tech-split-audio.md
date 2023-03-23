@@ -1,5 +1,5 @@
 ---
-title: Split voice and game audio
+title: Split voice and non-voice audio
 author: 
   - KemoNine
 publishDate: 2023-03-23

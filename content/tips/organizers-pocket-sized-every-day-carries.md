@@ -1,9 +1,9 @@
 ---
-title: Analog Every Day Carries
+title: Pocket Sized Every Day Carries
 author: 
   - KemoNine
-publishDate: 1900-12-30
-lastMod: 1900-12-31
+publishDate: 2023-03-23
+lastMod: 2023-03-23
 toc: true
 draft: false
 categories:
@@ -19,7 +19,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
-{{< change 1900-12-30 "Initial creation" >}}
+{{< change 2023-03-23 "Initial creation" >}}
 {{< /changelog >}}
 
 {{< end_section >}}
