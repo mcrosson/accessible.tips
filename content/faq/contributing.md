@@ -190,6 +190,10 @@ Please review the main tag list [here](/tags) (warning: this list can be large a
 
 Long term we hope to build a tag glossary to enhance discovery, search and synonym management. If/when this glossary is created, we will update our guidelines related to tagging.
 
+### Conflicting Access Needs
+
+If you are working on a tip that conflicts with any access needs, the tip *must* be tagged as conflicting with the form `conflicting-need-[specific_need]` where `specific_need` is a need such as `low-vision`.
+
 {{< end_section >}}
 
 ## Tag and Category Extra Considerations
