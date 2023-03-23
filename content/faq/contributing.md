@@ -250,4 +250,21 @@ If you are cross referencing information you can use the following code.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 
+{{< end_section >}}
+
+## Images
+{{< back_to_top>}}
+
+When adding images to a page the page must be setup as a `Page Bundle` and the images stored in the page's bundle.
+
+We have setup a short code that we ask authors to use for adding images. This shortcode will handle ensuring the appropriate `alt-text` is added to the image.
+
+You can use the shortcode using the following pattern:
+
+<code>{{&lt; figure src="[filename]" alt="[alt-text]" caption="[visible-caption]" &gt;}}</code>
+
+Where `[filename]` is the filename, including extension, of the image file. `[alt-text]` is the `img` tag's `alt-text` attribute value. `[visible-caption]` is the text that is shown just underneath each image as a caption.
+
+Please note: we *require* contributors include `alt-text` on all images if not using the `figure` short code.
+
 {{< back_to_top >}}
