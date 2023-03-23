@@ -232,6 +232,15 @@ Programmers take note: this can be a copy/paste of your git commit. However, thi
 
 {{< end_section >}}
 
+## Attribution and Syndication
+{{< back_to_top >}}
+
+When syndicating content we require contributors include an `Attribution` section immediately following the `Changelog` section.
+
+We do not have a standard format for this section and leave it to the contributor to choose a format that works best for the attribution(s) needed.
+
+{{< end_section >}}
+
 ## Style Guidelines
 {{< back_to_top >}}
 
