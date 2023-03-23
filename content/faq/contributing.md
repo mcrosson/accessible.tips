@@ -14,7 +14,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
-{{< change 2023-03-23 "Add info on anecdotes" >}}
+{{< change 2023-03-23 "Add info on anecdotes, related pages, related anecdotes, conflicting access needs, attribution and syndication" >}}
 {{< change 2023-03-22 "Fix typo" >}}
 {{< change 2023-03-21 "Remove source code section as it's spurrious info presently" >}}
 {{< change 2023-03-21 "Re-order sections to be more similar to the order of the initial sections of content pages" >}}
