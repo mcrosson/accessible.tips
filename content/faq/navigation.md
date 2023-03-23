@@ -43,6 +43,14 @@ The `Tips` section is a list of *all* tips available on this site. It's a big li
 
 {{< end_section >}}
 
+## Anecdotes
+
+The `Anecdotes` section is where we catalog indidual accounts of living with disability. These pages can be triggering and carry a warning at the top of the page so you know the page includes an individual's experiences.
+
+Please note: This section is searchable but kept independent of the main knowledge base to prevent polluting the main knowlege base content.
+
+{{< end_section >}}
+
 ## FAQ
 
 The `FAQ` section is where we answer some common questions. These are informational pages about the site itself and information on how to contribute if desired.
