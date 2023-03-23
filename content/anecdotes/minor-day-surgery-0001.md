@@ -61,6 +61,13 @@ So this is really about speaking up for accommodations other don't even realize 
 
 {{< end_section >}}
 
+## Related Tips
+{{< back_to_top >}}
+
+- [Negotiating With Doctors]({{< ref "tips/negotiating-with-doctors" >}})
+
+{{< end_section >}}
+
 ## Footnotes
 
 [^1]: By "wrecked" I just meant another thing that made my illness hella worse for a brief period
