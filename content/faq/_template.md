@@ -1,17 +1,15 @@
 ---
-title: _ Tip Template _
+title: _ FAQ Template _
 author: 
-  - Your Name
+  - YourName
 publishDate: 1900-12-30
 lastMod: 1900-12-31
 toc: true
 draft: true
 categories:
-  - tips
-  - a-main-category
+  - faq
 tags:
-  - template
-  - example-tag
+  - faq
 ---
 
 ## Changelog
