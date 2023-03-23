@@ -59,3 +59,13 @@ Starting with the main [website](https://bulletjournal.com/) is a good choice. F
 There are a lot of how to guides, videos and more on bullet journaling and applying it to varied arts, crafts, sciences and more. It's all about finding a notebook flow that works for the way you think.
 
 {{< end_section >}}
+
+## Related Pages
+{{< back_to_top >}}
+
+- [Analog Notebooks]({{< ref "/tips/writing-analog-notebooks.md" >}})
+- [Interesting, if not odd, Discoveries]({{< ref "/tips/writing-interesting-supplies.md">}})
+- [Pocket Sized Every Day Carries]({{< ref "/tips/organizers-pocket-sized-every-day-carries.md" >}})
+- [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
+
+{{< back_to_top >}}

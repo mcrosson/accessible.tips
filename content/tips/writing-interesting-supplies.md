@@ -179,6 +179,7 @@ De Atramentis Document Inks
 ## Related Pages
 {{< back_to_top >}}
 
+- [Analog Notebooks]({{< ref "/tips/writing-analog-notebooks.md" >}})
 - [Pocket Sized Every Day Carries]({{< ref "/tips/organizers-pocket-sized-every-day-carries.md" >}})
 - [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
 

@@ -129,6 +129,7 @@ Just don't give up, your every day carry is out there, it just may be slightly o
 ## Related Pages
 {{< back_to_top >}}
 
+- [Analog Notebooks]({{< ref "/tips/writing-analog-notebooks.md" >}})
 - [Interesting, if not odd, Discoveries]({{< ref "/tips/writing-interesting-supplies.md">}})
 - [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
 
