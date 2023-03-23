@@ -164,7 +164,7 @@ When editing an exiting post, we require you update the `lastMod` date in the fr
 
 {{< end_section >}}
 
-## Categories
+## Using Categories
 {{< back_to_top >}}
 
 We have tried to keep categories to a small, very high level set and we would like to keep this list focused and small presently.
@@ -179,7 +179,7 @@ Please note: the submitted content page(s) do *not* have to be exhaustive or all
 
 {{< end_section >}}
 
-## Tags
+## Using Tags
 {{< back_to_top >}}
 
 We have tried to keep tags to a well curated list that help tie many different `Tips` togther. We have also tried to ensure tags are relevant to the category specified on each `Tip`.
