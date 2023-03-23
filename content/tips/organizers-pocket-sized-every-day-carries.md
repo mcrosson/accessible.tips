@@ -124,4 +124,11 @@ If you already prefer a pen or paper or pencil, start there and build your every
 
 Just don't give up, your every day carry is out there, it just may be slightly out of sight.
 
+{{< end_section >}}
+
+## Related Pages
+{{< back_to_top >}}
+
+- [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
+
 {{< back_to_top >}}
