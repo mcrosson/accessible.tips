@@ -15,17 +15,20 @@
 {{ if not .Params.isBranchWithContent }}
 {{ if not .IsHome }}
 <ul>
-  {{ $pages := .Pages }}
+  {{ $pages := (sort .Pages ".Title") }}
+  {{ if (eq .Type "posts") }}
+  {{ $pages = (sort .Pages ".Date" "desc") }}
+  {{ end }}
   {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
   {{ if (eq .Type "posts") }}
-    {{ range sort $paginator.Pages ".Date" "desc"}}
+    {{ range $paginator.Pages }}
     <li>
      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
     </li>
     {{ end }}
   {{ else }}
-    {{ range sort $paginator.Pages ".Title" }}
+    {{ range $paginator.Pages }}
     <li>
      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
     </li>
