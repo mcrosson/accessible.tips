@@ -61,6 +61,14 @@ table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
 
+a.footnote-ref::before {
+  content: '[ ';
+}
+
+a.footnote-ref::after {
+  content: ' ]';
+}
+
 .anecdote-meta {
   text-decoration: none;
   color: #080808;

@@ -23,7 +23,7 @@ tags:
 
 {{< end_section >}}
 
-Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references
+Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references[^1]
 
 This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. If you do not use **blogdown**, you can skip the first section.
 
@@ -98,3 +98,9 @@ A table (centered by default):
 |          5.4|         3.9|          1.7|         0.4|setosa  |
 
 {{< end_section >}}
+
+## Footnotes
+
+[^1]: This is the footnote linked at the very top of the page
+
+{{< back_to_top >}}

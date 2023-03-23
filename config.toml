@@ -14,8 +14,6 @@ ignoreFiles = [ '.gitignore', '.gitkeep' ]
 
 theme = ['hugo-xmin']
 
-footnotereturnlinkcontents = '↩'
-
 uglyURLs = false
 [permalinks]
   tips = '/tips/:slug/'
