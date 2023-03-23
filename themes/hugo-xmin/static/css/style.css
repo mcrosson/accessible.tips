@@ -61,3 +61,10 @@ table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
 
+.anecdote-meta {
+  text-decoration: none;
+  color: #dbd7d2;
+  background: #ff1493;
+  padding: 5px;
+  border-radius: 5px;
+}

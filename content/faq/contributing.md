@@ -14,6 +14,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-03-23 "Add info on anecdotes" >}}
 {{< change 2023-03-22 "Fix typo" >}}
 {{< change 2023-03-21 "Remove source code section as it's spurrious info presently" >}}
 {{< change 2023-03-21 "Re-order sections to be more similar to the order of the initial sections of content pages" >}}
@@ -66,6 +67,13 @@ If you'd like to submit full markdown files or larger edits, please review the c
 
 {{< back_to_top >}}
 
+### Anonymous Anecdotes
+{{< back_to_top >}}
+
+If you'd like to submit an anecdote to the site anonymously, please get in touch via a burner account. We can work with you to get your anecdote published on the site via a ghost writer.
+
+{{< back_to_top >}}
+
 ### Pull Requests
 
 If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an avanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
@@ -94,6 +102,8 @@ Files and folders are setup with the following overall layout.
                yyyy-MM-dd-title/index.md
          faq/title-1.md
              title-2/index.md
+         anecdotes/[author]-[title]-[nnnn].md
+                   [author]-[title]-[nnnn]/index.md
 ```
 
 {{< back_to_top >}}
@@ -129,9 +139,14 @@ In this layout the `faq` directory contains all of the FAQ pages with file names
 
 We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
+### Anecdotes Directory
+{{< back_to_top >}}
+
+In this layout the `anecdotes` directory contains all of the Anecdote pages with `[author]` being the name of the first author, `[title]` being the title of the page and `[nnnn]` being a left padded 4 digit number that counts up from 1. This numbered serial allows us to avoid file name collisions while keeping the file layout a bit easier to manage.
+
+We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+
 {{< end_section >}}
-
-
 
 ## Authorship
 {{< back_to_top >}}
@@ -175,16 +190,24 @@ Please review the main tag list [here](/tags) (warning: this list can be large a
 
 Long term we hope to build a tag glossary to enhance discovery, search and synonym management. If/when this glossary is created, we will update our guidelines related to tagging.
 
+{{< end_section >}}
+
+## Tag and Category Extra Considerations
 {{< back_to_top >}}
 
-### Extra Considerations
-{{< back_to_top >}}
+## Anecdotes
 
-#### FAQ
+You **must** only apply the `anecdote` tag and category to anecdote pages. These pages are personal accounts of living with disability and can be very triggering for readers.
+
+We have setup the site to include a warning at the top of all anecdote pages and it *requires* the `anecdote` category be applied to these pages.
+
+Submissions not tagging or categorizing anecdotes properly will *not* be approved for inclusion on this site.
+
+### FAQ
 
 For the `FAQ` section of the site we ask that you *only tag* entries with the `faq` tag. This allows the FAQ pages to be related to each other but still remain independent of the main site content. Adding additional tags will tie the FAQ pages into other content which is exactly what we want to avoid.
 
-#### News 
+### News
 
 For the `News` section of the site we ask that you do **NOT** tag entries. The news pages are meant to be minimal and kept independent of the main site information. Adding a tag will tie the news pages into other content which is exactly what we want to avoid.
 

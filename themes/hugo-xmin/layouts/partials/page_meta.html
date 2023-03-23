@@ -2,6 +2,9 @@
 
     <a id="page_menu" />
 
+    {{ if in .Params.categories "anecdote" }}
+    <h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability and may contain graphic, disturbing material for readers.</span></h4>
+    {{ end }}
     {{ if .Page.Params.toc }}
     <a class="back_to_top" href="#top">Jump to ToC</a>
     {{ else }}

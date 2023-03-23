@@ -63,25 +63,30 @@ uglyURLs = false
   url = '/tips/'
   weight = 30
 [[menu.main]]
+  identifier = 'anecdotes'
+  name = 'Anecdotes'
+  url = '/anecdotes/'
+  weight = 40
+[[menu.main]]
   identifier = 'faq'
   name = 'FAQ'
   url = '/faq/'
-  weight = 40
+  weight = 50
 [[menu.main]]
   identifier = 'posts'
   name = 'News'
   url = '/posts/'
-  weight = 50
+  weight = 60
 [[menu.main]]
   identifier = 'about'
   name = 'About'
   url = '/'
-  weight = 60
+  weight = 70
 [[menu.main]]
   identifier = 'rss'
   name = 'RSS'
   url = 'index.xml'
-  weight = 70
+  weight = 80
 
 #[[menu.main]]
 #  identifier = 'tags'
