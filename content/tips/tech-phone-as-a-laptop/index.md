@@ -5,7 +5,7 @@ author:
 publishDate: 2023-03-25
 lastMod: 2023-03-25
 toc: true
-draft: false
+draft: true
 categories:
   - tips
   - tech
