@@ -38,8 +38,6 @@ However, providers tend not to offer alternatives, adaptations or strategies unl
 
 Succinctly: every time.
 
-Trips to the dentist, travel, big events, sick loved one, all can require negotiations with health care providers.
-
 > This is gonna be hella hard on me, how do I mitigate that?
 
 If you are asking yourself how to midigate the difficulties, you should ask your doctor to work with you to mitigate your difficulties.
@@ -47,6 +45,17 @@ If you are asking yourself how to midigate the difficulties, you should ask your
 It's also not just the name of the surgery or just "minor day surgery", which is the problem: "normal" people and doctors don't realize it isn't "minor" based on all the other shit I [we] have going on.
 
 So this is really about speaking up for accommodations other don't even realize you need. And I didn't realize I needed until I was on the other side and went: well THAT could have gone better.
+
+{{< end_section >}}
+
+## Some Negotiation Points
+{{< back_to_top >}}
+
+Some points you may be able to negotiate with your doctor
+
+- Discuss pain mangement prior to procedures
+- Negotiating how long to be without food or water, rarely is "12 hours" a hard requirement
+- Discussing keeping the hydration IV bag present longer if needed to help with hydration after fasting for long periods of time
 
 {{< end_section >}}
 
