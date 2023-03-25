@@ -26,6 +26,8 @@ tags:
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2020-08-03-pocket-notebooks-and-every-day-carries/). It has been adapted to our site's format by KemoNine.
 
+{{< end_section >}}
+
 ## Forward
 {{< back_to_top >}}
 
