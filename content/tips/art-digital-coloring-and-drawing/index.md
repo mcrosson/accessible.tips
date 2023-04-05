@@ -18,6 +18,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2023-04-05 "Adjust Krita S Pen configuration" >}}
 {{< change 2023-03-23 "Initial creation" >}}
 {{< /changelog >}}
 
@@ -335,8 +336,8 @@ The below sections layout how I setup Krita overall and I leave the practical im
 - pop-up palatte
   - disable show rotation ring
 - s pen actions
-  - click: show dockers
-  - double click: set eraser mode
+  - click: toggle pop up palette with s-pen
+  - double click: show canvas only
   - gestures: set all to do nothing
 
 {{< back_to_top >}}
