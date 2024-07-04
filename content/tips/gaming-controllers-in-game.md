@@ -1,4 +1,3 @@
-
 ---
 title: In Game Controller Configurations
 author: 
