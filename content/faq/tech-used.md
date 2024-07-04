@@ -14,6 +14,7 @@ tags:
 
 ## Changelog
 {{< changelog >}}
+{{< change 2024-07-04 "Adjust info based on removal of Static CMS" >}}
 {{< change 2023-03-21 "Initial creation" >}}
 {{< /changelog >}}
 
