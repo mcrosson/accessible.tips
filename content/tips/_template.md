@@ -12,15 +12,12 @@ categories:
 tags:
   - template
   - example-tag
+changelog:
+  - date: 1900-12-31
+    text: "Add additional detail, tags"
+  - date:  1900-12-30
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 1900-12-31 "Add additional detail, tags" >}}
-{{< change 1900-12-30 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Intro
 {{< back_to_top >}}

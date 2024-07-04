@@ -18,6 +18,10 @@
     {{ with .Page.Params.tags }}
     &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
     {{ end }}
+
+    {{ if .Page.Params.changelog }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#Changelog">Jump to Changelog</a>
+    {{ end }}
   
     {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
     {{ $.Scratch.Set "has_related" true }}

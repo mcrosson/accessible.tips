@@ -13,14 +13,10 @@ tags:
   - shaving
   - razors
   - safety-razors
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -397,4 +393,4 @@ I'd also like to repeat: the above is what works for **me**. I totally expect yo
 
 Take some time, research and jump into the wet shaving pond. You'll appreciate it in time, trust me.
 
-{{< back_to_top >}}
+{{< end_section >}}

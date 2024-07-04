@@ -3,31 +3,39 @@ title: _ Contributing _
 author: 
   - KemoNine
 publishDate: 2023-03-20
-lastMod: 2023-03-21
+lastMod: 2024-07-04
 toc: true
 draft: false
 categories:
   - faq
 tags:
   - faq
+changelog:
+  - date: 2024-07-04
+    text: "Adjust conventions to accommodate the changelog for each page being moved to the front matter"
+  - date: 2023-03-23 
+    text: "Add info on anecdotes, related pages, related anecdotes, conflicting access needs, attribution and syndication"
+  - date: 2023-03-22
+    text: "Fix typo"
+  - date: 2023-03-21
+    text: "Remove source code section as it's spurrious info presently"
+  - date: 2023-03-21
+    text: "Re-order sections to be more similar to the order of the initial sections of content pages"
+  - date: 2023-03-21
+    text: "Add detail on submitting content updates"
+  - date: 2023-03-21
+    text: "Add missing jump links"
+  - date: 2023-03-21
+    text: "Re-order some sections for better flow and clarity"
+  - date: 2023-03-21
+    text: "Add note about source code"
+  - date: 2023-03-21
+    text: "Add additional info on GitHub and how it's used for contributions"
+  - date: 2023-03-21
+    text: "Add note that change log is exempt from 2nd level heading 'back to top'"
+  - date: 2023-03-20
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Add info on anecdotes, related pages, related anecdotes, conflicting access needs, attribution and syndication" >}}
-{{< change 2023-03-22 "Fix typo" >}}
-{{< change 2023-03-21 "Remove source code section as it's spurrious info presently" >}}
-{{< change 2023-03-21 "Re-order sections to be more similar to the order of the initial sections of content pages" >}}
-{{< change 2023-03-21 "Add detail on submitting content updates" >}}
-{{< change 2023-03-21 "Add missing jump links" >}}
-{{< change 2023-03-21 "Re-order some sections for better flow and clarity" >}}
-{{< change 2023-03-21 "Add note about source code" >}}
-{{< change 2023-03-21 "Add additional info on GitHub and how it's used for contributions" >}}
-{{< change 2023-03-21 "Add note that change log is exempt from 2nd level heading 'back to top'" >}}
-{{< change 2023-03-20 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Submitting Contributions
 {{< back_to_top >}}
@@ -222,7 +230,7 @@ For the `News` section of the site we ask that you do **NOT** tag entries. The n
 
 This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
 
-However, that does *not* do our readers any good and we require all content pages have a `Changelog` section at the top. We require at least an entry for `Initial creation` as well.
+However, that does *not* do our readers any good and we require all content pages have a `changelog` section in the front matter of each page. We require at least an entry for `Initial creation` as well.
 
 If you are editing an existing page, we require that you add a dated entry with a summary of the changes made.
 
@@ -247,7 +255,6 @@ We do not have a standard format for this section and leave it to the contributo
 If submitting content or copy edits, please note the following
 
 - Each 2nd level heading should have the <code>{{&lt; back_to_top &gt;}}</code> short code on the line following the heading
-  - The `Changelog` heading is exempt from this rule as it is used for the `Back to top` and `Back to ToC` page links
 - Each 3rd or higher level heading should have the <code>{{&lt; end_section &gt;}}</code> or <code>{{&lt; back_to_top &gt;}}</code> shortcode present at the end of the section. Use your best judgement on which of these two shortcodes to use
 - If there are any sections beyond `Changelog`, the table of contents must be enabled
 - When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
@@ -290,3 +297,5 @@ We encourage contributors to include `Related Pages` and `Related Anecdotes` sec
 However, we know this may not be possible and will accept pages lacking these sections.
 
 These sections should be simple bulleted lists with links to related content.
+
+{{< end_section >}}

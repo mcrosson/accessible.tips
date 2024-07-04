@@ -10,14 +10,10 @@ categories:
   - anecdote
 tags:
   - anecdote
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## My Concern
 {{< back_to_top >}}
@@ -59,4 +55,4 @@ Thankfully Windows 10 has a way to address this need built into the operating sy
 
 For my fix you can see the [Split voice and game audio]({{< ref "/tips/tech-split-audio.md" >}}) for details on how I improved my situation.
 
-{{< back_to_top >}}
+{{< end_section >}}

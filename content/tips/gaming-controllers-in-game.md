@@ -11,14 +11,10 @@ categories:
   - gaming
 tags:
   - controller
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -242,4 +238,4 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - [Controller Configurations]({{< ref "/tips/gaming-controllers-configs.md" >}})
 - [Controller Gaming]({{< ref "/tips/gaming-controllers.md" >}})
 
-{{< back_to_top >}}
+{{< end_section >}}

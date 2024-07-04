@@ -16,14 +16,10 @@ tags:
   - zettelkasten
   - org-mode
   - obsidian
+changelog:
+  - date: 2023-03-20
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-20 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Important
 {{< back_to_top >}}
@@ -122,4 +118,4 @@ KemoNine has written extensively on digital organizers. A number of relevant pos
 - [Digital Bullet Journal](https://blog.kemonine.info/blog/2022-11-03-digital-bullet-journal/)
 - [Android org-agenda](https://blog.kemonine.info/blog/2023-02-17-android-org-agenda/)
 
-{{< back_to_top >}}
+{{< end_section >}}

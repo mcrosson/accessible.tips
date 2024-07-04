@@ -11,14 +11,10 @@ categories:
   - art
 tags:
   - coloring
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Required Program
 {{< back_to_top >}}
@@ -52,4 +48,4 @@ If you have access to `imagemagick` you can quickly convert a PDF coloring page(
 - <https://stackoverflow.com/questions/2869908/convert-pdf-to-png-using-imagemagick>
 - <https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=11279>
 
-{{< back_to_top >}}
+{{< end_section >}}

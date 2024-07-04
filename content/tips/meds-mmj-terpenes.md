@@ -14,14 +14,10 @@ tags:
   - mmj
   - weed
   - terpene
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Background
 {{< back_to_top >}}
@@ -42,4 +38,4 @@ This page outlines some of the more well known marijuana terpenes as a starting 
 - **Limonene:** Improved mood, stress relief. [Leafly link](https://www.leafly.com/news/cannabis-101/what-is-limonene-and-what-are-the-benefits-of-this-cannabis-terpe)
 - **Pinene:** Helps with pain, inflammation, anxiety. [Leafly link](https://www.leafly.com/news/cannabis-101/what-is-pinene-and-what-are-the-benefits-of-this-cannabis-terpene)
 
-{{< back_to_top >}}
+{{< end_section >}}

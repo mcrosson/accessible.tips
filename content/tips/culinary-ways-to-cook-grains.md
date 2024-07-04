@@ -18,14 +18,10 @@ tags:
   - amaranth
   - quinoa
   - rice
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## The Techniques
 {{< back_to_top >}}

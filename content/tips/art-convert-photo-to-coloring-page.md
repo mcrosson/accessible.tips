@@ -12,14 +12,10 @@ categories:
 tags:
   - coloring
   - krita
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Sounds Cool, Is Tricky
 {{< back_to_top >}}
@@ -97,4 +93,4 @@ Rather than force folk, or my future self, to watch an almost 8 minute video tha
 18. Use pencil brush + eraser to cleanup image
     - Optional
 
-{{< back_to_top >}}
+{{< end_section >}}

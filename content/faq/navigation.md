@@ -10,14 +10,10 @@ categories:
   - faq
 tags:
   - faq
+changelog:
+  - date: 2023-03-21
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-21 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## General
 

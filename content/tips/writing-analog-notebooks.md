@@ -12,14 +12,10 @@ categories:
 tags:
   - every-day-carry
   - notebook
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -133,12 +129,3 @@ Jewelry Toolbox Artisan - Misc charms and more
 : <https://www.etsy.com/shop/JewelryToolBox>
 
 {{< end_section >}}
-
-## Related Pages
-{{< back_to_top >}}
-
-- [Interesting, if not odd, Discoveries]({{< ref "/tips/writing-interesting-supplies.md">}})
-- [Pocket Sized Every Day Carries]({{< ref "/tips/organizers-pocket-sized-every-day-carries.md" >}})
-- [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
-
-{{< back_to_top >}}

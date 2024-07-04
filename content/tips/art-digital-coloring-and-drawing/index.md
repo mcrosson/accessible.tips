@@ -14,16 +14,12 @@ tags:
   - coloring
   - sketchbook-app
   - krita
+changelog:
+  - date: 2023-04-05
+    text: "Adjust Krita S Pen configuration"
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-04-05 "Adjust Krita S Pen configuration" >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
-
 {{< figure src="DSC02900-3.jpg" alt="A Surface Duo foldable phone showing Sketchbook full screen and a Surface Pen sitting on the corner of the screen at an angle. The work shown on-screen is a partially complete coloring page." caption="<span class=\"figure-number\">Figure 1: </span>An in-progress coloring page" >}}
 
 ---
@@ -340,4 +336,4 @@ The below sections layout how I setup Krita overall and I leave the practical im
   - double click: show canvas only
   - gestures: set all to do nothing
 
-{{< back_to_top >}}
+{{< end_section >}}

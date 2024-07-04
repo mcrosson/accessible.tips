@@ -3,23 +3,19 @@ title: How this site is hosted and managed
 author: 
   - KemoNine
 publishDate: 2023-03-21
-lastMod: 2023-03-21
+lastMod: 2024-07-04
 toc: true
 draft: false
 categories:
   - faq
 tags:
   - faq
+changelog:
+  - date: 2024-07-04
+    text: "Adjust info based on removal of Static CMS"
+  - date: 2023-03-21
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2024-07-04 "Adjust info based on removal of Static CMS" >}}
-{{< change 2023-03-21 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
-
 ## Technology Used
 {{< back_to_top >}}
 
@@ -136,4 +132,4 @@ All the technological amenities are very hands off and present to help with coll
 
 The only downside we have found so far is the GitHub interface overwhelming users and contributors initially. Hopefully the [_ Contributing _ page]({{< ref "faq/contributing" >}}) can help bridge this gap for our users and collaborators.
 
-{{< back_to_top >}}
+{{< end_section >}}

@@ -15,14 +15,10 @@ tags:
   - pen
   - pencil
   - paper
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -133,4 +129,4 @@ Just don't give up, your every day carry is out there, it just may be slightly o
 - [Interesting, if not odd, Discoveries]({{< ref "/tips/writing-interesting-supplies.md">}})
 - [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
 
-{{< back_to_top >}}
+{{< end_section >}}

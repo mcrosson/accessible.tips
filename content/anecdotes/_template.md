@@ -11,14 +11,10 @@ categories:
   - anecdote
 tags:
   - anecdote
+changelog:
+  - date: 1900-12-30
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 1900-12-30 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## The Scene
 {{< back_to_top >}}
@@ -39,4 +35,4 @@ A personal journey
 
 Thoughts/feels/advice/etc expansion
 
-{{< back_to_top >}}
+{{< end_section >}}

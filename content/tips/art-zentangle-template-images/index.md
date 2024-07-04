@@ -12,14 +12,10 @@ categories:
 tags:
   - drawing
   - zentangle
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Templates
 {{< back_to_top >}}
@@ -30,4 +26,4 @@ The attached files are files I created as a 'Zentangle Template'. It's setup to 
 
 [Download Photoshop (psd) File](Zentangle-template.psd)
 
-{{< back_to_top >}}
+{{< end_section >}}

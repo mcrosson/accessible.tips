@@ -13,14 +13,10 @@ categories:
 tags:
   - negotiation
   - surgery
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## You can negotiate with doctors
 {{< back_to_top >}}
@@ -64,4 +60,4 @@ Some points you may be able to negotiate with your doctor
 
 - [Minor Day Surgery]({{< ref "/anecdotes/anon-minor-day-surgery-0001.md" >}})
 
-{{< back_to_top >}}
+{{< end_section >}}

@@ -11,14 +11,10 @@ categories:
   - organizers
 tags:
   - gtd
+changelog:
+  - date: 2023-03-20
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-20 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Considerations
 {{< back_to_top >}}
@@ -27,4 +23,4 @@ tags:
 
 Instead of dedicating a space here on the topic, we recommend heading to the main GTD website as well as looking for paper notebooks or applications that implement the GTD organizational system.
 
-{{< back_to_top >}}
+{{< end_section >}}

@@ -13,15 +13,12 @@ categories:
 tags:
   - example
   - testing
+changelog:
+  - date: 2023-03-17
+    text: "test change 1"
+  - date: 2023-03-18
+    text: "test change 2"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-17 "test change 1" >}}
-{{< change 2023-03-18 "test change 2" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references[^1]
 
@@ -103,4 +100,4 @@ A table (centered by default):
 
 [^1]: This is the footnote linked at the very top of the page
 
-{{< back_to_top >}}
+{{< end_section >}}

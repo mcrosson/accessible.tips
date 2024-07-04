@@ -13,14 +13,10 @@ categories:
 tags:
   - safety
   - rope
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Background
 {{< back_to_top >}}
@@ -170,4 +166,4 @@ That's really the whole of it. I managed to find **proper** safety gear that can
 
 🤘
 
-{{< back_to_top >}}
+{{< end_section >}}

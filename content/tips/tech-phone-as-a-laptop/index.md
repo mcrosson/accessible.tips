@@ -13,14 +13,10 @@ tags:
   - phone
   - tablet
   - laptop
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -147,4 +143,4 @@ Everything else I need a comptuer for day to day is supported by my phone and la
 
 {{< figure src="Fixing-Servers.jpg" alt="The NexDock plugged into a Raspberry Pi showing it can be used to administer servers. The picture shows the NexDock on the floor next to a number of servers and other 'enterprise' hardware that forms the foundation of my home network." caption="Fix a server? Yep!" >}}
 
-{{< back_to_top >}}
+{{< end_section >}}

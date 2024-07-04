@@ -14,14 +14,10 @@ tags:
   - pen
   - pencil
   - paper
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -72,4 +68,4 @@ I wish I had more to say but there are very few options for analog writers that 
 
 Hopefully this has helped despite the lean amount of options available.
 
-{{< back_to_top >}}
+{{< end_section >}}

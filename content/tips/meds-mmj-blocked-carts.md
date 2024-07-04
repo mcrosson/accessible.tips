@@ -13,14 +13,10 @@ tags:
   - marijuana
   - mmj
   - weed
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-25 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Prerequisites
 {{< back_to_top >}}
@@ -46,4 +42,4 @@ To clear the blockage
 1. Re-attach cart and enjoy
 1. Use a towel and isopropyl alcohol at a greater than or equal to 80% concentration to clean the tooth pick
 
-{{< back_to_top >}}
+{{< end_section >}}

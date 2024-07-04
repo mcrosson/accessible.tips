@@ -3,22 +3,19 @@ title: Tech Used
 author: 
   - KemoNine
 publishDate: 2023-03-21
-lastMod: 2023-03-21
+lastMod: 2024-07-04
 toc: false
 draft: false
 categories:
   - faq
 tags:
   - faq
+changelog:
+  - date: 2024-07-04
+    text: "Adjust info based on removal of Static CMS"
+  - date: 2023-03-21
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2024-07-04 "Adjust info based on removal of Static CMS" >}}
-{{< change 2023-03-21 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 This website uses the following technologies to achive a highly accessible, free to host, easy to manage online knowledge base that also works offline.
 
@@ -40,4 +37,4 @@ This website uses the following technologies to achive a highly accessible, free
 [NameCheap DNS](https://namecheap.com/)
 : DNS registrar and record managent
 
-{{< back_to_top >}}
+{{< end_section >}}

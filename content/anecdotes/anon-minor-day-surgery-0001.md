@@ -11,14 +11,10 @@ categories:
   - anecdote
 tags:
   - anecdote
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## The Scene
 {{< back_to_top >}}

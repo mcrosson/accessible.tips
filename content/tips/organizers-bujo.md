@@ -11,14 +11,10 @@ categories:
   - organizers
 tags:
   - bujo
+changelog:
+  - date: 2023-03-20
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-20 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Considerations
 {{< back_to_top >}}
@@ -68,4 +64,4 @@ There are a lot of how to guides, videos and more on bullet journaling and apply
 - [Pocket Sized Every Day Carries]({{< ref "/tips/organizers-pocket-sized-every-day-carries.md" >}})
 - [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
 
-{{< back_to_top >}}
+{{< end_section >}}

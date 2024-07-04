@@ -16,18 +16,14 @@ tags:
   - cfs
   - covid
   - long-covid
+changelog:
+  - date: 2023-03-25
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 1900-12-30 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Guides
 {{< back_to_top >}}
 
 An Anonymous reader let us know there a few good pacing guides for ME/CFS, long covid and covid up at [meaction.net](https://www.meaction.net/resource/pacing-and-management-guide/) that may be good resources as staring points related to pacing.
 
-{{< back_to_top >}}
+{{< end_section >}}

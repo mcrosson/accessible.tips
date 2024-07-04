@@ -12,14 +12,10 @@ categories:
 tags:
   - misc
   - uncategorized
+changelog:
+  - date: 2023-04-06
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-04-06 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## What Is Here
 {{< back_to_top >}}
@@ -242,5 +238,5 @@ This page is dedicated to small culinary life hacks, tips, tricks and more.
    - Make the minimum version
    - Add spices from recipes to fill flavor profile to your preferences
 
-{{< back_to_top >}}
+{{< end_section >}}
 

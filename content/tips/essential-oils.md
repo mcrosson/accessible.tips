@@ -13,14 +13,10 @@ categories:
 tags:
   - young-living
   - liquid-xanax
+changelog:
+  - date: 2023-04-05
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 1900-12-30 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## What's Here
 {{< back_to_top >}}
@@ -55,4 +51,4 @@ Some basic info on essential oils and a recipe for `Liquid Xanax` from a communi
 1. put essential oils in roller
 1. fill w/ favorite carrier oil (grapeseed / coconut oil)
 
-{{< back_to_top >}}
+{{< end_section >}}

@@ -13,14 +13,10 @@ tags:
   - audio
   - speech
   - hearing
+changelog:
+  - date: 2023-03-23
+    text: "Initial creation"
 ---
-
-## Changelog
-{{< changelog >}}
-{{< change 2023-03-23 "Initial creation" >}}
-{{< /changelog >}}
-
-{{< end_section >}}
 
 ## Attribution
 {{< back_to_top >}}
@@ -56,4 +52,4 @@ This can be helpful for those with speech processing needs. It allows you to iso
 
 - [Audio Processing Woes]({{< ref "/anecdotes/kemonine-audio-processing-woes.md" >}})
 
-{{< back_to_top >}}
+{{< end_section >}}
