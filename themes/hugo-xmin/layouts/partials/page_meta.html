@@ -56,9 +56,10 @@
 
 </div>
     
-    <a id="top" />
+<a id="top" />
 
-    {{ if .Params.toc }}
-    {{ .TableOfContents }}
-    {{ else }}
-    {{ end }}
+{{ if .Params.toc }}
+<h2>Table of Contents</h2>
+{{ .TableOfContents }}
+{{ else }}
+{{ end }}

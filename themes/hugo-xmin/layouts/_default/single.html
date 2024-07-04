@@ -4,6 +4,18 @@
 
 <main>
 {{ .Content }}
+
+{{ if .Params.changelog }}
+<h2>Changelog</h2>
+<div id="Changelog">
+<dl>
+{{ range .Params.changelog }}
+<dt><strong>{{ .date }}</strong></dt>
+<dd>{{ .text }}</dd>
+{{ end }}
+</dl>
+</div>
+{{ end }}
 </main>
 
 {{ partial "footer.html" . }}

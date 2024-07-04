@@ -27,6 +27,10 @@ hr {
   border: 1px solid #eee;
   border-radius: 5px;
 }
+#Changelog {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
 
 /* pagination */
 .pagination { text-align: center; }
