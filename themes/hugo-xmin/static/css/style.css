@@ -19,6 +19,7 @@ body {
 .title { font-size: 1.1em; }
 .back_to_top { font-size: .85em }
 footer a { text-decoration: none; }
+a.heading { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
@@ -27,7 +28,7 @@ hr {
   border: 1px solid #eee;
   border-radius: 5px;
 }
-#Changelog {
+div.changelog {
   border: 1px solid #eee;
   border-radius: 5px;
 }

@@ -6,7 +6,7 @@
 {{ .Content }}
 
 {{ if .Params.changelog }}
-<h2>Changelog</h2>
+<a class="heading" href="#changelog"><h2 id="changelog">Changelog</h2></a>
 {{ if .Page.Params.toc }}
 <a class="back_to_top" href="#top">Back to ToC</a>
 &nbsp;|&nbsp;
@@ -15,7 +15,7 @@
 &nbsp;|&nbsp;
 {{ end }}
 <a class="back_to_top" href="#page_menu">Back to page menu</a>
-<div id="Changelog">
+<div class="changelog">
 <dl>
 {{ range .Params.changelog }}
 <dt><strong>{{ .date }}</strong></dt>
