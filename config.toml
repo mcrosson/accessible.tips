@@ -7,7 +7,7 @@ timeZone = 'UTC'
 
 enableEmoji = true
 enableRobotsTXT = true
-enableGitInfo = true
+enableGitInfo = false
 rssLimit = 25
 
 ignoreFiles = [ '.gitignore', '.gitkeep' ]
