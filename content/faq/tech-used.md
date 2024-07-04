@@ -27,11 +27,8 @@ This website uses the following technologies to achive a highly accessible, free
 [hugo-xmin](https://github.com/yihui/hugo-xmin)
 : Main website theme, modified
 
-[Static CMS](https://www.staticcms.org/)
-: Web based editor for use with desktop browsers
-
 [Decap](https://decapcms.org/)
-: Web based editor for use with mobile browsers
+: Web based editor
 
 [GitHub](https://github.com)
 : Version control, change management, issue tracking

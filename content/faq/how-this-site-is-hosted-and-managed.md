@@ -95,7 +95,7 @@ This site is primarily developed using a text editor and file manager with git (
 
 Each page of the site is a simple text file containing [markdown](https://en.wikipedia.org/wiki/Markdown) and can be edited with your preferred text editor.
 
-This site also has two web based content edtiors setup and supported. They are very trim in terms of features and can be somewhat fiddly to use on a phone. However, they are robust text editors that facilitate text editing directly in the browser with some metadata support. These should allow more graphical editing for content managers that prefer a less 'pure text' type of environment.
+This site also has a web based content editor setup. It is very trim in terms of features and can be somewhat fiddly to use on a phone. Long-term this area of the site will be looked at closer. For now it's not supported for editing this site.
 
 We even tested editing the contents of this website via the main GitHub website. It works, it's browser based and a really good option for those that prefer a simple web based text editor environment.
 
