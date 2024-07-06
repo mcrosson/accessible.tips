@@ -1,3 +1,5 @@
+# Get path of this script
 $Path = $PSScriptRoot
-Write-Host $Path\hugo.exe
-Set-Alias -Value $Path\hugo.exe -Name hugo -Scope Global
+
+# Setup hugo command alias
+Set-Alias -Value $Path\hugo-0.128.2.exe -Name hugo -Scope Global
