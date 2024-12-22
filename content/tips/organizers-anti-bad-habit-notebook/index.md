@@ -1,5 +1,5 @@
 ---
-title: Anti Bad Habit Notebook
+title: Anti Bad Habit Notebook (Analog)
 author: 
   - KemoNine
 publishDate: 2023-03-23
@@ -14,12 +14,24 @@ tags:
 changelog:
   - date: 2023-03-23
     text: "Initial creation"
+  - date: 2024-12-22
+    text: "Add link / cross reference to digital version of notebook"
+aliases:
+  - "/tips/anti-bad-habit-notebook/"
 ---
 
 ## Attribution
 {{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2018-03-29-anti-bad-habit-notebook/). It has been adjusted for brevity and formatting.
+
+{{< end_section >}}
+
+## Digital Version
+
+This post is about the analog anti bad habit notebook. For a digital version, see [this tip]({{< ref "tips/organizers-anti-bad-habit-digital-notebook" >}}).
+
+{{< end_section >}}
 
 ## The Notebook
 {{< back_to_top >}}
