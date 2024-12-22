@@ -12,6 +12,8 @@ categories:
 tags:
   - controller
 changelog:
+  - date: 2024-12-22
+    text: "Add generic joycon config"
   - date: 2023-03-25
     text: "Initial creation"
 ---
@@ -112,6 +114,31 @@ Left
 
 Right
 : Y
+
+{{< end_section >}}
+
+## KemoNine's JoyCon Config (Vertical Orientation)
+{{< back_to_top >}}
+
+Tuned for 2 paddle JoyCons
+
+Plus (at top of right JoyCon)
+: Menu icon (the one to the right of the Xbox button)
+
+Dash/Minus (at top of left JoyCon)
+: Window icon (the one to the left of the Xbox button)
+
+Home (at bottom of right JoyCon)
+: Xbox Button / Guide Button
+
+Screenshot (at bottom of left JoyCon)
+: Unmapped. This button can **not** be mapped per my testing
+
+Right Paddle
+: A
+
+Left Paddle
+: D-pad Left
 
 {{< end_section >}}
 

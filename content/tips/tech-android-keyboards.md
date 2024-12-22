@@ -12,6 +12,8 @@ categories:
 tags:
   - android
 changelog:
+  - date: 2024-12-22
+    text: "Link to latest and primary source of KemoNine's Unexpected Keyborad work"
   - date: 2024-09-02
     text: "Initial creation"
 ---
@@ -38,7 +40,7 @@ This page outlines a number of different keyboards that can make using an Androi
     -   if you use termux/juicessh/connectbot/other terms you want this keeb
     -   has a lot of good features and tunables
     -   can have custom layouts (there are docs and a web based layout editor)
-    -   kemonine implemented a messagease layout for unexpected [here](https://gist.github.com/mcrosson/15cad13789e0ec83c3373a4baba04d7a)
+    -   kemonine implemented a messagease layout for unexpected [here](https://git.kemonine.info/kemonine/keyboard/src/branch/main/unexpected_keyboard)
     -   if you use this keeb and are considering thumb key or flickboard, consider using kemo's messagease layout for this keeb instead
 -   [HeliBoard](https://github.com/Helium314/HeliBoard)
     -   basically a std android keep with the usual features
