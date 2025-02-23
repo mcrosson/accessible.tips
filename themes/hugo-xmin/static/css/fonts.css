@@ -1,7 +1,7 @@
 body {
-  font-family: "Atkinson Hyperlegible", Atkinson-Hyperlegible, AtkinsonHyperlegible, "Open Dyslexic", Open-Dyslexic, OpenDyslexic, serif;
+  font-family: "Atkinson Hyperlegible Next", AtkinsonHyperlegible-Next, AtkinsonHyperlegibleNext, "Atkinson Hyperlegible", Atkinson-Hyperlegible, AtkinsonHyperlegible, "Open Dyslexic", Open-Dyslexic, OpenDyslexic, sans-serif;
 }
-code {
-  font-family: "MonoLisa Variable", "MonoLisa", "DejaVu Sans Mono", "Lucida Console", Monaco, monospace;
+code, pre, tt, kbd, samp {
+  font-family: "Atkinson Hyperlegible Mono", AtkinsonHyperlegibe-Mono, AtkinsonHyperlegibleMono, "DejaVu Sans Mono", DejaVuSansMono "MonoLisa Variable", "MonoLisa", monospace;
   font-size: 85%;
 }
