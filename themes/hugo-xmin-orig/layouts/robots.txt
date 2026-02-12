@@ -1,9 +1,0 @@
-# Disallow admin zone
-User-agent: *
-Disallow: /admin
-
-# Disallow ChatGPT
-User-agent: CCBot
-Disallow: /
-
-Sitemap: /sitemap.xml
