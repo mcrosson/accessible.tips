@@ -1,0 +1,69 @@
+<div class="article-meta">
+
+    <a id="page_menu" />
+
+    {{ if in .Params.categories "anecdote" }}
+    <h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></h4>
+    {{ end }}
+    {{ if .Page.Params.toc }}
+    <a class="back_to_top" href="#top">Jump to ToC</a>
+    {{ else }}
+    <a class="back_to_top" href="#top">Jump to content</a>
+    {{ end }}
+  
+    {{ with .Page.Params.categories }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>
+    {{ end }}
+  
+    {{ with .Page.Params.tags }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
+    {{ end }}
+
+    {{ if .Page.Params.changelog }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#changelog">Jump to Changelog</a>
+    {{ end }}
+  
+    {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+    {{ $.Scratch.Set "has_related" true }}
+  {{ end }}
+  {{ if $.Scratch.Get "has_related" }}
+    &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
+  {{ end }}
+
+
+    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+    {{ with .Params.author }}
+        <h3 class="author">By: 
+            {{ if (reflect.IsSlice .) }}
+                {{ delimit . ", " }}
+            {{ else }}
+                {{ . }}
+            {{ end }}
+        </h3>
+    {{ end }}
+
+    {{ if (gt .Date 0) }}<h4 class="date">Published: {{ .Date.Format "2006/01/02" }}</h4>{{ end }}
+    {{ if (gt .Lastmod 0) }}<h4 class="date">Last Modified: {{ .Lastmod.Format "2006/01/02" }}</h4>{{ end }}
+
+    <p>
+        {{ if (gt .ReadingTime 0) }}<small>Reading Time: {{ .ReadingTime }} minutes</small>{{ end }}
+        &nbsp;|&nbsp;
+        {{ if (gt .WordCount 0) }}<small>Word Count: {{ .WordCount }} words</small>{{ end }}
+    </p>
+
+    <p class="terms">
+        {{ partial "categories_tags.html" . }}
+      </p>
+    <p class="terms">
+      {{ partial "related.html" . }}
+    </p>
+
+</div>
+    
+<a id="top" />
+
+{{ if .Params.toc }}
+<h2>Table of Contents</h2>
+{{ .TableOfContents }}
+{{ else }}
+{{ end }}

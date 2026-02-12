@@ -1,0 +1,19 @@
+<a id="categories_tags" />
+
+<a id="categories" />
+<p class="terms">
+    {{ range $i := (slice "categories") }}
+    {{ with ($.Param $i) }}
+    {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+    {{ end }}
+    {{ end }}
+</p>
+
+<a id="tags" />
+<p class="terms">
+  {{ range $i := (slice "tags") }}
+  {{ with ($.Param $i) }}
+  {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+  {{ end }}
+  {{ end }}
+</p>
