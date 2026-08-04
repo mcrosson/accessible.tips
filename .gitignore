@@ -2,3 +2,6 @@ public/
 .vscode/
 .frontmatter/
 /frontmatter.json
+.serena/
+.playwright-mcp/
+.scratch/
