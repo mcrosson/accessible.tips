@@ -1,6 +1,4 @@
   <footer>
-  {{ partial "foot_custom.html" . }}
-
   <hr/>
 
   {{ if .Page.Params.toc }}
@@ -15,10 +13,6 @@
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}
 
-  {{ if .GitInfo}}
-  <br />
-  Revision <a href="https://github.com/mcrosson/accessible.tips/commit/{{ .GitInfo.Hash }}" rel="noopener">{{ .GitInfo.Hash }}</a>
-  {{ end }}
   </footer>
   </body>
 </html>

@@ -1,3 +1,5 @@
+> **Note:** This theme has been heavily modified from upstream Yihui/hugo-xmin. This README has been left as-is and does not reflect the current state of the theme.
+
 # HUGO XMIN
 
 ## _Keep it simple, but not simpler_

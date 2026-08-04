@@ -7,7 +7,6 @@ timeZone = 'UTC'
 
 enableEmoji = true
 enableRobotsTXT = true
-enableGitInfo = false
 rssLimit = 25
 
 ignoreFiles = [ '.gitignore', '.gitkeep' ]
@@ -38,7 +37,7 @@ uglyURLs = false
     codeFences = false
 
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
+    home = ["HTML", "RSS"]
 
 [params]
   description = 'A collection of accessibility tips and tricks'
