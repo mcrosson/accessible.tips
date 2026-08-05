@@ -9,7 +9,6 @@ enableEmoji = true
 enableRobotsTXT = true
 rssLimit = 25
 
-ignoreFiles = [ '.gitignore', '.gitkeep' ]
 
 theme = ['hugo-xmin']
 
