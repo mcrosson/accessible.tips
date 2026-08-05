@@ -7,14 +7,7 @@
 
 {{ if .Params.changelog }}
 <a class="heading" href="#changelog"><h2 id="changelog">Changelog</h2></a>
-{{ if .Page.Params.toc }}
-<a class="back_to_top" href="#top">Back to ToC</a>
-&nbsp;|&nbsp;
-{{ else }}
-<a class="back_to_top" href="#top">Back to top</a>
-&nbsp;|&nbsp;
-{{ end }}
-<a class="back_to_top" href="#page_menu">Back to page menu</a>
+{{ partial "_back_to_top_nav.html" . }}
 <div class="changelog">
 <dl>
 {{ range .Params.changelog }}
