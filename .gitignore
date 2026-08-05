@@ -5,3 +5,4 @@ public/
 .serena/
 .playwright-mcp/
 .scratch/
+.hugo_build.lock
