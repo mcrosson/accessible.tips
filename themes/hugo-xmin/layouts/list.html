@@ -1,18 +1,13 @@
 {{ partial "header.html" . }}
 
-{{ if not .Params.isBranchWithContent }}
 <a id="top" />
 <a id="page_menu" />
 {{if not .IsHome }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ end }}
-{{ else }}
-{{ partial "page_meta.html" .}}
-{{ end }}
 
 {{ .Content }}
 
-{{ if not .Params.isBranchWithContent }}
 {{ if not .IsHome }}
 <ul>
   {{ $pages := (sort .Pages ".Title") }}
@@ -36,7 +31,6 @@
   {{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
-{{ end }}
 {{ end }}
 
 {{ partial "footer.html" . }}
