@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+#
+# preview.sh — build and serve a local, searchable HTTP preview of the site.
+#
+# DEFAULT (no args, or just a port): WORKING-DIRECTORY mode.
+#   Previews your CURRENT working tree exactly as it sits on disk — including
+#   uncommitted, unstaged edits — WITHOUT committing, branching, or creating a
+#   worktree. It builds the repo's current state via bin/build.sh into a
+#   scratch dir OUTSIDE the repo (${TMPDIR:-/tmp}/accessible-tips-preview) and
+#   serves it over HTTP. It never writes to public/ and never creates untracked
+#   files inside the repo, so `git status` stays clean.
+#
+#   This is the everyday mode: edit files, run it, see your changes rendered
+#   (with working Pagefind search) — no git dance required.
+#
+# OPTIONAL (a branch name as the first arg): isolated WORKTREE/BRANCH mode.
+#   Previews ANY branch's COMMITTED state without disturbing your checked-out
+#   branch or any other worktree. It creates a *detached* linked worktree at
+#   <repo-root>/_preview (detached so it works even when the target branch is
+#   already checked out elsewhere), builds there, and serves that.
+#
+# Both modes serve over real HTTP: Pagefind search needs it — opening files as
+# file:// renders pages but returns NO search results.
+#
+# Usage:
+#   bin/preview.sh                 # working-dir mode, port 1313 (default)
+#   bin/preview.sh <port>          # working-dir mode on <port>  (all-numeric arg)
+#   bin/preview.sh <branch> [port] # worktree/branch mode (non-numeric first arg)
+#     e.g.  bin/preview.sh
+#           bin/preview.sh 9000
+#           bin/preview.sh overhaul-work
+#           bin/preview.sh overhaul-work 9000
+#
+# Default port is 1313 (matching Hugo). Stop the server with Ctrl-C.
+# In worktree/branch mode the _preview worktree is left in place; clean up with:
+#   bin/end-preview.sh [port]      (or: git worktree remove _preview --force)
+#
+set -euo pipefail
+
+# ---------------------------------------------------------------------------
+# Argument dispatch: no first arg OR an all-numeric first arg => working-dir
+# mode; a non-numeric first arg => branch name for worktree mode.
+# ---------------------------------------------------------------------------
+if [ "$#" -eq 0 ] || [[ "${1:-}" =~ ^[0-9]+$ ]]; then
+  MODE="workdir"
+  PORT="${1:-1313}"
+else
+  MODE="branch"
+  BRANCH="$1"
+  PORT="${2:-1313}"
+fi
+
+if [ "$MODE" = "workdir" ]; then
+  # -------------------------------------------------------------------------
+  # WORKING-DIRECTORY mode (default): build the current on-disk working tree,
+  # uncommitted changes and all, into a scratch dir OUTSIDE the repo. No git
+  # writes, no worktree, no touching public/, no untracked files in the repo.
+  # -------------------------------------------------------------------------
+  # Resolve the repo root from this script's own location (like bin/build.sh),
+  # so it works when invoked by absolute path from any cwd.
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+  SCRATCH="${TMPDIR:-/tmp}/accessible-tips-preview"
+
+  # Build from the current working tree into the out-of-repo scratch dir.
+  # build.sh resolves ITS OWN root from its location, so it always builds this
+  # repo's current on-disk state; the absolute $SCRATCH keeps output out of the
+  # repo (public/ is never touched).
+  echo "Removing previous scratch build at $SCRATCH…"
+  rm -rf "$SCRATCH"
+  echo "Building current working tree (uncommitted changes included) into $SCRATCH…"
+  "$ROOT/bin/build.sh" "$SCRATCH"
+
+  # Serve over HTTP (required for Pagefind search to work).
+  echo
+  echo "Serving current working tree at http://localhost:$PORT  (Ctrl-C to stop)"
+  echo "NOTE: search only works over this HTTP server — file:// will not."
+  exec python3 -m http.server "$PORT" --directory "$SCRATCH"
+fi
+
+# ---------------------------------------------------------------------------
+# WORKTREE/BRANCH mode: preview a branch's COMMITTED state in isolation.
+# ---------------------------------------------------------------------------
+# Resolve the MAIN working tree (repo root), regardless of where this runs
+# from — including from inside a linked worktree. --git-common-dir points at
+# the shared <main>/.git for every worktree of the repo.
+COMMON_GIT_DIR="$(git rev-parse --git-common-dir)"
+MAIN_ROOT="$(cd "$(dirname "$COMMON_GIT_DIR")" && pwd -P)"
+PREVIEW_DIR="$MAIN_ROOT/_preview"
+
+cd "$MAIN_ROOT"   # ensure cwd is not inside _preview, so we can replace it
+
+# Verify the requested branch exists.
+if ! git rev-parse --verify --quiet "$BRANCH" >/dev/null; then
+  echo "preview.sh: branch '$BRANCH' not found" >&2
+  exit 1
+fi
+
+# Refresh: drop any previous _preview, then recreate it detached at $BRANCH.
+# NOTE: we deliberately do NOT run a blanket `git worktree prune` — prune
+# removes EVERY worktree whose directory isn't visible in the current mount
+# namespace, which can clobber unrelated worktrees (e.g. one living under a
+# path this shell can't see). We only ever touch _preview, by exact path.
+if [ -e "$PREVIEW_DIR" ]; then
+  echo "Removing existing _preview…"
+  git worktree remove --force "$PREVIEW_DIR" 2>/dev/null || rm -rf "$PREVIEW_DIR"
+fi
+echo "Creating detached _preview worktree at '$BRANCH'…"
+git worktree add --detach --force "$PREVIEW_DIR" "$BRANCH"
+
+# Build with the vendored binaries (Hugo + Pagefind; zero Node).
+cd "$PREVIEW_DIR"
+echo "Building '$BRANCH' into _preview/public…"
+./bin/build.sh public
+
+# Serve over HTTP (required for Pagefind search to work).
+echo
+echo "Serving '$BRANCH' at http://localhost:$PORT  (Ctrl-C to stop)"
+echo "NOTE: search only works over this HTTP server — file:// will not."
+exec python3 -m http.server "$PORT" --directory public
