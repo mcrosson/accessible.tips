@@ -7,25 +7,17 @@
 {{ .Content }}
 
 <ul>
-  {{ $pages := (sort .Pages ".Title") }}
-  {{ if (eq .Type "posts") }}
-  {{ $pages = (sort .Pages ".Date" "desc") }}
+{{ if eq .Type "posts" }}
+  {{ $paginator := .Paginate (where (sort .Pages ".Date" "desc") "Section" "!=" "") }}
+  {{ range $paginator.Pages }}
+  <li><span class="date">{{ .Date.Format "2006/01/02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
   {{ end }}
-  {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
-  {{ if (eq .Type "posts") }}
-    {{ range $paginator.Pages }}
-    <li>
-     <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-    </li>
-    {{ end }}
-  {{ else }}
-    {{ range $paginator.Pages }}
-    <li>
-     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-    </li>
-    {{ end }}
+{{ else }}
+  {{ $paginator := .Paginate (where (sort .Pages ".Title") "Section" "!=" "") }}
+  {{ range $paginator.Pages }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
   {{ end }}
+{{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
 
