@@ -1,0 +1,57 @@
+{{- /*
+  theme-toggle.html — the persistent-header colour-mode control.
+
+  ONE COMPACT ICON BUTTON that CYCLES auto -> light -> dark -> auto on each
+  activation. The button shows the icon for the CURRENT mode; the three icons
+  are all shipped in the markup and CSS reveals only the one matching data-mode,
+  so cycling is a single attribute flip (no icon markup built in JS). Icons
+  carry a shape difference, not colour alone (WCAG 1.4.1): a split disc
+  (auto), a sun (light), a moon (dark).
+
+  PROGRESSIVE ENHANCEMENT. The button ships with the `hidden` attribute, so
+  with JavaScript off it stays invisible — no dead control. Auto mode still
+  works for that reader purely via CSS `@media (prefers-color-scheme)`; only
+  the manual override needs JS, and the deferred, fingerprinted theme-toggle.js
+  reveals + wires the button once it runs.
+
+  STORAGE CONTRACT (must stay in lock-step with header.html's anti-FOUC
+  snippet and style.css): localStorage key "theme"; values "light" / "dark";
+  auto = key absent (script clears data-theme and the CSS falls back to the OS
+  media query). theme-toggle.js writes exactly that.
+
+  ANNOUNCED TO AT. The button's aria-label states the current mode and the
+  next one it will switch to; a visually hidden aria-live="polite" region
+  (updated by the script on each change) speaks the new mode so a screen-reader
+  user hears the result of the cycle. Default markup = auto (matches the
+  zero-JS default); the script corrects it to any saved override on load.
+
+  Hidden in print — colour mode is meaningless on paper.
+*/ -}}
+<button
+  type="button"
+  class="theme-toggle"
+  data-theme-toggle
+  data-mode="auto"
+  aria-label="Theme: automatic (match system). Activate to switch to light."
+  hidden>
+  <span class="theme-toggle__icon theme-toggle__icon--auto" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" focusable="false">
+      <circle cx="12" cy="12" r="9"></circle>
+      <path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor" stroke="none"></path>
+    </svg>
+  </span>
+  <span class="theme-toggle__icon theme-toggle__icon--light" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+      <circle cx="12" cy="12" r="4"></circle>
+      <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+    </svg>
+  </span>
+  <span class="theme-toggle__icon theme-toggle__icon--dark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" focusable="false">
+      <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+    </svg>
+  </span>
+</button>
+<span class="theme-toggle__status u-visually-hidden" data-theme-status role="status" aria-live="polite"></span>
+{{- $js := resources.Get "js/theme-toggle.js" | js.Build (dict "minify" true) | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>

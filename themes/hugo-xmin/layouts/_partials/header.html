@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <script>(function(){try{var e=localStorage.getItem("theme");(e==="light"||e==="dark")&&(document.documentElement.dataset.theme=e)}catch(e){}})()</script>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
 
@@ -26,6 +27,7 @@
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
+      <li class="menu__theme">{{ partial "theme-toggle.html" . }}</li>
     </ul>
     <hr/>
     </nav>
