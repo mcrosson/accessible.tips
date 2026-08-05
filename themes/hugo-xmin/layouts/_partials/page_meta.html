@@ -25,9 +25,7 @@
     &nbsp;|&nbsp;<a class="back_to_top" href="#changelog">Jump to Changelog</a>
     {{ end }}
   
-    {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-    {{ $.Scratch.Set "has_related" true }}
-  {{ end }}
+  {{ partial "_has_related.html" . }}
   {{ if $.Scratch.Get "has_related" }}
     &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
   {{ end }}

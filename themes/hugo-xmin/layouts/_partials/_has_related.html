@@ -1,0 +1,9 @@
+{{- /*
+  _has_related.html — sets the page-level $.Scratch "has_related" flag true iff
+  the current page shares tags with at least one other page. Consumers
+  (page_meta.html, related.html) call this partial and then check
+  $.Scratch.has_related. No markup output.
+*/ -}}
+{{- range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) -}}
+  {{- $.Scratch.Set "has_related" true -}}
+{{- end -}}
