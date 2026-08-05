@@ -35,7 +35,16 @@ uglyURLs = false
       unsafe = true
 
 [outputs]
-    home = ["HTML", "RSS"]
+    home = ["HTML", "RSS", "searchvocab"]
+
+# Custom output format for the corrector's vocabulary asset. Emitted once
+# (bound to the home page) as /search-vocab.json every build, so the corrector's
+# known-term vocabulary always tracks the live indexed corpus.
+[outputFormats.searchvocab]
+    mediaType = "application/json"
+    baseName = "search-vocab"
+    isPlainText = true
+    notAlternative = true
 
 [params]
   description = 'A collection of accessibility tips and tricks'

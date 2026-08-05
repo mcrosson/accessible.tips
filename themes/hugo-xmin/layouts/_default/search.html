@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+<div class="search-page">
+  <h1 class="search-page__title">Search</h1>
+  {{- /* Submit-based search UI. #search wraps the whole surface so the
+     themed-highlight override in style.css (`#search mark`) keeps the
+     specificity to beat Pagefind's `mark{all:revert}` over the injected
+     excerpts. search-page.js wires the form to the Pagefind JS API and
+     renders results into the list; it searches ONLY on submit (Enter or the
+     Search button), never per keystroke. With JS off the form is inert but
+     harmless (it just reloads /search/?q=…). */ -}}
+  <div id="search" class="search-page__widget">
+    <form class="search-page__form" role="search" action="/search/" method="get">
+      <input
+        type="search"
+        name="q"
+        class="search-page__input"
+        placeholder="Search site&hellip;"
+        aria-label="Search site&hellip;"
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        spellcheck="false">
+      <button type="submit" class="search-page__submit">Search</button>
+    </form>
+    <noscript>
+      <style>.search-page__form { display: none; }</style>
+      <span class="search-page__noscript-chip">Search isn't available with JavaScript disabled. Please use the site's standard navigation instead.</span>
+    </noscript>
+    <p class="search-page__suggestion" role="status" aria-live="polite" hidden></p>
+    <p class="search-page__status" role="status" aria-live="polite"></p>
+    <ol class="search-page__results"></ol>
+  </div>
+</div>
+
+{{- $js := resources.Get "js/search-page.js" | js.Build (dict "minify" true) | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
+{{ partial "footer.html" . }}
