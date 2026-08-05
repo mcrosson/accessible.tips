@@ -1,68 +1,68 @@
 <div class="article-meta">
 
-    <a id="page_menu" />
+  <a id="page_menu"></a>
 
-    {{ if in .Params.categories "anecdote" }}
-    <div data-pagefind-ignore><h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></h4></div>
-    {{ end }}
+  {{ if in .Params.categories "anecdote" }}
+  <div data-pagefind-ignore><h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></h4></div>
+  {{ end }}
 
-    <div data-pagefind-ignore>
-    {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
+  <div data-pagefind-ignore>
+  {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
   
-    {{ with .Page.Params.categories }}
-    &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>
-    {{ end }}
+  {{ with .Params.categories }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>
+  {{ end }}
   
-    {{ with .Page.Params.tags }}
-    &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
-    {{ end }}
+  {{ with .Params.tags }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
+  {{ end }}
 
-    {{ if .Page.Params.changelog }}
-    &nbsp;|&nbsp;<a class="back_to_top" href="#changelog">Jump to Changelog</a>
-    {{ end }}
+  {{ if .Params.changelog }}
+  &nbsp;|&nbsp;<a class="back_to_top" href="#changelog">Jump to Changelog</a>
+  {{ end }}
   
   {{ partial "_has_related.html" . }}
   {{ if $.Scratch.Get "has_related" }}
-    &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
+  &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
   {{ end }}
-    </div>
+  </div>
 
 
-    <h1><span class="title">{{ .Title | markdownify }}</span></h1>
+  <h1><span class="title">{{ .Title | markdownify }}</span></h1>
 
-    <div data-pagefind-ignore>
-    {{ with .Params.author }}
-        <h3 class="author">By: 
-            {{ if (reflect.IsSlice .) }}
-                {{ delimit . ", " }}
-            {{ else }}
-                {{ . }}
-            {{ end }}
-        </h3>
+  <div data-pagefind-ignore>
+  {{ with .Params.author }}
+  <h3 class="author">By: 
+    {{ if (reflect.IsSlice .) }}
+        {{ delimit . ", " }}
+    {{ else }}
+        {{ . }}
     {{ end }}
+  </h3>
+  {{ end }}
 
-    <p>
-        {{ if (gt .ReadingTime 0) }}<small>Reading Time: {{ .ReadingTime }} minutes</small>{{ end }}
-        &nbsp;|&nbsp;
-        {{ if (gt .WordCount 0) }}<small>Word Count: {{ .WordCount }} words</small>{{ end }}
-    </p>
-    </div>
+  <p>
+  {{ if (gt .ReadingTime 0) }}<small>Reading Time: {{ .ReadingTime }} minutes</small>{{ end }}
+  &nbsp;|&nbsp;
+  {{ if (gt .WordCount 0) }}<small>Word Count: {{ .WordCount }} words</small>{{ end }}
+  </p>
+  </div>
 
-    <div data-pagefind-ignore>
-    {{ if (gt .Date 0) }}<h4 class="date">Published: <span data-pagefind-meta="date:{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</span></h4>{{ end }}
-    {{ if (gt .Lastmod 0) }}<h4 class="date">Last Modified: {{ .Lastmod.Format "2006/01/02" }}</h4>{{ end }}
-    </div>
+  <div data-pagefind-ignore>
+  {{ if (gt .Date 0) }}<h4 class="date">Published: <span data-pagefind-meta="date:{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</span></h4>{{ end }}
+  {{ if (gt .Lastmod 0) }}<h4 class="date">Last Modified: {{ .Lastmod.Format "2006/01/02" }}</h4>{{ end }}
+  </div>
 
-    <p class="terms">
-        {{ partial "categories_tags.html" . }}
-      </p>
-    <p class="terms">
-      {{ partial "related.html" . }}
-    </p>
+  <p class="terms">
+  {{ partial "categories_tags.html" . }}
+  </p>
+  <p class="terms">
+  {{ partial "related.html" . }}
+  </p>
 
 </div>
-    
-<a id="top" />
+  
+<a id="top"></a>
 
 <div data-pagefind-ignore>
 {{ if .Params.toc }}
