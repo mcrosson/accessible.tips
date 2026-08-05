@@ -1,10 +1,10 @@
 ---
 title: _ Anecdote Template _
-author: 
+author:
   - YourName
   - GhostWriterNameIfAppropriate
-publishDate: 1900-12-30
-lastMod: 1900-12-30
+publishDate: 1900-01-01
+lastMod: 1900-01-01
 toc: true
 draft: true
 categories:
@@ -12,7 +12,9 @@ categories:
 tags:
   - anecdote
 changelog:
-  - date: 1900-12-30
+  - date: 1900-01-01
+    text: "Add additional detail, tags"
+  - date: 1900-01-01
     text: "Initial creation"
 ---
 

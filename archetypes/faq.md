@@ -1,21 +1,19 @@
 ---
-title: _ Tip Template _
-author: 
-  - Your Name
-publishDate: 1900-12-30
-lastMod: 1900-12-31
+title: _ FAQ Template _
+author:
+  - YourName
+publishDate: 1900-01-01
+lastMod: 1900-01-01
 toc: true
 draft: true
 categories:
-  - tips
-  - a-main-category
+  - faq
 tags:
-  - template
-  - example-tag
+  - faq
 changelog:
-  - date: 1900-12-31
+  - date: 1900-01-01
     text: "Add additional detail, tags"
-  - date:  1900-12-30
+  - date: 1900-01-01
     text: "Initial creation"
 ---
 
@@ -36,6 +34,6 @@ This is where some useful content would go
 ## Conclusion
 {{< back_to_top >}}
 
-In summary... Use <code>[bbb]({{&lt; ref "[category]/[file].md" &gt;}})</code> for cross references
+{{ `In summary... Use <code>[bbb]({{< ref "[category]/[file].md" >}})</code> for cross references` }}
 
 {{< end_section >}}

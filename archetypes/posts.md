@@ -1,10 +1,10 @@
 ---
 layout: post
-title: _Post Template_
-author: 
-  - Your Name
-publishDate: 1900-12-31
-lastMod: 1900-12-31
+title: _ Post Template _
+author:
+  - YourName
+publishDate: 1900-01-01
+lastMod: 1900-01-01
 toc: false
 draft: true
 categories:
