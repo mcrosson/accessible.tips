@@ -33,8 +33,6 @@ uglyURLs = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  [markup.highlilght]
-    codeFences = false
 
 [outputs]
     home = ["HTML", "RSS"]
