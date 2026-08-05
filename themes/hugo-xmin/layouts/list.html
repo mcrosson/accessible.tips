@@ -2,13 +2,10 @@
 
 <a id="top" />
 <a id="page_menu" />
-{{if not .IsHome }}
 <h1>{{ .Title | markdownify }}</h1>
-{{ end }}
 
 {{ .Content }}
 
-{{ if not .IsHome }}
 <ul>
   {{ $pages := (sort .Pages ".Title") }}
   {{ if (eq .Type "posts") }}
@@ -31,6 +28,5 @@
   {{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
-{{ end }}
 
 {{ partial "footer.html" . }}
