@@ -4,10 +4,6 @@
   and the footer. Caller passes the page directly as the partial context.
   No wrapper markup — callers supply their own.
 */ -}}
-{{- if .Page.Params.toc -}}
-<a class="back_to_top" href="#top">Back to ToC</a>
-{{ else -}}
-<a class="back_to_top" href="#top">Back to top</a>
-{{- end }}
+{{ partial "_toc_top_link.html" (dict "Page" .Page) }}
 &nbsp;|&nbsp;
 <a class="back_to_top" href="#page_menu">Back to page menu</a>

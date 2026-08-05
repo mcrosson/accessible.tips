@@ -7,11 +7,7 @@
     {{ end }}
 
     <div data-pagefind-ignore>
-    {{ if .Page.Params.toc }}
-    <a class="back_to_top" href="#top">Jump to ToC</a>
-    {{ else }}
-    <a class="back_to_top" href="#top">Jump to content</a>
-    {{ end }}
+    {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
   
     {{ with .Page.Params.categories }}
     &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>

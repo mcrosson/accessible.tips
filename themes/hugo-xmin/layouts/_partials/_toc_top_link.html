@@ -1,0 +1,19 @@
+{{- /*
+  _toc_top_link.html — emits the #top nav link with toc/content variant text.
+  Page is passed as "Page" in the dict. Default word is "Back" (the in-section
+  / footer convention). Pass word="Jump" for the page-meta convention:
+    Back + toc=true  → "Back to ToC"
+    Back + toc=false → "Back to top"
+    Jump + toc=true  → "Jump to ToC"
+    Jump + toc=false → "Jump to content"
+*/ -}}
+{{- $word := .word | default "Back" -}}
+{{- $suffix := "" -}}
+{{- if .Page.Params.toc -}}
+  {{- $suffix = "ToC" -}}
+{{- else if eq $word "Back" -}}
+  {{- $suffix = "top" -}}
+{{- else -}}
+  {{- $suffix = "content" -}}
+{{- end -}}
+<a class="back_to_top" href="#top">{{ $word }} to {{ $suffix }}</a>
