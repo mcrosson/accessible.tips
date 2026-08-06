@@ -45,11 +45,69 @@ A multiline paragraph continues. The text spans multiple paragraphs naturally.
 
 ## Code block
 
-Here's a fenced code block:
+Here's a fenced code block, exercising keywords, strings, numbers, comments, classes, functions, and template literals:
 
-```bash
-echo "Hello, world"
-ls -la /tmp/
+```javascript
+// Shopping cart with tax calculation
+const DEFAULT_TAX_RATE = 0.0825;
+const MAX_QUANTITY = 99;
+
+class OutOfStockError extends Error {
+    constructor(message) {
+        super(message);
+        this.name = "OutOfStockError";
+    }
+}
+
+function formatCurrency(amount, currency = "USD") {
+    return new Intl.NumberFormat("en-US", {
+        style: "currency",
+        currency: currency,
+    }).format(amount);
+}
+
+class ShoppingCart {
+    #items = [];
+    #taxRate;
+
+    constructor(taxRate = DEFAULT_TAX_RATE) {
+        this.#taxRate = taxRate;
+    }
+
+    addItem({ name, price, quantity = 1 }) {
+        if (quantity < 1 || quantity > MAX_QUANTITY) {
+            throw new OutOfStockError(`Invalid quantity: ${quantity}`);
+        }
+        this.#items.push({ name, price, quantity });
+    }
+
+    get subtotal() {
+        return this.#items.reduce(
+            (sum, item) => sum + item.price * item.quantity,
+            0
+        );
+    }
+
+    get tax() {
+        return this.subtotal * this.#taxRate;
+    }
+
+    get total() {
+        return this.subtotal + this.tax;
+    }
+
+    checkout() {
+        return `Subtotal: ${formatCurrency(this.subtotal)}, ` +
+               `Tax: ${formatCurrency(this.tax)}, ` +
+               `Total: ${formatCurrency(this.total)}`;
+    }
+}
+
+// Example usage
+const cart = new ShoppingCart(0.10);
+cart.addItem({ name: "Apple", price: 1.50, quantity: 3 });
+cart.addItem({ name: "Bread", price: 4.25 });
+console.log(cart.checkout());
 ```
 
 

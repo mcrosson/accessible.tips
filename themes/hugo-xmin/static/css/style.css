@@ -85,8 +85,6 @@ div.changelog {
 
 /* code */
 pre {
-  border: 1px solid var(--rule);
-  box-shadow: 5px 5px 5px var(--surface-sunken);
   padding: 1em;
   overflow-x: auto;
 }
@@ -333,6 +331,29 @@ a.footnote-ref::after {
      surface-sunken is only 1 RGB unit away from --nav-bg and effectively
      invisible). */
   --menu-link-bg:   #f4f6f7;
+
+  /* Chroma syntax highlighting — github palette. Consumed by chroma.css.
+     Dark-mode overrides live in the two dark cascade arms below. */
+  --chroma-bg:        #f7f7f7;
+  --chroma-err-fg:    #f6f8fa;
+  --chroma-err-bg:    #82071e;
+  --chroma-hl-bg:     #dedede;
+  --chroma-ln-fg:     #7f7f7f;
+  --chroma-keyword:   #cf222e;
+  --chroma-name:      #1f2328;
+  --chroma-const:     #0550ae;
+  --chroma-fn:        #6639ba;
+  --chroma-label:     #900;
+  --chroma-ns:        #24292e;
+  --chroma-bp:        #6a737d;
+  --chroma-var:       #953800;
+  --chroma-string:    #0a3069;
+  --chroma-syms:      #032f62;
+  --chroma-comment:   #57606a;
+  --chroma-del-bg:    #ffebe9;
+  --chroma-ins-bg:    #dafbe1;
+  --chroma-ins-fg:    #116329;
+  --chroma-ws:        #fff;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -348,6 +369,28 @@ a.footnote-ref::after {
     --panel-border:   #63717d;
     --search-mark-bg: #0e4650;
     --menu-link-bg:   #647083;
+
+    /* Chroma dark — github-dark palette */
+    --chroma-bg:      #0d1117;
+    --chroma-err-fg:  #f85149;
+    --chroma-err-bg:  #f85149;
+    --chroma-hl-bg:   #6e7681;
+    --chroma-ln-fg:   #6e7681;
+    --chroma-keyword: #ff7b72;
+    --chroma-name:    #f0883e;
+    --chroma-const:   #79c0ff;
+    --chroma-fn:      #d2a8ff;
+    --chroma-label:   #79c0ff;
+    --chroma-ns:      #ff7b72;
+    --chroma-bp:      #79c0ff;
+    --chroma-var:     #79c0ff;
+    --chroma-string:  #a5d6ff;
+    --chroma-syms:    #a5d6ff;
+    --chroma-comment: #8b949e;
+    --chroma-del-bg:  #490202;
+    --chroma-ins-bg:  #0f5323;
+    --chroma-ins-fg:  #56d364;
+    --chroma-ws:      #6e7681;
   }
 }
 [data-theme="dark"] {
@@ -363,6 +406,28 @@ a.footnote-ref::after {
   --panel-border:   #63717d;
   --search-mark-bg: #0e4650;
   --menu-link-bg:   #647083;
+
+  /* Chroma dark — github-dark palette */
+  --chroma-bg:      #0d1117;
+  --chroma-err-fg:  #f85149;
+  --chroma-err-bg:  #f85149;
+  --chroma-hl-bg:   #6e7681;
+  --chroma-ln-fg:   #6e7681;
+  --chroma-keyword: #ff7b72;
+  --chroma-name:    #f0883e;
+  --chroma-const:   #79c0ff;
+  --chroma-fn:      #d2a8ff;
+  --chroma-label:   #79c0ff;
+  --chroma-ns:      #ff7b72;
+  --chroma-bp:      #79c0ff;
+  --chroma-var:     #79c0ff;
+  --chroma-string:  #a5d6ff;
+  --chroma-syms:    #a5d6ff;
+  --chroma-comment: #8b949e;
+  --chroma-del-bg:  #490202;
+  --chroma-ins-bg:  #0f5323;
+  --chroma-ins-fg:  #56d364;
+  --chroma-ws:      #6e7681;
 }
 
 #search mark {

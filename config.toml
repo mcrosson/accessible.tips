@@ -32,6 +32,9 @@ uglyURLs = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = "github"
 
 [outputs]
     home = ["HTML", "RSS", "searchvocab"]
