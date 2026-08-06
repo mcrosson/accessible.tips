@@ -12,7 +12,8 @@
 #   bin/end-preview.sh [port]     (port defaults to 1313; only used to stop
 #                                  a still-running preview server)
 #
-set -euo pipefail
+set -eu
+if (set -o pipefail) 2>/dev/null; then set -o pipefail; fi
 
 PORT="${1:-1313}"
 

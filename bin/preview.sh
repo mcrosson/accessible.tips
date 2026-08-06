@@ -35,19 +35,28 @@
 # In worktree/branch mode the _preview worktree is left in place; clean up with:
 #   bin/end-preview.sh [port]      (or: git worktree remove _preview --force)
 #
-set -euo pipefail
+set -eu
+if (set -o pipefail) 2>/dev/null; then set -o pipefail; fi
 
 # ---------------------------------------------------------------------------
 # Argument dispatch: no first arg OR an all-numeric first arg => working-dir
 # mode; a non-numeric first arg => branch name for worktree mode.
 # ---------------------------------------------------------------------------
-if [ "$#" -eq 0 ] || [[ "${1:-}" =~ ^[0-9]+$ ]]; then
+if [ "$#" -eq 0 ]; then
   MODE="workdir"
   PORT="${1:-1313}"
 else
-  MODE="branch"
-  BRANCH="$1"
-  PORT="${2:-1313}"
+  case "$1" in
+    ''|*[!0-9]*)
+      MODE="branch"
+      BRANCH="$1"
+      PORT="${2:-1313}"
+      ;;
+    *)
+      MODE="workdir"
+      PORT="$1"
+      ;;
+  esac
 fi
 
 if [ "$MODE" = "workdir" ]; then
@@ -58,7 +67,7 @@ if [ "$MODE" = "workdir" ]; then
   # -------------------------------------------------------------------------
   # Resolve the repo root from this script's own location (like bin/build.sh),
   # so it works when invoked by absolute path from any cwd.
-  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
   ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
   SCRATCH="${TMPDIR:-/tmp}/accessible-tips-preview"
 

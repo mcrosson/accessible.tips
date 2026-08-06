@@ -25,19 +25,20 @@
 #
 # Stop with Ctrl-C.
 #
-set -euo pipefail
+set -eu
+if (set -o pipefail) 2>/dev/null; then set -o pipefail; fi
 
 # Resolve repo root from this script's own location (like bin/build.sh), so it
 # works when invoked by absolute path from any cwd, not only from inside the repo.
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 # Optional numeric first arg = port; anything else passes through to hugo.
 PORT=1313
-if [[ "${1:-}" =~ ^[0-9]+$ ]]; then
-  PORT="$1"
-  shift
-fi
+case "${1:-}" in
+  ''|*[!0-9]*) ;;
+  *) PORT="$1"; shift ;;
+esac
 
 cd "$ROOT"
 echo "Live dev server (working tree) at http://localhost:$PORT  —  Ctrl-C to stop"

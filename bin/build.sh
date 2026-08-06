@@ -26,11 +26,12 @@
 #     "--renderToMemory" option is NOT compatible with this pipeline —
 #     Pagefind needs real files to scan.
 #
-set -euo pipefail
+set -eu
+if (set -o pipefail) 2>/dev/null; then set -o pipefail; fi
 
 # Resolve repo root from this script's own location: script lives in
 # "<root>/bin/", so root is one directory up, regardless of caller cwd.
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$ROOT"
 
