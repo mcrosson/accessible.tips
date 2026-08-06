@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 #
 # build.sh — production build for the Hugo + Pagefind static site.
 #

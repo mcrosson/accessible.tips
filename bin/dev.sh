@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 #
 # dev.sh — fast live-reload dev server for the CURRENT working tree.
 #

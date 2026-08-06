@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 #
 # end-preview.sh — tear down what preview.sh created: stop the local preview
 # server, remove the out-of-repo working-dir scratch build, and remove the

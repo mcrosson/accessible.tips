@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 #
 # preview.sh — build and serve a local, searchable HTTP preview of the site.
 #
