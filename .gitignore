@@ -6,3 +6,4 @@ public/
 .playwright-mcp/
 .scratch/
 .hugo_build.lock
+resources/_gen/
