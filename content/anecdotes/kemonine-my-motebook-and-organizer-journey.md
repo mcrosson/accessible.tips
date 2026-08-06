@@ -2,8 +2,7 @@
 title: My notebook & organizer journey
 author: 
   - KemoNine
-publishDate: 2024-12-22
-lastMod: 2024-11-27
+date: 2024-12-22
 toc: true
 draft: false
 categories:

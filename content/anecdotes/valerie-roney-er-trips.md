@@ -3,8 +3,7 @@ title: ER Trips
 author: 
   - Valerie Roney
   - KemoNine (Ghost Writer)
-publishDate: 2024-12-22
-lastMod: 2024-12-03
+date: 2024-12-22
 toc: true
 draft: false
 categories:

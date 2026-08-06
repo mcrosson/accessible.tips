@@ -1,0 +1,10 @@
+{{- /*
+  util/changelog-latest.html — returns the newest [[changelog]] entry's date
+  (raw, unformatted), or "" when the page has no changelog. The ONE place that
+  computes "the latest changelog date"; each caller applies its own dateFormat
+  (human "Updated …" masthead date, or ISO dateModified in the JSON-LD).
+  Passed the page's changelog list (.Params.changelog) as `.`.
+*/ -}}
+{{- $latest := "" -}}
+{{- with . -}}{{- $latest = (index (sort . "date" "desc") 0).date -}}{{- end -}}
+{{- return $latest -}}

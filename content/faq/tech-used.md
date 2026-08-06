@@ -2,8 +2,7 @@
 title: Tech Used
 author: 
   - KemoNine
-publishDate: 2023-03-21
-lastMod: 2024-07-04
+date: 2023-03-21
 toc: false
 draft: false
 categories:

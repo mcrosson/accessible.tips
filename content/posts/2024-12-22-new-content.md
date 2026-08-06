@@ -3,8 +3,7 @@ layout: post
 title: New content & updates published
 author: 
   - KemoNine
-publishDate: 2024-12-22
-lastMod: 2024-12-22
+date: 2024-12-22
 toc: false
 draft: false
 categories:

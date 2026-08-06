@@ -2,8 +2,7 @@
 title: Split voice and non-voice audio
 author: 
   - KemoNine
-publishDate: 2023-03-23
-lastMod: 2023-03-23
+date: 2023-03-23
 toc: true
 draft: false
 categories:

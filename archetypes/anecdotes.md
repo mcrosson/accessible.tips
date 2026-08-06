@@ -3,8 +3,7 @@ title: _ Anecdote Template _
 author:
   - YourName
   - GhostWriterNameIfAppropriate
-publishDate: 1900-01-01
-lastMod: 1900-01-01
+date: 1900-01-01
 toc: true
 draft: true
 categories:

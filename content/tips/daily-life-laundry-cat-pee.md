@@ -2,8 +2,7 @@
 title: Cleaning Cat Pee
 author: 
   - KemoNine
-publishDate: 2024-08-31
-lastMod: 2025-08-02
+date: 2024-08-31
 toc: true
 draft: false
 categories:

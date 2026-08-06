@@ -2,8 +2,7 @@
 title: Anti Bad Habit Notebook (Analog)
 author: 
   - KemoNine
-publishDate: 2023-03-23
-lastMod: 2023-03-23
+date: 2023-03-23
 toc: true
 draft: false
 categories:

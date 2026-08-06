@@ -3,8 +3,7 @@ title: Minor Day Surgery
 author: 
   - Anonymous
   - KemoNine (Ghost Writer)
-publishDate: 2023-03-23
-lastMod: 2023-03-23
+date: 2023-03-23
 toc: true
 draft: false
 categories:

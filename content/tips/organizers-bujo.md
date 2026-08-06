@@ -2,8 +2,7 @@
 title: Bullet Journal
 author: 
   - KemoNine
-publishDate: 2023-03-20
-lastMod: 2023-03-20
+date: 2023-03-20
 toc: true
 draft: false
 categories:

@@ -2,8 +2,7 @@
 title: Digital Art Composition Book
 author: 
   - KemoNine
-publishDate: 2024-12-22
-lastMod: 2024-12-01
+date: 2024-12-22
 toc: true
 draft: false
 categories:

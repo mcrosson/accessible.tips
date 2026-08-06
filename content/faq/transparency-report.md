@@ -2,8 +2,7 @@
 title: Transparency Report
 author: 
   - KemoNine
-publishDate: 2023-03-21
-lastMod: 2023-03-21
+date: 2023-03-21
 toc: false
 draft: false
 categories:

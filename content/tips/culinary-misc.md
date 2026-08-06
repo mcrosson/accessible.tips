@@ -2,8 +2,7 @@
 title: Culinary - Misc
 author: 
   - KemoNine
-publishDate: 2023-04-06
-lastMod: 2023-04-06
+date: 2023-04-06
 toc: true
 draft: false
 categories:

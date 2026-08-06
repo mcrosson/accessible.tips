@@ -2,8 +2,7 @@
 title: "_ Test _"
 author:
   - KemoNine
-publishDate: 2024-01-01
-lastMod: 2024-01-01
+date: 2024-01-01
 toc: false
 draft: true
 categories:

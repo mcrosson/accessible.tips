@@ -2,8 +2,7 @@
 title: Android Launchers
 author: 
   - KemoNine
-publishDate: 2024-09-02
-lastMod: 2024-09-02
+date: 2024-09-02
 toc: true
 draft: false
 categories:

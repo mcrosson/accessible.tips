@@ -3,8 +3,7 @@ title: Pacing Guides
 author: 
   - Anonymous
   - KemoNine (Ghost Writer)
-publishDate: 2023-03-25
-lastMod: 2023-03-25
+date: 2023-03-25
 toc: true
 draft: false
 categories:

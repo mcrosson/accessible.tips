@@ -2,8 +2,7 @@
 title: Controller Gaming
 author: 
   - KemoNine
-publishDate: 2023-03-25
-lastMod: 2023-03-25
+date: 2023-03-25
 toc: true
 draft: false
 categories:

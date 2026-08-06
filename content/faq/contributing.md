@@ -2,8 +2,7 @@
 title: _ Contributing _
 author: 
   - KemoNine
-publishDate: 2023-03-20
-lastMod: 2024-07-04
+date: 2023-03-20
 toc: true
 draft: false
 categories:
@@ -162,13 +161,6 @@ We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-managemen
 Fell free set your preferred name as the author, we like to attribute our authors. If you prefer to remain anonymous, please set authorship to `Anonymous`.
 
 Please note: Authorship metadata will be publicly visible.
-
-{{< end_section >}}
-
-## Last Modified Date
-{{< back_to_top >}}
-
-When editing an exiting post, we require you update the `lastMod` date in the front matter of all content pages. The date you use here should match the date used on the `Changelog` entry. See [Changelog Entries]({{< ref "#changelog-entries" >}}) for more info on `Changelog` dates.
 
 {{< end_section >}}
 

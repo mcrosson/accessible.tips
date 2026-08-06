@@ -3,8 +3,7 @@ title: Essential Oils
 author: 
   - Anonymous
   - KemoNine (Ghost Writer)
-publishDate: 2023-04-05
-lastMod: 2023-04-05
+date: 2023-04-05
 toc: true
 draft: false
 categories:
