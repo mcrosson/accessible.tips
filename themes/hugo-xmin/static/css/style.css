@@ -49,7 +49,7 @@ a:hover {
 .menu li { display: inline-block; }
 .article-meta {
   text-decoration: none;
-  background: var(--surface-sunken);
+  background: var(--header-bg);
   padding: 5px;
   border-radius: 5px;
 }
@@ -326,11 +326,14 @@ a.footnote-ref::after {
   --panel-border:   #8c8d8e;
   --focus-ring:     var(--accent-strong);
   --search-mark-bg: #c9eef3;
-  /* Menu link pill background. Light = same as --surface-sunken (no visual
-     change). Dark = a medium gray that contrasts with --nav-bg (the dark
-     surface-sunken is only 1 RGB unit away from --nav-bg and effectively
-     invisible). */
-  --menu-link-bg:   #f4f6f7;
+  /* Menu link pill background. Light = a cool gray that's clearly visible
+     against the white page (~50 RGB units below --surface). Dark = a medium
+     gray that contrasts with --nav-bg (the dark surface-sunken is only 1
+     RGB unit away from --nav-bg and effectively invisible). */
+  --menu-link-bg:   #d0d5d9;
+
+  /* Header block (page title + meta) — visible in light, dark in dark. */
+  --header-bg:      #e7eaec;
 
   /* Chroma syntax highlighting — github palette. Consumed by chroma.css.
      Dark-mode overrides live in the two dark cascade arms below. */
@@ -369,6 +372,7 @@ a.footnote-ref::after {
     --panel-border:   #63717d;
     --search-mark-bg: #0e4650;
     --menu-link-bg:   #647083;
+    --header-bg:      #21262b;
 
     /* Chroma dark — github-dark palette */
     --chroma-bg:      #0d1117;
@@ -406,6 +410,7 @@ a.footnote-ref::after {
   --panel-border:   #63717d;
   --search-mark-bg: #0e4650;
   --menu-link-bg:   #647083;
+  --header-bg:      #21262b;
 
   /* Chroma dark — github-dark palette */
   --chroma-bg:      #0d1117;
@@ -499,7 +504,7 @@ a.footnote-ref::after {
     --rule:           #7f888f !important;
     --panel-border:   #828b92 !important;
     --search-mark-bg: #c9eef3 !important;
-    --menu-link-bg:   #f4f6f7 !important;
+    --menu-link-bg:   #d0d5d9 !important;
   }
   /* Higher specificity to beat the `.menu li` rule */
   .menu li.menu__theme,
