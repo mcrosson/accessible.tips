@@ -312,7 +312,7 @@ a.footnote-ref::after {
  */
 :root {
   --surface:        #ffffff;
-  --surface-sunken: #f4f6f7;
+  --surface-sunken: #fbfcfd;
   --ink:            #1f2933;
   --ink-muted:      #495761;
   --accent:         #0d5f6b;

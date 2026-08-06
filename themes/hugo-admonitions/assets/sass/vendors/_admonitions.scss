@@ -1,0 +1,292 @@
+// _admonitions.scss
+// Hugo Admonitions Styling with Configurable Theme Colors and Dark Mode Selector
+//
+// Adapted for accessible.tips:
+//   - Light/dark base colors driven by the user-settings file (which mirrors
+//     the live site's --surface / --ink tokens).
+//   - Added a media-query block for the live site's auto-mode dark (OS prefers
+//     dark + no explicit data-theme). The upstream SCSS only handles explicit
+//     data-theme="dark"; auto-on-dark-OS would never trigger the dark palette.
+
+// =============================================================================
+// --- User Customization Hook ---
+// =============================================================================
+@import "admonitions-user-settings";
+
+// =============================================================================
+// --- Helper Function ---
+// =============================================================================
+@function hex-to-rgb($color) {
+  @return red($color), green($color), blue($color);
+}
+
+// =============================================================================
+// --- Configuration (with !default) ---
+// =============================================================================
+
+// --- Dark Mode Activation ---
+// Original upstream selectors PLUS the live site's auto-mode case.
+$admonition-dark-selector: (
+  'html[data-theme="dark"]',
+  'body[data-theme="dark"]',
+  'html[data-bs-theme="dark"]',
+  'html[data-scheme="dark"]',
+  'body[data-scheme="dark"]',
+  'html[data-color-mode="dark"]',
+  'body[data-color-mode="dark"]',
+  "body.dark",
+  "body.dark-mode",
+  "body.dark-theme",
+  "body.theme-dark",
+  "html.dark",
+  "html.dark-mode",
+  "html.dark-theme",
+  "html.theme-dark"
+) !default;
+
+// --- Theme Colors ---
+// (All set in _admonitions-user-settings.scss; !default kept for safety.)
+
+$admonition-light-bg: #ffffff !default;
+$admonition-light-text: #000000 !default;
+$admonition-light-code-bg: #f5f5f5 !default;
+$admonition-light-code-text: #24292e !default;
+$admonition-light-blockquote-border: #e0e0e0 !default;
+
+$admonition-dark-bg: #1d1e20 !default;
+$admonition-dark-text: #e6e6e6 !default;
+$admonition-dark-code-bg: #313244 !default;
+$admonition-dark-code-text: #cdd6f4 !default;
+$admonition-dark-blockquote-border: #45475a !default;
+
+// --- Header Text Colors (Per-Type Overrides) ---
+$admonition-light-header-text-overrides: () !default;
+$admonition-dark-header-text-overrides: () !default;
+
+// --- Header Background Opacity ---
+$admonition-light-header-bg-opacity: 0.1 !default;
+$admonition-dark-header-bg-opacity: 0.1 !default;
+
+// User-provided override maps.
+$admonition-colors-overrides: () !default;
+$admonition-dark-colors-overrides: () !default;
+
+// 21 alert types.
+$admonition-colors-base: (
+  abstract:   #209fb5,
+  caution:    #e64553,
+  code:       #7287fd,
+  conclusion: #dd7878,
+  danger:     #fe640b,
+  error:      #d20f39,
+  example:    #dc8a78,
+  experiment: #51bb2a,
+  goal:       #e64553,
+  idea:       #df8e1d,
+  important:  #7d4dda,
+  info:       #04a5e5,
+  memo:       #e64553,
+  note:       #096ae1,
+  notify:     #0d48bd,
+  question:   #179299,
+  quote:      #7287fd,
+  success:    #40a02b,
+  task:       #8839ef,
+  tip:        #179299,
+  warning:    #df8e1d,
+) !default;
+
+// Merge base + user overrides.
+$admonition-colors: map-merge(
+  $admonition-colors-base,
+  $admonition-colors-overrides
+);
+
+$admonition-dark-colors: map-merge(
+  $admonition-colors,
+  $admonition-dark-colors-overrides
+);
+
+// =============================================================================
+// --- CSS Variables ---
+// =============================================================================
+
+:root {
+  --adm-bg: #{$admonition-light-bg};
+  --adm-text: #{$admonition-light-text};
+  --adm-code-bg: #{$admonition-light-code-bg};
+  --adm-code-text: #{$admonition-light-code-text};
+  --adm-blockquote-border: #{$admonition-light-blockquote-border};
+  --adm-header-bg-opacity: #{$admonition-light-header-bg-opacity};
+
+  @each $type, $color in $admonition-colors {
+    --adm-#{$type}: #{$color};
+    --adm-#{$type}-rgb: #{hex-to-rgb($color)};
+
+    $override-color: map-get($admonition-light-header-text-overrides, $type);
+    @if $override-color {
+      --adm-#{$type}-header: #{$override-color};
+    }
+  }
+}
+
+#{join($admonition-dark-selector, ", ")} {
+  --adm-bg: #{$admonition-dark-bg};
+  --adm-text: #{$admonition-dark-text};
+  --adm-code-bg: #{$admonition-dark-code-bg};
+  --adm-code-text: #{$admonition-dark-code-text};
+  --adm-blockquote-border: #{$admonition-dark-blockquote-border};
+  --adm-header-bg-opacity: #{$admonition-dark-header-bg-opacity};
+
+  @each $type, $color in $admonition-dark-colors {
+    --adm-#{$type}: #{$color};
+    --adm-#{$type}-rgb: #{hex-to-rgb($color)};
+  }
+
+  @each $type, $override-color in $admonition-dark-header-text-overrides {
+    --adm-#{$type}-header: #{$override-color};
+  }
+}
+
+// =============================================================================
+// --- Base Admonition Structure & Styles ---
+// =============================================================================
+
+.admonition {
+  margin: 1rem 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.admonition-header {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 4px 4px 0 0;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+  color: var(--adm-type-header, var(--adm-type-color));
+
+  svg {
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.5rem;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: fill 0.3s ease;
+  }
+
+  span {
+    flex-grow: 1;
+  }
+}
+
+.admonition-content {
+  padding: 1rem;
+  border-radius: 0 0 4px 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  background-color: var(--adm-bg);
+  color: var(--adm-text);
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+  }
+  blockquote {
+    margin: 0 0 0.75rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--adm-blockquote-border);
+    font-style: italic;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    color: inherit;
+  }
+  code:not(pre > code) {
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--adm-code-bg);
+    color: var(--adm-code-text);
+  }
+  pre {
+    margin: 0 0 0.75rem 0;
+    padding: 0.8rem 1rem;
+    border-radius: 3px;
+    overflow-x: auto;
+    transition: background-color 0.3s ease;
+    background-color: var(--adm-code-bg);
+
+    code {
+      background-color: transparent !important;
+      color: var(--adm-code-text);
+      padding: 0;
+      font-size: inherit;
+      border-radius: 0;
+    }
+  }
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.admonition--headless {
+  .admonition-content {
+    border-radius: 4px;
+  }
+}
+
+// =============================================================================
+// --- Generate Admonition Type Styles ---
+// =============================================================================
+@each $type, $color in $admonition-colors {
+  .admonition.#{$type} {
+    border-left: 4px solid var(--adm-#{$type});
+    background-color: rgba(var(--adm-#{$type}-rgb), var(--adm-header-bg-opacity));
+    --adm-type-color: var(--adm-#{$type});
+    --adm-type-header: var(--adm-#{$type}-header, var(--adm-#{$type}));
+  }
+}
+
+// =============================================================================
+// --- Custom Admonition Folding Marker ---
+// =============================================================================
+.admonition {
+  & > summary {
+    list-style: none;
+    &::-webkit-details-marker {
+      display: none;
+    }
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+
+    &::after {
+      content: ">";
+      display: inline-block;
+      font-weight: bold;
+      margin-left: 0.6em;
+      transition: transform 0.2s ease-in-out;
+      transform-origin: center;
+      color: currentColor;
+    }
+
+    & > span { flex-grow: 0; }
+  }
+
+  &[open] > summary::after {
+    transform: rotate(90deg);
+  }
+}

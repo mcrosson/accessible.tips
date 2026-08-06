@@ -40,4 +40,26 @@ A second paragraph continues.
 
 Final answer paragraph.
 
+
+
+## Admonition color buckets
+
+> [!QUOTE]
+> Neutral bucket (site teal). Shared by: quote, code.
+
+> [!NOTE]
+> Info bucket (blue). Shared by: note, info, abstract, memo, notify, example, question, conclusion.
+
+> [!TIP]
+> Tip bucket (green). Shared by: tip, success, idea, experiment, goal, task.
+
+> [!IMPORTANT]
+> Important bucket (purple). Only: important.
+
+> [!WARNING]
+> Warning bucket (amber). Shared by: warning, caution.
+
+> [!DANGER]
+> Danger bucket (red). Shared by: danger, error.
+
 {{< end_section >}}

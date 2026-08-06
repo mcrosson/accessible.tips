@@ -1,0 +1,118 @@
+{{- /* layouts/_default/_markup/render-blockquote-alert.html */}}
+
+{{- if eq .Type "alert" -}}
+  {{- /* This is an Admonition - Render using admonition logic */}}
+
+  {{- /* Enforce a minimum required Hugo version. */}}
+  {{- $minHugoVersion := "0.140.0" }}
+  {{- if lt hugo.Version $minHugoVersion }}
+    {{- errorf "Hugo-admonitions requires Hugo v%s or later. Please upgrade Hugo to v%s or higher." $minHugoVersion $minHugoVersion }}
+  {{- end -}}
+
+  {{- /* Transpile Sass to CSS and render the link element once per page. */}}
+  {{- if not (.Page.Store.Get "admonition-style-loaded-flag") }}
+    {{- with resources.Get "sass/vendors/_admonitions.scss" }}
+      {{- $opts := dict
+        "enableSourceMap" (not hugo.IsProduction)
+        "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
+        "targetPath" "css/vendors/admonitions.css"
+      }}
+      {{- with . | toCSS $opts }}
+        {{- if hugo.IsProduction }}
+          {{- with . | fingerprint }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+          {{- end }}
+        {{- else }}
+          <link rel="stylesheet" href="{{ .RelPermalink }}">
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- .Page.Store.Set "admonition-style-loaded-flag" true }}
+  {{- end }}
+
+  {{- /* Map alert type to icon */}}
+  {{- $icons := dict 
+    "abstract"   "file-lines-solid.svg"
+    "caution"    "triangle-exclamation-solid.svg"
+    "code"       "code-solid.svg"
+    "conclusion" "file-circle-check-solid.svg"
+    "danger"     "triangle-exclamation-solid.svg"
+    "error"      "circle-xmark-solid.svg"
+    "example"    "person-chalkboard-solid.svg"
+    "experiment" "flask-solid.svg"
+    "goal"       "bullseye-solid.svg"
+    "idea"       "lightbulb-solid.svg"
+    "important"  "circle-exclamation-solid.svg"
+    "info"       "circle-info-solid.svg"
+    "memo"       "file-lines-solid.svg"
+    "note"       "file-pen-solid.svg"
+    "notify"     "bell-solid.svg"
+    "question"   "circle-question-solid.svg"
+    "quote"      "quote-right-solid.svg"
+    "success"    "circle-check-solid.svg"
+    "task"       "list-check-solid.svg"
+    "tip"        "lightbulb-solid.svg"
+    "warning"    "triangle-exclamation-solid.svg"
+  }}
+
+  {{- /* Determine type and title */}}
+  {{- $type := cond (index $icons .AlertType) .AlertType "note" }}
+  {{- $rawTitle := or .AlertTitle "" }}
+  {{- $headless := false }}
+  {{- if $rawTitle }}
+    {{- $trimmedTitle := $rawTitle | strings.TrimSpace }}
+    {{- $dequotedTitle := $trimmedTitle | replaceRE `["'']|&quot;|&rdquo;|&ldquo;|&rsquo;|&lsquo;|&#34;|&#39;` "" }}
+    {{- if eq ($dequotedTitle | strings.TrimSpace) "" }}
+      {{- $headless = true }}
+    {{- end }}
+  {{- end }}
+  {{- $title := or .AlertTitle (T (printf "admonitions.%s" $type)) (title $type) }}
+  {{- $iconFile := index $icons $type }}
+  {{- $partial := printf "admonitions/icons/%s" $iconFile }}
+
+  {{- /* Check if icon exists */}}
+  {{- if not (templates.Exists (printf "partials/%s" $partial)) }}
+    {{- errorf "The blockquote render hook was unable to find the icon partial at layouts/partials/%s for admonition type '%s'." $partial $type }}
+  {{- end }}
+
+  {{- /* Check if .AlertSign exists to determine if it's foldable */}}
+  {{- if and .AlertSign (not $headless) }}
+    {{- /* --- START Foldable Admonition HTML (using <details>) --- */}}
+    {{- /* The 'open' attribute could be conditionally added based on .AlertSign, e.g., if eq .AlertSign "-" */}}
+    <details class="admonition {{ $type }}">
+      <summary class="admonition-header">
+        {{- partialCached $partial . }}
+        <span>{{ $title }}</span>
+        {{- /* Optional: Add a custom chevron/indicator here via span/svg if you hide the default one */}}
+      </summary>
+      {{- with .Text }}
+      <div class="admonition-content">
+        {{ . }}
+      </div>
+      {{- end }}
+    </details>
+    {{- /* --- END Foldable Admonition HTML --- */}}
+  {{- else }}
+    {{- /* --- START Non-Foldable Admonition HTML (using <div>) --- */}}
+    <div class="admonition {{ $type }}{{ if $headless }} admonition--headless{{ end }}">
+      {{- if not $headless }}
+      <div class="admonition-header">
+        {{- partialCached $partial . }}
+        <span>{{ $title }}</span>
+      </div>
+      {{- end }}
+      {{- with .Text }}
+      <div class="admonition-content">
+        {{ . }}
+      </div>
+      {{- end }}
+    </div>
+    {{- /* --- END Non-Foldable Admonition HTML --- */}}
+  {{- end }}
+
+{{- else -}}
+  {{- /* This is a standard blockquote */}}
+  <blockquote>
+    {{ .Text }}
+  </blockquote>
+{{- end -}}

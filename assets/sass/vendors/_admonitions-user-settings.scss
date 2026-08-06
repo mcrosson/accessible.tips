@@ -1,0 +1,192 @@
+// assets/sass/vendors/_admonitions-user-settings.scss
+//
+// PROJECT-LEVEL override for the vendored hugo-admonitions theme. Hugo's asset
+// union filesystem resolves this path in preference to the theme's stub copy,
+// so the vendored theme stays pristine (core SCSS, render hook, icons untouched).
+//
+// WHAT THIS DOES
+//   1. Remaps all 21 admonition types into SIX owner-approved semantic buckets
+//      (info / tip / important / warning / danger / neutral) for both light and
+//      dark, calibrated to the site's teal identity. The semantic colour rides
+//      the FURNITURE — left border, icon, background tint — while header + body
+//      text stay at the site's high-contrast ink (near-black light / near-white
+//      dark). That is the robust AA/AAA route: we never lean on coloured header
+//      text for contrast.
+//   2. Mirrors the site's default-dark condition (no data-theme + OS prefers
+//      dark) so default-dark visitors get the dark palette too. The vendored
+//      theme's attribute-selector block only swaps to dark on explicit
+//      data-theme="dark" — the project's auto-mode path would have rendered
+//      white-on-white without this fix.
+//
+// IMPORTANT: do NOT use `!default` in this file.
+
+// -----------------------------------------------------------------------------
+// Local rgb helper. The theme's own hex-to-rgb() is defined AFTER this file is
+// @import-ed, so it is not in scope here — we provide our own.
+// -----------------------------------------------------------------------------
+@function _adm-rgb($c) {
+  @return red($c), green($c), blue($c);
+}
+
+// -----------------------------------------------------------------------------
+// Site palette anchors (mirrors themes/hugo-xmin/static/css/style.css tokens).
+// -----------------------------------------------------------------------------
+$site-ink-light:     #1f2933;
+$site-ink-dark:      #e6eaed;
+$site-surface-light: #ffffff;
+$site-surface-dark:  #16191c;
+$site-sunken-light:  #f4f6f7;
+$site-sunken-dark:   #21262b;
+$site-border-light:  #cbd3d8;
+$site-border-dark:   #3a434b;
+
+// -----------------------------------------------------------------------------
+// Six bucket accents — light / dark. Cool, restrained, of-this-site.
+// Contrast (measured): every accent clears 3:1 vs its surface as a non-text UI
+// component (border/icon); header + body ink clear AAA on the tint/solid bg.
+//   Info  cool blue | Tip green | Important violet | Warning amber
+//   Danger red      | Neutral = the site's own teal (quote/code), not a hue.
+// -----------------------------------------------------------------------------
+$b-info-l:      #2b6cb0;  $b-info-d:      #63a4e0;
+$b-tip-l:       #2f855a;  $b-tip-d:       #57c08a;
+$b-important-l: #6b46c1;  $b-important-d: #b39ae8;
+$b-warning-l:   #8a6d00;  $b-warning-d:   #d6a94e;
+$b-danger-l:    #c02a2a;  $b-danger-d:    #ef8a80;
+$b-neutral-l:   #0d5f6b;  $b-neutral-d:   #4cc2d4;
+
+// -----------------------------------------------------------------------------
+// 21 types -> bucket accent. LIGHT.
+// -----------------------------------------------------------------------------
+$admonition-colors-overrides: (
+  // Info bucket
+  note:       $b-info-l,
+  info:       $b-info-l,
+  abstract:   $b-info-l,
+  memo:       $b-info-l,
+  notify:     $b-info-l,
+  example:    $b-info-l,
+  question:   $b-info-l,
+  conclusion: $b-info-l,
+  // Tip bucket
+  tip:        $b-tip-l,
+  success:    $b-tip-l,
+  idea:       $b-tip-l,
+  experiment: $b-tip-l,
+  goal:       $b-tip-l,
+  task:       $b-tip-l,
+  // Important bucket
+  important:  $b-important-l,
+  // Warning bucket
+  warning:    $b-warning-l,
+  caution:    $b-warning-l,
+  // Danger bucket
+  danger:     $b-danger-l,
+  error:      $b-danger-l,
+  // Neutral bucket (site teal)
+  quote:      $b-neutral-l,
+  code:       $b-neutral-l,
+);
+
+// -----------------------------------------------------------------------------
+// 21 types -> bucket accent. DARK. (Feeds the theme's attribute-selector
+// forced-dark path; the auto-dark @media block below reuses this same map.)
+// -----------------------------------------------------------------------------
+$admonition-dark-colors-overrides: (
+  note:       $b-info-d,
+  info:       $b-info-d,
+  abstract:   $b-info-d,
+  memo:       $b-info-d,
+  notify:     $b-info-d,
+  example:    $b-info-d,
+  question:   $b-info-d,
+  conclusion: $b-info-d,
+  tip:        $b-tip-d,
+  success:    $b-tip-d,
+  idea:       $b-tip-d,
+  experiment: $b-tip-d,
+  goal:       $b-tip-d,
+  task:       $b-tip-d,
+  important:  $b-important-d,
+  warning:    $b-warning-d,
+  caution:    $b-warning-d,
+  danger:     $b-danger-d,
+  error:      $b-danger-d,
+  quote:      $b-neutral-d,
+  code:       $b-neutral-d,
+);
+
+// -----------------------------------------------------------------------------
+// Global content colours — align the admonition body/code/blockquote surfaces
+// with the site's own tokens so body text = site ink at AAA in both modes.
+// -----------------------------------------------------------------------------
+$admonition-light-bg:               $site-surface-light;
+$admonition-light-text:             $site-ink-light;
+$admonition-light-code-bg:          $site-sunken-light;
+$admonition-light-code-text:        $site-ink-light;
+$admonition-light-blockquote-border:$site-border-light;
+
+$admonition-dark-bg:                $site-surface-dark;
+$admonition-dark-text:              $site-ink-dark;
+$admonition-dark-code-bg:           $site-sunken-dark;
+$admonition-dark-code-text:         $site-ink-dark;
+$admonition-dark-blockquote-border: $site-border-dark;
+
+// -----------------------------------------------------------------------------
+// Header text = site ink for every type (both modes). Pins the header title to
+// high-contrast ink instead of the accent, so contrast never rides on the hue.
+// Built by looping the bucket maps so all 21 keys are covered automatically.
+// -----------------------------------------------------------------------------
+$admonition-light-header-text-overrides: ();
+@each $type, $color in $admonition-colors-overrides {
+  $admonition-light-header-text-overrides:
+    map-merge($admonition-light-header-text-overrides, ($type: $site-ink-light));
+}
+
+$admonition-dark-header-text-overrides: ();
+@each $type, $color in $admonition-dark-colors-overrides {
+  $admonition-dark-header-text-overrides:
+    map-merge($admonition-dark-header-text-overrides, ($type: $site-ink-dark));
+}
+
+// -----------------------------------------------------------------------------
+// AUTO-DARK FIX (our layer, not the vendored core).
+// Mirror the site's default-dark condition exactly. The vendored theme's
+// `$admonition-dark-selector` list covers only attribute-selectors
+// (html[data-theme="dark"], …). The project's default dark path is
+// `@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) }`
+// with NO attribute — so default-dark visitors were getting white-on-white
+// admonitions. This block mirrors that condition and applies the dark palette.
+//
+// Specificity:
+//   :root (theme's plain :root light block)         = 0,1,0
+//   :root:not([data-theme="light"]) (this block)     = 0,2,0
+//   [data-theme="dark"] (theme's forced-dark block) = 0,1,1
+//
+// The 0,2,0 here wins against 0,1,0 (later source order would otherwise break
+// the tie; specificity breaks it). Against 0,1,1 — 0,2,0 also wins on
+// specificity — so this block correctly handles the auto-mode case without
+// colliding with the explicit-forced-dark case.
+// -----------------------------------------------------------------------------
+// `0.1` here matches the upstream `$admonition-dark-header-bg-opacity` default.
+// Inlined because the upstream variable is defined AFTER our @import point and
+// isn't in scope when this file is processed.
+// -----------------------------------------------------------------------------
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --adm-bg:                #{$admonition-dark-bg};
+    --adm-text:              #{$admonition-dark-text};
+    --adm-code-bg:           #{$admonition-dark-code-bg};
+    --adm-code-text:         #{$admonition-dark-code-text};
+    --adm-blockquote-border: #{$admonition-dark-blockquote-border};
+    --adm-header-bg-opacity: 0.1;
+
+    @each $type, $color in $admonition-dark-colors-overrides {
+      --adm-#{$type}: #{$color};
+      --adm-#{$type}-rgb: #{_adm-rgb($color)};
+    }
+
+    @each $type, $override-color in $admonition-dark-header-text-overrides {
+      --adm-#{$type}-header: #{$override-color};
+    }
+  }
+}

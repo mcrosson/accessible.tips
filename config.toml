@@ -10,7 +10,7 @@ enableRobotsTXT = true
 rssLimit = 25
 
 
-theme = ['hugo-xmin']
+theme = ['hugo-admonitions', 'hugo-xmin']
 
 uglyURLs = false
 [permalinks]

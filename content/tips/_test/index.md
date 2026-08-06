@@ -52,4 +52,87 @@ echo "Hello, world"
 ls -la /tmp/
 ```
 
+
+
+## Admonition color buckets
+
+The 21 admonition types, alphabetized within each severity band (least → most severe).
+
+{{< back_to_top >}}
+
+### Neutral (site teal)
+
+> [!CODE]
+> A code snippet that the user should pay attention to.
+
+> [!QUOTE]
+> A quotation.
+
+### Info (blue)
+
+> [!ABSTRACT]
+> A summary of the content that follows.
+
+> [!CONCLUSION]
+> A conclusion or a summary of the content.
+
+> [!EXAMPLE]
+> An example or a representative case.
+
+> [!INFO]
+> Useful information that the user does not have to read.
+
+> [!MEMO]
+> A reminder or a note to remember.
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!NOTIFY]
+> A notification or a message that requires attention.
+
+> [!QUESTION]
+> A question or a curiosity.
+
+### Tip (green)
+
+> [!EXPERIMENT]
+> An experiment or a test.
+
+> [!GOAL]
+> A goal or an objective.
+
+> [!IDEA]
+> An idea or a suggestion.
+
+> [!SUCCESS]
+> A success or confirmation message.
+
+> [!TASK]
+> A task that the user should complete.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+### Important (purple)
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+### Warning (amber)
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+### Danger (red)
+
+> [!DANGER]
+> Dangerous certain consequences of an action.
+
+> [!ERROR]
+> An error or a problem that needs to be addressed.
+
 {{< end_section >}}
