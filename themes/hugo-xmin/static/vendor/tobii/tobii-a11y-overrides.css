@@ -1,0 +1,14 @@
+.tobii__btn:focus-visible,
+.tobii__slider:focus-visible,
+.tobii__caption-toggle:focus-visible {
+  outline: 3px solid #ffd700;
+  outline-offset: 2px;
+}
+
+@media (forced-colors: active) {
+  .tobii__btn:focus-visible,
+  .tobii__slider:focus-visible,
+  .tobii__caption-toggle:focus-visible {
+    outline: 3px solid CanvasText;
+  }
+}

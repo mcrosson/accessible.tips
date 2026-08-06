@@ -1,0 +1,31 @@
+{{- /*
+  shortcodes/figure.html — responsive figure with lightbox trigger.
+  Overrides Hugo's built-in figure shortcode. Same parameter names: src, alt, caption.
+  - Looks up `src` as a page resource.
+  - Generates 400w / 800w / 1200w WebP variants for the responsive <picture>.
+  - Emits a Tobii-compatible <a class="lightbox"> wrapper around the <picture>.
+  - Falls back to plain <img> (no lightbox) when the resource isn't found.
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $resource := .Page.Resources.Get $src -}}
+{{- if $resource -}}
+  {{- $thumb := $resource.Resize "400x webp" -}}
+  {{- $medium := $resource.Resize "800x webp" -}}
+  {{- $full := $resource.Resize "1200x webp" -}}
+<figure>
+  <a href="{{ $full.RelPermalink }}" class="lightbox" data-type="image">
+    <picture>
+      <source type="image/webp" srcset="{{ $thumb.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $full.RelPermalink }} 1200w" sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px">
+      <img src="{{ $medium.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+    </picture>
+  </a>
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- else -}}
+<figure>
+  <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- end -}}
