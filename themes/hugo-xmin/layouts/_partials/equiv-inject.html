@@ -6,33 +6,15 @@
   rope-safety tip). Pagefind's static HTML parser does not apply CSS, so
   display:none in-body text IS indexed (verified against the vendored 1.5.2).
 
-  Algorithm (M5): build the page haystack from title + body (.Plain) + tags +
-  search_terms; normalize both haystack and members (lowercase; collapse runs of
-  - _ / and whitespace to single spaces); a class matches when any member's
-  normalized form matches the normalized haystack as a whole word/phrase (regex
-  \b boundaries — punctuation like a trailing comma must not defeat the match).
-  For matched classes, inject every member whose RAW string (exact, case-sensitive)
-  is not already in the raw haystack — no singularizer, no n-grams, no blacklist.
+  The injection set is computed by the SHARED partial equiv-page-inject.html
+  (also reused by index.searchvocab.json, so the two never drift); this template
+  only renders the returned members.
 
   Call from single.html inside <main data-pagefind-body>, before {{ .Content }},
   NOT inside any data-pagefind-ignore region:
       {{ partial "equiv-inject.html" . }}
 */ -}}
-{{- $raw := print .Title " " .Plain " " (delimit (.Params.tags | default slice) " ") " " (delimit (.Params.search_terms | default slice) " ") -}}
-{{- $norm := $raw | lower | replaceRE `[-_/\s]+` " " -}}
-{{- $inject := slice -}}
-{{- range (site.Data.equiv.class | default slice) -}}
-  {{- $matched := false -}}
-  {{- range .members -}}
-    {{- $nm := . | lower | replaceRE `[-_/\s]+` " " -}}
-    {{- if findRE (printf `\b%s\b` $nm) $norm }}{{ $matched = true }}{{ end -}}
-  {{- end -}}
-  {{- if $matched -}}
-    {{- range .members -}}
-      {{- if not (in $raw .) }}{{ $inject = $inject | append . }}{{ end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
+{{- $inject := partial "equiv-page-inject.html" . -}}
 {{- with $inject -}}
 <ul style="display:none" aria-hidden="true">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
 {{- end -}}

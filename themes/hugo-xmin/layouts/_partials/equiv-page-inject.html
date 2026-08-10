@@ -1,0 +1,35 @@
+{{- /*
+  equiv-page-inject.html — SHARED per-page equivalence injection set.
+
+  Input:  a content Page (call as `{{ partial "equiv-page-inject.html" . }}`).
+  Output: `return`s a slice of equivalence members to inject onto THIS page
+          (possibly empty): for each class in data/equiv.toml whose members
+          match the page (M5 below), the members NOT already raw-present.
+
+  Algorithm (M5): haystack = title + body (.Plain) + tags + search_terms;
+  normalize both sides (lowercase; collapse runs of - _ / and whitespace to
+  single spaces); a class matches when any member matches the normalized
+  haystack as a whole word/phrase (regex \b boundaries — punctuation like a
+  trailing comma must not defeat the match). Raw presence check is exact and
+  case-sensitive. No singularizer, no n-grams, no blacklist.
+
+  Shared by equiv-inject.html (renders the set as hidden in-body text for
+  Pagefind) and index.searchvocab.json (folds the set into the corrector
+  vocabulary) — one computation, so the two never drift.
+*/ -}}
+{{- $raw := print .Title " " .Plain " " (delimit (.Params.tags | default slice) " ") " " (delimit (.Params.search_terms | default slice) " ") -}}
+{{- $norm := $raw | lower | replaceRE `[-_/\s]+` " " -}}
+{{- $inject := slice -}}
+{{- range (site.Data.equiv.class | default slice) -}}
+  {{- $matched := false -}}
+  {{- range .members -}}
+    {{- $nm := . | lower | replaceRE `[-_/\s]+` " " -}}
+    {{- if findRE (printf `\b%s\b` $nm) $norm }}{{ $matched = true }}{{ end -}}
+  {{- end -}}
+  {{- if $matched -}}
+    {{- range .members -}}
+      {{- if not (in $raw .) }}{{ $inject = $inject | append . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $inject -}}

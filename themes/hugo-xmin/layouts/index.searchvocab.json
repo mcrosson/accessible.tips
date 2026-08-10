@@ -2,12 +2,12 @@
   index.searchvocab.json — corrector vocabulary asset (accessible.tips).
 
   Build-time vocabulary for the typo corrector. Iterates site.RegularPages
-  (excluding drafts), tokenizes title + .Plain + tags, drops stopwords and
-  short tokens, and accumulates document frequencies.
-
-  Compared to culinary's source: this drops the equivalence normalization
-  (equiv_lists.toml, equiv-singular.html, equiv-page-termset.html). The
-  corrector's vocabulary is built fresh from raw tokens.
+  (excluding drafts), tokenizes title + .Plain + tags + search_terms + the
+  page's equiv-injection set (M9 — so searchable synonyms/misspellings that
+  live only in frontmatter or the hidden injection are IN-vocabulary and never
+  treated as unknown typos), drops stopwords and short tokens, and accumulates
+  document frequencies. The injection set comes from the SHARED
+  equiv-page-inject.html partial — same computation the templates render.
 */ -}}
 {{- $pages := where site.RegularPages "Draft" false -}}
 {{- $sc := newScratch -}}
@@ -20,6 +20,12 @@
   {{- $chunks := slice $page.Title $page.Plain -}}
   {{- range $tag := $page.Params.tags -}}
     {{- $chunks = $chunks | append (printf "%v" $tag) -}}
+  {{- end -}}
+  {{- range $term := $page.Params.search_terms -}}
+    {{- $chunks = $chunks | append (printf "%v" $term) -}}
+  {{- end -}}
+  {{- range $member := partial "equiv-page-inject.html" $page -}}
+    {{- $chunks = $chunks | append (printf "%v" $member) -}}
   {{- end -}}
   {{- range $chunk := $chunks -}}
     {{- $t := lower $chunk -}}
