@@ -23,6 +23,14 @@ uglyURLs = false
   tag = 'tags'
   author = 'authors'
 
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'

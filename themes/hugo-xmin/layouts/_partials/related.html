@@ -1,11 +1,12 @@
-<a id="related"></a>
-
 {{ partial "_has_related.html" . }}
 
 {{ if $.Scratch.Get "has_related" }}
+<p class="terms">
+  <a id="related"></a>
   Related Pages:
   {{ $num_to_show := .Site.Params.related_content_limit | default 5 }}
-  {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+  {{ range first $num_to_show (.CurrentSection.RegularPages.Related .) }}
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   {{ end }}
+</p>
 {{ end }}
