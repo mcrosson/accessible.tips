@@ -1,0 +1,13 @@
+{{- /*
+  search-filters.html — hidden Pagefind filter declarations (Decision 10, spec M10).
+
+  Emits one empty span per filter value using the inline `key:value` form, which
+  Pagefind registers WITHOUT adding the value to the page's indexed content (the
+  content-form would). `section` always; one `tag` span per tag (only tips carry
+  tags in the new model). display:none is still parsed by Pagefind's static HTML
+  parser (verified against the vendored 1.5.2), and the spans render nothing.
+
+  Call from single.html inside <main data-pagefind-body>:
+      {{ partial "search-filters.html" . }}
+*/ -}}
+<span data-pagefind-filter="section:{{ .Section }}" style="display:none" aria-hidden="true"></span>{{ range .Params.tags }}<span data-pagefind-filter="tag:{{ . }}" style="display:none" aria-hidden="true"></span>{{ end -}}

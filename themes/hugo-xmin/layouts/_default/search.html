@@ -28,6 +28,22 @@
       <span class="search-page__noscript-chip">Search isn't available with JavaScript disabled. Please use the site's standard navigation instead.</span>
     </noscript>
     <p class="search-page__suggestion" role="status" aria-live="polite" hidden></p>
+    {{- /* Faceted filters (Decision 10, spec M10): one bordered panel, collapsible
+       (panel + both subgroups are <details>), populated by search-page.js from
+       pf.filters() (called once on load, cached). OR within a facet, AND across.
+       Panel auto-opens when the URL carries active selections. */ -}}
+    <details class="search-page__filters" hidden>
+      <summary class="search-page__filters-summary">Filter results <span class="search-page__filters-count" aria-hidden="true"></span></summary>
+      <p class="search-page__filters-help">Select one or more filters. Results update automatically.</p>
+      <details class="search-page__filter-group" data-facet-group="section">
+        <summary class="search-page__filter-heading" id="search-filter-section-summary">Section</summary>
+        <div class="search-page__filter-options" data-facet="section" role="group" aria-labelledby="search-filter-section-summary"></div>
+      </details>
+      <details class="search-page__filter-group" data-facet-group="tag">
+        <summary class="search-page__filter-heading" id="search-filter-tags-summary">Tags</summary>
+        <div class="search-page__filter-options" data-facet="tag" role="group" aria-labelledby="search-filter-tags-summary"></div>
+      </details>
+    </details>
     <p class="search-page__status" role="status" aria-live="polite"></p>
     <ol class="search-page__results"></ol>
   </div>
