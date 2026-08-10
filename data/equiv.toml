@@ -1,0 +1,48 @@
+# equiv.toml — hand-curated search-equivalence classes (Decisions 8/15, algorithm M5).
+# Read by _partials/equiv-inject.html: a page matching ANY member of a class
+# (normalized whole-word/phrase match over title + body + tags + search_terms) gets
+# the class's OTHER members injected as hidden in-body text inside
+# data-pagefind-body, so a search for any variant finds the page. Singular/plural
+# is handled by explicit membership only — there is no singularizer.
+
+[[class]]
+members = ["marijuana", "mmj", "weed", "cannabis", "carts", "510 cart", "thc", "cbd", "ganja", "dank", "mary jane", "vape cart"]
+
+[[class]]
+members = ["me-cfs", "cfs", "me/cfs", "chronic fatigue syndrome", "myalgic encephalomyelitis", "CFIDS", "PVFS"]
+
+[[class]]
+members = ["edc", "every-day-carry", "every day carry", "everyday carry", "everyday-carry"]
+
+[[class]]
+members = ["gtd", "getting things done"]
+
+[[class]]
+members = ["bujo", "Bullet Journal", "bullet-journal"]
+
+[[class]]
+members = ["DEX", "Dex", "desktop mode", "samsung dex", "android desktop"]
+
+[[class]]
+members = ["safety-razors", "DE safety razor", "double-edge razor", "DE razor"]
+
+[[class]]
+members = ["pim", "personal information management"]
+
+[[class]]
+members = ["shibari", "rope", "kinbaku"]
+
+[[class]]
+members = ["cat pee", "cat urine", "cat-pee"]
+
+[[class]]
+members = ["covid", "covid-19", "coronavirus", "long-covid", "long covid", "long-haul covid"]
+
+[[class]]
+members = ["2nd brain", "common book", "second brain", "personal knowledge base"]
+
+[[class]]
+members = ["wallabag", "read it later", "read-it-later"]
+
+[[class]]
+members = ["terpene", "terpenes", "terps"]

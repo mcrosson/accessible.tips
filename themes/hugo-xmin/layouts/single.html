@@ -3,6 +3,7 @@
 {{ partial "page_meta.html" . }}
 
 <main data-pagefind-body>
+{{ partial "equiv-inject.html" . }}
 {{ .Content }}
 
 {{ if .Params.changelog }}
