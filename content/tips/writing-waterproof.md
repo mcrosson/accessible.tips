@@ -10,6 +10,11 @@ categories:
   - writing
 tags:
   - writing
+# search_terms is search-only metadata (Pagefind meta): intentional misspellings of
+# brand names that are spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - right in the rain # canonical: Rite in the Rain
+  - fieldnotes # canonical: Field Notes
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

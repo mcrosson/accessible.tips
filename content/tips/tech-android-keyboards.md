@@ -10,6 +10,10 @@ categories:
   - tech
 tags:
   - tech
+# search_terms is search-only metadata (Pagefind meta): intentional misspelling of
+# the brand name that is spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - grafitti # canonical: Graffiti
 changelog:
   - date: 2024-12-22
     text: "Link to latest and primary source of KemoNine's Unexpected Keyborad work"
@@ -65,8 +69,8 @@ This page outlines a number of different keyboards that can make using an Androi
     -   if youre into swiping to type, this is the keeb for you
     -   has a novel approach thats faster than the qwerty swiping keebs
     -   highly regarded as 'good' and definitely worth investigating if swiping is your thing
--   [Grafitti](https://play.google.com/store/apps/details?id=com.access_company.graffiti_pro)
-    -   literal palm grafitti on android
+-   [Graffiti](https://play.google.com/store/apps/details?id=com.access_company.graffiti_pro)
+    -   literal palm graffiti on android
     -   works with s pen and adonit styluses and others
     -   install on any device where pen may be used
 

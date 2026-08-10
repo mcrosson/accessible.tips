@@ -48,6 +48,7 @@
 
   <div data-pagefind-ignore>
   {{ if (gt .Date 0) }}<h4 class="date">Published: <time data-pagefind-meta="date:{{ .Date.Format "2006-01-02" }}" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time></h4>{{ end }}
+  {{ with .Params.search_terms }}<span data-pagefind-meta="search_terms:{{ delimit . " " }}"></span>{{ end }}
   {{ with (partial "util/changelog-latest.html" .Params.changelog) }}<h4 class="date">Updated: <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "2006/01/02" . }}</time></h4>{{ end }}
   </div>
 

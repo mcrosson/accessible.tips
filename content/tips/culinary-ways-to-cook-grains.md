@@ -11,6 +11,11 @@ categories:
   - culinary
 tags:
   - culinary
+# search_terms is search-only metadata (Pagefind meta): grains these techniques apply
+# to that the body never names. Not tags; does not feed related.
+search_terms:
+  - barley
+  - oats
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

@@ -10,6 +10,12 @@ categories:
   - writing
 tags:
   - writing
+# search_terms is search-only metadata (Pagefind meta): intentional misspellings of
+# brand names that are spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - tamoe # canonical: Tomoe
+  - travelers # canonical: Traveler's
+  - travler's # canonical: Traveler's
 changelog:
   - date: 2024-12-22
     text: "Initial creation based on KemoNine's blog post 'Health Hassle Handwriting', with permission"

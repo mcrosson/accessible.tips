@@ -10,6 +10,11 @@ categories:
   - organizers
 tags:
   - organizers
+# search_terms is search-only metadata (Pagefind meta): intentional misspellings of
+# brand names that are spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - fieldnotes # canonical: Field Notes
+  - right in the rain # canonical: Rite in the Rain
 changelog:
   - date: 2023-03-23
     text: "Initial creation"
@@ -96,9 +101,9 @@ If waterproofing is something you want, the Fisher Space Pen refills are waterpr
 
 Now that the instruments are out of the way it's time for... PAPER!. Put simply: don't let the 'cool kids' fool you. **Any** paper is good if it means you're happy. Almost any paper you'll find will survive a spill, be reasonably water proof and work well enough with your chosen writing instrument.
 
-That said: there are two cheap, nicely textured (read: smooth), well tempermented paper options you'll see regularly used for every day carries. FieldNotes and Rhodia. Both are available in pocket sizes and Rhodia has a wide range of options to choose from if you want bigger/smaller than A6. If you're not sure, start with FieldNotes (cheaper) and then move into Rhodia. Start with Rhodia if you want something larger or smaller than A6 sized pages. I personally prefer FieldNotes but have used the Rhodia (and other) offerings with success.
+That said: there are two cheap, nicely textured (read: smooth), well tempermented paper options you'll see regularly used for every day carries. Field Notes and Rhodia. Both are available in pocket sizes and Rhodia has a wide range of options to choose from if you want bigger/smaller than A6. If you're not sure, start with Field Notes (cheaper) and then move into Rhodia. Start with Rhodia if you want something larger or smaller than A6 sized pages. I personally prefer Field Notes but have used the Rhodia (and other) offerings with success.
 
-If you want to go 'all in' on waterproof and heavy duty you'll want to look into Rite in the Rain notebooks and the FieldNotes Expedition series. Both are very rugged and 100% waterproof. To the point you won't know the pages got wet **and** they are meant to be used in the rain. The Rite in the Rain pages are wax coated paper and only work with pencil or ballpoint pens. The FieldNotes Expedition pages are plastic (yes, plastic) and only work with pencil and very specific ballpoint pens. Both Rite in the Rain and FieldNotes have published info on what writing instruments work well with these notebooks. You'll want to take note if purchasing either. I personally prefer Rite in the Rain but have used the FieldNotes Expedition. If I use either, I use a Fisher Space Pen refill or 2mm lead holders with them. If you want waterproof and/or indestructible, these are your notebooks.
+If you want to go 'all in' on waterproof and heavy duty you'll want to look into Rite in the Rain notebooks and the Field Notes Expedition series. Both are very rugged and 100% waterproof. To the point you won't know the pages got wet **and** they are meant to be used in the rain. The Rite in the Rain pages are wax coated paper and only work with pencil or ballpoint pens. The Field Notes Expedition pages are plastic (yes, plastic) and only work with pencil and very specific ballpoint pens. Both Rite in the Rain and Field Notes have published info on what writing instruments work well with these notebooks. You'll want to take note if purchasing either. I personally prefer Rite in the Rain but have used the Field Notes Expedition. If I use either, I use a Fisher Space Pen refill or 2mm lead holders with them. If you want waterproof and/or indestructible, these are your notebooks.
 
 {{< end_section >}}
 
@@ -107,7 +112,7 @@ If you want to go 'all in' on waterproof and heavy duty you'll want to look into
 
 OK, that was a ton of info, I'll admit that. Distilled: it's basically a bunch of options and ideas for an every day carry writing setup.
 
-I use a Karas Kustoms Retrakt with 0.4mm Ohto black refill and FieldNotes Pitch Black notebooks in a waxed canvas cover. I outlined this post using them. I've also used a tactical pen with Fisher Space pen black refills and 4"x6" Rite in the Rain notebook when spending time outdoors in the woods. I know my preferences are likely different than most (FieldNotes aside) and I didn't hit on the combo right away. I tried more than a few options (paper, pencil, pen) and dialed in my preferences over time.
+I use a Karas Kustoms Retrakt with 0.4mm Ohto black refill and Field Notes Pitch Black notebooks in a waxed canvas cover. I outlined this post using them. I've also used a tactical pen with Fisher Space pen black refills and 4"x6" Rite in the Rain notebook when spending time outdoors in the woods. I know my preferences are likely different than most (Field Notes aside) and I didn't hit on the combo right away. I tried more than a few options (paper, pencil, pen) and dialed in my preferences over time.
 
 This post is all about providing a starting point for finding **your** preferred every day carry and so you know there are options. The products and options I've detailed here are a starting point for ideas and branching out.
 

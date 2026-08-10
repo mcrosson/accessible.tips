@@ -9,6 +9,16 @@ toc: true
 draft: false
 categories:
   - anecdote
+# search_terms is search-only metadata (Pagefind meta): intentional misspellings of
+# brand names that are spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - moleskin # canonical: Moleskine
+  - grafitti # canonical: Graffiti
+  - leuchtturum1917 # canonical: Leuchtturm1917
+  - tamoe # canonical: Tomoe
+  - travelers # canonical: Traveler's
+  - travler's # canonical: Traveler's
+  - fieldnotes # canonical: Field Notes
 changelog:
   - date: 2024-12-22
     text: "Initial creation / cross post"
@@ -105,7 +115,7 @@ Before I get into some specifics: it should be noted I went to Uni 10 hours from
 
 One of the first things I did to level up was buy a Sony Clie. The Sony Clie is a Palm OS compatible device with a color screen and stylus. I basically bought a fancier Palm Pilot to help me manage my life. I instantly started using the calendar on a near religious level, I almost instantly started using the standard todo features near religiously for activities of daily life, I found a "homework tracker" app that I used to track all of my coursework deadlines, and I even spent time setting it up as a very early form of e-book reader.
 
-The Sony Clie became the keystone and lynchpin of my organization system almost overnight. Without that little hunk of electronics, I would never have survived Uni, let alone 'the real world'. The best part was it used Grafitti and the stylus for text input. Grafitti is very similar to printed writing and it instantly "clicked" for my brain. Grafitti was *perfect* for my brain at bridging the analog and digital at the time.
+The Sony Clie became the keystone and lynchpin of my organization system almost overnight. Without that little hunk of electronics, I would never have survived Uni, let alone 'the real world'. The best part was it used Graffiti and the stylus for text input. Graffiti is very similar to printed writing and it instantly "clicked" for my brain. Graffiti was *perfect* for my brain at bridging the analog and digital at the time.
 
 Beyond the Sony Clie I also settled on using 3/4" 3 ring binders with "engineering paper" (ie. thin, cheap paper with 3 holes and a grid on it) for my actual coursework. I'd take notes, write out homework, plan projects and all kinds of "stuff" in these binders. I generally treated these as topical and they look a lot like a "lab notebooks" or "project books" and similarly styled notebook setups. When I filled these binders I'd pull out any useful pages that I wanted to archive and put them in larger 3 ring binders that I stored in a safe place. This allowed me to stay on top of the "now" and retain an archive of information I may need or want to go back and review at a later time.
 
@@ -270,9 +280,9 @@ It was at this point I cracked my knuckles and started working on finding a new 
 
 Two things happened right away when I got put on notice. My primary mentor stopped by to talk about my struggles and, in particular, my timesheet. I also discovered Tiddlywiki. These two things would prove enough of a solution to let me keep my job and ultimately develop a new approach that I could use over time with success.
 
-For the timesheet, my mentor handed me a Moleskin and said: "Write everything down in here, when you start, stop, etc. Just catalog your day from start to finish. At the end of the day, go through and create a tabulation of each client's total time and enter that into your time sheet". They also encouraged me to find an organizer setup that could distill my assigned work in a way that allowed me to stay on top of things over time, even if independent of the "official system". Sage advice that did turn around my timesheet problems. 
+For the timesheet, my mentor handed me a Moleskine and said: "Write everything down in here, when you start, stop, etc. Just catalog your day from start to finish. At the end of the day, go through and create a tabulation of each client's total time and enter that into your time sheet". They also encouraged me to find an organizer setup that could distill my assigned work in a way that allowed me to stay on top of things over time, even if independent of the "official system". Sage advice that did turn around my timesheet problems. 
 
-Little did they know handing me a Moleskin would prove to be an ember that transformed into an inferno years later.
+Little did they know handing me a Moleskine would prove to be an ember that transformed into an inferno years later.
 
 For managing my work I chose Tiddlywiki and it was very helpful. I was able to tease out the key bits of info from the task management system into a form that was actually useful and beneficial for my AuDHD needs. I was just successful enough with this to keep my job.
 
@@ -308,7 +318,7 @@ The next thing to fail on me was Tiddlywiki itself. I had adapted it just enough
 ### The Success
 {{< back_to_top >}}
 
-Interestingly the Moleskin as a timesheet had stuck with me to this point. After Tiddlywiki fell apart I thought "why not Moleskin?". It did work and I basically dedicated a single page to every day. What I setup is hilariously similar to the first Bullet Journal I setup years later. I didn't know it at the time but this proved to be the first tiny flames of a fire to come. This was also about the time I started keeping scratch paper and a pen at hand. Most everything written on the scrap paper was tossed but some did end up stashed in a set of file folders. Much like my Uni notes were managed in binders...
+Interestingly the Moleskine as a timesheet had stuck with me to this point. After Tiddlywiki fell apart I thought "why not Moleskine?". It did work and I basically dedicated a single page to every day. What I setup is hilariously similar to the first Bullet Journal I setup years later. I didn't know it at the time but this proved to be the first tiny flames of a fire to come. This was also about the time I started keeping scratch paper and a pen at hand. Most everything written on the scrap paper was tossed but some did end up stashed in a set of file folders. Much like my Uni notes were managed in binders...
 
 Another success was the launch of the Blackberry. One of the first smart phones that was visible enough for pretty much everyone to know about. It wasn't perfect but it allowed me to properly manage my personal todo list and be successful with task management again. In the end I moved on to a Nokia Symbian device and started to lean into using my phone as an organizer, to manage PIM, music player, gps and more. This was the start of my smart phone journey.
 
@@ -337,7 +347,7 @@ I was successful enough with Joplin, independent of sync, that I *still recommen
 
 Sometime in this era I switched to Android and settled in for the long haul. Todo management was handled by a now-defunct app and I wasn't using my 2nd Brain on Android (yet).
 
-I *did* dive into the world of Android with active styluses and managed to discover Grafitti had been ported to Android and there were some note taking apps that did pretty good with a proper stylus. Unfortunately this experiment always ended in frustration and non-use. It was a good experiment but ultimately the technology wasn't able to meet my needs.
+I *did* dive into the world of Android with active styluses and managed to discover Graffiti had been ported to Android and there were some note taking apps that did pretty good with a proper stylus. Unfortunately this experiment always ended in frustration and non-use. It was a good experiment but ultimately the technology wasn't able to meet my needs.
 
 I had hoped to find a way to use a stylus for note taking and it did not go well due to various confounding factors.
 
@@ -368,7 +378,7 @@ OneNote also got Android support and sync support which allowed me to work with 
 
 I even got around to tinkering with the Surface Pro stylus in OneNote and discovered I really liked the setup. I liked it enough that I started taking my Surface Pro to meetings and taking notes directly within OneNote.
 
-It worked so well when they installed OneNote on my computer at my job, I almost instantly stopped using a Moleskin and bought a Wacom Cintique so I could more effectively use OneNote on the job.
+It worked so well when they installed OneNote on my computer at my job, I almost instantly stopped using a Moleskine and bought a Wacom Cintique so I could more effectively use OneNote on the job.
 
 I went "all in".
 
@@ -460,7 +470,7 @@ When I work on paper there are a few things that are universal for me. I have se
 - I use dot grid layouts with a 5mm grid.
 - I prefer the A5 size in general.
 - I prefer the A4 size for long form writing tasks, like blog posts and other dense writing.
-- I get along with the Field Notes and Travler's (both standard and passport) notebook sizes and they are the easiest to carry around on the go for me. I use these sizes heavily despite my preference for A5 sized pages.
+- I get along with the Field Notes and Traveler's (both standard and passport) notebook sizes and they are the easiest to carry around on the go for me. I use these sizes heavily despite my preference for A5 sized pages.
 
 Note: I spent a long time "trying all the things" when it comes to paper and selected what works best for *me*. There are not wrong answers here. If you go analog, try all the papers and writing utensils then select your preferences.
 
@@ -606,7 +616,7 @@ When I discussed this discovery with some medical professionals they suggested I
 
 When I tried daily journaling I quickly discovered that I was tracking noteworthy health symptoms as well as documenting my trials, tribulations and successes over time. This notebook became the place I went to unpack and process daily life. These writings been very beneficial for my mental health and happiness over time. So much so that, to this day, I will fight my health hassles so I can scribble in my journal with a pen. It doesn't matter how bad my health gets, I make time for this notebook and I'll go to hell and back to scratch out some words. Even if the scribbles are barely legible due to my arm tremors.
 
-Early on I tried a number of different notebooks, paper sizes, layouts and whatnot. I ultimately settled on a 5mm dot grid Leuchtturum1917 notebook in A5 size. I also use an Extra Fine Pilot Vanishing Point fountain pen with Platinum Carbon Black ink. The nib of the pen is fine enough to allow me to write comfortably within a 5mm rule. Additionally, the notebook, paper and ink are all archive grade. This is because I've been known to spill my water and coffee across my desk. I'd like these writings to be persistent despite any liquid spills.
+Early on I tried a number of different notebooks, paper sizes, layouts and whatnot. I ultimately settled on a 5mm dot grid Leuchtturm1917 notebook in A5 size. I also use an Extra Fine Pilot Vanishing Point fountain pen with Platinum Carbon Black ink. The nib of the pen is fine enough to allow me to write comfortably within a 5mm rule. Additionally, the notebook, paper and ink are all archive grade. This is because I've been known to spill my water and coffee across my desk. I'd like these writings to be persistent despite any liquid spills.
 
 I highly recommend daily journals / diaries. They are essentially the same thing: a place to process daily life. It can be very beneficial and I recommend trying it for a month. This habit has been incredibly beneficial for me over time. One thing to note: if you find yourself in loops of ruminating and/or essentially "thought spiraling". *stop and assess the why*. Thought spirals are usually an indication a daily journal / diary is going to become a problem over time.
 
@@ -980,7 +990,7 @@ The below are in [roughly] chronological order.
 	- Wacom Cintiq & One (Small): [https://www.wacom.com/en-us](https://www.wacom.com/en-us)
 	- Huion: [https://www.huion.com/](https://www.huion.com/)
 	- Xp-Pen: [https://www.xp-pen.com/](https://www.xp-pen.com/)
-- Moleskin: [https://www.moleskine.com/en-us/](https://www.moleskine.com/en-us/)
+- Moleskine: [https://www.moleskine.com/en-us/](https://www.moleskine.com/en-us/)
 - Evernote: [https://evernote.com/](https://evernote.com/)
 - Joplin: [https://joplinapp.org/](https://joplinapp.org/)
 - Microsoft To Do / Tasks: [https://to-do.office.com/tasks/](https://to-do.office.com/tasks/)
@@ -990,7 +1000,7 @@ The below are in [roughly] chronological order.
 - Timbuk2 Messenger Bags: [https://www.timbuk2.com/](https://www.timbuk2.com/)
 - Field Notes: [https://fieldnotesbrand.com/](https://fieldnotesbrand.com/)
 - Traveler's Notebooks: [https://travelerscompanyusa.com/](https://travelerscompanyusa.com/)
-- Leuchtturum1917: [https://www.leuchtturm1917.us/](https://www.leuchtturm1917.us/)
+- Leuchtturm1917: [https://www.leuchtturm1917.us/](https://www.leuchtturm1917.us/)
 - Zentangle: [https://zentangle.com/](https://zentangle.com/)
 - Strathmore sketch pads: [https://www.strathmoreartist.com/](https://www.strathmoreartist.com/)
 - Ohto Rollerball Refills: [https://www.ohto.co.jp/english/product/c-304/](https://www.ohto.co.jp/english/product/c-304/)

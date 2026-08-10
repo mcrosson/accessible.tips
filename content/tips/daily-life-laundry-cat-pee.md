@@ -10,6 +10,10 @@ categories:
   - daily-life
 tags:
   - daily-life
+# search_terms is search-only metadata (Pagefind meta): intentional misspelling of
+# the brand name that is spelled correctly in the content. Not tags; does not feed related.
+search_terms:
+  - bissel # canonical: Bissell
 changelog:
   - date: 2024-08-31
     text: "Initial creation"
@@ -324,12 +328,12 @@ The items within this section have been tested and are known to work very well.
 
 {{< end_section >}}
 
-### Bissel Portable Carpet and Upholstery Deep Cleaners
+### Bissell Portable Carpet and Upholstery Deep Cleaners
 {{< back_to_top >}}
 
 > **Note**
 > 
-> Bissel sells a great cleaning solution that works well with cat pee. The specific solution and additional details are in the `Cleaning Solutions` section below.
+> Bissell sells a great cleaning solution that works well with cat pee. The specific solution and additional details are in the `Cleaning Solutions` section below.
 
 #### Model 3860
 {{< back_to_top >}}
@@ -405,12 +409,12 @@ The items within this section have been tested and are known to work very well.
 - Better options exist for dealing with urine
 	- The author prefers `Resolve Urine Destroyer`
 
-#### Bissel PET PRO OXY Spot & Stain Urine Eliminator
+#### Bissell PET PRO OXY Spot & Stain Urine Eliminator
 {{< back_to_top >}}
 
 - [Main Product Page](https://www.bissell.com/en-us/product/pet-pro-oxy-spot-stain-urine-eliminator-formula-32-oz-2034.html)
 - [Amazon Product Page](https://www.amazon.com/BISSELL%C2%AE-Formula-Portable-Cleaners-2034/dp/B09MQXHJR5)
-- For use with portable Bissel deep cleaners
+- For use with portable Bissell deep cleaners
 - Works well on urine spots
 - Works well on non-urine stains
 
