@@ -2,7 +2,7 @@
 
   <a id="page_menu"></a>
 
-  {{ if in .Params.categories "anecdote" }}
+  {{ if eq .Section "anecdotes" }}
   <div data-pagefind-ignore><h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></h4></div>
   {{ end }}
 
