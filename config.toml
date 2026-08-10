@@ -17,7 +17,7 @@ uglyURLs = false
   tips = '/tips/:slug/'
   anecdotes = '/anecdotes/:slug/'
   faq = '/faq/:slug/'
-  posts = '/posts/:year-:month-:day-:slug/'
+  news = '/news/:year-:month-:day-:slug/'
 
 [taxonomies]
   tag = 'tags'
@@ -89,7 +89,7 @@ uglyURLs = false
 [[menu.main]]
   identifier = 'posts'
   name = 'News'
-  url = '/posts/'
+  url = '/news/'
   weight = 60
 [[menu.main]]
   identifier = 'about'

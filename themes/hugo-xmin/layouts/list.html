@@ -7,7 +7,7 @@
 {{ .Content }}
 
 <ul>
-{{ if eq .Type "posts" }}
+{{ if eq .Type "news" }}
   {{ $paginator := .Paginate (where (sort .Pages ".Date" "desc") "Section" "!=" "") }}
   {{ range $paginator.Pages }}
   <li><span class="date">{{ .Date.Format "2006/01/02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
