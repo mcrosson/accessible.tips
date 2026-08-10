@@ -1,6 +1,6 @@
 ---
 title: Ways to cook grains
-author: 
+authors: 
   - Anonymous
   - KemoNine (Ghost Writer)
 date: 2023-03-25

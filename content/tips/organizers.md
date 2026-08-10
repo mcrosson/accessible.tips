@@ -1,6 +1,6 @@
 ---
 title: Organizers
-author: 
+authors: 
   - KemoNine
 date: 2023-03-20
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: Shaving Supplies - Henson Razor Mini Review
-author: 
+authors: 
   - KemoNine
 date: 2024-08-03
 toc: calse

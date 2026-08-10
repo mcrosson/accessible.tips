@@ -1,6 +1,6 @@
 ---
 title: Essential Oils
-author: 
+authors: 
   - Anonymous
   - KemoNine (Ghost Writer)
 date: 2023-04-05

@@ -1,6 +1,6 @@
 ---
 title: "_ Test _"
-author:
+authors:
   - KemoNine
 date: 2024-01-01
 toc: false

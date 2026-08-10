@@ -1,7 +1,7 @@
 ---
 layout: post
 title: _ Post Template _
-author:
+authors:
   - YourName
 date: 1900-01-01
 toc: false

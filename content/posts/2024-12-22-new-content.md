@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New content & updates published
-author: 
+authors: 
   - KemoNine
 date: 2024-12-22
 toc: false

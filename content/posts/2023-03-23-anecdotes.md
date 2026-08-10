@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anecdotes
-author: 
+authors: 
   - KemoNine
 date: 2023-03-23
 toc: false

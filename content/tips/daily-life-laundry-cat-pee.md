@@ -1,6 +1,6 @@
 ---
 title: Cleaning Cat Pee
-author: 
+authors: 
   - KemoNine
 date: 2024-08-31
 toc: true

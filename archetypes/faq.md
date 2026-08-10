@@ -1,6 +1,6 @@
 ---
 title: _ FAQ Template _
-author:
+authors:
   - YourName
 date: 1900-01-01
 toc: true

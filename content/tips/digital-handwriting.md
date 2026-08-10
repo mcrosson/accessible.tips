@@ -1,6 +1,6 @@
 ---
 title: Digital Handwriting
-author: 
+authors: 
   - KemoNine
 date: 2024-12-22
 toc: true

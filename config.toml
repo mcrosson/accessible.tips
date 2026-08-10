@@ -18,6 +18,10 @@ uglyURLs = false
   posts = '/posts/:year-:month-:day-:slug/'
   tags = '/tags/:title/'
 
+[taxonomies]
+  tag = 'tags'
+  author = 'authors'
+
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
@@ -59,11 +63,6 @@ uglyURLs = false
   url = '/search/'
   weight = 10
 [[menu.main]]
-  identifier = 'categories'
-  name = 'Categories'
-  url = '/categories/'
-  weight = 20
-[[menu.main]]
   identifier = 'tips'
   name = 'Tips'
   url = '/tips/'
@@ -93,9 +92,3 @@ uglyURLs = false
   name = 'RSS'
   url = 'index.xml'
   weight = 80
-
-#[[menu.main]]
-#  identifier = 'tags'
-#  name = 'Tags'
-#  url = '/tags/'
-#  weight = 30

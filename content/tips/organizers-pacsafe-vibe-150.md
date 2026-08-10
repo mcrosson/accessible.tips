@@ -1,6 +1,6 @@
 ---
 title: Pacsafe Vibe 150 Purse Mini Review
-author: 
+authors: 
   - KemoNine
 date: 2024-08-03
 toc: true

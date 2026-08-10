@@ -1,6 +1,6 @@
 ---
 title: Split voice and non-voice audio
-author: 
+authors: 
   - KemoNine
 date: 2023-03-23
 toc: true

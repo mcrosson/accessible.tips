@@ -1,6 +1,6 @@
 ---
 title: _ Anecdote Template _
-author:
+authors:
   - YourName
   - GhostWriterNameIfAppropriate
 date: 1900-01-01

@@ -1,6 +1,6 @@
 ---
 title: Android Launchers
-author: 
+authors: 
   - KemoNine
 date: 2024-09-02
 toc: true

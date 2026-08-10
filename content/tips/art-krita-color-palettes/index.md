@@ -1,6 +1,6 @@
 ---
 title: Krita Color Palettes
-author: 
+authors: 
   - KemoNine
 date: 2023-03-23
 toc: false

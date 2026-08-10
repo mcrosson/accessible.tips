@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contributor Guidelines
-author: 
+authors: 
   - KemoNine
 date: 2023-03-20
 toc: false

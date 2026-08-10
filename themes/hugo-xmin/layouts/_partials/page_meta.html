@@ -31,12 +31,14 @@
   <h1><span class="title">{{ .Title | markdownify }}</span></h1>
 
   <div data-pagefind-ignore>
-  {{ with .Params.author }}
+  {{ with .Params.authors }}
   <h3 class="author">By: 
     {{ if (reflect.IsSlice .) }}
-        {{ delimit . ", " }}
+        {{ $author_links := slice }}
+        {{ range . }}{{ $author_links = $author_links | append (printf `<a href="/authors/%s/">%s</a>` (. | urlize) .) }}{{ end }}
+        {{ delimit $author_links ", " | safeHTML }}
     {{ else }}
-        {{ . }}
+        <a href="/authors/{{ . | urlize }}/">{{ . }}</a>
     {{ end }}
   </h3>
   {{ end }}

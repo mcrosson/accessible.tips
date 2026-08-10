@@ -1,6 +1,6 @@
 ---
 title: Pocket Sized Every Day Carries
-author: 
+authors: 
   - KemoNine
 date: 2023-03-23
 toc: true

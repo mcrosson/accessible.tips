@@ -1,6 +1,6 @@
 ---
 title: Shaving Supplies
-author: 
+authors: 
   - KemoNine
 date: 2023-03-25
 toc: true

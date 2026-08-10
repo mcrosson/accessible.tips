@@ -1,6 +1,6 @@
 ---
 title: Showering In The Heat
-author: 
+authors: 
   - KemoNine
 date: 2024-08-03
 toc: false
