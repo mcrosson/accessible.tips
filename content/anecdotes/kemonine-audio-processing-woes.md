@@ -1,5 +1,7 @@
 ---
 title: Audio Processing Woes
+aliases:
+  - /anecdotes/kemonine-audio-processing-woes/
 authors: 
   - KemoNine
 date: 2023-03-23

@@ -1,5 +1,7 @@
 ---
 title: How I Computer
+aliases:
+  - /anecdotes/kemonine-how-i-computer/
 authors: 
   - KemoNine
 date: 2024-12-22

@@ -15,8 +15,9 @@ theme = ['hugo-admonitions', 'hugo-xmin']
 uglyURLs = false
 [permalinks]
   tips = '/tips/:slug/'
+  anecdotes = '/anecdotes/:slug/'
+  faq = '/faq/:slug/'
   posts = '/posts/:year-:month-:day-:slug/'
-  tags = '/tags/:title/'
 
 [taxonomies]
   tag = 'tags'

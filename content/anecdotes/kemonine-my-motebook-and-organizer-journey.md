@@ -1,5 +1,7 @@
 ---
 title: My notebook & organizer journey
+aliases:
+  - /anecdotes/kemonine-my-motebook-and-organizer-journey/
 authors: 
   - KemoNine
 date: 2024-12-22

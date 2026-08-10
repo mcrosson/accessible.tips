@@ -1,5 +1,6 @@
 ---
 title: _ Contributing _
+slug: contributing
 authors: 
   - KemoNine
 date: 2023-03-20

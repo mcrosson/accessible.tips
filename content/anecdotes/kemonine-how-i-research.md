@@ -1,5 +1,7 @@
 ---
 title: How I Research
+aliases:
+  - /anecdotes/kemonine-how-i-research/
 authors: 
   - KemoNine
 date: 2024-12-22

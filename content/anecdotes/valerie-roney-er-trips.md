@@ -1,5 +1,7 @@
 ---
 title: ER Trips
+aliases:
+  - /anecdotes/valerie-roney-er-trips/
 authors: 
   - Valerie Roney
   - KemoNine (Ghost Writer)

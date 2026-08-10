@@ -1,5 +1,7 @@
 ---
 title: Minor Day Surgery
+aliases:
+  - /anecdotes/anon-minor-day-surgery-0001/
 authors: 
   - Anonymous
   - KemoNine (Ghost Writer)
