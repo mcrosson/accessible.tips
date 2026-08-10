@@ -9,7 +9,7 @@ categories:
   - tips
   - gaming
 tags:
-  - controller
+  - gaming
 changelog:
   - date: 2024-12-22
     text: "Add generic joycon config"

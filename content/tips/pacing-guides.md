@@ -10,11 +10,7 @@ categories:
   - tips
   - pacing
 tags:
-  - me-cfs
-  - me
-  - cfs
-  - covid
-  - long-covid
+  - pacing
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

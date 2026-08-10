@@ -9,7 +9,7 @@ categories:
   - tips
   - organizers
 tags:
-  - purse
+  - organizers
 changelog:
   - date: 2024-08-03
     text: "Initial creation"

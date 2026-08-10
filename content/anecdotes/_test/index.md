@@ -7,8 +7,6 @@ toc: false
 draft: true
 categories:
   - anecdote
-tags:
-  - anecdote
 changelog:
   - date: 2024-01-01
     text: Initial creation

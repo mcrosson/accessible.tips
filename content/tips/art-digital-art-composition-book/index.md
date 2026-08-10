@@ -9,10 +9,7 @@ categories:
   - tips
   - art
 tags:
-  - drawing
-  - coloring
-  - zentangle
-  - dot-to-dot
+  - art
 changelog:
   - date: 2024-12-22
     text: "Initial creation / cross post"

@@ -7,8 +7,6 @@ toc: true
 draft: false
 categories:
   - faq
-tags:
-  - faq
 changelog:
   - date: 2024-07-04
     text: "Adjust info based on removal of Static CMS"

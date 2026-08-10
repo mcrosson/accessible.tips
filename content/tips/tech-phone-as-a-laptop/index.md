@@ -9,9 +9,7 @@ categories:
   - tips
   - tech
 tags:
-  - phone
-  - tablet
-  - laptop
+  - tech
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

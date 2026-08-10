@@ -10,8 +10,6 @@ toc: true
 draft: false
 categories:
   - anecdote
-tags:
-  - anecdote
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

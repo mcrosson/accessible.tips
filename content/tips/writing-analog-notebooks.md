@@ -9,8 +9,7 @@ categories:
   - tips
   - writing
 tags:
-  - every-day-carry
-  - notebook
+  - writing
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

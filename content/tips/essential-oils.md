@@ -10,8 +10,7 @@ categories:
   - tips
   - essential-oils
 tags:
-  - young-living
-  - liquid-xanax
+  - essential-oils
 changelog:
   - date: 2023-04-05
     text: "Initial creation"

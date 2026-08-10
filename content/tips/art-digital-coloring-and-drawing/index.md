@@ -9,10 +9,7 @@ categories:
   - tips
   - art
 tags:
-  - drawing
-  - coloring
-  - sketchbook-app
-  - krita
+  - art
 changelog:
   - date: 2023-04-05
     text: "Adjust Krita S Pen configuration"

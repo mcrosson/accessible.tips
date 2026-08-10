@@ -10,13 +10,7 @@ categories:
   - tips
   - culinary
 tags:
-  - technique
-  - grains
-  - oats
-  - barley
-  - amaranth
-  - quinoa
-  - rice
+  - culinary
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

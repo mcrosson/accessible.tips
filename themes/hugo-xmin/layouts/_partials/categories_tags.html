@@ -1,15 +1,6 @@
-<a id="categories_tags"></a>
-
-<a id="categories"></a>
-<p class="terms">
-{{ with .Params.categories }}
-Categories: {{ range $k := . }}<a href="{{ relURL (print "/categories/" $k | urlize) }}">{{$k}}</a> {{ end }}
-{{ end }}
-</p>
-
 <a id="tags"></a>
-<p class="terms">
 {{ with .Params.tags }}
-Tags: {{ range $k := . }}<a href="{{ relURL (print "/tags/" $k | urlize) }}">{{$k}}</a> {{ end }}
-{{ end }}
+<p class="terms">
+Tags: {{ range $k := . }}<a href="{{ relURL (print "/tags/" $k | urlize) }}">{{ $k }}</a> {{ end }}
 </p>
+{{ end }}

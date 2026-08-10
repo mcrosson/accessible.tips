@@ -9,9 +9,7 @@ categories:
   - tips
   - grooming
 tags:
-  - shaving
-  - razors
-  - safety-razors
+  - grooming
 changelog:
   - date: 2024-08-03
     text: "Initial creation"

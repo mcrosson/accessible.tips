@@ -9,10 +9,7 @@ categories:
   - tips
   - writing
 tags:
-  - notebook
-  - pen
-  - pencil
-  - paper
+  - writing
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

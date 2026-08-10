@@ -9,7 +9,7 @@ categories:
   - tips
   - art
 tags:
-  - coloring
+  - art
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

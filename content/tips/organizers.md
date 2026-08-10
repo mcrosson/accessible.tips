@@ -9,12 +9,7 @@ categories:
   - tips
   - organizers
 tags:
-  - bujo
-  - gtd
-  - mind-map
-  - zettelkasten
-  - org-mode
-  - obsidian
+  - organizers
 changelog:
   - date: 2023-03-20
     text: "Initial creation"

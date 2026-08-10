@@ -33,4 +33,4 @@ A lot of new content has been added to the website and a few pages have been upd
 
 - [Tip - Anti Bad Habit Notebook (Digital)]({{< ref "tips/organizers-anti-bad-habit-digital-notebook" >}})
 - [Tip - Digital Art Composition Book]({{< ref "tips/art-digital-art-composition-book" >}})
-- [Tip - Digital Handwriting]({{< ref "tips/digital-handwriting" >}})
+- [Tip - Digital Handwriting]({{< ref "tips/writing-digital-handwriting" >}})

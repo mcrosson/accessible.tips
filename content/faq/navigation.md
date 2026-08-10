@@ -7,8 +7,6 @@ toc: true
 draft: false
 categories:
   - faq
-tags:
-  - faq
 changelog:
   - date: 2023-03-21
     text: "Initial creation"

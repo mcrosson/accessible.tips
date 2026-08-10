@@ -9,7 +9,7 @@ categories:
   - tips
   - gaming
 tags:
-  - controller
+  - gaming
 changelog:
   - date: 2024-12-22
     text: "Added GameSir x2 Pro, Hori Split Pad JoyCons, BinBok DOYOKY Classic JoyCons, MayFlash Magic-S Pro 2"

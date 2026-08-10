@@ -9,8 +9,6 @@ toc: true
 draft: false
 categories:
   - anecdote
-tags:
-  - anecdote
 changelog:
   - date: 2024-12-22
     text: "Initial creation / cross post"

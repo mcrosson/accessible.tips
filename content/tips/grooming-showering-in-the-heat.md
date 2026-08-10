@@ -9,8 +9,7 @@ categories:
   - tips
   - grooming
 tags:
-  - bathing
-  - showering
+  - grooming
 changelog:
   - date: 2024-08-03
     text: "Initial creation"

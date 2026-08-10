@@ -9,7 +9,7 @@ categories:
   - tips
   - organizers
 tags:
-  - habit
+  - organizers
 changelog:
   - date: 2024-12-22
     text: "Initial creation"

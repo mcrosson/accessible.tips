@@ -9,9 +9,7 @@ categories:
   - tips
   - medications
 tags:
-  - marijuana
-  - mmj
-  - weed
+  - medications
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

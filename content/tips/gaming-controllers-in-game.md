@@ -9,7 +9,7 @@ categories:
   - tips
   - gaming
 tags:
-  - controller
+  - gaming
 changelog:
   - date: 2023-03-25
     text: "Initial creation"

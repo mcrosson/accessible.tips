@@ -10,8 +10,7 @@ categories:
   - tips
   - kink
 tags:
-  - safety
-  - rope
+  - kink
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

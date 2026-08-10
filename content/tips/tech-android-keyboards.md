@@ -9,7 +9,7 @@ categories:
   - tips
   - tech
 tags:
-  - android
+  - tech
 changelog:
   - date: 2024-12-22
     text: "Link to latest and primary source of KemoNine's Unexpected Keyborad work"

@@ -9,10 +9,7 @@ categories:
   - tips
   - writing
 tags:
-  - Pen
-  - Paper
-  - Pencil
-  - Technique
+  - writing
 changelog:
   - date: 2024-12-22
     text: "Initial creation based on KemoNine's blog post 'Health Hassle Handwriting', with permission"

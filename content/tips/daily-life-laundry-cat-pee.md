@@ -9,9 +9,7 @@ categories:
   - tips
   - daily-life
 tags:
-  - laundry
-  - cat-pee
-  - pets
+  - daily-life
 changelog:
   - date: 2024-08-31
     text: "Initial creation"

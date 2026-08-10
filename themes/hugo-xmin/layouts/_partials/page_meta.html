@@ -8,11 +8,7 @@
 
   <div data-pagefind-ignore>
   {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
-  
-  {{ with .Params.categories }}
-  &nbsp;|&nbsp;<a class="back_to_top" href="#categories">Jump to categories</a>
-  {{ end }}
-  
+
   {{ with .Params.tags }}
   &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
   {{ end }}
@@ -55,9 +51,7 @@
   {{ with (partial "util/changelog-latest.html" .Params.changelog) }}<h4 class="date">Updated: <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "2006/01/02" . }}</time></h4>{{ end }}
   </div>
 
-  <p class="terms">
   {{ partial "categories_tags.html" . }}
-  </p>
   <p class="terms">
   {{ partial "related.html" . }}
   </p>

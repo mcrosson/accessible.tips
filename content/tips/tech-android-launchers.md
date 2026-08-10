@@ -9,7 +9,7 @@ categories:
   - tips
   - tech
 tags:
-  - android
+  - tech
 changelog:
   - date: 2024-09-02
     text: "Initial creation"

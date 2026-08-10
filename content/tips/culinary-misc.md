@@ -9,8 +9,7 @@ categories:
   - tips
   - culinary
 tags:
-  - misc
-  - uncategorized
+  - culinary
 changelog:
   - date: 2023-04-06
     text: "Initial creation"

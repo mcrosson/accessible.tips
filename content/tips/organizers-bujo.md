@@ -9,7 +9,7 @@ categories:
   - tips
   - organizers
 tags:
-  - bujo
+  - organizers
 changelog:
   - date: 2023-03-20
     text: "Initial creation"
