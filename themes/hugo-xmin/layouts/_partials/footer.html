@@ -9,9 +9,11 @@
 
   </footer>
 
-  {{ $a11y := resources.Get "js/tobii-a11y-overrides.js" | resources.Minify | resources.Fingerprint }}
-  {{ $shim := resources.Get "js/tobii-lazy-shim.js" | resources.Minify | resources.Fingerprint }}
-  <script defer src="{{ $a11y.RelPermalink }}" integrity="{{ $a11y.Data.Integrity }}"></script>
-  <script defer src="{{ $shim.RelPermalink }}" integrity="{{ $shim.Data.Integrity }}"></script>
+  {{ if .HasShortcode "figure" }}
+    {{ $a11y := resources.Get "js/tobii-a11y-overrides.js" | resources.Minify | resources.Fingerprint }}
+    {{ $shim := resources.Get "js/tobii-lazy-shim.js" | resources.Minify | resources.Fingerprint }}
+    <script defer src="{{ $a11y.RelPermalink }}" integrity="{{ $a11y.Data.Integrity }}"></script>
+    <script defer src="{{ $shim.RelPermalink }}" integrity="{{ $shim.Data.Integrity }}"></script>
+  {{ end }}
   </body>
 </html>
