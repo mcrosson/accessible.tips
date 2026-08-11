@@ -10,13 +10,13 @@ changelog:
     text: Initial creation
 ---
 
-A short news post. This test page exercises the `posts` formatting:
+A short news post. This test page exercises the `news` formatting:
 - Brief paragraphs.
 - A bulleted list.
-- No tags (per the posts rule).
+- No tags (per the news rule).
 - One inline code reference like `Hugo`.
 
-You *must* add a `Changelog` section if editing an existing post.
+You *must* add a `Changelog` section if editing an existing news entry.
 
 
 ## Admonition color buckets
