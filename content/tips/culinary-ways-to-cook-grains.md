@@ -6,9 +6,6 @@ authors:
 date: 2023-03-25
 toc: true
 draft: false
-categories:
-  - tips
-  - culinary
 tags:
   - culinary
 # search_terms is search-only metadata (Pagefind meta): grains these techniques apply

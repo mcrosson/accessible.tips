@@ -5,9 +5,6 @@ authors:
 date: 2023-04-06
 toc: true
 draft: false
-categories:
-  - tips
-  - culinary
 tags:
   - culinary
 changelog:

@@ -7,8 +7,6 @@ authors:
 date: 2024-12-22
 toc: true
 draft: false
-categories:
-  - anecdote
 changelog:
   - date: 2024-12-22
     text: "Initial creation / cross post"

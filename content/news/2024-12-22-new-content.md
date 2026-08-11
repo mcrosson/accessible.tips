@@ -1,13 +1,10 @@
 ---
-layout: post
 title: New content & updates published
 authors: 
   - KemoNine
 date: 2024-12-22
 toc: false
 draft: false
-categories:
-  - blog
 ---
 
 ## News

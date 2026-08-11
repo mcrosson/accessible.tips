@@ -5,9 +5,6 @@ authors:
 date: 2024-01-01
 toc: true
 draft: true
-categories:
-  - tips
-  - organizers
 tags:
   - organizers
 changelog:

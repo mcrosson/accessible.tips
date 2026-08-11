@@ -5,9 +5,6 @@ authors:
 date: 2023-03-23
 toc: true
 draft: false
-categories:
-  - tips
-  - organizers
 tags:
   - organizers
 # search_terms is search-only metadata (Pagefind meta): intentional misspellings of

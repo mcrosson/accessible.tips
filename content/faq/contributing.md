@@ -6,8 +6,6 @@ authors:
 date: 2023-03-20
 toc: true
 draft: false
-categories:
-  - faq
 changelog:
   - date: 2024-07-04
     text: "Adjust conventions to accommodate the changelog for each page being moved to the front matter"

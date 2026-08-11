@@ -5,9 +5,6 @@ authors:
 date: 2023-03-25
 toc: true
 draft: false
-categories:
-  - tips
-  - tech
 tags:
   - tech
 changelog:

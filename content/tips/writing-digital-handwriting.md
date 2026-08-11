@@ -5,9 +5,6 @@ authors:
 date: 2024-12-22
 toc: true
 draft: false
-categories:
-  - tips
-  - writing
 tags:
   - writing
 # search_terms is search-only metadata (Pagefind meta): intentional misspellings of

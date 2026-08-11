@@ -5,9 +5,6 @@ authors:
 date: 2024-08-03
 toc: calse
 draft: false
-categories:
-  - tips
-  - grooming
 tags:
   - grooming
 changelog:

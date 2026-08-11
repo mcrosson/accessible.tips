@@ -5,8 +5,6 @@ authors:
 date: 2023-03-21
 toc: false
 draft: false
-categories:
-  - faq
 changelog:
   - date: 2023-03-21
     text: "Initial creation"

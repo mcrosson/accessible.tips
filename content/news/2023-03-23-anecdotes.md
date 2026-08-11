@@ -1,13 +1,10 @@
 ---
-layout: post
 title: Anecdotes
 authors: 
   - KemoNine
 date: 2023-03-23
 toc: false
 draft: false
-categories:
-  - blog
 ---
 
 We have launched the `Anecdotes` section of the site where we catalog indidual accounts of living with disability. These pages can be triggering and carry a warning at the top of the page so you know the page includes an individual's experiences.

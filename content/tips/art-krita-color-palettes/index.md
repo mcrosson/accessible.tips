@@ -5,9 +5,6 @@ authors:
 date: 2023-03-23
 toc: false
 draft: false
-categories:
-  - tips
-  - art
 tags:
   - art
 changelog:

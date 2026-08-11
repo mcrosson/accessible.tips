@@ -5,9 +5,6 @@ authors:
 date: 2024-09-02
 toc: true
 draft: false
-categories:
-  - tips
-  - tech
 tags:
   - tech
 # search_terms is search-only metadata (Pagefind meta): intentional misspelling of

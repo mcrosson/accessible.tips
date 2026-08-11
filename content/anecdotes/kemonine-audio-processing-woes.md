@@ -7,8 +7,6 @@ authors:
 date: 2023-03-23
 toc: true
 draft: false
-categories:
-  - anecdote
 changelog:
   - date: 2023-03-23
     text: "Initial creation"

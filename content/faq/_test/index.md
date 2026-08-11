@@ -5,8 +5,6 @@ authors:
 date: 2024-01-01
 toc: true
 draft: true
-categories:
-  - faq
 changelog:
   - date: 2024-01-01
     text: Initial creation

@@ -7,8 +7,6 @@ authors:
 date: 2024-12-22
 toc: true
 draft: false
-categories:
-  - anecdote
 # search_terms is search-only metadata (Pagefind meta): intentional misspellings of
 # brand names that are spelled correctly in the content. Not tags; does not feed related.
 search_terms:

@@ -6,9 +6,6 @@ authors:
 date: 2023-03-23
 toc: true
 draft: false
-categories:
-  - tips
-  - doctors
 tags:
   - doctors
 changelog:

@@ -5,9 +5,6 @@ authors:
 date: 2024-08-31
 toc: true
 draft: false
-categories:
-  - tips
-  - daily-life
 tags:
   - daily-life
 # search_terms is search-only metadata (Pagefind meta): intentional misspelling of

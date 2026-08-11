@@ -5,9 +5,6 @@ authors:
 date: 2023-03-20
 toc: true
 draft: false
-categories:
-  - tips
-  - organizers
 tags:
   - organizers
 changelog:

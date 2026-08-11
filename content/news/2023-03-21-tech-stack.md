@@ -1,13 +1,10 @@
 ---
-layout: post
 title: Technology Stack
 authors: 
   - KemoNine
 date: 2023-03-21
 toc: false
 draft: false
-categories:
-  - blog
 ---
 
 We have published a set of FAQ entries detailing the technology used by this site as well as information on who has control of the service accounts used to host this site.

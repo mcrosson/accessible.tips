@@ -6,9 +6,6 @@ authors:
 date: 2023-04-05
 toc: true
 draft: false
-categories:
-  - tips
-  - essential-oils
 tags:
   - essential-oils
 changelog:

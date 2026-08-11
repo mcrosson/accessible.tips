@@ -5,8 +5,6 @@ authors:
 date: 1900-01-01
 toc: false
 draft: true
-categories:
-  - blog
 changelog:
   - date: 2024-01-01
     text: Initial creation

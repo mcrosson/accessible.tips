@@ -5,8 +5,6 @@ authors:
 date: 2023-03-21
 toc: true
 draft: false
-categories:
-  - faq
 changelog:
   - date: 2024-07-04
     text: "Adjust info based on removal of Static CMS"
