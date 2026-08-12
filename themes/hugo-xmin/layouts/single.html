@@ -8,8 +8,7 @@
 {{ .Content }}
 
 {{ if .Params.changelog }}
-<a class="heading" href="#changelog"><h2 id="changelog">Changelog</h2></a>
-{{ partial "_back_to_top_nav.html" . }}
+<h2 id="changelog">Changelog</h2>
 <div class="changelog">
 <dl>
 {{ range .Params.changelog }}

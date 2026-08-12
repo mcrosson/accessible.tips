@@ -63,8 +63,6 @@ a:hover {
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 .back_to_top { font-size: .85em }
-footer a { text-decoration: none; }
-a.heading { text-decoration: none; }
 hr {
   border-style: dashed;
   color: var(--rule);
