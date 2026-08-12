@@ -50,7 +50,7 @@ uglyURLs = false
     style = "github"
 
 [outputs]
-    home = ["HTML", "RSS", "searchvocab"]
+    home = ["HTML", "RSS", "searchvocab", "manifest"]
 
 # Custom output format for the corrector's vocabulary asset. Emitted once
 # (bound to the home page) as /search-vocab.json every build, so the corrector's
@@ -58,6 +58,15 @@ uglyURLs = false
 [outputFormats.searchvocab]
     mediaType = "application/json"
     baseName = "search-vocab"
+    isPlainText = true
+    notAlternative = true
+
+[mediaTypes."application/manifest+json"]
+    suffixes = ["webmanifest"]
+
+[outputFormats.manifest]
+    mediaType = "application/manifest+json"
+    baseName = "site"
     isPlainText = true
     notAlternative = true
 
