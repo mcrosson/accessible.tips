@@ -23,7 +23,6 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This is a fullly syndicated copy of KemoNine's ['My notebook & organizer journey' blog post](https://blog.kemonine.info/blog/2024-11-27-my-notebook-and-organizer-journey/). It has been posted here, in full, with permission.
 
@@ -33,33 +32,29 @@ Things to note:
 - The original post remains unchanged otherwise
 - The 'Permalink' and 'Offline Reading' sections link directly to KemoNine's blog post. We've been asked to *not* mirror these items by KemoNine.
 
-{{< end_section >}}
+---
 
 ## What's Within?
-{{< back_to_top >}}
 
 Within is a walk through of all things analog and digital that I put together to be effective with notebooks and organizers. Things I've cataloged, setup, used, tinkered with and more. It even includes the how and why of my personal needs, preferences and opinions.
 
 In short: it's a very long breakdown of everything that actually works for me as well as many things that didn't work for me. Think "Kemo's Notebook & Organizer Autobiography".
 
-{{< end_section >}}
+---
 
 ## Permalink
-{{< back_to_top >}}
 
 This page is also available at [https://blog.kemonine.info/my-notebook-and-organizer-journey](https://blog.kemonine.info/my-notebook-and-organizer-journey)
 
-{{< end_section >}}
+---
 
 ## Offline Reading
-{{< back_to_top >}}
 
 This page is available as [PDF](https://blog.kemonine.info/kemonine-my-notebook-and-organizer-journey/kemonine-my-notebook-and-organizer-journey.md.pdf) and [epub](https://blog.kemonine.info/kemonine-my-notebook-and-organizer-journey/kemonine-my-notebook-and-organizer-journey.md.epub) for printing and offline reading.
 
-{{< end_section >}}
+---
 
 ## Preface
-{{< back_to_top >}}
 
 I regularly find myself in discussions about notebooks and organization systems. Both digital and analog. The kind of discussions where I'm gaining insights into others approaches and articulating my current and prior approaches. If you go back through my blog posts you'll see a very strong interest in organizers and notebooks. The posts are pretty open ended, are focused on specific areas of how I've put together things and generally paint a picture of someone who doesn't faff about when it comes to keeping a "notebook" or "organizer".
 
@@ -69,10 +64,9 @@ This post lays *everything* out. All the success, failure and some oddities that
 
 I've even included a section at the very end with links to most of what I discuss in this post. Rather than scattering links across the post, they are all at the end. Scroll to the bottom if you're looking for links.
 
-{{< end_section >}}
+---
 
 ## Fundamentals
-{{< back_to_top >}}
 
 Around age 12 I started to develop my notebook and organization layout.  A layout that's benefitted me for the last 28 years. 
 
@@ -86,10 +80,9 @@ I even setup my back pack so my todo notebook was easy to get to, my writing sup
 
 If you squint lightly, it looks like a Bullet Journal in layout, ethos and daily use. It was just the size of a child's backpack, not something you could toss in a purse which is more common for bullet journals.
 
-{{< end_section >}}
+---
 
 ## Schooling
-{{< back_to_top >}}
 
 All through my schooling (primary / secondary school, grade school, high school, whatever you want to call it) I kept multiple binders (notebooks) and a todo tracker (small notebook setup as an organizer). This approach served me incredibly well and allowed me to focus on specific topics while staying generally organized and on top of what I needed to accomplish day to day.
 
@@ -99,13 +92,11 @@ This was a time before laptops were affordable or acceptable for use in a school
 
 I went from age 12 to age 17 without digital and used the same general approach to notebooks and organizers the entire time. Clearly I hit upon something very useful for my brain very very early in my journey through life.
 
-{{< end_section >}}
+---
 
 ## Uni
-{{< back_to_top >}}
 
 ### The Core
-{{< back_to_top >}}
 
 At age 18 (Editors note: Kemo has a summer birthday and went from 17 -> 18 just before entering Uni) I started Uni and my prior approach to notebooks and organizers started to show its limits. I almost instantly needed to make major adjustments and "level up" my approach to notebooks and organizer. It was really bad and I struggled *hard* during my early time at Uni when it came to staying on top of my studies and more.
 
@@ -119,10 +110,9 @@ Beyond the Sony Clie I also settled on using 3/4" 3 ring binders with "engineeri
 
 If you squint lightly: my approach still looks a lot like a Bullet Journal. Just bigger and with the "daily churn" setup on an electronic device instead of paper.
 
-{{< end_section >}}
+---
 
 ### Creating a Common Book
-{{< back_to_top >}}
 
 Beyond the above, there is one other thing that I setup during my time at Uni that's proven critical to my daily life:  I setup what I've come to call my "2nd Brain", a form of Common Book. 
 
@@ -132,10 +122,9 @@ I setup Voodoo Pad as a common book  because I had a growing digital footprint. 
 
 I've kept up this style of Common Book (2nd Brain) ever since I setup Voodoo Pad roughly 20 years ago. I even have files that were created by Voodoo Pad safely stored away on my current computer. My 2nd Brain has always been with me and I *still* use it heavily, even if the software I use has changed over the years.
 
-{{< end_section >}}
+---
 
 ### Personal Information Management (PIM)
-{{< back_to_top >}}
 
 At Uni I did get introduced to the concept of PIM by way of my Sony Clie. This term generally refers to a person's contacts, calendar, todo list and simple notes. I didn't hesitate to use the calendar and todo list aspects of this system. Contacts I'd move to digital much later and after the Blackberry kicked off the smart phone revolution. You can assume I've managed a digital calendar, non-stop since this point. Also, when I needed digital contacts, I set it up and have managed them non-stop since that point forward. I will not be calling attention to these further.
 
@@ -143,10 +132,9 @@ The digital todo list that comes with the concept of PIM turned out to be very i
 
 I never took to basic note systems, they are always too limited. They just don't do what I need and I had better options setup already (notebooks and a digital common book). That said: simple note taking systems *are valid* and I've known more than one person who used simple notes with great success. 
 
-{{< end_section >}}
+---
 
 ### Open Source
-{{< back_to_top >}}
 
 During my days at Uni I got involved with some open source work and was exposed to things like source code management (version control), various wiki software, documentation systems, issue trackers and more. I basically got exposed to the wide array of software used to manage software projects over time.
 
@@ -156,33 +144,29 @@ This was all digital and I did try to adapt my personal setup to these systems a
 
 Unfortunately, this exposure would ultimately bite me in the ass years later.
 
-{{< end_section >}}
+---
 
 ### Summer Jobs
-{{< back_to_top >}}
 
 While at Uni I held two types of summer jobs. For the first two summers I worked in the trades. Specifically cement and rough carpentry. For the second two summers I worked in IT. The approaches I used for my course work held up during my non-trades summer jobs nicely and I didn't have to do anything special for my summer jobs.
 
-{{< end_section >}}
+---
 
 ## A Quick Deviation
-{{< back_to_top >}}
 
 There a few semi-subtle items that popped up for me during my time at Uni. These deserve a bit of their own expansion as they become critical to my successes and failures later.
 
-{{< end_section >}}
+---
 
 ### Memorization
-{{< back_to_top >}}
 
 Succinctly: I have memory hassles. The kind that make it so my active recall isn't great and my ability to "hold stuff in my head" isn't great either. It's a one-two punch of suck some days. Additionally, I can type 120 to 140 words per minute (two handed) which is roughly the speed of human speech. In the beginning of my time at Uni, I ended up playing scribe and would transcribe everything said during class. This approach did nothing for me and I really struggled. After being very honest with myself and trying a bunch of other options I discovered if I handwrite notes, type them using a markup language and proof the typed notes; I have significantly better retention. I've kept this approach up ever since my initial discovery and successes. It's a critical concern for me.
 
 Years later I found out this is very common and there is a whole area of science research dedicated to handwriting vs typing of notes. If you're struggling with note taking, definitely look into this topic. There is a lot of great information available and quite a bit is not at all intuitive.
 
-{{< end_section >}}
+---
 
 ### Markup Languages
-{{< back_to_top >}}
 
 During my time at Uni I discovered LaTeX. It's one of the original markup languages and I used it heavily to type up everything. So much so a few professors pulled me aside to ask how I had managed to type up my math homework or computer science work in such a nice format. They knew of LaTeX and were baiting me to see if I had gone down the path and to see if it was impeding my studies. After explaining that typing things in LaTeX *helped* my studies, the conversation shifted and I got some great insights and pointers from my professors.
 
@@ -192,19 +176,17 @@ Over time I'd go on to learn LaTeX, HTML, docbook, markdown, org-mode syntax and
 
 If you dislike how modern word processing programs blend content (your actual writing) with presentation (formatting, etc), definitely consider looking at markdown, LaTeX and pandoc. They are all powerful, common options for generating documents in a manner that separate content from presentation.
 
-{{< end_section >}}
+---
 
 ### Common Books
-{{< back_to_top >}}
 
 I only recently discovered the term "common book" despite having kept a digital common book for decades (my 2nd Brain). This is essentially just a notebook of information a human collects over time. If you look into the history of the notebook, one of the first uses of notebooks was the creation of a "common book". It's a well known paradigm and I stumbled upon it by accident and without knowing there was a term for such things. 
 
 Keeping a common book is generally regarded as a Very Good Thing and I've seen allusions to the fact keeping a common book can enhance creativity and help with deeper understanding of topics. I know mine definitely helps with creativity and deeper understanding. An example: Da Vinci was an amazing engineer and his notebooks (actually common books) are filled to the brim with insights and knowledge that wouldn't be seen again for centuries.
 
-{{< end_section >}}
+---
 
 ### Literate Programming
-{{< back_to_top >}}
 
 I almost left this out but I *do* apply concepts of literate programming throughout my 2nd Brain. Literate programming is two parts: documentation with inline code as well as a set of programs that take the inline code and create source code which can be used to actually create a program. Essentially you're writing documentation and putting code snippets inline with the documentation, not keeping documentation and code separate (the common pattern). Once you have everything written up, you use a program to tease out the source code and turn it into something that can generate a working program. Essentially you use a pre-processor to generate your source code and you edit your source code within your documentation.
 
@@ -214,10 +196,9 @@ Stated another way: Literate Programming is, essentially, the computer programme
 
 If you're into "tech stuff" this can be incredibly powerful and is worth investigating.
 
-{{< end_section >}}
+---
 
 ### Squint and See Bullet Journal
-{{< back_to_top >}}
 
 I've stated, multiple times, "if you [lightly] squint you'll see Bullet Journal" in the above. This is hilariously important for me. Come to find out I *require* an open ended Bullet Journal for my organization needs. There is some nuance and I don't use the "official" Bullet Journal approach outright but I do use a system that looks a hell of a lot like Bullet Journal. It's also the *only* system of organization that's managed to tame my Autism and ADHD related quirks enough for me to survive reliably in the modern world.
 
@@ -227,17 +208,15 @@ I highly recommend looking into this topic if you're looking to develop an organ
 
 Notably: "Bullet Journal" can easily be seen as meaning "an organization and/or notebook system that uses analog".
 
-{{< end_section >}}
+---
 
 ### Why Important?
-{{< back_to_top >}}
 
 These items all form the core of my approach to information management. Without them, as you will see, I start to flounder and quickly end up in a very bad place overall. If I apply these concepts judiciously and consistently over time, I reap great rewards as evidenced by my current approach to notebooks and organizers as well as my early approaches.
 
-{{< end_section >}}
+---
 
 ## Post Uni & Early Career
-{{< back_to_top >}}
 
 After Uni is about the time I started learning even more about wiki software, digital documentation systems and digital task management. Beyond what I had picked up during my days at Uni. Useful information but not applicable to my personal organization system or 2nd Brain needs.
 
@@ -251,19 +230,17 @@ This career change led me to a really good programming job. Unfortunately, thing
 
 Some practical advice: If you require an organization system and/or notebooks but they begin to languish due to outside factors; Make it a top priority to write down what you've got that works and keep that information safe and easily accessible. You will likely find yourself needing such things again and having a record of what did work previously will be critically useful.
 
-{{< end_section >}}
+---
 
 ### A Quick Note About My Career
-{{< back_to_top >}}
 
 The rest of this post will be written as if I've only ever had one programming job. This is mostly true. I had a single, brief hiatus from my job and I've done a lot of work within the open source and open hardware movements. I may have had "only one job" but in truth I've worked in a hell of a lot of different environments and contexts within this job, at other jobs during my hiatus as well as other environments like open source and open hardware.
 
 However, in practical terms, my career is very much defined by a single job and this post will be written with this in mind. It seriously simplifies putting forth information about my organization and notebook setups over time. Even if some things came from other jobs (however brief) or job like environments (open source).
 
-{{< end_section >}}
+---
 
 ### Crash and Burn
-{{< back_to_top >}}
 
 I nearly lost what would be my actual "Dream Job" due to the fact I let my organization setup and notebooks languish for a long period of time. While things languished, I also learned a lot about various digital systems that claimed to do the job of an analog notebook and/or organizer which greatly muddied the waters. I essentially put myself in a position where I knew all about the various choices available but had zero understanding of what may or may not work for the problem at hand. This is not a good position to find oneself.
 
@@ -271,10 +248,9 @@ The problem at hand was the fact that the digital systems for organization and d
 
 It was at this point I cracked my knuckles and started working on finding a new organization system and a new notebook layout. A setup that would allow me to be successful at my job. This was a shockingly long process and put me on the path of "try all the things".
 
-{{< end_section >}}
+---
 
 ### Putting out the Fire
-{{< back_to_top >}}
 
 Two things happened right away when I got put on notice. My primary mentor stopped by to talk about my struggles and, in particular, my timesheet. I also discovered Tiddlywiki. These two things would prove enough of a solution to let me keep my job and ultimately develop a new approach that I could use over time with success.
 
@@ -284,26 +260,23 @@ Little did they know handing me a Moleskine would prove to be an ember that tran
 
 For managing my work I chose Tiddlywiki and it was very helpful. I was able to tease out the key bits of info from the task management system into a form that was actually useful and beneficial for my AuDHD needs. I was just successful enough with this to keep my job.
 
-{{< end_section >}}
+---
 
 ### Complimentary Concerns
-{{< back_to_top >}}
 
 Right as I was finding my head from my ass at my job, I gained a need, at home, for an organization setup and a new form of 2nd Brain.
 
 I ended up combining my needs and working through a few approaches to see what might ultimately work. I ran two tests at the same time: testing approaches at work and testing approaches at home. I have slightly different needs at the job than I do at home but there is significant overlap. I was essentially running a years long litmus test of organizers and 2nd Brain approaches.
 
-{{< end_section >}}
+---
 
 ## Version 2.0
-{{< back_to_top >}}
 
 These are the results of the years long litmus test.
 
-{{< end_section >}}
+---
 
 ### The Failures
-{{< back_to_top >}}
 
 Note: These are all very valid approaches to organizing and 2nd Brain needs. Seriously. Look into them, see if they may work for you. They don't work with my approach to life but I've seen them all used with great success over the years. *If it works, it's valid.*
 
@@ -311,10 +284,9 @@ The first real failure for me was Getting Things Done (GTD). Tiddlywiki is great
 
 The next thing to fail on me was Tiddlywiki itself. I had adapted it just enough to make it a rough but usable 2nd Brain and organizer. Unfortunately I kept losing stuff within the system and, in the end, had to be honest that it really wasn't working for my needs. As I used the system and added information, it became increasingly more difficult to find anything and ultimately turned into a jumbled mess. It took awhile, but it happened.
 
-{{< end_section >}}
+---
 
 ### The Success
-{{< back_to_top >}}
 
 Interestingly the Moleskine as a timesheet had stuck with me to this point. After Tiddlywiki fell apart I thought "why not Moleskine?". It did work and I basically dedicated a single page to every day. What I setup is hilariously similar to the first Bullet Journal I setup years later. I didn't know it at the time but this proved to be the first tiny flames of a fire to come. This was also about the time I started keeping scratch paper and a pen at hand. Most everything written on the scrap paper was tossed but some did end up stashed in a set of file folders. Much like my Uni notes were managed in binders...
 
@@ -322,26 +294,23 @@ Another success was the launch of the Blackberry. One of the first smart phones 
 
 Note: I'm not going to say much more about todo management until later in this post. As I discovered as a child: A simple todo list that I can use as a churning list of concerns is all I really need. Assume I've maintained such a thing from this point forward. Later in the post I'll expand on two other approaches that are more interesting than "use Microsoft To Do / Tasks".
 
-{{< end_section >}}
+---
 
 ## A Deviation, Experiment, Total Failure
-{{< back_to_top >}}
 
 Despite my attempts, I still was lacking a proper, digital 2nd Brain. This was a growing problem and needed solving. I also hadn't kept up my 2nd Brain over time so I was essentially starting over from scratch. I backed up what I had and set about finding a path forward.
 
-{{< end_section >}}
+---
 
 ### Joplin (Deviation)
-{{< back_to_top >}}
 
 I briefly looked at Joplin for my 2nd Brain and even did some initial migration work. It's a really nice, straight forward note taking system that I really like. Unfortunately I had developed a strong need for my data to be synced to my smart phone and Joplin just didn't have good options for me at the time.
 
 I was successful enough with Joplin, independent of sync, that I *still recommend* folk take a look at it.
 
-{{< end_section >}}
+---
 
 ### Android (Experiment)
-{{< back_to_top >}}
 
 Sometime in this era I switched to Android and settled in for the long haul. Todo management was handled by a now-defunct app and I wasn't using my 2nd Brain on Android (yet).
 
@@ -349,10 +318,9 @@ I *did* dive into the world of Android with active styluses and managed to disco
 
 I had hoped to find a way to use a stylus for note taking and it did not go well due to various confounding factors.
 
-{{< end_section >}}
+---
 
 ### Evernote (Total Failure)
-{{< back_to_top >}}
 
 Evernote was the first non-wiki styled setup I used for a 2nd Brain. At the time, it was the best of the best and worked quite well. I'm told it *still* is a good system, even if not "the best" these days. It felt a lot like Voodoo Pad but less flexible in terms of nesting and cross linking. I was no longer an OSX user at this point so I couldn't fall back to Voodoo Pad.
 
@@ -360,13 +328,11 @@ With Evernote I was able to migrate the portions of my 2nd Brain I needed and wa
 
 Once I hit this wall with Evernote; things unraveled, I stopped engaging with my 2nd Brain (again) and I started looking for alternatives.
 
-{{< end_section >}}
+---
 
 ## Version 3.0
-{{< back_to_top >}}
 
 ### OneNote
-{{< back_to_top >}}
 
 As Evernote was starting to fail for me I bought a Microsoft Surface Pro slate styled tablet. I had shifted to ultra books and netbooks at the time as my main computers. The Surface Pro met my requirements *and* included a proper stylus while remaining light and small like an ultra book.
 
@@ -380,10 +346,9 @@ It worked so well when they installed OneNote on my computer at my job, I almost
 
 I went "all in".
 
-{{< end_section >}}
+---
 
 ### Android Redux
-{{< back_to_top >}}
 
 As I was gaining my footing with OneNote something interesting happened with Android. The stylus situation on Android got significantly better. To the point I was able to buy Adonit styluses and use my non-stylus phone as a drawing and writing surface. It wasn't perfect but it worked well enough that I kept an Adonit stylus in my bag at all times. OneNote on Android also had stylus support. I was *finally* able to get a generally usable, mobile stylus setup that worked for my needs.
 
@@ -391,26 +356,23 @@ I also, eventually, had the pleasure of owning a Microsoft Surface Duo which all
 
 Paradigm shifting to say the least.
 
-{{< end_section >}}
+---
 
 ## Intermission
-{{< back_to_top >}}
 
 The next large chunk of this text is all about organization systems and non-common book notebooks. I used OneNote throughout this time and kept up my 2nd Brain during this period.
 
 However, my 2nd Brain became more of an archive styled common book than an active, living common book during this period.
 
-{{< end_section >}}
+---
 
 ## Present Tense?
-{{< back_to_top >}}
 
 The following section related to analog and paper methodologies will include a lot of present tense. When my health hassles aren't crippling the use of my arm for handwriting, I *still* use analog methods heavily. Particularly "scratch (working) paper" and an every day carry pocket notebook. I may not be able to use them reliably but when afforded opportunity, I use them to ensure my skill with analog methods stays sharp. It also helps ensure my handwriting skills don't fade over time.
 
-{{< end_section >}}
+---
 
 ## Rediscovering Analog
-{{< back_to_top >}}
 
 This period of my journey is all about the analog. 
 
@@ -424,10 +386,9 @@ The analog layout I developed, combined with OneNote as a 2nd Brain, was so succ
 
 Note: this is a good starting point for analog. Just be sure to keep what works and toss what doesn't. "Adapt it and make it your own."
 
-{{< end_section >}}
+---
 
 ### Handwriting
-{{< back_to_top >}}
 
 Before getting into the specifics of my analog setup, it's important to point out I re-learned cursive handwriting, as an adult, early in my analog journey.
 
@@ -441,10 +402,9 @@ I also discovered there are a few forms of shorthand as well as a few forms of "
 
 Ultimately I found standard cursive handwriting to be sufficient and more accessible to my brain.
 
-{{< end_section >}}
+---
 
 ### Learning Cursive (Again)
-{{< back_to_top >}}
 
 "American Cursive Handwriting" by Michael Sull is one of the best, if not the best, book for learning cursive handwriting. I bought the combo teacher + student workbook version and worked through it every night from start to finish.
 
@@ -454,10 +414,9 @@ The book's "end point" is when you can fluidly write cursive within a 4 or 5 mm 
 
 This was one of the best things I bothered to learn as an adult. It sped up my writing, made it more legible and I can write in small spaces reliably. Wins all around and a huge help when going all-in on analog notebooks and organizers.
 
-{{< end_section >}}
+---
 
 ### A Quick Note On Paper
-{{< back_to_top >}}
 
 When I work on paper there are a few things that are universal for me. I have settled upon very specific papers and paper sizes that I use. These things haven't changed in a very long time and I expect will never change. The below are my standards and you can assume any discussion of analog uses these standards.
 
@@ -472,10 +431,9 @@ When I work on paper there are a few things that are universal for me. I have se
 
 Note: I spent a long time "trying all the things" when it comes to paper and selected what works best for *me*. There are not wrong answers here. If you go analog, try all the papers and writing utensils then select your preferences.
 
-{{< end_section >}}
+---
 
 ### Scratch (Working) Paper
-{{< back_to_top >}}
 
 In the world of analog I quickly realized I have a strong need for "scratch paper" or "working paper". My ideas, thoughts and things I'm working on all benefit from an unstructured, open-ended area I can use for laying out my thoughts.
 
@@ -487,10 +445,9 @@ The clipboards and loose paper let me write on a proper surface pretty much anyw
 
 When using analog, damn near everything I work on starts life via a clipboard loaded with loose Tomoe River sheets. I *still* use this methodology despite using digital systems as my primaries these days. When my health hassles allow me to write, I instinctively reach for my clipboards instead of anything digital.
 
-{{< end_section >}}
+---
 
 ### Every Day Carry
-{{< back_to_top >}}
 
 Given I used multiple notebooks heavily across multiple topics (more on this below), I quickly ran into problems with "on the go" use. I'm no longer a student carrying around a Timbuk2 messenger bag full of binders. I'm a human with a job, responsibilities at home and more. I also prefer a cross body styled purse such as the Pacsafe Vibe 150 Sling Pack which has enough room for my every day carry needs but not enough space for the notebooks I kept.
 
@@ -504,19 +461,17 @@ My use of this edc notebook is pretty straight forward. I used the left notebook
 
 Even though I have health hassles, I *still* keep this edc setup in my purse *always*. It's proven to be useful, helpful and an amazing safety net when my digital devices run out of battery. This is probably the *single most important* component of my analog setup. It has never failed me, it's flexible in nature and durable (in every sense).
 
-{{< end_section >}}
+---
 
 ### Bullet Journal
-{{< back_to_top >}}
 
 Those familiar with Bullet Journal will know there are an infinite number of ways to layout a Bullet Journal, layouts can use multiple notebook paradigms and, generally speaking, Bullet Journal is highly adaptable, personal and takes time to hone for an individual's preferences and needs. If you go down the path of Bullet Journal, there is *no* wrong approach. Just a series of ideas and suggestions that may or may not work for an individual. Use what works, toss what doesn't work. Just be honest and try things until you find an approach that works for you.
 
 When I work with analog I mainly use a Bullet Journal that is setup as an organizer and faux common book. I keep a very simple form of Bullet Journal as it helps me stay focused and boxes in my AuDHD enough to keep it in line but also leaves some wiggle room for creativity and "shower thoughts" to flourish when appropriate.
 
-{{< end_section >}}
+---
 
 ### Multiple Notebooks
-{{< back_to_top >}}
 
 It should be noted: I kept multiple notebooks. The multiple notebook paradigm allowed me to have "zones of focus" and helped me avoid conflating areas of life I tend to keep separate, such as my job and home life.
 
@@ -529,19 +484,17 @@ Key notebooks I kept are:
 - Medical / Health
 - Travel
 
-{{< end_section >}}
+---
 
 ### Noteworthy Specifics
-{{< back_to_top >}}
 
 I used the same writing utensil for all my notebooks. I used a Lamy Safari Extra Fine fountain pen filled with Platinum Carbon Black ink. The pen allowed me to write cursive smoothly and in small sizes. The ink is archive grade and water proof so I didn't have to worry about spills. On rare occasion I'd use my every day carry pencil for writing.
 
 I used standard Traveler's sized notebooks with one exception: my travel notebook. The travel notebook used the Traveler's passport size to help keep it smaller and more portable which I needed when traveling.
 
-{{< end_section >}}
+---
 
 ### Notebook Layout
-{{< back_to_top >}}
 
 Each of my notebooks were laid out identically. It turns out I have a reasonably open ended way of engaging with a notebook that is generally loose with some guard rails to keep me from going down rabbit holes or indulging wasteful deviations.
 
@@ -549,10 +502,9 @@ My specific notebook layout is deceptively simple. I use a simple leather cover,
 
 I use this layout for all of my "working notebooks" including my daily life notebook, my job notebook, my medical notebook and a travel notebook.
 
-{{< end_section >}}
+---
 
 ### Notebook Use
-{{< back_to_top >}}
 
 When it came to using these notebooks I had a specific workflow that proved very successful for my needs in both a notebook and organizer.
 
@@ -570,10 +522,9 @@ When I replaced this refill, I copied the long term todo list to the new refill 
 
 Another important thing I did was cross reference and use a set of symbols to tell me the state of information within the notebook. I used pretty simple symbols that sprung forth naturally as I used my notebooks over time. They ebbed and flowed with time but I generally knew what they meant, even if they weren't wholly consistent. If you go down the analog path, consider developing your own symbols to help you manage the information within your notebook.
 
-{{< end_section >}}
+---
 
 ### A Quick Note On "Symbols"
-{{< back_to_top >}}
 
 Most everyone I know who keeps analog anything ultimately develops a set of symbols they use to help annotate their writing. I strongly recommend looking into this and developing your own set of symbols that help clue you into things like "moved to another notebook", "complete", "carried forward", "see expansion in notes refill" and similar.
 
@@ -581,10 +532,9 @@ I also recommend creating a legend and keeping a copy in every notebook. At some
 
 This will end up being very individual so I won't put forth my personal symbols. However, they are a huge help when working with analog setups. Especially for cross reference needs and tracking completion.
 
-{{< end_section >}}
+---
 
 ### Filled Refills & Archival
-{{< back_to_top >}}
 
 Whenever I filled a refill in my notebooks I took care to go through the pages looking for anything I missed carrying forward, things I wanted to archive in my 2nd Brain and similar. I'd dedicate time to go through and review the *whole* refill. I did this when my 2nd Brain, the fresh refill and filled refill were all at hand. Usually in the evenings.
 
@@ -592,19 +542,17 @@ As I went through the filled refill I'd transcribe things into my 2nd Brain or t
 
 I rarely kept a copy of filled refills as I had transcribed the information into my 2nd Brain which acted, at the time, as an archival common book or into a refill I was going to actively use day to day. The only refills I tended to keep were ones related to my health issues as I wanted as many redundant copies of that information as possible. I also use archive grade writing materials and know that my written medical notes are safe for longer than I'll be alive.
 
-{{< end_section >}}
+---
 
 ### Other Experiments
-{{< back_to_top >}}
 
 While I was heavily using analog supplies I did some experimenting and tinkering and more. I discovered there are a few ways to write in a way that's water proof, I discovered my preference for archive grade writing supplies and I even developed an anti-bad habit notebook.
 
 I covered a lot of ground and rather than re-hash what I've already written; I direct readers to the Analog section of my blog. There is a lot of additional information and experimentation documented in other posts.
 
-{{< end_section >}}
+---
 
 ## Personal Journal (Diary?)
-{{< back_to_top >}}
 
 One thing that popped out of my heavy use of notebooks to manage daily life was the development of a daily journal habit. It could also be considered a diary depending on how you contextualize the information within. Either way: I write in an A5 notebook almost daily. 
 
@@ -618,10 +566,9 @@ Early on I tried a number of different notebooks, paper sizes, layouts and whatn
 
 I highly recommend daily journals / diaries. They are essentially the same thing: a place to process daily life. It can be very beneficial and I recommend trying it for a month. This habit has been incredibly beneficial for me over time. One thing to note: if you find yourself in loops of ruminating and/or essentially "thought spiraling". *stop and assess the why*. Thought spirals are usually an indication a daily journal / diary is going to become a problem over time.
 
-{{< end_section >}}
+---
 
 ## Analog Art
-{{< back_to_top >}}
 
 Beyond my daily journal I also setup an analog sketch book. Strathmore sketch pads, Copic Sketch Markers, De'Atramentis inks, Staedtler 2mm lead holder and Staedtler Mars Carbon leads wrapped in a waxed canvas cover.
 
@@ -629,10 +576,9 @@ I set this up to practice Zentangle and coloring. Two things I discovered while 
 
 I highly recommend Zentangle and coloring. They can be quite meditative and can quiet the brain some.
 
-{{< end_section >}}
+---
 
 ## Health Hassles...
-{{< back_to_top >}}
 
 I have a few health hassles that went untreated for over 15 years despite my efforts to self-advocate and find doctors who would be willing to work with me. These hassles are also the kind that *get worse* when untreated. At my worst I was going into shock, on average, every 3 months. You read that right: at my worst I would regularly go into shock. These health hassles also caused a persistent, non-stop tremor in my writing arm. I'd have learned to write with my "off hand" except my tremor was so bad I couldn't reliably use my off hand to write. I couldn't use analog anything.
 
@@ -640,10 +586,9 @@ With analog I had built an approach to managing life that *worked* and made my l
 
 I was fucked.
 
-{{< end_section >}}
+---
 
 ## Transitioning (Analog To Digital)
-{{< back_to_top >}}
 
 If it wasn't clear: I'm a giant nerd when it comes to notebooks and organizers. So much so that I pre-ordered "The Notebook: A History of Thinking on Paper" by Roland Allen as soon as I was made aware of its existence. Seriously: I stopped what I was doing, opened the Kobo website and pre-ordered the book without any hesitation.
 
@@ -655,10 +600,9 @@ I didn't want to "go digital", I was forced to go digital in order to survive. I
 
 That said, I *do appreciate and recognize the value of digital*. It *can* be adapted to needs, it just takes more effort. Effort I was forced to put forth.
 
-{{< end_section >}}
+---
 
 ## Digital On The Job
-{{< back_to_top >}}
 
 As my health got worse, my Job got less involved. I worked with my employer to essentially change jobs. We worked together to find a role for me that minimized any problems caused by my health hassles, allowed me to work from home full time and generally worked to ensure my success as an employee.
 
@@ -666,19 +610,17 @@ Thanks to the fact I have an amazing employer, I was able to find a better place
 
 You can assume anything I'm doing in the digital realm to address personal need is what I'm also doing at my job currently. The only difference is I do *not* sync anything to my phone. The data and information I need for my job only lives on the computer I use for my job.
 
-{{< end_section >}}
+---
 
 ## On Digital Methodologies
-{{< back_to_top >}}
 
 There are some "core" methodologies that digital brings to the table. These core methods can range from the digital version of "free form" all the way into "so rigid it comes with a rule book".
 
 Same as analog.
 
-{{< end_section >}}
+---
 
 ### The Zooming Out Problem
-{{< back_to_top >}}
 
 The downside of digital is it's very difficult to "spread out and see what's going on" like you can with analog. With analog you can spread out your papers on the floor, a desk, wherever to get a much bigger, zoomed out view of everything when needed. Pop culture shows a cork board covered in papers and strings for a reason.  "Zooming Out" is a very useful thing.
 
@@ -688,10 +630,9 @@ If you require a way to "spread out across the desk/floor/etc" you will likely s
 
 Every other aspect of analog I've looked at, I've managed to re-implement digitally.
 
-{{< end_section >}}
+---
 
 ### Free Form Editing
-{{< back_to_top >}}
 
 Simply put: open a text editor and start typing. Open a drawing app and start making marks on the canvas. Whatever you need. The sheer number of applications available across operating systems and device types is mind bending. You can choose your own adventure, so long as you're willing to try things and be honest about them working or not working for your needs.
 
@@ -699,19 +640,17 @@ The big pitfall with this is "scope creep". You can easily end up with a dozen d
 
 You'll need to be judicious in your workflows and organization scheme for this to work well over time.
 
-{{< end_section >}}
+---
 
 ### Outline Editing
-{{< back_to_top >}}
 
 Outline editing is essentially list editing. You only ever have "a list" and each item within the list can be short or long or anywhere in between. This can be incredibly powerful and a lot of outline editors let you expand and collapse nodes so you can focus on higher levels or lower levels within the list's tree.
 
 This forces a bit of structure on your information and can prevent things from getting too "out of control" when compared to free form editing. Especially within individual files.
 
-{{< end_section >}}
+---
 
 ### Zettelkasten
-{{< back_to_top >}}
 
 Simply put: a web of information and/or a mind map. There is a link to the Zettelkasten site below that does a far better job of explaining the methodology than I can.
 
@@ -721,10 +660,9 @@ I've looked into this method, ported some of my data into it and ultimately stru
 
 A lot of humans use Zettelkasten with great success. It's worth a look.
 
-{{< end_section >}}
+---
 
 ### Other Methods
-{{< back_to_top >}}
 
 As noted early in this post there are methods like Getting Things Done. There are also a bunch of other methods like the Eisenhower Matrix, Kanban, Pomodoro, etc. They all are different ways of approaching organization and notebook keeping that can be used within the digital realm.
 
@@ -734,10 +672,9 @@ One important point I should make: I do use aspects of these methods but I've ne
 
 I do recommend looking at pre-existing, rigid methods in the digital realm. Much like Bullet Journal, there are a lot of approaches and ideas. The trick is using what works and tossing what doesn't work.
 
-{{< end_section >}}
+---
 
 ### An Elephant
-{{< back_to_top >}}
 
 I avoided discussing files and folders in the above because it's a borderline religious topic in my experience. If you go looking, you'll find no end of options and approaches for managing files and folders and similar concepts in the digital realm.
 
@@ -745,13 +682,11 @@ Systems like Dewey Decimal, Johnny Decimal and others can help you manage your f
 
 I use a few different approaches (zones, dates, modified Johnny Decimal, others) and they are specific to how my mind indexes information. I *strongly* recommend you spend time with file and folder organization and work towards an approach that works for *you*. There is no wrong option so long as it works for you, just be honest about whether an approach works or does not work.
 
-{{< end_section >}}
+---
 
 ## Going Digital
-{{< back_to_top >}}
 
 ### One Handed Typing
-{{< back_to_top >}}
 
 Given I have a terrible arm tremor... I struggle to type with two hands. I struggled so badly early on in my health journey that I learned to type one handed. I did a lot of work in the one handed typing world and ended up designing my own one handed keyboard hardware *and* I forked a well known one handed keyboard layout to further enhance it so I could be more effective as a programmer when typing one handed. I currently use my forked keyboard layout, Ardux, as my primary keyboard layout.
 
@@ -764,10 +699,9 @@ This is important for 2 reasons:
 
 These are accessibility concerns for me and I don't faff about when it comes to ensuring they are accommodated by the programs I use day to day.
 
-{{< end_section >}}
+---
 
 ### org-mode
-{{< back_to_top >}}
 
 Given OneNote was proving troublesome and I needed to find a digital system for my todo list, habit tracking and notebooks; I needed something flexible. Very flexible.
 
@@ -793,28 +727,25 @@ Mix the nearly lost data, strange behaviors caused by typo's, difficulties manag
 
 Note: org-mode is a *fantastic* piece of software. I highly recommend looking into it.
 
-{{< end_section >}}
+---
 
 ### Todoist
-{{< back_to_top >}}
 
 Simply put: I could have easily switched from org-mode to Todoist for todo and habit tracking. I could re-implement my current digital todo tracker, habit tracker and similar within Todoist without hassle. If I hadn't already solved the org-mode on mobile problem prior to discovering Todoist, I'd probably be using Todoist.
 
 If you're looking for digital todo and habit tracking, start here.
 
-{{< end_section >}}
+---
 
 ## Useable and Digital
-{{< back_to_top >}}
 
 Leaving org-mode behind was an endeavor. I spent a ton of time, energy, spoons, matches and all the things finding an usable alternative.
 
 Thankfully I'm an honest, persistent asshole and was able to find an approach that *does* work for me. I just had to stitch together a few different applications to be successful.
 
-{{< end_section >}}
+---
 
 ### Logseq + Orgzly Revived
-{{< back_to_top >}}
 
 Despite this section coming first, it was actually the last piece I addressed during my org-mode migration. I live and die by my todo list and habit tracking. These things exist independent of my notebooks currently. Given the importance of my todo / habit management and the fact they exist independent of my notebooks, I put this section first for clarity.
 
@@ -830,10 +761,9 @@ You'll note I'm using outline editors here despite the fact outline editing caus
 
 Outline editing *is* valid but I've discovered it is only useful to *me* in specific contexts. Like my todo list management and habit tracking.
 
-{{< end_section >}}
+---
 
 ### Obsidian
-{{< back_to_top >}}
 
 Simply put: Obsidian is a digital form of an analog notebook. In almost every sense.
 
@@ -866,10 +796,9 @@ The problem with digital art is you don't get a composition book or a sketch boo
 
 The "Art Composition Book" vault *is* my digital art composition book. It works so well I published a free copy online that others can download and use. It's still a little bit clunkier to use than analog but it's usable. Especially for those of us who cannot engage with analog art. The published vault also includes all of my notes on how I manage my digital art workflows and how Obsidian and Krita work together to create an usable digital art composition book.
 
-{{< end_section >}}
+---
 
 ### Android Success
-{{< back_to_top >}}
 
 If you're not aware, Samung sells some amazing folding phones that have a stylus: the Galaxy Fold. I love this phone, it can be a phone, a small tablet with stylus or, with Dex, a full computer.
 
@@ -877,10 +806,9 @@ The key here is "small tablet with stylus". Combined with the Obsidian digital a
 
 I cannot understate the importance of this and how it meets my needs and desires for practicing art. I've re-created my analog sketch book thanks to the Galaxy Fold and my digital art comp book Obsidian vault.
 
-{{< end_section >}}
+---
 
 ### Zotero
-{{< back_to_top >}}
 
 One thing I've struggled with over the years is research. I never quite learned how to research in an effective manner. I can search online, I can dig through a book but I never quite found a way to research a topic in a way that worked well for me. Especially not if I needed to distill a large, complex topic into something more usable.
 
@@ -896,10 +824,9 @@ I quickly discovered that Zotero's annotation and note support *worked for me* a
 
 I may not have done much research with analog methods but I definitely found a digital method that works brilliantly for my needs. It works so well that I've started to instinctively put materials into Zotero whenever I need to learn something new, work through a complex topic or generally distill information that I can then put into my 2nd Brain for reference later.
 
-{{< end_section >}}
+---
 
 ### Drawing Tablets (Redux)
-{{< back_to_top >}}
 
 Simply put: XP-Pen, Huion and Wacom sell amazing drawing tablets with competent drivers on Windows. These drawing tablets greatly facilitate digital art and free form markup on documents. 
 
@@ -909,10 +836,9 @@ After some research, I went with the Wacom One (Small) as it's close to the size
 
 One thing I noticed when revisiting drawing tablets was the fact I could constrain the tablet's active surface to only a portion of a monitor via the driver config. Given I have three 1440p monitors hooked up to my computer, this is a *critical* feature that allowed me to actually use a drawing tablet. I ended up setting the tablet active area to map to only 1/3 of my primary monitor. By doing this I can put a note taking app or a drawing app on 1/3 of my monitor and have it feel similar to what I was doing with analog sketch books and notebooks.
 
-{{< end_section >}}
+---
 
 ### Saber
-{{< back_to_top >}}
 
 This app has saved me a *ton* of pain when it comes to "free form markup of documents". Saber is a note taking app that Just Works and gets the hell out of your way. It has page styles so you can have the drawing area look like liked paper, graph paper, dot grid and other layouts. It also has a few different pen/pencil types, a highlighter, eraser and more.
 
@@ -932,10 +858,9 @@ Another subtle, but critical, item is the fact Saber has undo and redo operation
 
 If you need a way to markup documents in a purely digital fashion: look at Saber. It's by far the best app I've used for this purpose over the years.
 
-{{< end_section >}}
+---
 
 ### Tying Everything Together
-{{< back_to_top >}}
 
 Given I'm using 4 core digital apps (Logseq, Obsidian, Zotero, Saber) as my organizers and notebooks one may wonder how the hell I tie everything together and not lose things.
 
@@ -953,10 +878,9 @@ For digital art, I work out of my Obsidian digital art comp book vault exclusive
 
 My "Shower Thoughts" Obsidian vault has a related habit in my Logseq habit tracking. The habit is simply "cull shower thoughts" and repeats daily. Basically at the end of my day, I open the Shower Thoughts vault, tease out any useful information and delete things judiciously to keep the vault as empty as possible. The notes in this vault tend to be stand alone but I will sometimes make mini cross references within the notes so I know the note is related to something I'm tracking elsewhere. It's not super robust but this isn't meant to be robust, it's meant to be useful and kept on top of day to day.
 
-{{< end_section >}}
+---
 
 ## Parting Thoughts
-{{< back_to_top >}}
 
 That's everything, start to finish. This post is the result of *years* of effort, conversations, research and more. I'm definitely an organizer and notebook nerd. The above is what I've regularly told folk about over the years. This is the summary, the overview, the very definition of my approach to organizers and notebooks. Both past and present.
 
@@ -972,10 +896,9 @@ A subtle point of this post was to ensure you know you're not alone when it come
 
 If you take away anything from this post, take away the fact there are options and some will work for you, some won't and there is *no wrong way* to setup an organizer or notebook. Take your time, try things, adjust, adapt and hone your setup. You will get there, just be honest and persistent.
 
-{{< end_section >}}
+---
 
 ## Links and Websites
-{{< back_to_top >}}
 
 The below are in [roughly] chronological order.
 
@@ -1046,4 +969,4 @@ The below are in [roughly] chronological order.
 	- [https://blog.kemonine.info/art/2024-09-19-digital-art-composition-book/](https://blog.kemonine.info/art/2024-09-19-digital-art-composition-book/)
 	- [https://blog.kemonine.info/blog/2024-11-16-health-hassle-handwriting/](https://blog.kemonine.info/blog/2024-11-16-health-hassle-handwriting/)
 
-{{< end_section >}}
+---

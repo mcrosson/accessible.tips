@@ -13,26 +13,22 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This is a fullly syndicated copy of KemoNine's ['How I Research' blog post](https://blog.kemonine.info/blog/2024-11-29-how-i-research/). It has been posted here, in full, with permission.
 
 Note: we've only changed the location of the table of contents and applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 
-{{< end_section >}}
+---
 
 ## What's Within?
-{{< back_to_top >}}
 
 This post lays out how I research topics. I've struggled with "research" in the past and, thanks to a friend, finally figured out a methodology that *actually works* for me. This post goes through my methodology, how I use it with success and the details needed to recreate and/or adapt it.
 
-{{< end_section >}}
+---
 
 ## What / Why / How
-{{< back_to_top >}}
 
 ### Important Context
-{{< back_to_top >}}
 
 Over the years I never really figured out how to research a topic properly. Basically if I needed to research anything I just sort of went digging around the internet, read books, read published articles and similar but didn't really take notes or create summaries or similar. At best I'd catalog very basic snippets that I could turn into something actually useful at a later date.
 
@@ -44,10 +40,9 @@ This post lays out the research method that I use. It's a methodology that I ins
 
 As always: use what works, trash what doesn't if you try anything put forth here.
 
-{{< end_section >}}
+---
 
 ### Holy Potatoes Batman!
-{{< back_to_top >}}
 
 Before getting into the specifics, I should point out that while acting upon the information my friend gave me, I ended up using some of the very tools suggested to figure out how to research a topic.
 
@@ -61,10 +56,9 @@ Yes, yes you *can* use Zotero to figure out how to research a topic and to help 
 
 I literally used Zotero to figure out how to use Zotero successfully. It looked like I was working with an Ouroboros but in reality I was using a compiler to compile itself.
 
-{{< end_section >}}
+---
 
 ### A Distillation Win
-{{< back_to_top >}}
 
 Another secondary item that greatly facilitated my success with developing a research methodology was the fact I was in the midst of migrating my 2nd Brain (digital common book) from org-mode to Obsidian.
 
@@ -74,10 +68,9 @@ Having Obsidian as a tool in the box proved to be critical.
 
 As soon as I looked into ways of tying Zotero and Obsidian together I immediately found a few articles that laid out exactly what I needed and desired. These articles also clued me into the final, critical, component I needed for developing my personal methodology.
 
-{{< end_section >}}
+---
 
 ### Notes, Annotations and Attachments. Oh my!
-{{< back_to_top >}}
 
 The articles I found that outlined how to tie Zotero and Obsidian together focused heavily on notes, annotations (like highlights) and attachments. I found this confounding at first but after a few reads and poking around, I realized the key to research is finding an approach to note taking and annotations that works for an individual.
 
@@ -87,10 +80,9 @@ I decided to put this to the test and very quickly generated a *large* catalog o
 
 This was the final, critical component I needed to achieve success in developing my personal research methodology.
 
-{{< end_section >}}
+---
 
 ### Organizational Hiccups
-{{< back_to_top >}}
 
 Despite my initial success, I quickly run into multiple problems with organization.
 
@@ -106,10 +98,9 @@ I re-read the entirety of the Johnny Decimal website and felt I could use the in
 
 Once I sorted these two organizational needs I had everything I needed.
 
-{{< end_section >}}
+---
 
 ### Tying Zotero and Obsidian Together For Distillation
-{{< back_to_top >}}
 
 Once I had my catalog of interesting created and organized, for each item within Zotero, I finally got around to tying Zotero and Obsidian together.
 
@@ -119,10 +110,9 @@ Once I have everything drawn out of Zotero I can then start the process of disti
 
 *Exactly* what I was hoping to accomplish.
 
-{{< end_section >}}
+---
 
 ### This Works
-{{< back_to_top >}}
 
 As soon as I had a usable, general workflow developed; I almost immediately started to instinctively use Zotero to manage my research. I setup collections for each health hassle and started to add open access research articles, I created a `_To Sort` collection for items that didn't necessarily fit into an existing collection but were interesting, I created collections for my personal projects (mostly tech) and more. I eventually setup a `Misc` collection for research articles and other, dense information I expect to annotate but don't necessarily fit into my existing collections.
 
@@ -132,19 +122,17 @@ Using Zotero with Obsidian for the Cat TV project also showed me just how much i
 
 > I had finally figured out how to research in a robust and meaningful way.
 
-{{< end_section >}}
+---
 
 ### Fun Fact
-{{< back_to_top >}}
 
 In a truly "yep, that's Kemo's brand of B.S." moment: this blog post is backed by an entire Zotero collection, a set of distilled Zotero Obsidian notes and a Quick Reference I put together based on my research.
 
 Using Zotero and Obsidian to figure out how to research ended up allowing me to figure out how to research in a way that works for my brain. There's something slightly mind bendy about using tools you don't know how to use to figure out how to use the tools themselves...
 
-{{< end_section >}}
+---
 
 ## The High Level Overview
-{{< back_to_top >}}
 
 To research topics and distill them I use Zotero combined with Obsidian. This may sound simple but, as always, the details are important.
 
@@ -165,26 +153,23 @@ I use the following process to research a topic:
 6. Archive Zotero collection
 7. Archive imported data in Obsidian
 
-{{< end_section >}}
+---
 
 ## The Specifics
-{{< back_to_top >}}
 
 The rest of this post is essentially a quick reference for my Zotero and Obsidian setup. The overall approach is nice to know but using such things with success requires knowing some amount of finer detail.
 
 Given this is pretty universal setup, I've included the key information needed to recreate and/or adapt my methodology below.
 
-{{< end_section >}}
+---
 
 ### Obtaining Software & Plugins?
-{{< back_to_top >}}
 
 At the end of this post is a `Links` section with links to everything discussed in this post. If you're looking for something specific I've mentioned, scroll down to the links section.
 
-{{< end_section >}}
+---
 
 ### A Quick Note About PDF Files
-{{< back_to_top >}}
 
 Simply put: PDF files are a pain in the ass to read and annotate. Especially research articles formatted in ways that clearly tell me a lot of "journals" have no idea how the digital world works.
 
@@ -192,10 +177,9 @@ I have no solution for this problem and the best advice I can give: fuck around 
 
 If you work for a science journal: please find your head from ass and start publishing single column, consistently formatted PDF files with embedded text that can be properly highlighted.
 
-{{< end_section >}}
+---
 
 ### A Quick Note About Mobile Use
-{{< back_to_top >}}
 
 Zotero's online reader does work on mobile. It's not the best but it's sufficient for light use on mobile devices. It's far more usable on devices the size of a small tablet and larger but can be used on a phone in a pinch.
 
@@ -205,10 +189,9 @@ The enterprising may discover there is a KOReader plugin that can sync PDF annot
 
 Annoyingly, not 5 minutes after completing the first draft of this post the Zotero project announced official support for importing KOReader and Calibre epub annotations. I haven't looked into this yet but given what I've seen, I expect this to be a great option for mobile use if not using the native Zotero app on mobile. KOReader and Calibre annotation support should also allow e-reader devices to be used for annotations. I've included a link to the very specific, code level details below.
 
-{{< end_section >}}
+---
 
 ### Zotero Workflow Details
-{{< back_to_top >}}
 
 This is the generalized workflow I use within Zotero for research.
 
@@ -225,10 +208,9 @@ This is the generalized workflow I use within Zotero for research.
 - Remove `kmn-to-research` tag when finished with main item
 - Move collection to `_Complete` when research into the topic is complete *and* each item's catalog of interesting has been imported into Obsidian
 
-{{< end_section >}}
+---
 
 ### Zotero Collections
-{{< back_to_top >}}
 
 The below is a small snapshot of the collections I have defined within Zotero. Each collection represents a *single* area of research (topic). Note: some items may apply to multiple areas of research. In this circumstance I'll add the item to multiple collections as appropriate.
 
@@ -239,10 +221,9 @@ The below is a small snapshot of the collections I have defined within Zotero. E
 - `Gastritis`
 - `Raynaud's`
 
-{{< end_section >}}
+---
 
 ### Individual Items Within Zotero
-{{< back_to_top >}}
 
 The below is a small snapshot of what notes, attachments and similar I have linked to individual items within Zotero.
 
@@ -272,10 +253,9 @@ It should be noted that highlights and annotations are stored inline with the ma
 	- `80.025 yt-dlp.sh`
 	- `90.010 Snapshot`
 
-{{< end_section >}}
+---
 
 ### Zotero Tags
-{{< back_to_top >}}
 
 These are the main tags I use within Zotero to help me manage my research. I've included additional detail for each tag to ensure the purpose of each tag is clear.
 
@@ -293,10 +273,9 @@ These are the main tags I use within Zotero to help me manage my research. I've 
 - *kmn-to-research*
 	- So I can find items that I've not finished reading and annotating
 
-{{< end_section >}}
+---
 
 ### Zotero Color Mappings
-{{< back_to_top >}}
 
 I use colors to help signal intent and facilitate scanning through information looking for specific types of items. This is a list of all item colors available within Zotero as of this writing. Colors without detail are currently unused and are included for completeness. 
 
@@ -315,10 +294,9 @@ I use colors to help signal intent and facilitate scanning through information l
 	- Important, additional info in item comment
 - Gray
 
-{{< end_section >}}
+---
 
 ### Zotero Naming of Notes, Attachments, etc
-{{< back_to_top >}}
 
 This is the modified form of Johnny Decimal that I use for naming notes, attachments, etc that are associated with a given item within Zotero.
 
@@ -351,10 +329,9 @@ Template file naming convention: `_XX.NNN - [Category Name]`
 		- `90.016 Subtitles (eng / vtt)`
 		- `90.017 Subtitles (ger / pgs)`
 
-{{< end_section >}}
+---
 
 ### Obsidian Specifics
-{{< back_to_top >}}
 
 I won't put forth much in the way of Obsidian specifics. I use Obsidian as a form of Common Book and there is a folder called `Research` where everything related to Zotero lives.
 
@@ -362,10 +339,9 @@ Distilled content backed by Zotero ultimately gets filed in the appropriate "loc
 
 However, anything I have setup related to Zotero is laid out below. There isn't much to setup within Obsidian and the below will let you get under way with using Obsidian to distill information pulled from Zotero.
 
-{{< end_section >}}
+---
 
 ### Obsidian Import Configs
-{{< back_to_top >}}
 
 This is how I setup the Obsidian plugin that imports data from Zotero.
 
@@ -379,10 +355,9 @@ Note: I have one import format defined *per Zotero collection*. The example belo
 	- Template File: `Research/_Templates/KemoNine.md`
 	- Bibliography Style: `Chicago Manual of Style 17th edition (author-date)`
 
-{{< end_section >}}
+---
 
 ### My Zotero Obsidian Import Template
-{{< back_to_top >}}
 
 This file is located at `Research/_Templates/KemoNine.md` and used for each Obsidian Zotero import configuration.
 
@@ -465,10 +440,9 @@ Note
 {% endpersist %}
 ```
 
-{{< end_section >}}
+---
 
 ## Links
-{{< back_to_top >}}
 
 - https://www.zotero.org/
 	- https://www.zotero.org/download/
@@ -497,4 +471,4 @@ Note
 	- https://do-won.github.io/blog2/
 	- https://johnnydecimal.com/
 
-{{< end_section >}}
+---

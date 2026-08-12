@@ -13,16 +13,14 @@ changelog:
 ---
 
 ## Background
-{{< back_to_top >}}
 
 There is a growing body of evidence showing that the terpenes contained in marijuana products can have significant effects on the body.
 
 This page outlines some of the more well known marijuana terpenes as a starting point for readers.
 
-{{< end_section >}}
+---
 
 ## The Terpenes
-{{< back_to_top >}}
 
 - **Caryophyllene:** Helps with inflammation and pain. [Leafly link](https://www.leafly.com/news/science-tech/caryophyllene-terpene)
 - **Linalool:** Helps with calm and relaxation. [Leafly link](https://www.leafly.com/news/science-tech/linalool-cannabis-terpene-benefits)
@@ -31,4 +29,4 @@ This page outlines some of the more well known marijuana terpenes as a starting 
 - **Limonene:** Improved mood, stress relief. [Leafly link](https://www.leafly.com/news/cannabis-101/what-is-limonene-and-what-are-the-benefits-of-this-cannabis-terpe)
 - **Pinene:** Helps with pain, inflammation, anxiety. [Leafly link](https://www.leafly.com/news/cannabis-101/what-is-pinene-and-what-are-the-benefits-of-this-cannabis-terpene)
 
-{{< end_section >}}
+---

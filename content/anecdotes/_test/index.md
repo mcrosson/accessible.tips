@@ -28,7 +28,7 @@ A second paragraph continues the narrative.
 
 A `###` sub-section for nested content.
 
-{{< end_section >}}
+---
 
 ## A code snippet
 
@@ -60,4 +60,4 @@ echo "Hello from an anecdote"
 > [!DANGER]
 > Danger bucket (red). Shared by: danger, error.
 
-{{< end_section >}}
+---

@@ -14,14 +14,12 @@ changelog:
 ---
 
 ## The Scene
-{{< back_to_top >}}
 
 Two disabled humans discussing surgery and medical test preparation procedures that can cause great harm. They have been comparing notes and cross referencing useful tricks for improving pre and post procedure outcomes.
 
-{{< end_section >}}
+---
 
 ## An Anecdote
-{{< back_to_top >}}
 
 ...
 
@@ -37,10 +35,9 @@ It would make the whole procedure less ruinous for your already stressed body, i
 
 ...
 
-{{< end_section >}}
+---
 
 ## Reflection(s)
-{{< back_to_top >}}
 
 This was more along pacing strategy, with a twist of how to manage pacing and adaptations when you know you are going to encounter q major challenge to your system.
 
@@ -52,17 +49,15 @@ it's also not "[initial title]" and just "minor day surgery" - which was part of
 
 So this is really about speaking up for accommodations other don't even realize you need. And I didn't realize I needed until I was on the other side and went: well THAT could have gone better.
 
-{{< end_section >}}
+---
 
 ## Related Tips
-{{< back_to_top >}}
 
 - [Negotiating With Doctors]({{< ref "/tips/doctors-negotiating-with-doctors.md" >}})
 
-{{< end_section >}}
+---
 
 ## Footnotes
 
 [^1]: By "wrecked" I just meant another thing that made my illness hella worse for a brief period
 
-{{< back_to_top >}}

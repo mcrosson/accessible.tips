@@ -12,7 +12,6 @@ changelog:
     text: "Initial creation"
 ---
 ## Technology Used
-{{< back_to_top >}}
 
 The technology used to build and manage this website can be distilled into just a few key concepts:
 
@@ -22,7 +21,7 @@ The technology used to build and manage this website can be distilled into just 
 
 If you'd like more detal please see the [Tech Used FAQ page]({{< ref "faq/tech-used" >}}).
 
-{{< end_section >}}
+---
 
 ## Domain Name
 
@@ -30,22 +29,19 @@ A quick note on the domain name: we used [NameCheap](https://namecheap.com) to p
 
 We do not have e-mail or other services setup for the site and the domain setup was very simple and minimal.
 
-{{< end_section >}}
+---
 
 ## Change Management
-{{< back_to_top >}}
 
 For this website, we use [GitHub](https://github.com) for managing and tracking changes over time.
 
 ### GitHub
-{{< back_to_top >}}
 
 GitHub is a site designed for programmers by programmers and can be overwhelming. It's never obvious why people would use the site. It's because GitHub uses [git](https://git-scm.com/) behind the scenes due to `git` being a very powerful versioning tool that allows tracking changes to files and folders over time.
 
 We can admit it: GitHub is not the most accessible site for non-programmers. We address this in the below sections.
 
 ### Why GitHub
-{{< back_to_top >}}
 
 If you're wondering why we would fight with GitHub, git and the seemingly overwhelming nature of the GitHub user interface: we desire change tracking and git (the technology behind GitHub) is the most robust tool available for change management as of this writing. We also wanted collaboration tools which GitHub provides as well.
 
@@ -58,7 +54,6 @@ GitHub also spent time building robust tools for collaboration between contribut
 Please see the [_ Contributing _ page]({{< ref "faq/contributing" >}}) for additional detail on how we use GitHub for collaboration.
 
 ### GitHub Quick and Fast
-{{< back_to_top >}}
 
 Once you ignore all the programmer specific tools, GitHub starts to make a lot more sense. The items that are relevant to manging this website are:
 
@@ -68,7 +63,6 @@ Once you ignore all the programmer specific tools, GitHub starts to make a lot m
 - The `Edit` link is shown on individual files so you can edit them directly in your web browser
 
 ### How GitHub Is Used
-{{< back_to_top >}}
 
 By using GitHub we are able to give our contributors and users the following tools and more:
 
@@ -78,10 +72,9 @@ By using GitHub we are able to give our contributors and users the following too
 - A way to track issues, questions and submissions related to the site with a focus on collaboration as a group
 - A single source of truth for the files that represent the live website
 
-{{< end_section >}}
+---
 
 ## Content Managment
-{{< back_to_top >}}
 
 This site is primarily developed using a text editor and file manager with git (KemoNine's standard workflow).
 
@@ -95,10 +88,9 @@ For images and similar content, each of the methods of editing will allow you to
 
 Please see the [_ Contributing _ page]({{< ref "faq/contributing" >}}) for additional detail on content management for this site.
 
-{{< end_section >}}
+---
 
 ## Publishing (Hosting)
-{{< back_to_top >}}
 
 For publishing and hosting we use [Netlify](https://netlify.com). Specifically we are using a free plan with the `Identity` service (it's free) for our web editor and `Git Gateway` service (it's free) for deployments and updates of the website.
 
@@ -115,7 +107,7 @@ The setup was well documented online and whenever a change gets added to GitHub,
 
 The manual file upload is a good option if you want to skip the GitHub integration or don't want to introduce the complexities of git or GitHub to your own setup. We used this deployment model when building a minimum viable website to ensure Netlify was a usable option for us and others who may want to use our approach for themselves.
 
-{{< end_section >}}
+---
 
 ## Maintenance
 
@@ -127,4 +119,4 @@ All the technological amenities are very hands off and present to help with coll
 
 The only downside we have found so far is the GitHub interface overwhelming users and contributors initially. Hopefully the [_ Contributing _ page]({{< ref "faq/contributing" >}}) can help bridge this gap for our users and collaborators.
 
-{{< end_section >}}
+---

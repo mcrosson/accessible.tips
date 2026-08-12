@@ -13,21 +13,18 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of part of KemoNine's [blog post](https://blog.kemonine.info/blog/2024-09-01-android-tuning/) about tuning Android.
 
-{{< end_section >}}
+---
 
 ## What?
-{{< back_to_top >}}
 
 This page outlines a number of different launchers that can make working with an Android device less frustrating. It's a simple list and it's assumed you can sort which launcher you prefer based trying the options that look most compelling (or all of them).
 
-{{< end_section >}}
+---
 
 ## Good Android Launchers, A List
-{{< back_to_top >}}
 
 -   [olauncher](https://github.com/tanujnotes/Olauncher) / [pro launcher](https://play.google.com/store/apps/details?id=app.prolauncher) by digital minimalism
     -   for focused devices (boox book devices / fiio music devices / etc)
@@ -58,4 +55,3 @@ This page outlines a number of different launchers that can make working with an
     -   may be on life support post-purchase from the original dev/team
     -   smart launcher is probably the better choice as of the writing of this blog post
 
-{{< back_to_top >}}

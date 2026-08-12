@@ -34,14 +34,11 @@ changelog:
 ---
 
 ## Submitting Contributions
-{{< back_to_top >}}
 
 We welcome contributions to the site and ask that you use our [GitHub repository](https://github.com/mcrosson/accessible.tips) for any contributions.
 
-{{< back_to_top >}}
 
 ### Issues and Questions
-{{< back_to_top >}}
 
 If you run into any problems with the website or have specific questions, please use the `Issues` section of our GitHub repository [here](https://github.com/mcrosson/accessible.tips/issues).
 
@@ -49,10 +46,8 @@ We politely ask you review the open issues for exiting items that overlap. Pleas
 
 If there is not an existing issue for your need, please create a new issue. We politely ask you provide us as much detail as possible so we can hopefully respond without having to play a game of 20 questions.
 
-{{< back_to_top >}}
 
 ### Website Content Updates
-{{< back_to_top >}}
 
 We welcome updates to the contents of this website. Please use the `Issues` section [here](https://github.com/mcrosson/accessible.tips/issues) to submit any change requests for the site.
 
@@ -69,30 +64,24 @@ Changes can be:
 
 If you'd like to submit full markdown files or larger edits, please review the contents of this page prior to submission. We've outlined some details on how we manage the content of this site below and ask our contributors follow these guidelines when submitting markdown changes.
 
-{{< back_to_top >}}
 
 ### Anonymous Anecdotes
-{{< back_to_top >}}
 
 If you'd like to submit an anecdote to the site anonymously, please get in touch via a burner account. We can work with you to get your anecdote published on the site via a ghost writer.
 
-{{< back_to_top >}}
 
 ### Pull Requests
 
 If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an avanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
 
-{{< back_to_top >}}
 
 ### And More
-{{< back_to_top >}}
 
 Any other requests we ask be submitted as GitHub `Issues` [here](https://github.com/mcrosson/accessible.tips/issues).
 
-{{< end_section >}}
+---
 
 ## File and Folder Organization
-{{< back_to_top >}}
 
 Files and folders are setup with the following overall layout.
 
@@ -110,10 +99,8 @@ Files and folders are setup with the following overall layout.
                    [author]-[title]-[nnnn]/index.md
 ```
 
-{{< back_to_top >}}
 
 ### Tips Directory
-{{< back_to_top >}}
 
 The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[category]-[title].md` with `[category]` being the category set in the page metadata and `[title]` being the title set in the page metadata.
 
@@ -125,44 +112,37 @@ This is also why we can have *only one* primary category for content currently.
 
 We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
-{{< back_to_top >}}
 
 ### Posts Directory
-{{< back_to_top >}}
 
 In this layout the `posts` directory contains all of the blog posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
 
 We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
-{{< back_to_top >}}
 
 ### FAQ Directory
-{{< back_to_top >}}
 
 In this layout the `faq` directory contains all of the FAQ pages with file names matching the page title. It's a pretty standard and simple folder organization scheme.
 
 We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 ### Anecdotes Directory
-{{< back_to_top >}}
 
 In this layout the `anecdotes` directory contains all of the Anecdote pages with `[author]` being the name of the first author, `[title]` being the title of the page and `[nnnn]` being a left padded 4 digit number that counts up from 1. This numbered serial allows us to avoid file name collisions while keeping the file layout a bit easier to manage.
 
 We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
-{{< end_section >}}
+---
 
 ## Authorship
-{{< back_to_top >}}
 
 Fell free set your preferred name as the author, we like to attribute our authors. If you prefer to remain anonymous, please set authorship to `Anonymous`.
 
 Please note: Authorship metadata will be publicly visible.
 
-{{< end_section >}}
+---
 
 ## Using Categories
-{{< back_to_top >}}
 
 We have tried to keep categories to a small, very high level set and we would like to keep this list focused and small presently.
 
@@ -174,10 +154,9 @@ If you'd like to get a new category added, please create a new issue [here](http
 
 Please note: the submitted content page(s) do *not* have to be exhaustive or all inclusive.
 
-{{< end_section >}}
+---
 
 ## Using Tags
-{{< back_to_top >}}
 
 We have tried to keep tags to a well curated list that help tie many different `Tips` togther. We have also tried to ensure tags are relevant to the category specified on each `Tip`.
 
@@ -191,10 +170,9 @@ Long term we hope to build a tag glossary to enhance discovery, search and synon
 
 If you are working on a tip that conflicts with any access needs, the tip *must* be tagged as conflicting with the form `conflicting-need-[specific_need]` where `specific_need` is a need such as `low-vision`.
 
-{{< end_section >}}
+---
 
 ## Tag and Category Extra Considerations
-{{< back_to_top >}}
 
 ## Anecdotes
 
@@ -212,10 +190,9 @@ For the `FAQ` section of the site we ask that you *only tag* entries with the `f
 
 For the `News` section of the site we ask that you do **NOT** tag entries. The news pages are meant to be minimal and kept independent of the main site information. Adding a tag will tie the news pages into other content which is exactly what we want to avoid.
 
-{{< end_section >}}
+---
 
 ## Changelog Entries
-{{< back_to_top >}}
 
 This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
 
@@ -227,19 +204,17 @@ If you are not sure what date to use, please use the first date you worked on th
 
 Programmers take note: this can be a copy/paste of your git commit. However, this assumes you write meaningful commit messages. Which you do, right?
 
-{{< end_section >}}
+---
 
 ## Attribution and Syndication
-{{< back_to_top >}}
 
 When syndicating content we require contributors include an `Attribution` section immediately following the `Changelog` section.
 
 We do not have a standard format for this section and leave it to the contributor to choose a format that works best for the attribution(s) needed.
 
-{{< end_section >}}
+---
 
 ## Style Guidelines
-{{< back_to_top >}}
 
 If submitting content or copy edits, please note the following
 
@@ -248,10 +223,9 @@ If submitting content or copy edits, please note the following
 - If there are any sections beyond `Changelog`, the table of contents must be enabled
 - When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
 
-{{< end_section >}}
+---
 
 ## Cross References
-{{< back_to_top >}}
 
 If you are cross referencing information you can use the following code.
 
@@ -259,10 +233,9 @@ If you are cross referencing information you can use the following code.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 
-{{< end_section >}}
+---
 
 ## Images
-{{< back_to_top>}}
 
 When adding images to a page the page must be setup as a `Page Bundle` and the images stored in the page's bundle.
 
@@ -278,10 +251,9 @@ The figure shortcode emits a responsive `<picture>` with three WebP widths (400w
 
 Please note: we *require* contributors include `alt-text` on all images if not using the `figure` short code.
 
-{{< end_section >}}
+---
 
 ## Related Pages and Anecdotes
-{{< back_to_top >}}
 
 We encourage contributors to include `Related Pages` and `Related Anecdotes` sections to cross link information on the site.
 
@@ -289,4 +261,4 @@ However, we know this may not be possible and will accept pages lacking these se
 
 These sections should be simple bulleted lists with links to related content.
 
-{{< end_section >}}
+---

@@ -39,4 +39,4 @@ You *must* add a `Changelog` section if editing an existing news entry.
 > [!DANGER]
 > Danger bucket (red). Shared by: danger, error.
 
-{{< end_section >}}
+---

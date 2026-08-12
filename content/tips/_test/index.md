@@ -18,7 +18,6 @@ This is a test page for the `tips` section. It exercises the formatting features
 
 This is a `##` section. The `back_to_top` shortcode goes on the next line.
 
-{{< back_to_top >}}
 
 A second section follows. This one has a `###` sub-section under it.
 
@@ -26,7 +25,7 @@ A second section follows. This one has a `###` sub-section under it.
 
 This is a `###` sub-section, used for nested content under the parent `##`.
 
-{{< end_section >}}
+---
 
 ## Lists, links, and inline code
 
@@ -111,7 +110,6 @@ console.log(cart.checkout());
 
 The 21 admonition types, alphabetized within each severity band (least → most severe).
 
-{{< back_to_top >}}
 
 ### Neutral (site teal)
 
@@ -188,4 +186,4 @@ The 21 admonition types, alphabetized within each severity band (least → most 
 > [!ERROR]
 > An error or a problem that needs to be addressed.
 
-{{< end_section >}}
+---

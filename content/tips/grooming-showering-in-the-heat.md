@@ -16,7 +16,6 @@ changelog:
 
  ## Full Detail:
  
- {{< back_to_top >}}
 
 Ever spent time in a "camp", cabin, tent or similar place that has limited water and even more limited hot water? If so: read the TLDR at the top of the page ; you already know what you need for showering effectively in the heat. Just be sure to use the coldest water possible.
 
@@ -61,4 +60,4 @@ Because you're not adding heat to your body by way of the water. Even a barely w
 
 By minimizing how much warm water flows over you, the addition of heat won't happen. Instead the water on your body will act as sweat and cool your core as you scrub. It also won't cool your core fast enough to trigger feelings of cold that would make your body burn more energy to "get warm". Instead you'll just stop sweating as bad while also gaining a bit of relief from the heat.
 
-{{< end_section >}}
+---

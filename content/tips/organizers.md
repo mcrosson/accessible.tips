@@ -13,16 +13,14 @@ changelog:
 ---
 
 ## Important
-{{< back_to_top >}}
 
 There is no "one true way" to organize. There are many systems and each has pros and cons based on individual needs.
 
 Please keep this in mind as you review organizational systems. Use what works for *you*.
 
-{{< end_section >}}
+---
 
 ## Common Options
-{{< back_to_top >}}
 
 ### Bullet Journal
 
@@ -34,7 +32,6 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Best results seen when a loose structure is preferred
 - [Additional Reading]({{< ref "organizers-bujo" >}})
 
-{{< back_to_top >}}
 
 ### Getting Things Done (GTD)
 
@@ -46,7 +43,6 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Best results seen when a rigid structure and workflow are preferred
 - [Additional Reading]({{< ref "organizers-gtd" >}})
 
-{{< back_to_top >}}
 
 ### Mind Mapping
 
@@ -57,7 +53,6 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Can be difficult to find content if notusing search or rigorous tags and links
 - Best results seen when a very loose web of loose notes is preferred
 
-{{< back_to_top >}}
 
 ### org-mode
 
@@ -69,7 +64,6 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Info on the main org-mode website can be dense and confusing. The internet online is also very easily overhwelming
 - Best results seen when a digital form of bullet journal is preferred and there is a willingness to work through org-mode's learning curve
 
-{{< back_to_top >}}
 
 ### zettelkasten
 
@@ -81,7 +75,6 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - Info on the main Zettelkasten website can be dense and overwhelming
 - Best results seen when a semi-structured and textual mind map is preferred
 
-{{< back_to_top >}}
 
 ### Obsidian
 
@@ -92,10 +85,9 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - The internet regularly tells folks to start with Obsidian (if possible) as a staring point for mind mapping
 - Best results seen when a semi-structured and graphical mind map is preferred
 
-{{< end_section >}}
+---
 
 ## External Resources
-{{< back_to_top >}}
 
 ### KemoNine
 
@@ -109,4 +101,4 @@ KemoNine has written extensively on digital organizers. A number of relevant pos
 - [Digital Bullet Journal](https://blog.kemonine.info/blog/2022-11-03-digital-bullet-journal/)
 - [Android org-agenda](https://blog.kemonine.info/blog/2023-02-17-android-org-agenda/)
 
-{{< end_section >}}
+---

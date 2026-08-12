@@ -19,7 +19,6 @@ changelog:
 ---
 
 ## The Techniques
-{{< back_to_top >}}
 
 There are a number of common ways to cook grains
 
@@ -29,4 +28,4 @@ There are a number of common ways to cook grains
 - Making congee - a savory rice porridge with chicken (or other) stock. A tonne of variations of flavours from here, once you start thinking savory
 - And also salads, like tabouli salad but swapping in other grains, quinoa is really nice I know for sure, haven't tried amaranth
 
-{{< end_section >}}
+---

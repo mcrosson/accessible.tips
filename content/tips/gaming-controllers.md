@@ -15,14 +15,12 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2023-01-15-controller-gaming/). It has been adapted to our site's format by KemoNine.
 
-{{< end_section >}}
+---
 
 ## The Only Consideration
-{{< back_to_top >}}
 
 Before we get too far into opinion land, I'd like to point out the only considerations I consider important.
 
@@ -39,48 +37,41 @@ If the above considerations are met, I think it's a perfectly valid and acceptab
 
 This post is about how I got controllers to "get out of my way" and be comfortable for regular use. Nothing more.
 
-{{< end_section >}}
+---
 
 ## Controller Clips
-{{< back_to_top >}}
 
 While reviewing the below I'd like to note the 8bitdo controller clip works very well with a number of Xbox styled controllers. It works so well, I use it with my Microsoft Elite Series 2 as well as my Scuff Instinct. I also have a short usb-c cable I use to connect the controller to the phone.
 
 It can be a really good option for phones that won't work with some of the nicer, more phone focused controllers.
 
-{{< back_to_top >}}
 
 ### Some Considerations
-{{< back_to_top >}}
 
 - Very good options available
 - Lets you use a lot of 'good' controllers freely
 - Weight/portability can be an issue
 - Center of gravity can be a problem depending on the controller
 
-{{< end_section >}}
+---
 
 ## JoyCon Clips
-{{< back_to_top >}}
 
 If you are considering JoyCons for non-switch gaming (imo: you should), I'd like to call attention to the Joyclamp on Tindie from an open hardware person. The clamp setup will allow you to attach JoyCons to phones **and** tablets to facilitate more generic controller support on mobile.
 
 I've included a link in the `Links` section to the product page.
 
-{{< back_to_top >}}
 
 ### Some Considerations
-{{< back_to_top >}}
 
 - Very helpful for oddly sized devices
 - Vertical orientation support can sometimes be problematic (See the `Adapters & Compatibility` section for additional detail)
 - Rumble can get 'stuck' until you perform another action that triggers rumble allowing the state to re-set
 - Connecting JoyCons via bluetooth can be fiddly and take multiple attempts to get them into 'vertical mode' when used on non-switch platforms
 
-{{< end_section >}}
+---
 
 ## Adapters & Compatibility
-{{< back_to_top >}}
 
 Before getting to the actual controllers, I'd like to point out some compatibility problems I've seen over time.
 
@@ -99,13 +90,11 @@ Some additional notes on the MayFlash when used with JoyCons:
 - Connecting the right then left JoyCon tends to be more reliable for connections
 - The `XInput` mode of the MayFlash works reliably on Android and shows the adapter as a generic Xbox 360 controller
 
-{{< end_section >}}
+---
 
 ## Controllers
-{{< back_to_top >}}
 
 ### Microsoft Elite Series 2
-{{< back_to_top >}}
 
 - Hard to beat for comfort
 - I especially like the paddle layout and where the rear paddles are placed
@@ -113,10 +102,8 @@ Some additional notes on the MayFlash when used with JoyCons:
 - I do **not** recommend this controller if you need Bluetooth connection support
 - The tuning app is second to none, it's worth the extra cost to me
 
-{{< back_to_top >}}
 
 ### Scuff Instinct
-{{< back_to_top >}}
 
 - Next best controller to the Microsoft Elite Series 2
 - The paddles are more horizontally laid out and its difficult to push both paddles on the same side concurrently
@@ -125,10 +112,8 @@ Some additional notes on the MayFlash when used with JoyCons:
 - The profiles for button mappings to the paddles works
 - The tuning is far less than the Microsoft Elite Series 2 but more than enough for general gaming
 
-{{< back_to_top >}}
 
 ### Razer Kishi v1 and v2
-{{< back_to_top >}}
 
 - v1 not worth it due to lack of paddles/grip buttons and it's End Of Life, **avoid** this version
 - v2 is very nice if your phone can be used with it
@@ -136,10 +121,8 @@ Some additional notes on the MayFlash when used with JoyCons:
 - Light and portable
 - No first party case but third party cases work well
 
-{{< back_to_top >}}
 
 ### Gamsir X2 Pro
-{{< back_to_top >}}
 
 - Next best mobile controller to the Kishi v2
 - Has 2 paddles
@@ -148,38 +131,30 @@ Some additional notes on the MayFlash when used with JoyCons:
 - The app is required for paddle mapping
 - Came with a case that can also hold a phone without modifications
 
-{{< back_to_top >}}
 
 ### BinBok DOYOKY Classic JoyCons
-{{< back_to_top >}}
 
 - Best overall JoyCons
 - Need adapter or OS support for vertical mode (known issue with **all** JoyCons)
 - Works with Bluetooth quite well on non-switch platforms
 - Has rumble support
 
-{{< back_to_top >}}
 
 ### Hori Split Pad (Compact & Pro)
-{{< back_to_top >}}
 
 - Best wired JoyCons
 - The `Attachment` versions come with the JoyCons **and** USB adapter
 - Lack bluetooth, only USB and native switch support
 - Lack rumble support
 
-{{< back_to_top >}}
 
 ### 8bitdo NES Controller
-{{< back_to_top >}}
 
 - Works great with bluetooth
 - If you need an original style NES controller, this is the one to buy in my opinion
 
-{{< back_to_top >}}
 
 ### PowerA MOGA XP-7
-{{< back_to_top >}}
 
 - Has 2 paddles, one on each grip
 - Worth considering for mobile and or bluetooth needs if the Kishi v2 isn't an option in my opinion
@@ -189,10 +164,9 @@ Some additional notes on the MayFlash when used with JoyCons:
 - Way to large and unwieldy with my phone in my hands
 - The charging is via Qi (wireless) only
 
-{{< end_section >}}
+---
 
 ## Links
-{{< back_to_top >}}
 
 The following links are in no particular order and my recommended starting points for finding controllers.
 
@@ -208,12 +182,11 @@ The following links are in no particular order and my recommended starting point
 - <https://mayflash.com>
 - <https://www.tindie.com/products/biodiance/joyclamp/>
 
-{{< end_section >}}
+---
 
 ## Related Pages
-{{< back_to_top >}}
 
 - [Controller Configurations]({{< ref "/tips/gaming-controllers-configs.md" >}})
 - [In Game Controller Configurations]({{< ref "/tips/gaming-controllers-in-game.md">}})
 
-{{< end_section >}}
+---

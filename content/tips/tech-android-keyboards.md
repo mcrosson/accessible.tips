@@ -19,21 +19,18 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of part of KemoNine's [blog post](https://blog.kemonine.info/blog/2024-09-01-android-tuning/) about tuning Android.
 
-{{< end_section >}}
+---
 
 ## What?
-{{< back_to_top >}}
 
 This page outlines a number of different keyboards that can make using an Android device less frustrating. It's a simple list and it's assumed you can sort which keyboard you prefer based trying the options that look most compelling (or all of them).
 
-{{< end_section >}}
+---
 
 ## Good Android Keyboards, A List
-{{< back_to_top >}}
 
 -   [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard)
     -   full blown qwerty keeb implementation
@@ -71,4 +68,3 @@ This page outlines a number of different keyboards that can make using an Androi
     -   works with s pen and adonit styluses and others
     -   install on any device where pen may be used
 
-{{< back_to_top >}}

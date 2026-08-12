@@ -14,23 +14,20 @@ changelog:
 ---
 
 ## What's Here
-{{< back_to_top >}}
 
 Some basic info on essential oils and a recipe for `Liquid Xanax` from a community member.
 
-{{< end_section >}}
+---
 
 ## General Kit
-{{< back_to_top >}}
 
 - [Young Living Website](https://www.youngliving.com/us/en)
 - [Young Living Rollers](https://www.youngliving.com/us/en/product/essential-oil-roller-bottle-set)
 - [Young Living Roller Converters]( https://www.youngliving.com/us/en/product/fitment-kit)
 
-{{< end_section >}}
+---
 
 ## Liquid Xanax Recipe
-{{< back_to_top >}}
 
 ### Ingredients
 
@@ -46,4 +43,4 @@ Some basic info on essential oils and a recipe for `Liquid Xanax` from a communi
 1. put essential oils in roller
 1. fill w/ favorite carrier oil (grapeseed / coconut oil)
 
-{{< end_section >}}
+---

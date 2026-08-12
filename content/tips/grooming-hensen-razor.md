@@ -13,14 +13,12 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2023-08-11-henson-razor-mini-review/). It has been adapted to our site's format by KemoNine.
 
-{{< end_section >}}
+---
 
 ## Henson Razor Mini Review
-{{< back_to_top >}}
 
 I have a ton of notes about the Henson DE safety razor ([Product Page](https://hensonshaving.com/)). Enough to make this a very long blog post. As much as I'd probably enjoy writing a longer, word vomit adjacent post about this razor, I'm not going to do that to my time or yours. This will be more mini review.
 
@@ -46,4 +44,4 @@ I could go on at length but instead I'm going to stop here.
 
 All of the key details about the razor are on the Henson site and the site is accurate.
 
-{{< end_section >}}
+---

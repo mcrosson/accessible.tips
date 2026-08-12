@@ -13,15 +13,12 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2023-01-15-controller-gaming/). It has been adapted to our site's format by KemoNine.
 
 ## KemoNine's Destiny 2 In-Game Config
-{{< back_to_top >}}
 
 ### Important Notes
-{{< back_to_top >}}
 
 - **ALL config has been play tested heavily**
 - This setup alternates hands for complimentary actions and balancing forces applied to buttons/triggers/sticks as you play
@@ -30,10 +27,8 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - Long press events trigger single press events ; you should NOT overlap long and single press on a single button -- this appears to be a BUG in the input engine code
 - With Strand using so many grenade, class ability and melee actions, the 4 paddle version was updated to make it easier to manage ability spam. The 2 paddle form _does work_ but is harder to use tactically in my _opinion_ and prompted the updates above
 
-{{< back_to_top >}}
 
 ### General
-{{< back_to_top >}}
 
 - **Look sensitivity:** 8 (direct hid)
 - **Look sensitivity:** 12 (steam link / elite)
@@ -74,28 +69,22 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
    - **Emoji 3:** dpad down (double press) / cowbell
    - **Emoji 4:** dpad down (long press) / salute or sit
 
-{{< back_to_top >}}
 
 ### Tuneables
-{{< back_to_top >}}
 
 - If you find yourself needing stasis breakout in a better spot than b, dpad may be a good spot if you can spare an emoji
 - Long press events trigger single press events ; you should NOT overlap long and single press on a single button
 
-{{< end_section >}}
+---
 
 ## KemoNine's No Man's Sky In-Game Config
-{{< back_to_top >}}
 
 ### Important Notes
-{{< back_to_top >}}
 
 - This setup was reconciled against Destiny 2. In particular the `Discoveries / Options` and `Inventories` functions are in opposite locations compared to Destiny 2 by default and I have flipped them universally to help with muscle memory when swapping between the two games.
 
-{{< back_to_top >}}
 
 ### Buttons
-{{< back_to_top >}}
 
 #### Menus
 
@@ -108,7 +97,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Mode Select: Cancel, Back, Exit Menu
 - **A:** Confirm (Menus)
 
-{{< back_to_top >}}
 
 #### On Foot
 
@@ -121,7 +109,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Switch Alt Weapon, Back
 - **A:** Jump, Secondary Interaction
 
-{{< back_to_top >}}
 
 #### Quick Menu (On Foot)
 
@@ -134,7 +121,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Switch Alt Weapon, Back, Toggle Terrain Mine / Create
 - **A:** Jump, Confirm (Quick Menu)
 
-{{< back_to_top >}}
 
 #### Flight Controls
 
@@ -147,7 +133,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Boost, Back
 - **A:** Thrust
 
-{{< back_to_top >}}
 
 #### Quick Menu (Ship)
 
@@ -160,7 +145,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Back
 - **A:** Confirm (Quick Menu)
 
-{{< back_to_top >}}
 
 #### Exocraft
 
@@ -173,7 +157,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Delete Checkpoint, Back
 - **A:** Vertical Thrust
 
-{{< back_to_top >}}
 
 #### Galactic Map
 
@@ -186,21 +169,18 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Back
 - **A:** Confirm (Menus)
 
-{{< back_to_top >}}
 
 #### Photo Mode
 
 - **View Button:** Discoveries / Options
 - **Menu Button:** Inventories
 
-{{< back_to_top >}}
 
 #### Photo Mode (Menu)
 
 - **View Button:** Discoveries / Options
 - **Menu Button:** Inventories
 
-{{< back_to_top >}}
 
 #### Base Part Editing
 
@@ -213,7 +193,6 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Back
 - **A:** Jump
 
-{{< back_to_top >}}
 
 #### Base Part Placing
 
@@ -226,12 +205,11 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 - **B:** Back
 - **A:** Jump
 
-{{< end_section >}}
+---
 
 ## Related Pages
-{{< back_to_top >}}
 
 - [Controller Configurations]({{< ref "/tips/gaming-controllers-configs.md" >}})
 - [Controller Gaming]({{< ref "/tips/gaming-controllers.md" >}})
 
-{{< end_section >}}
+---

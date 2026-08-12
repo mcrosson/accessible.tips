@@ -13,32 +13,28 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This is a fullly syndicated copy of KemoNine's ['How I Computer' blog post](https://blog.kemonine.info/blog/2024-12-01-how-i-computer/). It has been posted here, in full, with permission.
 
 Note: we've only changed the location of the table of contents and applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 
-{{< end_section >}}
+---
 
 ## What's Within?
-{{< back_to_top >}}
 
 This post contains a breakdown of how I use a computer, laptop and phone. I've made some significant changes over the last few years due to worsening health hassles. Everything here has been iterated over time in order to create a compute environment that makes my life easier to manage. Especially when my my health hassles are at their worst.
 
 Feel free to borrow ideas, adapt things and generally use the contents of this post as you see fit. As always: this is a highly individual approach to computering. Take what works, leave the rest.
 
-{{< end_section >}}
+---
 
 ## A Quick Warning
-{{< back_to_top >}}
 
 I'm not including links to software mentioned in this post. The software I use is specific and alternatives exist. The main purpose of this post is to layout how I compute, not what apps I use. If you feel what I put forth may work for you, I strongly advise looking into the apps I mention *and* their alternatives. There are varied options that'll let you create this style of computering and I leave it to the reader to choose what software they use for implementation.
 
-{{< end_section >}}
+---
 
 ## Laptop
-{{< back_to_top >}}
 
 Simple put: I do *not* use a laptop anymore. 
 
@@ -62,10 +58,9 @@ I'd like to point out that I feel *laptops are valid, useful and are great prima
 
 Editors Note: Android desktop mode (and support) has shifted around a bit since Kemo shed their laptop. If you'd like to know more about how they shed a laptop in favor of an Android phone plus Lapdock; see the [Samsung Galaxy Fold 4 post](https://blog.kemonine.info/blog/2023-02-18-samsung-galaxy-z-fold-4-mini-review/) and then the [Death of the Laptop post](https://blog.kemonine.info/blog/2022-06-18-death-of-the-laptop/). Both linked posts lay out the specifics of Kemo's migration away from laptops.
 
-{{< end_section >}}
+---
 
 ## Phone
-{{< back_to_top >}}
 
 My phone is probably one of the biggest, yet simplest, wins I've had for accessibility needs. Particularly when away from my desk.
 
@@ -101,10 +96,9 @@ I even setup my fitness tracker app to only forward notifications that are non-s
 
 A flexible phone that doesn't constantly jump up and down screaming for attention was a *huge win* for me in terms of accessibility. Enough of a win that I won't use other phones or mobile device setups anymore. This is too accessible to give up.
 
-{{< end_section >}}
+---
 
 ## A Laptop Reminder
-{{< back_to_top >}}
 
 Because I want folk to register this fact: the information below about my desktop computer setup **DOES APPLY TO LAPTOPS**.
 
@@ -112,13 +106,11 @@ Modern laptops and modern desktop computers use the same operating systems, esse
 
 There is great info below for anyone using a desktop computer *or laptop*.
 
-{{< end_section >}}
+---
 
 ## Desktop
-{{< back_to_top >}}
 
 ### The Fundamentals
-{{< back_to_top >}}
 
 The first thing I do with my computer is setup dark mode and red shift. My eyes are very light sensitive and dimming the displays via dark mode and shifting the colors to the red end of the color spectrum really helps. I have less eye strain, less eye fatigue and do not get headaches. Prior to these becoming common options I struggled badly. I struggle so badly without dark mode and red shift that I'll intentionally tweak a monitor's internal settings to be red shifted and I'll setup apps and/or plugins and/or extensions to make applications display things in dark mode (I'm looking at you web sites and web browsers). If you deal with eye strain, eye fatigue and/or headaches when sitting at a screen for long periods: look into red shifts, blue light filters, dark mode and similar. They make a *huge* difference.
 
@@ -128,10 +120,9 @@ For my mouse, I use a "finger trackball". It's a standard, no frills trackball w
 
 My keyboard, on the other hand, is something very special. I use a split, 40% sized keyboard that has only 32 keys, low profile switches and low profile keycaps. It runs a custom firmware with *two* modes of operation: truly one handed typing and two handed typing. Due to my health hassles causing an arm tremor, there are days I can only type one handed. I currently use a customized form of the 40% Ardux keyboard layout. 40% Ardux allows me to type using a purely one handed layout using only half the keyboard *and* it allows me to type two handed with a mostly standard 40% QWERTY layout. All I have to do is boop a key combo to switch between one and two handed typing modes. This keyboard is the biggest, most important accessibility item I use with my computer. It's definitely not for everybody but if you ever need to type one handed: look into [Ardux](https://ardux.io/).
  
-{{< end_section >}}
+---
 
 ### Monitors
-{{< back_to_top >}}
 
 At my desk I have three monitors: a single 13.3" monitor and two 24" monitors. All three are 1440p (2k / 2560x1440) resolution which is my preferred resolution currently. I also prefer a 24" or 13.3" monitor as they are the "right size" for my biology and posture. They also give me the information density I prefer. I've used many other monitor sizes and resolutions over the years and can use other setups, but they are not my preference.
 
@@ -141,10 +132,9 @@ The only tweak I've made to these monitors is I've adjusted the UI scaling. I se
 
 In practicality, the horizontal layout of the physical monitors is the key point here.
 
-{{< end_section >}}
+---
 
 ### Desktop Environment
-{{< back_to_top >}}
 
 My desktop environment is Windows. The UI paradigm works for me and is my preferred these days. Thankfully what I've setup for a desktop environment can generally be setup on MacOS and Linux. 
 
@@ -154,19 +144,17 @@ On MacOS a lot of this should be built into the OS, if not everything.
 
 Linux is it's own can of worms and I leave implementing my desktop environment approach on Linux as an exercise for the reader.
 
-{{< end_section >}}
+---
 
 ### Virtual Desktops
-{{< back_to_top >}}
 
 One of the key items I setup for my desktop environment is virtual desktops. This allows me to create "zones of focus" and also tame the sheer volume of app windows to pick from when switching between windows. I've got a "main" virtual desktop, a "gaming" virtual desktop, and transient virtual desktops for tasks that require focus and I want separate from my main virtual desktop. 
 
 The main virtual desktop contains the misc items that pop up day to day and the remote desktop setup for my job (when actively working, closed otherwise). The gaming virtual desktop is where Steam and my video game sessions live. The transient virtual desktops are created when I work on denser topics like photo editing, programming, performing research and similar. Basically the transient desktops contain things I work on sporadically but are information and app window dense. Keeping these things separate from my main virtual desktop helps me stay focused and helps me avoid being overwhelmed by the volume of information present on screen.
 
-{{< end_section >}}
+---
 
 ### Tiling
-{{< back_to_top >}}
 
 Beyond virtual desktops, I also setup Fancy Zones. Fancy Zones brings tiling window management to the Windows UI.
 
@@ -190,10 +178,9 @@ In the end, my tiling layout is comprised of the following:
 
 This approach to tiling lets me "spread out" very similar to how I spread out across my desk when using analog. I can see a *ton* of information side by side and I can easily layout my windows according to need. This has been so helpful for me, I refuse to use a multi-monitor setup that lacks tiling window management.
 
-{{< end_section >}}
+---
 
 ### Misc Tooling
-{{< back_to_top >}}
 
 In addition to virtual desktops and window tiling, I setup a few different tools that I've found immensely helpful over time.
 
@@ -205,10 +192,9 @@ Power Toys Run I initially setup but ultimately stopped using. It's a quick laun
 
 I setup an app that allows me to mark app windows as "always on top" so I can ensure something like a Pomodoro timer is always visible on-screen. I really only set this up to ensure I can have a Pomodoro timer always visible. I have used this for other purposes like showing my streaming music Firefox tab on top of all other windows but little else. This has limited utility and scope but can be quite helpful at times.
 
-{{< end_section >}}
+---
 
 ### App Window Layout
-{{< back_to_top >}}
 
 Having multiple monitors changes the way you lay out app windows in a big way. Especially if you have three monitors arranged in a single, horizontal row. You'll quickly discover you "spread out" in a way that works for your brain. Given the flexibility of my tiling setup, I don't do anything too specific with my app window layout. However, there are a few, key things to point out.
 
@@ -226,10 +212,9 @@ This third monitor has become so important that I even found a way to mimic havi
 
 One thing to note: I tend to *discourage* setting up more than two monitors. More than two monitors is still not "generally supported or assumed" by applications and operating systems. You also need a fairly competent graphics card which can accommodate more than two monitors. This is not common outside of desktop computer setups in my experience. Instead, I recommend folk setup what I setup at my job: two monitors with a phone or mini tablet on a stand with the "daily life" items readily accessible on the phone/tablet. If this setup proves cumbersome due to typing speed, I usually suggest looking into Frogpad keyboard alternatives or a Bluetooth split keyboard. This will let you have 2 keyboards at your desk: one for the computer, one for the phone/tablet. If the setup proves cumbersome because the screen needs to be tapped "too much", a Bluetooth track ball can help.
 
-{{< end_section >}}
+---
 
 ## Parting Thoughts
-{{< back_to_top >}}
 
 That's the main info on how I computer day to day.
 
@@ -247,4 +232,4 @@ Finding everything put forth in the above was a pain in the ass and took a long 
 
 Thankfully there are options, approaches and more available for folk to choose from. As always with this blog: it's about honesty with yourself, trying things, adapting things and tossing what doesn't work.
 
-{{< end_section >}}
+---

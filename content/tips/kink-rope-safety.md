@@ -14,7 +14,6 @@ changelog:
 ---
 
 ## Background
-{{< back_to_top >}}
 
 I've done a **lot** of research into Shibari and related topics. Someone accidentally helped me unlock the world of rope such that I can get my head around it in a manner that's safe. Previously, for personal reasons I don't plan to share publicly, I could not engage with this topic beyond "that's certainly interesting but not for me".
 
@@ -28,19 +27,17 @@ Given my penchant for immersing myself in topics to better understand them as we
 
 Double oopsies.
 
-{{< end_section >}}
+---
 
 ## Safety Is Critical!
-{{< back_to_top >}}
 
 The world of rope is dense, technical and infinitely creative. There is so much to the topic it can easily overwhelm. I &lt;3 it!
 
 Knowing it can "get out of hand", I've made it a point to focus on the absolute most important and critical element: _safety_.
 
-{{< end_section >}}
+---
 
 ## So how do you be safe?
-{{< back_to_top >}}
 
 Simple: buy good rope, treat your rope well and ensure you have a **proper** cutting tool if you need to cut your rope for any reason. This is a borderline dangerous simplification of concerns, I'm aware. I won't cover the topic of rope care but I _will_ cover [emergency] rope cutting.
 
@@ -54,27 +51,23 @@ Before getting into my setup, a critical set of concerns that **must** be taken 
 
 With those critical safety points in mind...
 
-{{< end_section >}}
+---
 
 ## Safety Kit
-{{< back_to_top >}}
 
 I found 4 (four) tools that allow a rigger to have a proper cutter "at hand", a bottom to have an "oh shit, I'll help too" and backup cutter(s) in case of primary cutter failure or you need an additional human helper for cutting duties. You should not need the backup or help ever but you _must always_ account for the scenario of needing help and you _must_ ensure you have the necessary safety gear "at hand" for such scenarios.
 
 **Do NOT fuck around with safety**
 
 ### Riggers
-{{< back_to_top >}}
 
 For a rigger I recommend a Gerber Strap Cutter [(link)](https://www.gerbergear.com/en-us/shop/knives/all-knives/strap-cutter-black-22-01944) [(Amazon)](https://www.amazon.com/dp/B001PTGOKK). It's able to be sharpened by hand, comes sharpened properly and should outlast the human owner. This particular cutter comes with a quick access sheath that can be attached to molle webbing. The sheath is a big deal! The sheath allows a rigger to keep the cutter close while keeping the sharp edge covered. The molle clip that comes with it can be used to attach the cutter to rope work. This allows the cutter to be attached very creatively and in ways that allow faster access than "traditional" belt based sheaths/holsters/etc attachment points.
 
 ### Models &amp; Bottoms
-{{< back_to_top >}}
 
 For a human having rope fashion applied (bottoms too!) I recommend a CRKT Micro Tool [(link)](https://www.crkt.com/shop/multi-tools/crkt-micro-tool-keychain-sharpener.html) [(Amazon)](https://www.amazon.com/gp/product/B006SK1BXG/). This keychain allows you, the model, to release yourself from any rope fashion that's been applied to your person. It can also be sharpened properly and should outlast the human owner. This keychain is also very adaptable. There are a lot of ways to ensure the person with rope fashion applied has easy access to this cutter.
 
 ### Backups and Secondary Backups
-{{< back_to_top >}}
 
 For a backup cutter I recommend a Leatherman Raptor Rescue [(link)](https://www.leatherman.com/raptor-rescue-51.html) [(Amazon)](https://www.amazon.com/dp/B00WBR89JY) and Rescue Holder [(link)](https://www.leatherman.com/raptor-rescue-holster-73.html) [(Amazon)](https://www.amazon.com/dp/B00H9OH9AY). This will let you use a hook cutter **or** shears to cut rope. I personally find shears to be too slow and require far more hand force over time to be practical. However, this multi-tool includes a strap cutter which allows me to use the belt cutter **or** shears. I may not like shears but I **will** use them if the situation requires it.
 
@@ -82,10 +75,9 @@ For a backup knife I recommend a CRKT Provoke With Veff Serrations [(link)](http
 
 Notice a theme to the backups? They ensure you have _any_ cutting tool handy in case of emergency. This also means they can ensure anyone free of rope can help cut a rope safely and quickly. These are also not cheap cutting tools. They are _designed_ to last and can be _maintained properly_ over time. You won't appreciate this simple fact until you're having an emergency. Take it from someone who's survived many emergencies and physical traumas that shouldn't be survivable: you want to buy cutting tools that will outlast your personal meat sack that can be maintained properly over time.
 
-{{< end_section >}}
+---
 
 ## Do NOT cheat on safety gear
-{{< back_to_top >}}
 
 Buy quality hardware that will last for at least your entire lifetime. Ensure you have "one of each cutter" always handy, you really never know when a knife or shears or hook will be needed and you want to have one handy. Emergencies are _NOT_ the time to need a tool you don't already have at hand.
 
@@ -95,10 +87,9 @@ Now that we have the safety gear selected, how do I ensure it's always "at hand"
 
 The safety gear I've selected includes quick access options that'll protect you and your rope from being cut accidentally or can attach to a keychain. This is very intentional as it allows me to use my rope to create any attachment setup I desire. I have rope dedicated to this task.
 
-{{< end_section >}}
+---
 
 ## A CRITICAL Note About Emergencies
-{{< back_to_top >}}
 
 Emergencies are great at fucking with your senses, shock is a thing and applies here. You _MUST_ be able to be safe and manage the situation, even if you're slipping towards blackout levels of shock. I promise I'm alive today because my instincts took over despite me being on the verge of total blackout (head injury). I cannot make this point strongly enough... It **WILL** safe a life!
 
@@ -108,19 +99,17 @@ To attach the keychain cutter I usually suggest a gauntlet that has a tail attac
 
 **This is NOT hyperbole. There are many points on the body where a rope attached too tightly can _kill_ another human. Do NOT fuck around and ensure everyone has cutters (riggers and models/bottoms)!**
 
-{{< end_section >}}
+---
 
 ## A CRITICAL Note About Safety
-{{< back_to_top >}}
 
 Before I get into my typical setup(s) I'd like to point out this is all about safety. **I care not one whit, iota or shit about "looks" or "feels good but dangerous". I only care about "emergency" and "safety"**. I must stay calm and remove all rope as fast as possible while supporting whatever or whoever is "tied up".
 
 What comes below you **should** adapt to your needs. Adapt the below fully, entirely and without taking a word of this as "The One True Way". There is not "One True Way" just the safest way for ****ALL**** meat sacks and objects involved. Below is meant as a way for your inner muse to get hot and bothered and help you find ****YOUR**** safest way.
 
-{{< end_section >}}
+---
 
 ## My Rigger Safety Kit
-{{< back_to_top >}}
 
 It should be noted I'm a semi-tall human that isn't terribly heavy. I'm semi-ambidexterous too. I have some atypical needs for quickly accessing cutters in an emergency.
 
@@ -132,10 +121,9 @@ Once I've got the gauntlet on, I use a molle hook to attach a Gerber Strap Cutte
 
 Be smart here and practice emergency cutting + release until you can do this blindfolded with ear plugs and dizzy while holding a rope attached to an immovable object in your gauntlet hand. Think about if you 'fall' while trying to cut rope as described above too, can you still do what is necessary to manage the emergency? You want to be able to do this by pure muscle memory no matter how bad the shock gets.
 
-{{< end_section >}}
+---
 
 ## Model Safety Kit
-{{< back_to_top >}}
 
 I default to suggesting a gauntlet with the CRKT keychain linked above attached via quick release for the model. This allows them to have easy access to the cutter while allowing it to be 'dropped' safely.
 
@@ -153,7 +141,7 @@ For keyrings to attach the quick release, I use Freekey [(link)](https://freekey
 
 **For models/bottoms** If you regularly wear rope fashion I recommend looking at the CRKT keychain cutter linked above. It's actually one of the rare times when "inexpensive" has no bearing on "quality". For not much money (less than $25 USD as of this writing) and a single rope you can ensure you have a safety cutter "at hand" no matter what.
 
-{{< end_section >}}
+---
 
 ## Parting Thoughts
 
@@ -161,4 +149,4 @@ That's really the whole of it. I managed to find **proper** safety gear that can
 
 🤘
 
-{{< end_section >}}
+---

@@ -13,14 +13,12 @@ changelog:
 ---
 
 ## What Is Here
-{{< back_to_top >}}
 
 This page is dedicated to small culinary life hacks, tips, tricks and more.
 
-{{< end_section >}}
+---
 
 ## Uncategorized
-{{< back_to_top >}}
 
 - Time how long to boil 1 and 2 cups *cold* water from tap
    - Put in pot
@@ -233,5 +231,5 @@ This page is dedicated to small culinary life hacks, tips, tricks and more.
    - Make the minimum version
    - Add spices from recipes to fill flavor profile to your preferences
 
-{{< end_section >}}
+---
 

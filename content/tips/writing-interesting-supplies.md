@@ -13,12 +13,10 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2020-07-08-interesting-if-not-odd-discoveries/). It has been adapted to our site's format by KemoNine.
 
 ## Pilot G2 Related
-{{< back_to_top >}}
 
 One of the most common rollerball pen types you'll see is the Pilot G2 family. You'll even find some very expensive pens that take the G2 refills.
 
@@ -34,10 +32,9 @@ My _only_ complain is the ink **WILL** wick out of the cartridge. If you keep a 
 
 This refill is the only one I use in my EDC pens. Cheap, quality and if someone borrows my pen they can't damage it like they can with a fountain pen.
 
-{{< end_section >}}
+---
 
 ## Pencils Without Sharpeners
-{{< back_to_top >}}
 
 As a child I used standard, wood, #2 pencils. These pencils always annoyed me and by the time I was 12 I had 'graduated' to a 0.5mm mechanical pencil and 'click' erasers. It wasn't long after that I started to use pens. Once I got to writing in pen, pencils basically fell off my radar with certain exceptions, namely math homework.
 
@@ -51,10 +48,9 @@ Lo, 'lead holders' are basically mechanical pencils that use a single, 2mm lead.
 
 I now have 3 lead holders with 2H, HB and 2B leads loaded and ready to go. I also keep a click eraser and mini lead sharpener handy. If you're not fond of wood pencils or typical mechanical pencils, check out 2mm lead holders. Staedtler [(link)](https://www.staedtler.com/intl/en/products/technical-drawing-instruments/technical-pens-drawing-ink/mars-technico-780-leadholder-780-c-pr5/) has some cheaper, quality holders and their Mars Carbon leads aren't bad (cheap too). I have 2 Staedtler holders and use their Mars Carbon leads exclusively.
 
-{{< end_section >}}
+---
 
 ## Whiteboard Waste Be Gone
-{{< back_to_top >}}
 
 I've always had a great dislike of whiteboard markers and their wasteful nature. It got far worse once I dug deeper into analog writing and found all the great options for inks and refillable pens.
 
@@ -64,19 +60,17 @@ Enter AusPen [(link)](https://www.auspen.us/).
 
 They specialize in whiteboard markers that can be refilled and their inks don't stain boards easily. You can use water or isopropyl alcohol to erase the inks. I could write a lot of words gushing about how much I adore their inks and how they prevent massive amounts of waste. Instead I'll just say I've had 4 Copic Sketch markers over 2 years old that have only used the AusPen inks on my whiteboards. No crapped up tips, no waste, easy to refill and just great. They are so great some of my coworkers bought full AusPen whiteboard marker sets and never looked back. I may prefer the Copic Sketch as a whiteboard marker but the AusPen markers are top notch as well.
 
-{{< end_section >}}
+---
 
 ## Felt Tips
-{{< back_to_top >}}
 
 Historically I've never been fond of felt tip pens. Like I really, really loathe the way they feel. Especially when printing instead of using cursive.
 
 Given my distaste, imagine my surprise when I tried the Sakura Micron line of felt tip pens. They are smooth and have archive grade inks. Too bad they are disposable and plastic. Not what I like in my writing supplies. I also have very specific ink requirements and preferences. For these reasons I went digging for other options and managed to find a pair. Yay!
 
-{{< end_section >}}
+---
 
 ### Option 1 : Yookers
-{{< back_to_top >}}
 
 The first option I found comes from Yookers [(link)](https://yookers-shop.com/). They sell a few different felt tip pens designed to use fountain pen inks. By default they use cartridges (bummer) but one of the old fountain pen piston adapters I had laying around worked (it's a mini piston is all I can tell you about the adapter) with their Bamboo pens.
 
@@ -84,10 +78,9 @@ The pens are light and simple. They are even able to have the nib assembly swapp
 
 Definitely look into the Yookers options if you're fond of felt tip pens or use them with any frequency. Pilot Carbon Black pairs nicely and is an archive grade ink that won't smear (water or alcohol) once dry.
 
-{{< end_section >}}
+---
 
 ### Option 2 : Koh-i-Noor
-{{< back_to_top >}}
 
 Koh-i-Noor [(link)](https://www.kohinoorusa.com/rapidograph) sells a number of technical pens. They aren't felt tip but I've found myself using their technical pens over felt tip pens when a felt tip would normally be used.
 
@@ -99,10 +92,9 @@ If you're OK investigating a quality alternative to felt tips or want a non-felt
 
 One thing to note: sizing isn't 1:1 with Sakura Micron. The Sakuras feather and bleed differently. Step up a size if using a 'dry ink' and step down a size if using a 'wet' ink. The Sakura ink is different than fountain pen inks in my experience and the highly accurate nature of the Koh-i-Noor technical pens has further implications. I've found a 0.35mm Koh-i-Noor paired with Platinum Carbon Black ink to be my go to setup with these pens.
 
-{{< end_section >}}
+---
 
 ## Roller Balling Fountain Pen Ink
-{{< back_to_top >}}
 
 One of the more mind blowing discoveries I've made in the analog writing world is truly refillable rollerball pens that use fountain pen inks. The ones I've seen and used are really nice, don't have waste like 99.999% of rollerball pens and these are just fun to use.
 
@@ -112,10 +104,9 @@ These pens are 100% ceramic roller balls that use your favorite fountain pen ink
 
 Please note I really like these pens but found refills and ink swaps downright annoying. This caused me to give up on them in general. I now favor a Karas Kustoms Retrakt and Ohto 0.4mm refills as my go to rollerball pen setup (this is my EDC setup by the way). This is my **preference** and by no means a reflection of quality.
 
-{{< end_section >}}
+---
 
 ## Fountain Pen Markers
-{{< back_to_top >}}
 
 _Kind of! This discovery can easily result in a giant mess of fountain pen ink. Consider this your warning. Seriously, I made massive messes figuring this out. The stains will exist on my counter tops until they are replaced._
 
@@ -127,12 +118,11 @@ This is a great thing but comes with a massive side of ****'fair fucking warning
 
 Try this at your own risk.
 
-{{< end_section >}}
+---
 
-{{< end_section >}}
+---
 
 ## External Resources
-{{< back_to_top >}}
 
 In no particular order
 
@@ -163,13 +153,11 @@ Koh-i-Noor Technical Pens
 De Atramentis Document Inks
 : <https://de-atramentis.com/en/document-ink--84/>
 
-{{< end_section >}}
+---
 
 ## Related Pages
-{{< back_to_top >}}
 
 - [Analog Notebooks]({{< ref "/tips/writing-analog-notebooks.md" >}})
 - [Pocket Sized Every Day Carries]({{< ref "/tips/organizers-pocket-sized-every-day-carries.md" >}})
 - [Waterproof Writing]({{< ref "/tips/writing-waterproof.md" >}})
 
-{{< back_to_top >}}

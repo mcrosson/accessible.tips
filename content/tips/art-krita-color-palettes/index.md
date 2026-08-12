@@ -13,7 +13,6 @@ changelog:
 ---
 
 ## Palettes
-{{< back_to_top >}}
 
 Below you'll find a link to a color palette generator I use as well as a number of Krita color palettes I've created.
 
@@ -27,4 +26,4 @@ The zip files can be extracted into the Krita `palettes` directory for use. Plea
 - [Crayola Colors - Colors of the World Box for Krita](Crayola_Colors_of_The_World.zip)
 - [Crayola Colors - Gem Tones Box for Krita](Crayola_Gem_Tones.zip)
 
-{{< end_section >}}
+---

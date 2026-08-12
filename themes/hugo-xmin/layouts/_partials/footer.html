@@ -1,8 +1,6 @@
   <footer>
   <hr/>
 
-  {{ partial "_back_to_top_nav.html" . }}
-  &nbsp;|&nbsp;<a class="back_to_top" href="#nav_menu">Back to site menu</a>
   {{ with .Site.Params.footer }}
   <br />{{ replace . "{Year}" now.Year | markdownify}}
   {{ end }}

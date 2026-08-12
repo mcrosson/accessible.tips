@@ -14,7 +14,6 @@ changelog:
 ---
 
 ## You can negotiate with doctors
-{{< back_to_top >}}
 
 It may not be obvious but you *can* negotiate with your doctors about accommodating needs for what would normally be a trivial procedure, but isn't for us [the disabled].
 
@@ -22,10 +21,9 @@ Even with a pacing strategy, adaptations when you know you are going to encounte
 
 However, providers tend not to offer alternatives, adaptations or strategies unless prompted. It usually best to initiate a conversation with your provider instead of waiting for them to offer.
 
-{{< end_section >}}
+---
 
 ## When to negotiate?
-{{< back_to_top >}}
 
 Succinctly: every time.
 
@@ -37,10 +35,9 @@ It's also not just the name of the surgery or just "minor day surgery", which is
 
 So this is really about speaking up for accommodations other don't even realize you need. And I didn't realize I needed until I was on the other side and went: well THAT could have gone better.
 
-{{< end_section >}}
+---
 
 ## Some Negotiation Points
-{{< back_to_top >}}
 
 Some points you may be able to negotiate with your doctor
 
@@ -48,11 +45,10 @@ Some points you may be able to negotiate with your doctor
 - Negotiating how long to be without food or water, rarely is "12 hours" a hard requirement
 - Discussing keeping the hydration IV bag present longer if needed to help with hydration after fasting for long periods of time
 
-{{< end_section >}}
+---
 
 ## Related Anecdotes
-{{< back_to_top >}}
 
 - [Minor Day Surgery]({{< ref "/anecdotes/anon-minor-day-surgery-0001.md" >}})
 
-{{< end_section >}}
+---

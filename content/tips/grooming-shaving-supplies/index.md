@@ -13,20 +13,18 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2018-02-07-razors-blades-brushes/). It has been adapted to our site's format by KemoNine.
 
-{{< end_section >}}
+---
 
 ## My Supplies (Image)
-{{< back_to_top >}}
 
 {{< figure src="A6509063.jpg" alt="3 razors, 2 shave brushes, 2 packs of blades, 1 shave cup 1 bar soap" caption="My shaving supplies" >}}
-{{< end_section >}}
+
+---
 
 ## Full Disclosure
-{{< back_to_top >}}
 
 To be 100% clear before presenting **anything** to you, the reader.
 
@@ -38,17 +36,15 @@ To be 100% clear before presenting **anything** to you, the reader.
 - I **DID** reach out to some of these companies via **STANDARD** means
 - These are my **OPINIONS**
 
-{{< end_section >}}
+---
 
 ## Length
-{{< back_to_top >}}
 
 As you might be able to tell by the scrollbar in your browser, this is a bit long. If nothing else, read the first 1/2 or so of what is here. That's the meat and potatoes. The hearty stuff that's worth focusing on. The second 1/2 or so is examples and 'what is KemoNine using for gear'. Feel free to skip the insights into my preferences, the first 1/2 stands on its own.
 
-{{< end_section >}}
+---
 
 ## Heavily Featured
-{{< back_to_top >}}
 
 Chagrin Valley Soap and Salve [(link)](https://www.chagrinvalleysoapandsalve.com/)
 : They popped up in one of my feeds and I took a chance. I'm glad I did.
@@ -62,10 +58,9 @@ West Coast Shaving [(link)](https://www.westcoastshaving.com/)
 Etsy [(link)](https://www.etsy.com/)
 : I prefer to buy from people that aren't mass producing products. I really don't want to buy a pen, razor, leather goods or anything other than food 'often'. They have a large number of artisans selling a number of different products. I almost always start here for 'forever' items and support the 'small guy' whenever possible. If you're looking for unique shaving gear, there are a lot of options here. More than I care to admit. I've lost many hours to discovery on Etsy.
 
-{{< end_section >}}
+---
 
 ## Synopsis
-{{< back_to_top >}}
 
 Awhile back I bought some artisanal soap on a lark. After using it for a month I gave it a go as a shaving cream. It did not disappoint. However, it did get me thinking about how I go from hairy ape to hairless ape.
 
@@ -77,10 +72,9 @@ My preferences here were dialed in over many, many weeks. I went down the rabbit
 
 You'll also notice I _don't_ call attention to specific razors, brushes and other items. This is 100% intentional on my part. Shaving supplies are going to be super personal. I'll link to what I'm using and a couple sites as starting points, nothing more. I hope that you'll spend a little time poking around and make selections based on your preferences.
 
-{{< end_section >}}
+---
 
 ## Disposal -- Important
-{{< back_to_top >}}
 
 Before I get into the post there is something **VERY** important I'd like to point out regarding blade disposal. The blades used in Safety Razors _are_ razor blades and are _very sharp_. Yes, that's the whole point but when you _dispose_ of these blades you need to be mindful. Nothing worse than a Waste Management person being cut because of improper disposal.
 
@@ -92,10 +86,8 @@ If you're especially concerned I'm told [this site (link)](https://safeneedledis
 
 A final thought: if you have a blood borne pathogen such as Hepatitis C be sure to use a _biohazard_ sharps container and _avoid_ the landfill. Please take special care in this circumstance.
 
-{{< back_to_top >}}
 
 ### Containers For Blade Disposal
-{{< back_to_top >}}
 
 Feather Used Blade Case [(link)](https://www.westcoastshaving.com/travel/feather-blade-disposal-case.html)
 : This is a good option for travel use. Just be sure to tape the opening after adding any blades for disposal. This can be dropped in the standard trash (do **NOT** recycle) as long as you tape up the opening well.
@@ -106,13 +98,11 @@ Derby Razor Blade Disposal Case [(link)](https://amazon.com/gp/product/B00DW9JMG
 Medline Sharps Container [(link)](https://amazon.com/gp/product/B001B9W78W)
 : 32 ounce sharps container. Holds a **ton** of blades (think years to fill as an individual). Note: the biohazard label is not uncommon and doesn't affect non-biohazard use and shouldn't affect disposal. Check your local municipality guidelines just in case the biohazard logo is a problem for non-biohazard sharps.
 
-{{< end_section >}}
+---
 
 ## Misconceptions and Confusion
-{{< back_to_top>}}
 
 ### Cults of Personality
-{{< back_to_top >}}
 
 Shaving is wet shaving is part of personal grooming. Stated another way: if you 'shave', the manner (technique) and tools are just things you use to get the job done.
 
@@ -128,10 +118,8 @@ I wrote this post **because** the information was so contradictory and scattered
 
 The only thing I ask is you pay special attention to what I call attention to as a 'fundamental' variable or product that deserve some time and energy. It may be annoying to spend some time researching and product testing but I've found the end results to be worth the up-front effort.
 
-{{< back_to_top >}}
 
 ### Man/Women/Other
-{{< back_to_top >}}
 
 If you dig into the wet shaving and safety razor worlds you'll see it's dominated by individuals who identify as 'men'. This **DOES NOT** mean that this world is a 'boys club'. It simply means men tend to shave a very visible part of their body and tend to have strong opinions.
 
@@ -139,49 +127,38 @@ If you pickup a razor with any frequency, this world is for you too.
 
 Ignore the silly dude bros and have a good shave.
 
-{{< back_to_top >}}
 
 ### Modern Supplies
-{{< back_to_top >}}
 
 Modern supplies are just as good as vintage supplies. If you don't care about vintage, don't bother. The modern hardware is just as good an anything made 'long ago'. This is very much a preference.
 
-{{< back_to_top >}}
 
 ### Vintage Supplies
-{{< back_to_top >}}
 
 Vintage supplies are just as good as modern supplies. If you want a vintage product, go with it. Things have changed since vintage hardware was created but it's variations on a theme. This is very much a preference.
 
-{{< back_to_top >}}
 
 ### Modern Vs Vintage
-{{< back_to_top >}}
 
 Seriously: _preference_. Find a razor/brush/etc that you like and go with it. Don't let anyone tell you that you made the wrong choice. Its your body that you're shaving. At the end of the day your preferences dictate the terms of how you shave.
 
 Opinions can be helpful for finding your preferences but once you have them, stick to them. Even if that means you stick to modern cartridge razors.
 
-{{< back_to_top >}}
 
 ### Quality vs Cost
-{{< back_to_top >}}
 
 Higher cost does _not_ always mean higher quality. You can spend a small fortune on razor hardware and it can still be junk quality. You can also spend very little to get high quality. The usual quality/cost analysis should be applied to the shaving world.
 
 I dug into this some and I don't see a strong need to make recommendations or call out specific brands/hardware. If you look close at my personal gear selections you'll see a bit of a pattern emerge but it has more to do with my personal preferences and tastes than cost/quality ratios.
 
-{{< end_section >}}
+---
 
 ## Universals
-{{< back_to_top >}}
 
 These are a few universal items that I would **strongly** recommend you spend some time with. These are the key elements of a proper shave (legs/face/crotch) and will be rooted in opinions. I've tried multiple options for these items and some were great, others horrific. Do _not_ let one bad shave ruin the whole experience.
 
-{{< back_to_top >}}
 
 ### Technique
-{{< back_to_top >}}
 
 {{< figure src="Shaving_Teqnique.png" alt="Three diagrams showing common shave patterns for face, neck, legs, groin regions of the human body" caption="Shaving Techniques" >}}
 
@@ -189,10 +166,8 @@ Online you can find all kinds of information about shaving technique. I'd recomm
 
 I should also state: it took me awhile to nail down my technique. It didn't happen right away and the DE Safety Razors require a different approach than cartridge razors. Give it at least 6-12 shaves to nail down properly.
 
-{{< back_to_top >}}
 
 #### Distilled Technique
-{{< back_to_top >}}
 
 - Hold the razor at a 30 degree angle to your skin
 - Do _NOT_ add any pressure, let the razor's weight take care of things
@@ -204,10 +179,8 @@ I should also state: it took me awhile to nail down my technique. It didn't happ
 - Lather up between passes
 - Take your time, this will be a longer process when compared to modern razors initially
 
-{{< back_to_top >}}
 
 ### Blades
-{{< back_to_top >}}
 
 Finding the right blade for a new razor is key to a good shave. It's also painful, bloody and time consuming. This was the biggest item I struggled with overall. I liked the feel and balance of the razor I purchased. However, the shaves were terrible until I started looking for new blades. Simply swapping blades was the difference between the worst and best shave I've had to date.
 
@@ -219,10 +192,8 @@ I'd also recommend keeping an eye on the country/region of origin and blade feat
 
 Finding the right blade is the difference between the worst shave imaginable and the best. If you do nothing else, spend time focused on blades.
 
-{{< back_to_top >}}
 
 ### Soap/Cream
-{{< back_to_top >}}
 
 Before discussing soap I should point out the following
 
@@ -240,10 +211,9 @@ I recommend spending some time finding the 'right' non-mass produced soap if pos
 
 One big thing that may be a little odd when not using canned shave cream/gel is that soaps have a different lather. When I switched over to soaps for shaving I noticed that the lathers tended to be less stable and less thick. This is _normal_ and _expected_. What I recommend is lathering in 'zones' based on how much shaving you can get done before the lather degrades. Degraded lather can result in a poor shave. If necessary, lather a little bit at a time.
 
-{{< end_section >}}
+---
 
 ## Kits
-{{< back_to_top >}}
 
 I would recommend starting with a DE Safety Razor kit (razor + brush) if you're starting out. I looked at the kits from West Coast Shaving and bought individual pieces after further research. If you're interested but don't want to be 'that person' when it comes to shaving supplies I'd recommend a kit.
 
@@ -261,10 +231,9 @@ Build your own - Bestsellers
 Build your own - Starter
 : <https://www.westcoastshaving.com/safety-razor-kits/west-caost-shaving-starter-kit-byo.html>
 
-{{< end_section >}}
+---
 
 ## My Needs
-{{< back_to_top >}}
 
 As I explored DE Safety Razors and Wet Shaves I discovered that I need the following in my shaving setup. It took a bit of effort to discover but was worth it in the end. As you build into wet shaving keep in mind the overall aggressiveness of your head/blade combo and the soap you're using.
 
@@ -277,10 +246,8 @@ I almost gave up with wet shaving because of how much I had underestimated findi
 
 Your needs will likely differ and I _strongly_ recommend working past any bad shaves as you discover them.
 
-{{< back_to_top >}}
 
 ### Gear
-{{< back_to_top >}}
 
 The various gear I settled upon is in the below selections. When I said I went down the rabbit hole and danced with the red queen, I meant it. I spent a lot of time doing research, finding higher end products and supporting smaller companies and artists. I even spent time pouring over commercial options and more readily available gear with a great price/cost balance that's more affordable than small run products.
 
@@ -288,10 +255,8 @@ I went with non-commercial for a the _majority_ of my gear. I only wanted to buy
 
 If you're looking for a great starting point and more commercially available gear, I'd recommend a close look at my travel setup. It's all reasonably priced, good quality and readily available.
 
-{{< back_to_top >}}
 
 ### Paradox of Choice
-{{< back_to_top >}}
 
 Before getting into my picks. I'd like to take a moment to point out that commercial products are **good** too. I may have gone with some intense, specialty razor hardware but I also wouldn't discount commercial products.
 
@@ -299,10 +264,8 @@ Please don't think you need to buy what I have listed below. My gear is what wor
 
 The DE Safety Razor world is a great example of **Paradox of Choice** and can be paralyzing at times. Working through it can be very difficult but the rewards are great.
 
-{{< back_to_top >}}
 
 ### Blades
-{{< back_to_top >}}
 
 If you made it this far it's time to share a secret: I **also** bought a bunch of Russian made blades that aren't normally included in sample packs. As I worked through the original sample pack I bought, I realized the blades I preferred were Russian in origin. I headed back over to West Coast Shaving to take a look at the blades coming out of Russia that they offer.
 
@@ -310,10 +273,8 @@ I found another 5 blades to try.
 
 At the end of the day I ended up preferring Russian made blades. I found a few that are winners overall and time will tell which sticks.
 
-{{< back_to_top >}}
 
 ### Travel
-{{< back_to_top >}}
 
 {{< figure src="A6509057.jpg" alt="A travel shave brush, DE safety razor and tin of soap" caption="My travel gear" >}}
 
@@ -331,10 +292,8 @@ Leather Razor Case [(link)](https://www.etsy.com/listing/572624420/safety-razor-
 Aluminum Tin for Soap [(link)](https://www.westcoastshaving.com/Aluminum-Screw-Top-Tin-with-Cover-325_p_207.html)
 : A simple tin to hold soap while traveling. Not much to say other than 'it just works'.
 
-{{< back_to_top >}}
 
 ### At Home
-{{< back_to_top >}}
 
 {{< figure src="A6509060.jpg" alt="A shave brush, DE safety razor, shave cup, razor blade packs and bar soap" caption="My home gear" >}}
 
@@ -352,7 +311,6 @@ Copper Brush/Bowl Set [(link)](https://www.etsy.com/listing/576526033/copper-sha
 Leather Razor Cover [(link)](https://www.etsy.com/listing/187956792/no-4-safety-razor-cover)
 : A simple leather cover for a DE Safety Razor head. I bought this to ensure that my razor doesn't cut people rooting through a drawer when not in use.
 
-{{< back_to_top >}}
 
 ### Shower Time
 
@@ -376,10 +334,8 @@ Above the Tie SE2 Aluminum Cap
 Feather AC Professional Blades [(link)](https://www.westcoastshaving.com/Feather-AC-Professional-Blade-20-Pack_p_41.html)
 : These are on par with aggressive DE blades what I can tell. They offer some forgiveness but you shouldn't forget these are on the more aggressive end compared to typical DE Safety Razor blades. They are also _sharp_. Do _not_ mess about with these blades.
 
-{{< back_to_top >}}
 
 ## Next Steps
-{{< back_to_top >}}
 
 The above may be a long read and heavy on my opinions. However, I hope it has given you some pause, something to think about and hopefully sets you down the Safety Razor path. Safety Razors have been a great thing for me and I hope you can share in it.
 
@@ -387,4 +343,4 @@ I'd also like to repeat: the above is what works for **me**. I totally expect yo
 
 Take some time, research and jump into the wet shaving pond. You'll appreciate it in time, trust me.
 
-{{< end_section >}}
+---

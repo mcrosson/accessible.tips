@@ -13,17 +13,15 @@ changelog:
 ---
 
 ## Prerequisites
-{{< back_to_top >}}
 
 This tip is a life-hack that assumes
 
 - You have a standard marijuana `510 cart` that is blocked and has no draw to it
 - You have a metal tooth pick or similar tool on-hand
 
-{{< end_section >}}
+---
 
 ## Clearing the blockage
-{{< back_to_top >}}
 
 To clear the blockage
 
@@ -36,4 +34,4 @@ To clear the blockage
 1. Re-attach cart and enjoy
 1. Use a towel and isopropyl alcohol at a greater than or equal to 80% concentration to clean the tooth pick
 
-{{< end_section >}}
+---

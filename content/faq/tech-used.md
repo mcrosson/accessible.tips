@@ -32,4 +32,4 @@ This website uses the following technologies to achive a highly accessible, free
 [NameCheap DNS](https://namecheap.com/)
 : DNS registrar and record managent
 
-{{< end_section >}}
+---

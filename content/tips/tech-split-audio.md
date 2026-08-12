@@ -13,22 +13,19 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2022-08-01-more-accessible-gaming-audio/). It has been split into this page and a related [anecdote]({{< ref "/anecdotes/kemonine-audio-processing-woes.md" >}}).
 
-{{< end_section >}}
+---
 
 ## What?
-{{< back_to_top >}}
 
 This page outlines how to split your computer audio output so a game or aplication's audio is sent to your speaker and the voice audio is sent to a headset.
 
 This can be helpful for those with speech processing needs. It allows you to isolate voice to a headset or similar which lets the voice audio come through more strongly than any other audio.
 
-{{< end_section >}}
+---
 
 ## Windows 10
-{{< back_to_top >}}
 
 1. Open main settings application
 2. Go to system settings
@@ -39,11 +36,9 @@ This can be helpful for those with speech processing needs. It allows you to iso
 7. Click on the microphone tab
 8. Right click your microphone and set it as the default if it doesn't have a green circle checkmark.
 
-{{< back_to_top >}}
 
 ## Related Anecdotes
-{{< back_to_top >}}
 
 - [Audio Processing Woes]({{< ref "/anecdotes/kemonine-audio-processing-woes.md" >}})
 
-{{< end_section >}}
+---

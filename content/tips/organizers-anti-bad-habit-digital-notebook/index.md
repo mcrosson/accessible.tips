@@ -13,11 +13,10 @@ changelog:
 ---
 
 ## Attribution
-{{< back_to_top >}}
 
 This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.info/blog/2024-12-06-anti-bad-habit-digital-notebook/). It has been adjusted for formatting.
 
-{{< end_section >}}
+---
 
 ## Analog Version
 
