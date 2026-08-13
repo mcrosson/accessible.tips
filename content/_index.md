@@ -14,4 +14,4 @@ The intent of the site is to be a [zettelkasten](https://en.wikipedia.org/wiki/Z
 
 The menu across the top of the site can be used to discover content and browse the main sections of the website. 
 
-Please seee the [navigation FAQ]({{< ref "faq/navigation">}}) for additional detail on how this site is organized.
+Please see the [navigation FAQ]({{< ref "faq/navigation">}}) for additional detail on how this site is organized.
