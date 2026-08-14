@@ -139,5 +139,8 @@ the repo proper or into `public/`.
 - All servers default to 1313 — pick a numeric port per concurrent instance.
 - `bin/build.sh` only emits static files; use `dev.sh`, `preview.sh`, or the
   manual recipe to serve.
-- No Node ever — Playwright via MCP only; never add `package.json`,
-  `node_modules/`, or `@playwright/test`.
+- No Node in the site build or the browser toolchain — Playwright via MCP only;
+  never add `package.json`, `node_modules/`, or `@playwright/test` to the site or
+  this skill. Sole sanctioned exception: the gitignored `vsr/` test harness under
+  `a11y-audit` (test-time Node only; never in the build, never shipped, never
+  committed).

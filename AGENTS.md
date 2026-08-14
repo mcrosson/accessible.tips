@@ -81,14 +81,9 @@ Deployed via Netlify. Licensed CC BY-SA 4.0.
 
 ## Testing skills (`.agents/skills/`)
 
-All Playwright-driven; all REQUIRE a vision-capable model.
-
-- **site-browser** — capability layer: serve + drive + artifacts + teardown.
-  The other testing skills build on this.
-- **smoke-test** — breakage assertions (search, equivalence, assets/SRI,
-  Plausible, RSS, console cleanliness, internal links, aliases). Run after any
-  change to templates / SCSS / JS / `config.toml` / search / taxonomy.
-- **a-b-compare** — two-version side-by-side (A/B, before/after, two branches).
+All Playwright-driven; all REQUIRE a vision-capable model. The current set lives
+in `.agents/skills/` (see that dir and `.agents/orientation.md`) — not enumerated
+here to avoid drift; the orientation regen is the discovery mechanism.
 
 Test artifacts go under `.scratch/test-artifacts/` (gitignored).
 
