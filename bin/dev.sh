@@ -22,6 +22,9 @@
 #   --renderToMemory   don't serve the stale on-disk public/; render fresh
 #   --disableFastRender  full re-render each save, so your change ALWAYS shows
 #   -D                 include draft content (new pages start draft = true)
+#   --cacheDir         per-PORT Hugo file cache, so concurrent dev.sh runs on
+#                      different ports don't race on a shared cache at the
+#                      repo root (renders are already per-process in memory)
 #
 # Stop with Ctrl-C.
 #
@@ -41,6 +44,7 @@ case "${1:-}" in
 esac
 
 cd "$ROOT"
+CACHE_DIR="${TMPDIR:-/tmp}/accessible-tips-dev-$PORT/hugo-cache"
 echo "Live dev server (working tree) at http://localhost:$PORT  —  Ctrl-C to stop"
 echo "NOTE: /search/ is inert here (no Pagefind index); use bin/preview.sh for search."
 exec "$ROOT/bin/hugo-0.155.3" server \
@@ -48,4 +52,5 @@ exec "$ROOT/bin/hugo-0.155.3" server \
   --disableFastRender \
   -D \
   --port "$PORT" \
+  --cacheDir "$CACHE_DIR" \
   "$@"
