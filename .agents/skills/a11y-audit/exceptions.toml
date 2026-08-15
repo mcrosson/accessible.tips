@@ -1,0 +1,25 @@
+# exceptions.toml — axe exception / baseline list for the a11y-audit skill.
+#
+# Bootstrap state (2026-08-15): header-only, ZERO entries — by design. The
+# first full audit run emits the complete violation list; the operator
+# adjudicates every violation into {fix} or {exception}; adjudicated
+# exceptions are appended below and seed the smoke gate's baseline.
+#
+# The smoke gate asserts header axe_version == the pin in
+# ../../site-browser/vendor/.MANIFEST before consulting this file.
+# Mismatch = FAIL "re-triage pending" — never a vacuous pass.
+
+axe_version = "4.13.0"
+run_only_tags = ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa", "best-practice"]
+
+# --- entries land here ONLY via operator adjudication -----------------------
+# Identity key: the triple (rule_id, page, selector). `page` is the CANONICAL
+# URL PATH (e.g. "/tips/foo/"), never a filename.
+#
+# [[exception]]
+# rule_id = "landmark-one-main"
+# page = "/"
+# selector = "html"
+# reason = "…maintained rationale (why this violation is accepted)…"
+# axe_version = "4.13.0"      # version this exception was validated against
+# review_date = "2026-08-15"  # re-review on any axe bump or site change here
