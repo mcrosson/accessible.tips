@@ -7,3 +7,6 @@ public/
 .scratch/
 .hugo_build.lock
 resources/_gen/
+# VSR (@guidepup/virtual-screen-reader) test-time Node harness — reconstructed
+# on demand by the a11y-audit skill's priming procedure; never committed.
+vsr/

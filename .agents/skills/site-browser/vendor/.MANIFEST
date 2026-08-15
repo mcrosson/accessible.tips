@@ -1,0 +1,10 @@
+# .MANIFEST — pin for the vendored axe-core bundle used by site-browser's
+# "Inject-and-run axe" capability (and its consumers: a11y-audit, smoke gate).
+# The sha256 is checked ONCE PER SESSION before the first inject; a mismatch
+# is a hard stop (loud SKIP for gates; hard error for the audit).
+# A version bump is a deliberate event: re-run the full axe pass, re-triage
+# new-rule firings into {fix} vs {exception}, update exceptions.toml's header
+# axe_version, and rename the vendored file (a bump is a visible git rename).
+version = "4.13.0"
+sha256 = "c24f097bd2f451d4f933e8bc7d8d539f8672a2ebcb5cc9f9f3eec8ca9470a0c1"
+pinned_at = "2026-08-15"

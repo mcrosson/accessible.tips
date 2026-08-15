@@ -132,6 +132,48 @@ the repo proper or into `public/`.
 - `dev.sh` has no dedicated teardown; Ctrl-C or kill by port.
 - Manual-build scratch (`/tmp/at-smoke`, etc.): `rm -rf`; never into the repo.
 
+## Inject-and-run axe (mechanical WCAG scanning)
+
+This skill owns the MECHANICS; judgment artifacts (exception list, triage)
+live in `a11y-audit`, which consumes this recipe by path — as does the
+smoke-test gate.
+
+**Asset + pin:** `vendor/axe-core-<ver>.min.js` beside this SKILL.md, pinned
+by `vendor/.MANIFEST` (TOML: `{version, sha256, pinned_at}`). Current pin:
+4.13.0.
+
+**Procedure:**
+
+1. **Once per session** (before the FIRST inject — not before every inject):
+   verify the vendored bundle's `sha256sum` equals the `.MANIFEST` sha256 and
+   the filename version equals the manifest version. Mismatch or absent
+   asset = never inject: gates SKIP loudly (`SKIPPED: asset absent/pin
+   mismatch`), the audit hard-errors — never silently green.
+2. **Inject + run** (verified mechanics,
+   `.scratch/test-artifacts/2026-08-15T00-00-axe-probe/`), via
+   `playwright_browser_run_code_unsafe`:
+
+   ```js
+   await page.addScriptTag({ path: '<repo>/.agents/skills/site-browser/vendor/axe-core-4.13.0.min.js' });
+   const results = await page.evaluate(() => axe.run(document, {
+     runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa', 'best-practice'] }
+   }));
+   ```
+
+   `addScriptTag({path})` from the local file — never pass the ~580KB bundle
+   through an evaluate string. `require('fs')` is NOT available inside
+   `run_code_unsafe`: return results inline (`JSON.stringify`) or persist via
+   the `filename` param, and write artifacts from the caller.
+3. **Assert engine identity every run:** `results.testEngine.version` must
+   equal the `.MANIFEST` version.
+4. **axe mutates the DOM** (highlight styles, `mark` elements). Any tool
+   needing a clean tree on the same page — e.g. the VSR announcement pass —
+   runs BEFORE axe.
+
+**Version bumps are deliberate events** (procedure in the `.MANIFEST`
+header): re-run the full axe pass, re-triage new-rule firings, rename the
+vendored file (a bump is a visible git rename), update the pin.
+
 ## Constraints
 
 - Never target the production URL for verification.
@@ -144,3 +186,9 @@ the repo proper or into `public/`.
   this skill. Sole sanctioned exception: the gitignored `vsr/` test harness under
   `a11y-audit` (test-time Node only; never in the build, never shipped, never
   committed).
+- The vendored axe bundle was fetched ONCE from a pinned unpkg URL as a static
+  asset — never via npm, never a Node dependency, never referenced by site
+  templates, never placed in `static/`, `assets/`, or `public/`. It is injected
+  at test time into locally served pages only, so it structurally cannot ship
+  to production. Same spirit as the VSR carve-out: no "helpful"
+  `npm install axe-core` drift, ever.
