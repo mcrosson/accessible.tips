@@ -99,6 +99,84 @@ before first use.
 - **AAA when free.** Note zero-cost AAA wins (target size ≥ 24px, contrast ≥ 7:1
   where the palette already allows) — report, don't fail.
 
+### Axe gate (automated AA-regression tripwire; additive to the manual AA-floor checks)
+
+**Coexistence rule:** axe is AUTHORITATIVE for its rules on gate pages; the
+manual AA-floor checks above are RETAINED wherever axe is silent (reflow,
+focus-visible, target size, zoom, judgment calls). Nothing above is cut by
+this gate. Mechanics (inject recipe, pin, caveats) come from **site-browser**'s
+"Inject-and-run axe" section; the exception baseline lives in **a11y-audit**
+(`exceptions.toml`, consumed by path).
+
+**Preconditions — any failure stops the gate with the stated status, never a
+silently green run:**
+
+1. Vendored asset: `.agents/skills/site-browser/vendor/axe-core-<ver>.min.js`
+   exists AND its sha256 equals `vendor/.MANIFEST`'s (checked ONCE per gate
+   run, before the first inject). Absent/mismatch → gate reports
+   **`SKIPPED: asset absent/pin mismatch`** (loud skip; the rest of the smoke
+   run is unaffected).
+2. Exception list: `.agents/skills/a11y-audit/exceptions.toml` exists.
+   Absent → **FAIL — fail-closed** (no list = zero exceptions).
+3. Version pair: the list's header `axe_version` == the `.MANIFEST` version.
+   Mismatch → **FAIL "re-triage pending"** — never a vacuous pass.
+
+**Page picks — computed AT RUN TIME, never a locked list** (the corpus grows;
+s/m/l shift; #10/#11):
+
+1. Serve via `bin/preview.sh <port>`; `SCRATCH=/tmp/accessible-tips-preview-<port>`.
+2. Per section (tips / anecdotes / faq / news): leaf pages with alias stubs
+   excluded, sorted by size:
+   ```sh
+   find "$SCRATCH/<section>" -mindepth 2 -name index.html -print0 \
+     | xargs -0 grep -L 'http-equiv=refresh' \
+     | while read -r f; do printf '%s\t%s\n' "$(wc -c < "$f")" "$f"; done \
+     | sort -n
+   ```
+   (`-mindepth 2` so a section's own index isn't a leaf; stubs are the
+   smallest files and would systematically win "smallest".) Pick
+   **smallest / lower-median (line ⌊(n+1)/2⌋) / largest** → 12 pages.
+3. Plus: the **About slot** — `/about/` IF the build contains
+   `$SCRATCH/about/index.html`, ELSE the homepage `/` (this site currently
+   has no About page; the homepage carries the About/Intent content —
+   resolved dynamically each run, never assumed); **`/search/` idle only**
+   (tripwire scope; the audit does post-query states); and **one random
+   lightbox page**: candidates derived FROM THE BUILD —
+   `grep -rl -i 'tobii' "$SCRATCH" --include=index.html` (rendered
+   lightbox markup — immune to front-matter slug renames and draft
+   exclusion, unlike content-dir greps; a slug like
+   `tech-phone-as-a-laptop/` building as `using-a-phone-or-tablet-as-a-laptop/`
+   silently breaks dirname→URL mapping); `shuf -n 1` among them; **the pick
+   is logged** so a failure traces to its page.
+4. **Log every pick** in the gate report.
+
+**Execution:** each picked page, in **BOTH themes** (contrast rules are
+theme-dependent — light-only axe misses dark-mode regressions). Theme state
+machine (see a11y-audit): set a KNOWN theme, assert
+`document.documentElement.dataset.theme` BEFORE each run; a failed assert is
+a gate error, never a silent wrong-theme result. Inject + run per the
+site-browser recipe; assert `results.testEngine.version` == pin. Batching
+multiple pages inside one `run_code_unsafe` call per theme is fine (and
+cheaper).
+
+**Verdict:**
+
+- A violation NOT matched by an exception entry → **FAIL**. Exception match =
+  `(rule_id, page, selector)` with `page` the canonical URL path
+  (e.g. `/tips/foo/`). Each failing violation reported as
+  `{rule_id, page, selector, impact, help}`.
+- All violations matched (or none) → page passes.
+- **Bootstrap expectation:** with a header-only exception list, every
+  pre-existing violation fails the gate — EXPECTED and correct
+  pre-adjudication. The operator's {fix}/{exception} adjudication of the
+  audit's findings seeds the baseline; a massive first-run list is the point,
+  not a defect.
+
+**Report:** `.scratch/test-artifacts/<ts>-smoke/axe-gate/` — `picks.log`
+(all picks incl. the random lightbox choice), raw per-page axe JSON
+(unmodified), `verdict.md` (status + failing violations table + version-pair
+line).
+
 ### Page weight (low-bandwidth)
 
 - Sum per-page transfer size from `playwright_browser_network_requests`; flag
