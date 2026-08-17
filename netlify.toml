@@ -5,4 +5,3 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
-  TZ = "US/Eastern"

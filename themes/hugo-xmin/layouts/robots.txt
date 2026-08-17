@@ -6,4 +6,4 @@ Disallow: /admin
 User-agent: CCBot
 Disallow: /
 
-Sitemap: /sitemap.xml
+Sitemap: {{ "sitemap.xml" | absURL }}

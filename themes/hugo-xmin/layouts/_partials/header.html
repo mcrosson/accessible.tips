@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <script>(function(){try{var e=localStorage.getItem("theme");(e==="light"||e==="dark")&&(document.documentElement.dataset.theme=e)}catch(e){}})()</script>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "css/chroma.css" | relURL }}" />
-    <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    {{- $style := resources.Get "css/style.css" | minify | fingerprint -}}
+    {{- $chroma := resources.Get "css/chroma.css" | minify | fingerprint -}}
+    {{- $fonts := resources.Get "css/fonts.css" | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $chroma.RelPermalink }}" integrity="{{ $chroma.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,7 +27,7 @@
 
   </head>
 
-  <body>
+  <body id="top">
     <nav id="nav_menu" aria-label="Site menu">
     <ul class="menu">
       {{ range .Site.Menus.main }}
@@ -34,5 +37,3 @@
     </ul>
     <hr/>
     </nav>
-
-    <a id="top"></a>

@@ -1,10 +1,9 @@
 {{ partial "header.html" . }}
 
-<main>
+<main id="content">
 {{ partial "page_meta.html" . }}
 
 <div data-pagefind-body>
-<a id="content"></a>
 {{ partial "equiv-inject.html" . }}
 {{ partial "search-filters.html" . }}
 {{ .Content }}

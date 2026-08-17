@@ -1,7 +1,6 @@
-baseURL = '/'
+baseURL = 'https://accessible.tips/'
 title = 'accessible.tips'
 
-DefaultContentLanguage = "en"
 languageCode = 'en-us'
 timeZone = 'UTC'
 
@@ -12,7 +11,6 @@ rssLimit = 25
 
 theme = ['hugo-admonitions', 'hugo-xmin']
 
-uglyURLs = false
 [permalinks]
   tips = '/tips/:slug/'
   anecdotes = '/anecdotes/:slug/'
@@ -32,9 +30,7 @@ uglyURLs = false
     weight = 100
 
 [sitemap]
-  changefreq = 'weekly'
   filename = 'sitemap.xml'
-  priority = 0.5
 
 [imaging]
   [imaging.exif]
@@ -72,7 +68,6 @@ uglyURLs = false
 
 [params]
   description = 'A collection of accessibility tips and tricks'
-  footer = '&copy; {Year}'
 
 [menu]
 [[menu.main]]
@@ -96,7 +91,7 @@ uglyURLs = false
   url = '/faq/'
   weight = 50
 [[menu.main]]
-  identifier = 'posts'
+  identifier = 'news'
   name = 'News'
   url = '/news/'
   weight = 60
@@ -108,5 +103,5 @@ uglyURLs = false
 [[menu.main]]
   identifier = 'rss'
   name = 'RSS'
-  url = 'index.xml'
+  url = '/index.xml'
   weight = 80

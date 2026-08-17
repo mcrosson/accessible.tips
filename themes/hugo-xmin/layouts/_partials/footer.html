@@ -2,9 +2,7 @@
   <a class="top-link" href="#top" aria-label="Back to top">↑ Top</a>
   <hr/>
 
-  {{ with .Site.Params.footer }}
-  <br />{{ replace . "{Year}" now.Year | markdownify}}
-  {{ end }}
+  <br />© {{ now.Year }}
 
   </footer>
 

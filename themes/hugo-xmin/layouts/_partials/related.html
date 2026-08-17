@@ -1,11 +1,16 @@
-{{ partial "_has_related.html" . }}
+{{- /*
+  related.html — renders the related-pages block from the pre-computed set.
 
-{{ if $.Scratch.Get "has_related" }}
+  Passed a dict: "related" = the slice from `.CurrentSection.RegularPages.Related .`
+  (computed ONCE in page_meta.html — single computation, both consumers: the
+  "Jump to related pages" meta link and this block). No markup when empty.
+*/ -}}
+{{ if .related }}
 <p class="terms">
   <a id="related"></a>
   Related Pages:
-  {{ $num_to_show := .Site.Params.related_content_limit | default 5 }}
-  {{ range first $num_to_show (.CurrentSection.RegularPages.Related .) }}
+  {{ $num_to_show := .Page.Site.Params.related_content_limit | default 5 }}
+  {{ range first $num_to_show .related }}
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   {{ end }}
 </p>

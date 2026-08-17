@@ -9,7 +9,7 @@
 #   Both steps use vendored binaries only — zero Node involved anywhere.
 #
 # Usage:
-#   bin/build.sh [output-dir] [cache-dir]
+#   bin/build.sh [output-dir] [cache-dir] [baseurl]
 #   Default output-dir is "public" (the operator's production deploy
 #   target). Pass a different path (e.g. a scratch/temp dir) to build
 #   without touching public/.
@@ -22,6 +22,11 @@
 #   preview.sh runs on different ports) MUST each pass their own cache dir,
 #   or they race on the shared cache at the repo root. Omitted = Hugo's
 #   default (unchanged behavior for single/production builds).
+#   An optional third argument overrides the build-time baseURL (e.g.
+#   "http://localhost:1313/" for local previews), so feeds, robots.txt and
+#   alias redirects come out with URLs that resolve against the preview
+#   server instead of production. Omitted = the config.toml baseURL
+#   (production).
 #
 # Notes:
 #   - "--minify" is a low-bandwidth production default; the operator can
@@ -42,13 +47,15 @@ cd "$ROOT"
 
 OUT="${1:-public}"
 CACHE_DIR="${2:-}"
+BASEURL="${3:-}"
+
+# Assemble optional flags positionally (POSIX-sh safe, quoted).
+set --
+if [ -n "$CACHE_DIR" ]; then set -- --cacheDir "$CACHE_DIR"; fi
+if [ -n "$BASEURL" ]; then set -- "$@" --baseURL "$BASEURL"; fi
 
 echo "Building site..."
-if [ -n "$CACHE_DIR" ]; then
-  "$ROOT/bin/hugo-0.155.3" --gc --minify --cacheDir "$CACHE_DIR" -d "$OUT"
-else
-  "$ROOT/bin/hugo-0.155.3" --gc --minify -d "$OUT"
-fi
+"$ROOT/bin/hugo-0.155.3" --gc --minify "$@" -d "$OUT"
 
 echo "Indexing with Pagefind..."
 "$ROOT/bin/pagefind" --site "$OUT"

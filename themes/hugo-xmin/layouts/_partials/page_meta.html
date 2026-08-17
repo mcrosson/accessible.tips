@@ -1,9 +1,8 @@
+{{- $related := .CurrentSection.RegularPages.Related . -}}
 <div class="article-meta">
 
-  <a id="page_menu"></a>
-
   <div data-pagefind-ignore>
-  {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
+  {{ partial "_toc_top_link.html" (dict "Page" . "word" "Jump") }}
 
   {{ with .Params.tags }}
   &nbsp;|&nbsp;<a class="back_to_top" href="#tags">Jump to tags</a>
@@ -13,8 +12,7 @@
   &nbsp;|&nbsp;<a class="back_to_top" href="#changelog">Jump to Changelog</a>
   {{ end }}
   
-  {{ partial "_has_related.html" . }}
-  {{ if $.Scratch.Get "has_related" }}
+  {{ if $related }}
   &nbsp;|&nbsp;<a class="back_to_top" href="#related">Jump to related pages</a>
   {{ end }}
   </div>
@@ -25,14 +23,8 @@
 
   <div data-pagefind-ignore>
   {{ with .Params.authors }}
-  <p class="author">By: 
-    {{ if (reflect.IsSlice .) }}
-        {{ $author_links := slice }}
-        {{ range . }}{{ $author_links = $author_links | append (printf `<a href="/authors/%s/">%s</a>` (. | urlize) .) }}{{ end }}
-        {{ delimit $author_links ", " | safeHTML }}
-    {{ else }}
-        <a href="/authors/{{ . | urlize }}/">{{ . }}</a>
-    {{ end }}
+  <p class="author">By:
+    {{ range $i, $author := . }}{{ if $i }}, {{ end }}<a href="{{ relURL (print "/authors/" ($author | urlize) "/") }}">{{ $author }}</a>{{ end }}
   </p>
   {{ end }}
 
@@ -55,7 +47,7 @@
   </div>
 
   {{ partial "categories_tags.html" . }}
-  {{ partial "related.html" . }}
+  {{ partial "related.html" (dict "Page" . "related" $related) }}
 
 </div>
 

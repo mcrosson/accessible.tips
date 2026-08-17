@@ -19,22 +19,13 @@ changelog:
 ---
 
 ## The Scene
-{{< back_to_top >}}
-
 Any detail needed to understand the anecdote
 
-{{< end_section >}}
 
 ## An Anecdote
-{{< back_to_top >}}
-
 A personal journey
 
-{{< end_section >}}
 
 ## Reflection(s)
-{{< back_to_top >}}
-
 Thoughts/feels/advice/etc expansion
 
-{{< end_section >}}

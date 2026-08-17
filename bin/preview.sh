@@ -83,11 +83,13 @@ if [ "$MODE" = "workdir" ]; then
   # build.sh resolves ITS OWN root from its location, so it always builds this
   # repo's current on-disk state; the absolute $SCRATCH keeps output out of the
   # repo (public/ is never touched). The second arg gives this instance its
-  # own Hugo file cache so concurrent previews don't race on a shared one.
+  # own Hugo file cache so concurrent previews don't race on a shared one. The
+  # third arg overrides baseURL to the preview origin so feeds, robots.txt and
+  # alias redirects resolve against THIS server, not production.
   echo "Removing previous scratch build at $SCRATCH…"
   rm -rf "$SCRATCH"
   echo "Building current working tree (uncommitted changes included) into $SCRATCH…"
-  "$ROOT/bin/build.sh" "$SCRATCH" "$SCRATCH/hugo-cache"
+  "$ROOT/bin/build.sh" "$SCRATCH" "$SCRATCH/hugo-cache" "http://localhost:$PORT/"
 
   # Serve over HTTP (required for Pagefind search to work).
   echo
@@ -130,10 +132,11 @@ git worktree add --detach --force "$PREVIEW_DIR" "$BRANCH"
 
 # Build with the vendored binaries (Hugo + Pagefind; zero Node), with this
 # instance's own Hugo file cache (port-keyed scratch) so concurrent branch
-# previews don't race on the shared default cache.
+# previews don't race on the shared default cache. baseURL is overridden to
+# the preview origin for the same reasons as working-dir mode.
 cd "$PREVIEW_DIR"
 echo "Building '$BRANCH' into $PREVIEW_DIR/public…"
-./bin/build.sh public "$SCRATCH/hugo-cache"
+./bin/build.sh public "$SCRATCH/hugo-cache" "http://localhost:$PORT/"
 
 # Serve over HTTP (required for Pagefind search to work).
 echo
