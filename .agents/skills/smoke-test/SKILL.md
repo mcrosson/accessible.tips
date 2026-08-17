@@ -159,6 +159,15 @@ site-browser recipe; assert `results.testEngine.version` == pin. Batching
 multiple pages inside one `run_code_unsafe` call per theme is fine (and
 cheaper).
 
+**Dark-theme reflow wait (mandatory):** after theme switches, wait for the
+CSS custom properties to recompute BEFORE axe inspects computed styles —
+force a reflow + two `requestAnimationFrame` ticks (+ ~80ms timer) after
+the switch. Without it, dark runs can read LIGHT-theme (or mid-transition)
+colors and fire spurious `color-contrast` violations — observed 2026-08-17
+(smoke-3: `.top-link` 1.19:1 phantom; post-wait re-measure ~13:1, zero
+violations). If a dark-theme color-contrast violation appears, re-verify
+it after a proper reflow wait before believing it.
+
 **Verdict:**
 
 - A violation NOT matched by an exception entry → **FAIL**. Exception match =
