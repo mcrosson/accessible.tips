@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <nav id="nav_menu">
+    <nav id="nav_menu" aria-label="Site menu">
     <ul class="menu">
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
@@ -36,4 +36,3 @@
     </nav>
 
     <a id="top"></a>
-    <a class="top-link" href="#top" aria-label="Back to top">↑ Top</a>

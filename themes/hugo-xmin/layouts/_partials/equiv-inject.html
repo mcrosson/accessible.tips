@@ -10,7 +10,7 @@
   (also reused by index.searchvocab.json, so the two never drift); this template
   only renders the returned members.
 
-  Call from single.html inside <main data-pagefind-body>, before {{ .Content }},
+  Call from single.html inside the data-pagefind-body element, before {{ .Content }},
   NOT inside any data-pagefind-ignore region:
       {{ partial "equiv-inject.html" . }}
 */ -}}

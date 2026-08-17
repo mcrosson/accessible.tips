@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+<main>
 <div class="search-page">
   <h1 class="search-page__title">Search</h1>
   {{- /* Submit-based search UI. #search wraps the whole surface so the
@@ -51,5 +52,6 @@
 
 {{- $js := resources.Get "js/search-page.js" | js.Build (dict "minify" true) | fingerprint -}}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+</main>
 
 {{ partial "footer.html" . }}

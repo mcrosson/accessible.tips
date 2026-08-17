@@ -79,7 +79,19 @@ div.changelog {
 /* pagination */
 .pagination { text-align: center; }
 .pagination li { display: inline; }
-.pagination a { padding: 0 .2em; }
+/* WCAG 2.5.8 target size: an inline anchor only sizes to its text (~17px
+   tall). inline-flex lets min-width/min-height actually apply while keeping
+   the row flow; align/justify center the label inside the 24x24 box so
+   narrow glyphs (page numbers, arrows) still fill it. Link colours and
+   hover/focus treatment still come from the global `a` / `a:hover` rules. */
+.pagination a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0 .2em;
+}
 
 /* code */
 pre {
@@ -92,6 +104,17 @@ pre code { background: none; }
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
+
+/* Reflow (WCAG 1.4.10): autolinked bare URLs, long inline <code> spans,
+   and long unbroken words are single unbreakable strings that overflow
+   a 320px viewport. Set at the container level (p, li, dd — incl. the
+   "External Resources" definition lists) because overflow-wrap
+   inherits: one rule covers anchors, code, and bare-text descendants
+   without enumerating them. overflow-wrap only breaks a string that
+   cannot fit on a line of its own, so normal prose (incl. the
+   changelog dl) is unaffected. Scoped to main = article content only,
+   never site chrome or headings. */
+main :is(p, li, dd) { overflow-wrap: anywhere; }
 blockquote {
   background: var(--surface-sunken);
   border-left: 5px solid var(--panel-border);
@@ -511,7 +534,7 @@ a.footnote-ref::after {
 
     /* Chroma dark — github-dark palette */
     --chroma-bg:      #0d1117;
-    --chroma-err-fg:  #f85149;
+    --chroma-err-fg:  #0d1117; /* was #f85149 → fg==bg 1:1; #0d1117 on the #f85149 chip = 5.65:1 (AA) */
     --chroma-err-bg:  #f85149;
     --chroma-hl-bg:   #6e7681;
     --chroma-ln-fg:   #6e7681;
@@ -549,7 +572,7 @@ a.footnote-ref::after {
 
   /* Chroma dark — github-dark palette */
   --chroma-bg:      #0d1117;
-  --chroma-err-fg:  #f85149;
+  --chroma-err-fg:  #0d1117; /* was #f85149 → fg==bg 1:1; #0d1117 on the #f85149 chip = 5.65:1 (AA) */
   --chroma-err-bg:  #f85149;
   --chroma-hl-bg:   #6e7681;
   --chroma-ln-fg:   #6e7681;
@@ -689,3 +712,40 @@ a.footnote-ref::after {
 }
 
 /* Footer search box removed */
+
+/* -----------------------------------------------------------------------------
+   Structural a11y PR (F4–F8, 2026-08-16) — visual parity for demoted headings.
+   Append-only block; existing rules above are untouched.
+   - F4: byline demoted h3.author → p.author. A <p> does not carry the UA h3
+     defaults (bold, ~1.17em), so restore them to keep the byline rendering
+     identical to the old heading.
+   - F4: anecdote trigger-warning wrapper demoted h4 → p.anecdote-warning
+     (span.anecdote-meta keeps its pill styling). Restore the UA h4 defaults
+     the <p> loses: bold text and h4 block margins (1.33em).
+   --------------------------------------------------------------------------- */
+p.author {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+p.anecdote-warning {
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+/* F4: Published/Updated lines demoted h4.date → p.date. Nothing ever
+   styled h4.date, so it rendered with UA h4 defaults — restore what the
+   <p> loses: bold text and h4 block margins (1.33em). No font-size rule
+   needed: UA h4 is 1em, same as <p>. */
+p.date {
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+/* F7: the 404 message is now the page's single h1. Keep the plain
+   body-text look it had as a bare text node (1em, normal weight, no
+   block margins). */
+h1.error-title {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}

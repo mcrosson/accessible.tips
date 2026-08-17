@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+<main>
 <a id="page_menu"></a>
 <h1>{{ .Title | markdownify }}</h1>
 
@@ -19,5 +20,6 @@
 {{ end }}
 </ul>
 {{ template "_internal/pagination.html" . }}
+</main>
 
 {{ partial "footer.html" . }}

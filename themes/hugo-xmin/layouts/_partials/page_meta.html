@@ -2,10 +2,6 @@
 
   <a id="page_menu"></a>
 
-  {{ if eq .Section "anecdotes" }}
-  <div data-pagefind-ignore><h4><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></h4></div>
-  {{ end }}
-
   <div data-pagefind-ignore>
   {{ partial "_toc_top_link.html" (dict "Page" .Page "word" "Jump") }}
 
@@ -24,11 +20,12 @@
   </div>
 
 
+  <header>
   <h1><span class="title">{{ .Title | markdownify }}</span></h1>
 
   <div data-pagefind-ignore>
   {{ with .Params.authors }}
-  <h3 class="author">By: 
+  <p class="author">By: 
     {{ if (reflect.IsSlice .) }}
         {{ $author_links := slice }}
         {{ range . }}{{ $author_links = $author_links | append (printf `<a href="/authors/%s/">%s</a>` (. | urlize) .) }}{{ end }}
@@ -36,7 +33,7 @@
     {{ else }}
         <a href="/authors/{{ . | urlize }}/">{{ . }}</a>
     {{ end }}
-  </h3>
+  </p>
   {{ end }}
 
   <p>
@@ -46,10 +43,15 @@
   </p>
   </div>
 
+  {{ if eq .Section "anecdotes" }}
+  <div data-pagefind-ignore><p class="anecdote-warning"><span class="title anecdote-meta">WARNING!<br />This page may be triggering, it contains a <em>personal</em> account of living with disability.</span></p></div>
+  {{ end }}
+  </header>
+
   <div data-pagefind-ignore>
-  {{ if (gt .Date 0) }}<h4 class="date">Published: <time data-pagefind-meta="date:{{ .Date.Format "2006-01-02" }}" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time></h4>{{ end }}
+  {{ if (gt .Date 0) }}<p class="date">Published: <time data-pagefind-meta="date:{{ .Date.Format "2006-01-02" }}" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006/01/02" }}</time></p>{{ end }}
   {{ with .Params.search_terms }}<span data-pagefind-meta="search_terms:{{ delimit . " " }}"></span>{{ end }}
-  {{ with (partial "util/changelog-latest.html" .Params.changelog) }}<h4 class="date">Updated: <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "2006/01/02" . }}</time></h4>{{ end }}
+  {{ with (partial "util/changelog-latest.html" .Params.changelog) }}<p class="date">Updated: <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "2006/01/02" . }}</time></p>{{ end }}
   </div>
 
   {{ partial "categories_tags.html" . }}
@@ -57,9 +59,9 @@
 
 </div>
 
-<div data-pagefind-ignore>
+<div id="toc" data-pagefind-ignore>
 {{ if .Params.toc }}
 <h2>Table of Contents</h2>
-{{ .TableOfContents }}
+{{ replace .TableOfContents `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-label="Table of contents">` | safeHTML }}
 {{ end }}
 </div>

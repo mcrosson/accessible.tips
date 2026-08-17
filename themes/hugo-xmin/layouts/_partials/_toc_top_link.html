@@ -1,19 +1,25 @@
 {{- /*
-  _toc_top_link.html — emits the #top nav link with toc/content variant text.
+  _toc_top_link.html — emits the article jump link with toc/content variant.
   Page is passed as "Page" in the dict. Default word is "Back" (the in-section
   / footer convention). Pass word="Jump" for the page-meta convention:
-    Back + toc=true  → "Back to ToC"
-    Back + toc=false → "Back to top"
-    Jump + toc=true  → "Jump to ToC"
-    Jump + toc=false → "Jump to content"
+    Back + toc=true  → "Back to ToC"     → href="#toc"
+    Back + toc=false → "Back to top"     → href="#content" (no template uses this today)
+    Jump + toc=true  → "Jump to ToC"     → href="#toc"
+    Jump + toc=false → "Jump to content" → href="#content"
+  F8: the destination is the #toc wrapper around the Table of Contents block
+  (page_meta.html, toc pages only) or the #content anchor at the start of the
+  article body (single.html). The old unconditional href="#top" sat above the
+  article meta, so the "content" label lied; destinations now match labels.
 */ -}}
 {{- $word := .word | default "Back" -}}
 {{- $suffix := "" -}}
+{{- $href := "#content" -}}
 {{- if .Page.Params.toc -}}
+  {{- $href = "#toc" -}}
   {{- $suffix = "ToC" -}}
 {{- else if eq $word "Back" -}}
   {{- $suffix = "top" -}}
 {{- else -}}
   {{- $suffix = "content" -}}
 {{- end -}}
-<a class="back_to_top" href="#top">{{ $word }} to {{ $suffix }}</a>
+<a class="back_to_top" href="{{ $href }}">{{ $word }} to {{ $suffix }}</a>
