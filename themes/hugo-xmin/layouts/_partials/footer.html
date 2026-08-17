@@ -11,6 +11,7 @@
     {{ $shim := resources.Get "js/tobii-lazy-shim.js" | resources.Minify | resources.Fingerprint }}
     <script defer src="{{ $a11y.RelPermalink }}" integrity="{{ $a11y.Data.Integrity }}"></script>
     <script defer src="{{ $shim.RelPermalink }}" integrity="{{ $shim.Data.Integrity }}"></script>
+    <script>(function(){if(window.__atPrintEager)return;window.__atPrintEager=1;var eager=function(){var imgs=document.images;for(var i=0;i<imgs.length;i++){var img=imgs[i];if(img.loading==="lazy"){img.loading="eager";var pic=img.closest&&img.closest("picture");if(pic){var src=img.currentSrc||img.src;if(src)img.src=src;}}}};var mql=window.matchMedia&&window.matchMedia("print");if(mql){var onChange=function(e){if(e.matches)eager();};if(mql.addEventListener)mql.addEventListener("change",onChange);else if(mql.addListener)mql.addListener(onChange);if(mql.matches)eager();}window.addEventListener("beforeprint",eager);})();</script>
   {{ end }}
   </body>
 </html>
