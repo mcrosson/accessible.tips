@@ -84,7 +84,12 @@ post-query + absurd-query/no-results states (#28). VSR: idle ONLY
 **VSR expected differences are NON-findings** — record, never report:
 JS-revealed controls (the theme toggle ships `hidden`, revealed by its
 script) and JS-injected regions (search results) — VSR executes no site JS,
-so "control not announced" on JS-dependent DOM is expected.
+so "control not announced" on JS-dependent DOM is expected. Conversely,
+content inside `aria-hidden="true"` MAY be announced by VSR (jsdom-backed,
+it walks the DOM without enforcing aria-hidden propagation — observed
+2026-08-18, `/test-form/` honeypot); real ATs read the browser AX tree,
+which excludes it — trust the AX-tree layer over VSR for aria-hidden
+content and never report such VSR announcements as findings.
 
 **Retry/abort (#29):** an empty/errored tool step retries ONCE; a second
 failure marks the page errored and the agent CONTINUES. Four CONSECUTIVE
