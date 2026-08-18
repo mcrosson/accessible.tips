@@ -65,18 +65,24 @@ before first use.
 - **Post-JS behaviour.** Assert the element's post-script state, not the
   script's 200. The `theme-toggle` button is revealed by its deferred script;
   `/search/` is submit-only (no keystroke handler).
-- **Plausible.** Assert `head script[data-domain="kb.accessible.tips"]` is in the
-  DOM (element, not the network request — the request may fail offline).
+- **Plausible.** Assert the embed in `<head>`: the loader
+  `script[src^="https://plausible.accessible.tips/js/"]` (async, no
+  `data-domain` attribute — switched 2026-08-17 from the legacy
+  `plausible.kemonine.info` + `data-domain` script to the new-script embed
+  with the `window.plausible` queue/init inline snippet). Element, not the
+  network request — the request may fail offline.
 - **RSS.** `GET /index.xml` → 200, parses as XML, items > 0. *Verify:* whether a
   section-exclusion invariant is worth asserting.
 - **Console errors + internal-link sweep.** Zero console **errors** on sampled
   pages (allowlist the Plausible fetch failure and its
-  `Ignoring Event: localhost` **warning**). Sample `a[href^="/"]` across home, a
-  tip, an anecdote, a FAQ, and a term page; each returns 200 — catches broken
-  `ref` shortcodes.
+  `Ignoring Event: localhost` **warning** — emitted by the current
+  `pa-*.js` embed too, observed 2026-08-17). Sample `a[href^="/"]` across
+  home, a tip, an anecdote, a FAQ, and a term page; each returns 200 — catches
+  broken `ref` shortcodes.
 - **Network-host allowlist.** Every request host is `localhost:<port>` or the
-  expected external (Plausible). Any other host fails; a *blocked* Plausible
-  request is acceptable. *Verify:* the site's actual external hosts.
+  expected external (`plausible.accessible.tips`). Any other host fails; a
+  *blocked* Plausible request is acceptable. *Verify:* the site's actual
+  external hosts.
 - **Duplicate-id sweep.** `[...document.querySelectorAll('[id]')].map(e => e.id)`
   has no repeats. Cheap; run on every page visited.
 - **Pagefind sanity floor.** Indexed-page count in the same neighbourhood as the

@@ -23,7 +23,12 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s | %s" />` .Rel .MediaType.Type .Permalink $.Title $.Site.Title | safeHTML }}
     {{ end -}}
 
-    <script defer data-domain="kb.accessible.tips" src="https://plausible.kemonine.info/js/script.js"></script>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.accessible.tips/js/pa-8Aiw5IFYgwERwdqOX9dac.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
 
   </head>
 
