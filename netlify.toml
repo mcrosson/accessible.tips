@@ -5,3 +5,9 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+
+# Draft-enabled build for the throwaway test branch (content/test-form.md and
+# other drafts render here only). Production [build] above is untouched.
+[context.forms-test]
+  command = "bin/hugo-0.155.3 --gc --minify --buildDrafts -d public && bin/pagefind --site public"
+  publish = "public/"
