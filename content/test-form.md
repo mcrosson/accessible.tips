@@ -13,7 +13,7 @@ A standing test bed for the Netlify Forms contribution-submission experiment.
 This page is a draft: it never renders in production builds, only on the
 `forms-test` branch deploy (see the notes below).
 
-<form name="contribution-test" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/form-thanks/>
+<form name="contribution-test" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/form-thanks/">
   <p class="u-visually-hidden" aria-hidden="true">
     <label>Leave this field empty: <input name="bot-field" tabindex="-1" /></label>
   </p>
