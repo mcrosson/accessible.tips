@@ -6,6 +6,8 @@ date: 2023-03-21
 toc: true
 draft: false
 changelog:
+  - date: 2026-08-19
+    text: "Update to reconcile with actual hosting & management approach."
   - date: 2024-07-04
     text: "Adjust info based on removal of Static CMS"
   - date: 2023-03-21
@@ -16,7 +18,7 @@ changelog:
 The technology used to build and manage this website can be distilled into just a few key concepts:
 
 - The main website url is a domain name record purchased from and managed by NameCheap.
-- We use a text editor or a web page to write content for the site. The content is just a folder with some files and sub-folders in it.
+- We use a text editor write content for the site. The content is just a folder with some files and sub-folders in it.
 - We use GitHub (a file version control hosting service) for publishing but it is *wholly optional*. You can upload the files to our hosting provider for publishing instead of using GitHub if desired.
 
 If you'd like more detal please see the [Tech Used FAQ page]({{< ref "faq/tech-used" >}}).
@@ -80,9 +82,7 @@ This site is primarily developed using a text editor and file manager with git (
 
 Each page of the site is a simple text file containing [markdown](https://en.wikipedia.org/wiki/Markdown) and can be edited with your preferred text editor.
 
-This site also has a web based content editor setup. It is very trim in terms of features and can be somewhat fiddly to use on a phone. Long-term this area of the site will be looked at closer. For now it's not supported for editing this site.
-
-We even tested editing the contents of this website via the main GitHub website. It works, it's browser based and a really good option for those that prefer a simple web based text editor environment.
+We tested editing the contents of this website via the main GitHub website. It works, it's browser based and a really good option for those that prefer a simple web based text editor environment.
 
 For images and similar content, each of the methods of editing will allow you to add or upload files for use on individual pages.
 
@@ -92,7 +92,7 @@ Please see the [_ Contributing _ page]({{< ref "faq/contributing" >}}) for addit
 
 ## Publishing (Hosting)
 
-For publishing and hosting we use [Netlify](https://netlify.com). Specifically we are using a free plan with the `Identity` service (it's free) for our web editor and `Git Gateway` service (it's free) for deployments and updates of the website.
+For publishing and hosting we use [Netlify](https://netlify.com). Specifically we are using a free plan for deployments and updates of the website.
 
 Netlify has two primary deployment and hosting options available for free:
 
@@ -103,7 +103,7 @@ Both approaches have limits imposed. However, this site and the theme used are v
 
 We chose to use the GitHub integration via the `Git Gateway` service as it allows us to better collaborate as contributors and have a single source of truth for the contents of the website that are publicly available for download.
 
-The setup was well documented online and whenever a change gets added to GitHub, Netlify will automatically update the website with the changes. It's a very hands off, non thinky process outside of the initial setup which was simply pushing one or two buttons in the main Netlify management console.
+The setup was well documented online and whenever a change gets added to GitHub, Netlify will automatically update the website with the changes. It's a very hands off, non thinky process outside of the initial setup which was simply pushing some buttons and filling out some forms in the main Netlify management console.
 
 The manual file upload is a good option if you want to skip the GitHub integration or don't want to introduce the complexities of git or GitHub to your own setup. We used this deployment model when building a minimum viable website to ensure Netlify was a usable option for us and others who may want to use our approach for themselves.
 
