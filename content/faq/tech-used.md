@@ -6,6 +6,8 @@ date: 2023-03-21
 toc: false
 draft: false
 changelog:
+  - date: 2026-08-19
+    text: Add note about AI tech stack, remove Decap
   - date: 2024-07-04
     text: "Adjust info based on removal of Static CMS"
   - date: 2023-03-21
@@ -20,9 +22,6 @@ This website uses the following technologies to achive a highly accessible, free
 [hugo-xmin](https://github.com/yihui/hugo-xmin)
 : Main website theme, modified
 
-[Decap](https://decapcms.org/)
-: Web based editor
-
 [GitHub](https://github.com)
 : Version control, change management, issue tracking
 
@@ -31,5 +30,11 @@ This website uses the following technologies to achive a highly accessible, free
 
 [NameCheap DNS](https://namecheap.com/)
 : DNS registrar and record managent
+
+[Plausible Analytics (Community Edition)](https://github.com/plausible/analytics)
+: Basic 'how many visitors do we get' tracking and fully self-hosted. Will be disabled if you run any kind of 'blocker' or similar.
+
+AI
+: [opencode](https://opencode.ai) with Qwen, GLM, Minimax, Kimi. *Code only*. See the [transparency FAQ]({{< ref "faq/transparency-report" >}}) for additional detail.
 
 ---
