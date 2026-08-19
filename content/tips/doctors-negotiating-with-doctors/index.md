@@ -8,9 +8,9 @@ toc: true
 draft: false
 tags:
   - doctors
-changelog:
-  - date: 2023-03-23
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-23
+#    text: "Initial creation"
 ---
 
 ## You can negotiate with doctors
@@ -49,6 +49,6 @@ Some points you may be able to negotiate with your doctor
 
 ## Related Anecdotes
 
-- [Minor Day Surgery]({{< ref "/anecdotes/anon-minor-day-surgery-0001.md" >}})
+- [Minor Day Surgery]({{< ref "/anecdotes/anon-minor-day-surgery" >}})
 
 ---

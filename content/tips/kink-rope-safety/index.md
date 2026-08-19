@@ -8,9 +8,9 @@ toc: true
 draft: false
 tags:
   - kink
-changelog:
-  - date: 2023-03-23
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-23
+#    text: "Initial creation"
 ---
 
 ## Background

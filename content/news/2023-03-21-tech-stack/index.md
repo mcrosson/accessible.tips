@@ -11,6 +11,6 @@ We have published a set of FAQ entries detailing the technology used by this sit
 
 The relevant pages are:
 
-- [Transparency Report]({{< ref "faq/transparency-report" >}})
+- [Transparency Report]({{< ref "faq/transparency" >}})
 - [Technology Used]({{< ref "faq/tech-used">}})
 - [How this site is hosted and managed]({{< ref "faq/how-this-site-is-hosted-and-managed" >}})

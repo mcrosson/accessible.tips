@@ -8,9 +8,9 @@ authors:
 date: 2024-12-22
 toc: true
 draft: false
-changelog:
-  - date: 2024-12-22
-    text: "Initial creation"
+#changelog:
+#  - date: 2024-12-22
+#    text: "Initial creation"
 ---
 
 ## Attribution

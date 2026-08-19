@@ -18,4 +18,4 @@ Please see the [navigation FAQ]({{< ref "faq/navigation">}}) for additional deta
 
 ## AI
 
-See the [transparency FAQ]({{< ref "faq/transparency-report" >}}) for information on AI use. TLDR: the content of this website was written by *humans*.
+See the [transparency FAQ]({{< ref "faq/transparency" >}}) for information on AI use. TLDR: the content of this website was written by *humans*.

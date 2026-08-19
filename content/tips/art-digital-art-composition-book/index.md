@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - art
-changelog:
-  - date: 2024-12-22
-    text: "Initial creation / cross post"
+#changelog:
+#  - date: 2024-12-22
+#    text: "Initial creation / cross post"
 ---
 
 ## Attribution

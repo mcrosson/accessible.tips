@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - tech
-changelog:
-  - date: 2023-03-25
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-25
+#    text: "Initial creation"
 ---
 
 ## Attribution

@@ -4,7 +4,7 @@ authors:
   - Anonymous
   - KemoNine (Ghost Writer)
 date: 2023-03-25
-toc: true
+toc: false
 draft: false
 tags:
   - culinary
@@ -13,9 +13,9 @@ tags:
 search_terms:
   - barley
   - oats
-changelog:
-  - date: 2023-03-25
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-25
+#    text: "Initial creation"
 ---
 
 ## The Techniques

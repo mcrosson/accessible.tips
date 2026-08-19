@@ -3,13 +3,13 @@ title: Zentangle Template Images
 authors: 
   - KemoNine
 date: 2023-03-23
-toc: true
+toc: false
 draft: false
 tags:
   - art
-changelog:
-  - date: 2023-03-23
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-23
+#    text: "Initial creation"
 ---
 
 ## Templates

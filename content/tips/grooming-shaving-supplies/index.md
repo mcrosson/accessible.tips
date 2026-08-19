@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - grooming
-changelog:
-  - date: 2023-03-25
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-25
+#    text: "Initial creation"
 ---
 
 ## Attribution
@@ -160,7 +160,7 @@ These are a few universal items that I would **strongly** recommend you spend so
 
 ### Technique
 
-{{< figure src="Shaving_Teqnique.png" alt="Three diagrams showing common shave patterns for face, neck, legs, groin regions of the human body" caption="Shaving Techniques" >}}
+{{< figure src="Shaving-Teqnique.png" alt="Three diagrams showing common shave patterns for face, neck, legs, groin regions of the human body" caption="Shaving Techniques" >}}
 
 Online you can find all kinds of information about shaving technique. I'd recommend some research into the 'good' ways to use a DE Safety Razor. I poked around a bit before buying my first razor and a few of the suggestions were really helpful. I've distilled the common recommendations below. Feel free to adapt these to your own style. I'd also recommend a little reading on this front to get some ideas.
 

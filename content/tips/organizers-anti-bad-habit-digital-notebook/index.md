@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - organizers
-changelog:
-  - date: 2024-12-22
-    text: "Initial creation"
+#changelog:
+#  - date: 2024-12-22
+#    text: "Initial creation"
 ---
 
 ## Attribution

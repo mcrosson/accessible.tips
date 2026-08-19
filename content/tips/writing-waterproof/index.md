@@ -12,9 +12,9 @@ tags:
 search_terms:
   - right in the rain # canonical: Rite in the Rain
   - fieldnotes # canonical: Field Notes
-changelog:
-  - date: 2023-03-23
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-23
+#    text: "Initial creation"
 ---
 
 ## Attribution

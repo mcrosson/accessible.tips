@@ -13,9 +13,9 @@ search_terms:
   - tamoe # canonical: Tomoe
   - travelers # canonical: Traveler's
   - travler's # canonical: Traveler's
-changelog:
-  - date: 2024-12-22
-    text: "Initial creation based on KemoNine's blog post 'Health Hassle Handwriting', with permission"
+#changelog:
+#  - date: 2024-12-22
+#    text: "Initial creation based on KemoNine's blog post 'Health Hassle Handwriting', with permission"
 ---
 
 ## Attribution

@@ -138,11 +138,33 @@ Test artifacts go under `.scratch/test-artifacts/` (gitignored).
   (`preview.sh` / `build.sh` exclude drafts).
 - Don't add a hand-written `## Changelog` — `single.html` auto-renders it from
   front matter; the "Updated" masthead tracks the changelog, not GitInfo.
-- Anecdotes need BOTH `categories: [anecdote]` AND `tags: [anecdote]`; FAQ is
-  tagged `faq` only; news is intentionally untagged.
-- Images: use the `figure` shortcode (responsive WebP + Tobii lightbox); use
-  page bundles (`dir/index.md`) when a page owns assets.
-- The contributing FAQ mentions `posts/` — the real blog is `news/`.
+- Only tips carry `tags:` front matter (tags drive related-pages + search
+  facets). Anecdotes, FAQ, and news are untagged; the anecdote warning banner
+  renders from the `anecdotes` section, not from any front-matter value.
+- URLs are TITLE-derived, not folder-derived: permalinks use `:slug`, which
+  falls back to the slugified page title when no `slug:` is set. Folder names
+  are organizational only — `folder ≠ URL` is normal. The ONLY hand-set slug:
+  `faq/contributing` (matches its folder). Do not "fix" a folder/URL mismatch
+  by renaming a folder — check the title first.
+- Folder naming: tips `[tag]-[title]`; faq `[title]`; anecdotes
+  `[author]-[title]` (the `anon-` prefix is an accepted abbreviation); news
+  `yyyy-MM-dd-title`.
+- All content pages are page bundles (`dir/index.md`); images use the `figure`
+  shortcode (responsive WebP + Tobii lightbox). Bundles are SELF-CONTAINED:
+  every asset a page needs lives in its own bundle — zero cross-bundle
+  references to other pages' content, even where an identical file exists
+  elsewhere (byte-identical dupes across bundles are valid).
+- Asset filenames use dashes, never underscores (Sass partials like
+  `_admonitions-user-settings.scss` are the toolchain exception).
+- TOC only when a page has more than one body `##` section (the auto-rendered
+  changelog never appears in the TOC); news and the search page are exempt.
+- Changelog policy: multi-entry changelogs stay live; single-entry
+  "Initial creation"-only changelogs are commented out (`#changelog:`) by
+  design — commented blocks are the norm, not damage. Live changelogs exist
+  only on pages with real change histories, the four section `_test` pages,
+  and `test-form`. News, search, and form-thanks pages are exempt.
+- Ignore stray editor swap files in `content/` (`.kate-swp` and similar) —
+  operator cleans those up; do not flag or touch them.
 - Each section has a `_test/` fold with a likely-draft `index.md` — check before
   assuming a section is empty.
 - Goldmark has `unsafe = true`: raw HTML in pages renders AND is indexed by

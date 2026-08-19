@@ -11,11 +11,11 @@ draft: true
 # Not tags; never feeds related. Synonym clusters belong in data/equiv.toml instead.
 # search_terms:
 #   - example-term
-changelog:
-  - date: 1900-01-01
-    text: "Add additional detail, tags"
-  - date: 1900-01-01
-    text: "Initial creation"
+#changelog:
+#  - date: 1900-01-01
+#    text: "Add additional detail, tags"
+#  - date: 1900-01-01
+#    text: "Initial creation"
 ---
 
 ## The Scene

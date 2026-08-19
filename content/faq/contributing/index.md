@@ -93,12 +93,12 @@ Files and folders are setup with the following overall layout.
               category-topic-1/index.md
               category-topic-2/index.md
               category-topic-3/index.md
-         news/yyyy-MM-dd-title.md
+         news/yyyy-MM-dd-title/index.md
                yyyy-MM-dd-title/index.md
          faq/title-1/index.md
              title-2/index.md
-         anecdotes/[author]-[title]-[nnnn]/index.md
-                   [author]-[title]-[nnnn]/index.md
+         anecdotes/[author]-[title]/index.md
+                   [author]-[title]/index.md
 ```
 
 We use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for all content. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
@@ -106,7 +106,7 @@ We use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bun
 
 ### Tips Directory
 
-The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[tag]-[title].md` with `[tag]` being the 'category set' in the page metadata and `[title]` being the title set in the page metadata.
+The `tips` directory contains the main knowledge base data. Each folder + index.md file represents a different page on the site and they are named using the format `[tag]-[title]/index.md` with `[tag]` being the 'category set' in the page metadata and `[title]` being the title set in the page metadata.
 
 This allows us to easily cross reference information within a tag (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
 
@@ -122,7 +122,7 @@ In this layout the `faq` directory contains all of the FAQ pages with file names
 
 ### Anecdotes Directory
 
-In this layout the `anecdotes` directory contains all of the Anecdote pages with `[author]` being the name of the first author, `[title]` being the title of the page and `[nnnn]` being a left padded 4 digit number that counts up from 1. This numbered serial allows us to avoid file name collisions while keeping the file layout a bit easier to manage.
+In this layout the `anecdotes` directory contains all of the Anecdote pages with `[author]` being the name of the first author and `[title]` being the title of the page.
 
 ---
 
@@ -158,7 +158,7 @@ Programmers take note: this can be a copy/paste of your git commit. However, thi
 
 ## Attribution and Syndication
 
-When syndicating content we require contributors include an `Attribution` section immediately following the `Changelog` section.
+When syndicating content we require contributors include an `Attribution` section at the top of the page.
 
 We do not have a standard format for this section and leave it to the contributor to choose a format that works best for the attribution(s) needed.
 
@@ -177,7 +177,7 @@ If submitting content or copy edits, please note the following
 
 If you are cross referencing information you can use the following code.
 
-<code>[Link Text]]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the main content folder for the page and `[file]` is the markdown file name with the content you would like to reference.
+<code>[Link Text]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the main content folder for the page and `[file]` is the markdown file name with the content you would like to reference.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 

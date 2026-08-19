@@ -101,7 +101,7 @@ Netlify has two primary deployment and hosting options available for free:
 
 Both approaches have limits imposed. However, this site and the theme used are very small and not resource intense. We should be able to run this site, for free, for a very long period of time.
 
-We chose to use the GitHub integration via the `Git Gateway` service as it allows us to better collaborate as contributors and have a single source of truth for the contents of the website that are publicly available for download.
+We chose to use the GitHub integration via it allows us to better collaborate as contributors and have a single source of truth for the contents of the website that are publicly available for download.
 
 The setup was well documented online and whenever a change gets added to GitHub, Netlify will automatically update the website with the changes. It's a very hands off, non thinky process outside of the initial setup which was simply pushing some buttons and filling out some forms in the main Netlify management console.
 

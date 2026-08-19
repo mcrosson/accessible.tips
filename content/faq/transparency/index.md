@@ -3,7 +3,7 @@ title: Transparency
 authors: 
   - KemoNine
 date: 2023-03-21
-toc: false
+toc: true
 draft: false
 changelog:
   - date: 2026-08-19

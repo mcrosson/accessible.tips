@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - culinary
-changelog:
-  - date: 2023-04-06
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-04-06
+#    text: "Initial creation"
 ---
 
 ## What Is Here

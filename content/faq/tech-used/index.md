@@ -35,6 +35,6 @@ This website uses the following technologies to achive a highly accessible, free
 : Basic 'how many visitors do we get' tracking and fully self-hosted. Will be disabled if you run any kind of 'blocker' or similar.
 
 AI
-: [opencode](https://opencode.ai) with Qwen, GLM, Minimax, Kimi. *Code only*. See the [transparency FAQ]({{< ref "faq/transparency-report" >}}) for additional detail.
+: [opencode](https://opencode.ai) with Qwen, GLM, Minimax, Kimi. *Code only*. See the [transparency FAQ]({{< ref "faq/transparency" >}}) for additional detail.
 
 ---

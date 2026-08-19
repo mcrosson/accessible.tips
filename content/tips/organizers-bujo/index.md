@@ -7,9 +7,9 @@ toc: true
 draft: false
 tags:
   - organizers
-changelog:
-  - date: 2023-03-20
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-20
+#    text: "Initial creation"
 ---
 
 ## Considerations

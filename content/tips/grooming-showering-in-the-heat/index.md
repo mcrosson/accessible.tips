@@ -7,9 +7,9 @@ toc: false
 draft: false
 tags:
   - grooming
-changelog:
-  - date: 2024-08-03
-    text: "Initial creation"
+#changelog:
+#  - date: 2024-08-03
+#    text: "Initial creation"
 ---
 
 > TLDR: "camp showers" and barely warm water

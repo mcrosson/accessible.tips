@@ -3,13 +3,13 @@ title: Shaving Supplies - Henson Razor Mini Review
 authors: 
   - KemoNine
 date: 2024-08-03
-toc: calse
+toc: true
 draft: false
 tags:
   - grooming
-changelog:
-  - date: 2024-08-03
-    text: "Initial creation"
+#changelog:
+#  - date: 2024-08-03
+#    text: "Initial creation"
 ---
 
 ## Attribution

@@ -8,9 +8,9 @@ toc: true
 draft: false
 tags:
   - essential-oils
-changelog:
-  - date: 2023-04-05
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-04-05
+#    text: "Initial creation"
 ---
 
 ## What's Here

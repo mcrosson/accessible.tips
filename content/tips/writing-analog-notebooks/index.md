@@ -14,9 +14,9 @@ search_terms:
   - travelers # canonical: Traveler's
   - travler's # canonical: Traveler's
   - right in the rain # canonical: Rite in the Rain
-changelog:
-  - date: 2023-03-23
-    text: "Initial creation"
+#changelog:
+#  - date: 2023-03-23
+#    text: "Initial creation"
 ---
 
 ## Attribution

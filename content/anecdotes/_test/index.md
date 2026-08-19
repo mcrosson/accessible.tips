@@ -3,7 +3,7 @@ title: "_ Test _"
 authors:
   - KemoNine
 date: 2024-01-01
-toc: false
+toc: true
 draft: true
 changelog:
   - date: 2024-01-01

@@ -17,9 +17,9 @@ search_terms:
   - travelers # canonical: Traveler's
   - travler's # canonical: Traveler's
   - fieldnotes # canonical: Field Notes
-changelog:
-  - date: 2024-12-22
-    text: "Initial creation / cross post"
+#changelog:
+#  - date: 2024-12-22
+#    text: "Initial creation / cross post"
 ---
 
 ## Attribution
