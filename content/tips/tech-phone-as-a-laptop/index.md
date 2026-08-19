@@ -31,7 +31,7 @@ Before getting too deep into the topic, a few considerations
 - This setup does **NOT** work universally on Android devices
 - The hardware that enables using a phone as a laptop can also be used as a keyboard, mouse and display with other types of hardware
 - This setup does **NOT** replace bigger computer setups that have multiple monitors, tons of ram, big graphics cards or similar
-- This setup **CAN** replce small laptops, some larger tablets, chrome books, netbooks, umpcs and similar
+- This setup **CAN** replace small laptops, some larger tablets, chrome books, netbooks, umpcs and similar
 
 
 ### iPhone, iPad and iOS
@@ -51,7 +51,7 @@ For example: I had desktop mode working with a OnePlus 8T and a Microsoft Surfac
 
 Samsung devices that have the `DEX` feature *should* work with the setup described here. Samsung has made desktop mode Android a primary feature on some models and I recommend going this path if you want a phone or tablet that can be turned into a laptop.
 
-I switched to a Samsung Galazy Z Fold 4 after the OnePlus 8T and Surface Duo stopped supporting desktop mode properly and I do not regret this decision.
+I switched to a Samsung Galaxy Z Fold 4 after the OnePlus 8T and Surface Duo stopped supporting desktop mode properly and I do not regret this decision.
 
 ---
 
@@ -72,7 +72,7 @@ Lapdocks are hinged, clamshell devices with
 
 They look *exactly* like a laptop and allow you use use the standard laptop clamshell form factor with a variety of devices.
 
-I have bought lapdocks from both [NexDock](https://nexdock.com/explore-nexdock/) and [uPerfect](https://www.uperfectmonitor.com/collections/lapdock). They both sell competent hardware with slightly different configurtations. uPerfect in particular sells a few different models.
+I have bought lapdocks from both [NexDock](https://nexdock.com/explore-nexdock/) and [uPerfect](https://www.uperfectmonitor.com/collections/lapdock). They both sell competent hardware with slightly different configurations. uPerfect in particular sells a few different models.
 
 If you down down this path, I'd recommend shopping around for a layout that meets your desires and needs.
 
@@ -93,9 +93,9 @@ Other devices with support for desktop mode, docks and similar should work the s
 
 Most lapdocks include a HDMI input port as well as the standard phone port. When using non-mobile devices like a Raspberry Pi, server or even desktop computer the lapdock uses 2 cables. One cable for HDMI graphics and one cable for USB keyboard and mouse support.
 
-The lapdock becomes the keyboard, monitor and mouse attached to the device in this situation. It is incredibly useful if you do work on headless comptuers, embedded platforms like the Raspberry Pi and more.
+The lapdock becomes the keyboard, monitor and mouse attached to the device in this situation. It is incredibly useful if you do work on headless computers, embedded platforms like the Raspberry Pi and more.
 
-I use my lapdock to manage a headless Raspberry Pi and have a close friend who uses a lapdock to manage servers in co-location facilities where they don't have access to a keyboard or montior.
+I use my lapdock to manage a headless Raspberry Pi and have a close friend who uses a lapdock to manage servers in co-location facilities where they don't have access to a keyboard or monitor.
 
 ---
 
@@ -109,9 +109,9 @@ The main needs I have that were not easily or well addressed by a lapdock are
 
 - **My Photography:** The image editing and catalog management needs a lot more hardware than most phones and tablets provide
 - **My Embedded Device Development:** I do a bit of embedded device programming and the interfaces require a traditional operating system and are wholly unsupported on mobile devices
-- **My Large Data Processing:** On occassion I have need for a lot of CPU and RAM for processing data sets which mobile devices cannot provide
+- **My Large Data Processing:** On occasion I have need for a lot of CPU and RAM for processing data sets which mobile devices cannot provide
 
-Everything else I need a comptuer for day to day is supported by my phone and lapdock. I have not owned a laptop in at least 18 months and I have no desire or need to go back to having access to a laptop. My phone covers 85-90% of my computing needs and what isn't supported is a reasonably niche need that requires specialized hardware.
+Everything else I need a computer for day to day is supported by my phone and lapdock. I have not owned a laptop in at least 18 months and I have no desire or need to go back to having access to a laptop. My phone covers 85-90% of my computing needs and what isn't supported is a reasonably niche need that requires specialized hardware.
 
 ---
 

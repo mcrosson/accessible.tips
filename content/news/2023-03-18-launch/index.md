@@ -15,7 +15,7 @@ We are using the following technology and services to run this site.
 : Site generator
 
 [hugo-xmin](https://github.com/yihui/hugo-xmin)
-: Main website theme, modified and adaptedi
+: Main website theme, modified and adapted
 
 [Static CMS](https://www.staticcms.org/)
 : Web based editor for use with desktop browsers
@@ -30,4 +30,4 @@ We are using the following technology and services to run this site.
 : Hosting, CMS login management via `Netlify Identify`, automated deployments via `Git Gateway`
 
 [NameCheap DNS](https://namecheap.com/)
-: DNS registrar and record managent
+: DNS registrar and record management

@@ -19,12 +19,12 @@ A lot of new content has been added to the website and a few pages have been upd
 
 ## New Content
 
-### Ancedotes
+### Anecdotes
 
 - [Anecdote - ER Trips]({{< ref "anecdotes/valerie-roney-er-trips" >}})
-- [Ancedote - How I Computer by KemoNine]({{< ref "anecdotes/kemonine-how-i-computer" >}})
-- [Ancedote - How I Research by KemoNine]({{< ref "anecdotes/kemonine-how-i-research" >}})
-- [Ancedote - My Notebook and Organizer Journey]({{< ref "anecdotes/kemonine-my-motebook-and-organizer-journey" >}})
+- [Anecdote - How I Computer by KemoNine]({{< ref "anecdotes/kemonine-how-i-computer" >}})
+- [Anecdote - How I Research by KemoNine]({{< ref "anecdotes/kemonine-how-i-research" >}})
+- [Anecdote - My Notebook and Organizer Journey]({{< ref "anecdotes/kemonine-my-motebook-and-organizer-journey" >}})
 
 ### Tips
 

@@ -61,7 +61,7 @@ Rather than force folk, or my future self, to watch an almost 8 minute video tha
 2. Duplicate layer
 3. Select new layer
 4. Filter -&gt; Adjust -&gt; Desaturate
-    - Destauration method: average
+    - Desaturation method: average
 5. Duplicate desaturated layer
 6. Select new layer
 7. Filter -&gt; Adjust -&gt; Invert

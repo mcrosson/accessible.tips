@@ -160,7 +160,7 @@ These are a few universal items that I would **strongly** recommend you spend so
 
 ### Technique
 
-{{< figure src="Shaving-Teqnique.png" alt="Three diagrams showing common shave patterns for face, neck, legs, groin regions of the human body" caption="Shaving Techniques" >}}
+{{< figure src="Shaving-Technique.png" alt="Three diagrams showing common shave patterns for face, neck, legs, groin regions of the human body" caption="Shaving Techniques" >}}
 
 Online you can find all kinds of information about shaving technique. I'd recommend some research into the 'good' ways to use a DE Safety Razor. I poked around a bit before buying my first razor and a few of the suggestions were really helpful. I've distilled the common recommendations below. Feel free to adapt these to your own style. I'd also recommend a little reading on this front to get some ideas.
 
@@ -186,7 +186,7 @@ Finding the right blade for a new razor is key to a good shave. It's also painfu
 
 During my initial research I saw blade sample packs. I read the reviews on the popular blades and picked the one that seemed to make the most sense. I was _dead wrong_. I ended up buying the West Coast Shaving Everything Sampler pack and worked through every blade in the pack. They have other packs [(link)](https://www.westcoastshaving.com/search.html?nsrt=0&mt=0&k=blade%20sample%20pack) and I strongly recommend a sampler.
 
-After I started work on this post someone sent me a link to Try a Blade [(link)](http://tryablade.com/) and said they had good success. The website is a bit painful to use but I would definiately have bought a _ton_ of blades from them if I was aware of the site _before_ I had made my supply purchases. If you want to try a variety of blades, this site is for you.
+After I started work on this post someone sent me a link to Try a Blade [(link)](http://tryablade.com/) and said they had good success. The website is a bit painful to use but I would definitely have bought a _ton_ of blades from them if I was aware of the site _before_ I had made my supply purchases. If you want to try a variety of blades, this site is for you.
 
 I'd also recommend keeping an eye on the country/region of origin and blade features (coating, material, etc) that are consistent in your picks. This can be a big help for helping guide any samples or future blades you try.
 

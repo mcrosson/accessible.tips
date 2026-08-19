@@ -15,7 +15,7 @@ changelog:
   - date: 2024-08-31
     text: "Initial creation"
   - date: 2025-08-02
-    text: "Major update that adds a lot of additonal information"
+    text: "Major update that adds a lot of additional information"
 aliases:
   - "/tips/getting-cat-pee-out-of-clothes/"
 ---
@@ -52,9 +52,9 @@ Some things to keep in mind when using UV light:
 | - | - |
 | Best UV range | 365-385 nm |
 | Wavelengths to avoid | 390 nm, 400 nm |
-| Light colour | Yellow or green |
+| Light color | Yellow or green |
 | Room lighting | Dark room |
-| Glowing colour of urine | Light yellow, light yellow-white/straw, neon green, faint light green |
+| Glowing color of urine | Light yellow, light yellow-white/straw, neon green, faint light green |
 | Shape of urine glow | Spot, puddle, splatter, drips, pool |
 | Surfaces to check | Floor, walls, door frames, furniture, bedding, carpets (both sides), upholstery |
 | Other substances that may glow | Cleaning products, wallpaper glue, bodily fluids, tonic water, drink spill, carpet cleaner, bleach |

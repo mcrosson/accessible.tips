@@ -13,7 +13,7 @@ search_terms:
   - grafitti # canonical: Graffiti
 changelog:
   - date: 2024-12-22
-    text: "Link to latest and primary source of KemoNine's Unexpected Keyborad work"
+    text: "Link to latest and primary source of KemoNine's Unexpected Keyboard work"
   - date: 2024-09-02
     text: "Initial creation"
 ---

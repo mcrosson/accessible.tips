@@ -16,7 +16,7 @@ changelog:
   - date: 2023-03-22
     text: "Fix typo"
   - date: 2023-03-21
-    text: "Remove source code section as it's spurrious info presently"
+    text: "Remove source code section as it's spurious info presently"
   - date: 2023-03-21
     text: "Re-order sections to be more similar to the order of the initial sections of content pages"
   - date: 2023-03-21
@@ -44,7 +44,7 @@ We welcome contributions to the site and ask that you use our [GitHub repository
 
 If you run into any problems with the website or have specific questions, please use the `Issues` section of our GitHub repository [here](https://github.com/mcrosson/accessible.tips/issues).
 
-We politely ask you review the open issues for exiting items that overlap. Please comment on an existing issue that is relevant prior to creating a new issue.
+We politely ask you review the open issues for existing items that overlap. Please comment on an existing issue that is relevant prior to creating a new issue.
 
 If there is not an existing issue for your need, please create a new issue. We politely ask you provide us as much detail as possible so we can hopefully respond without having to play a game of 20 questions.
 
@@ -56,7 +56,7 @@ We welcome updates to the contents of this website. Please use the `Issues` sect
 Changes can be:
 
 - accessibility concerns, issues, needs, etc
-- simple edits with info on what changes to make (ie. spelling and grammer mistakes, bad sentence structure)
+- simple edits with info on what changes to make (ie. spelling and grammar mistakes, bad sentence structure)
 - full markdown files that are updates to existing pages
 - asking for a tag to be added to a page
 - asking to adjust categorization of a page or multiple pages
@@ -74,7 +74,7 @@ If you'd like to submit an anecdote to the site anonymously, please get in touch
 
 ### Pull Requests
 
-If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an avanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
+If you've used GitHub and git in the past, we will accept `Pull Requests` for updates. However, we will *not* describe the process here as it is an advanced topic we are not supporting directly. Consider `Pull Requests` a convenience that could go away in the future due to their inherent complexity.
 
 
 ### And More
@@ -128,7 +128,7 @@ In this layout the `anecdotes` directory contains all of the Anecdote pages with
 
 ## Authorship
 
-Fell free set your preferred name as the author, we like to attribute our authors. If you prefer to remain anonymous, please set authorship to `Anonymous`.
+Feel free set your preferred name as the author, we like to attribute our authors. If you prefer to remain anonymous, please set authorship to `Anonymous`.
 
 Please note: Authorship metadata will be publicly visible.
 
@@ -138,7 +138,7 @@ Please note: Authorship metadata will be publicly visible.
 
 Tags are used as a kind of 'category' and only for tips. These are very high level tags that are more topical than anything. This is to help facilitate filling out the related pages section of the page headers. Nothing more. Tags should only be applied to tips and be the same as the filename prefix of the tip's folder.
 
-We do this because there are so many synynoms for words and tags are a massive overhead for upkeep long-term. Rather than try to have all the tags for all the things we've spent time ensuring the site search is robust. The site search will let you search for content and includes synynoms in the underlying setup so we can allow more flexible searches and not be forced to make a mess of the on-page content.
+We do this because there are so many synonyms for words and tags are a massive overhead for upkeep long-term. Rather than try to have all the tags for all the things we've spent time ensuring the site search is robust. The site search will let you search for content and includes synonyms in the underlying setup so we can allow more flexible searches and not be forced to make a mess of the on-page content.
 
 ---
 

@@ -28,7 +28,7 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 - An analog setup that's very adaptable
 - Very flexible or rigid based on how much of the standard system you use
-- Can be overhwelming as there is a lot of published info and ideas on the internet
+- Can be overwhelming as there is a lot of published info and ideas on the internet
 - Best results seen when a loose structure is preferred
 - [Additional Reading]({{< ref "organizers-bujo" >}})
 
@@ -39,7 +39,7 @@ Please keep this in mind as you review organizational systems. Use what works fo
 
 - Highly structured and rigid
 - Difficult to adapt
-- Easy to start using but can quickly overhwelm due to the rigid and structured workflow
+- Easy to start using but can quickly overwhelm due to the rigid and structured workflow
 - Best results seen when a rigid structure and workflow are preferred
 - [Additional Reading]({{< ref "organizers-gtd" >}})
 
@@ -61,7 +61,7 @@ Please keep this in mind as you review organizational systems. Use what works fo
 - A style of bullet journal with some pre-made workflows that can be used if desired
 - This is a digital text form of bullet journal
 - org-mode is considered one of the most powerful and flexible options for building a digital bullet journal
-- Info on the main org-mode website can be dense and confusing. The internet online is also very easily overhwelming
+- Info on the main org-mode website can be dense and confusing. The internet online is also very easily overwhelming
 - Best results seen when a digital form of bullet journal is preferred and there is a willingness to work through org-mode's learning curve
 
 

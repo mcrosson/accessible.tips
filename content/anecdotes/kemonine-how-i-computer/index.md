@@ -14,7 +14,7 @@ draft: false
 
 ## Attribution
 
-This is a fullly syndicated copy of KemoNine's ['How I Computer' blog post](https://blog.kemonine.info/blog/2024-12-01-how-i-computer/). It has been posted here, in full, with permission.
+This is a fully syndicated copy of KemoNine's ['How I Computer' blog post](https://blog.kemonine.info/blog/2024-12-01-how-i-computer/). It has been posted here, in full, with permission.
 
 Note: we've only changed the location of the table of contents and applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 

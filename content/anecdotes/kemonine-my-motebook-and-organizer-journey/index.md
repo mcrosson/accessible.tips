@@ -24,7 +24,7 @@ search_terms:
 
 ## Attribution
 
-This is a fullly syndicated copy of KemoNine's ['My notebook & organizer journey' blog post](https://blog.kemonine.info/blog/2024-11-27-my-notebook-and-organizer-journey/). It has been posted here, in full, with permission.
+This is a fully syndicated copy of KemoNine's ['My notebook & organizer journey' blog post](https://blog.kemonine.info/blog/2024-11-27-my-notebook-and-organizer-journey/). It has been posted here, in full, with permission.
 
 Things to note: 
 
@@ -342,7 +342,7 @@ OneNote also got Android support and sync support which allowed me to work with 
 
 I even got around to tinkering with the Surface Pro stylus in OneNote and discovered I really liked the setup. I liked it enough that I started taking my Surface Pro to meetings and taking notes directly within OneNote.
 
-It worked so well when they installed OneNote on my computer at my job, I almost instantly stopped using a Moleskine and bought a Wacom Cintique so I could more effectively use OneNote on the job.
+It worked so well when they installed OneNote on my computer at my job, I almost instantly stopped using a Moleskine and bought a Wacom Cintiq so I could more effectively use OneNote on the job.
 
 I went "all in".
 
@@ -695,7 +695,7 @@ Even though I've regained some function of my arm, I *still* type one handed by 
 This is important for 2 reasons: 
 
 1. I can't type 120 - 140 words per minute one handed. I type 40 - 60 one handed. That's half the speed I was used to.
-2. I rely on a trackball (non moving mouse) heavily to use my computer now. If a program's UI is too textual it gets in my way and becomes a hinderance.
+2. I rely on a trackball (non moving mouse) heavily to use my computer now. If a program's UI is too textual it gets in my way and becomes a hindrance.
 
 These are accessibility concerns for me and I don't faff about when it comes to ensuring they are accommodated by the programs I use day to day.
 
@@ -951,7 +951,7 @@ The below are in [roughly] chronological order.
 	- Digital ISBN: 9781782839156
 	- Hardcover ISBN: 9781788169325
 	- Paperback ISBN: 9781771966283
-- Prior blog posts related to this topoic
+- Prior blog posts related to this topic
 	- [https://blog.kemonine.info/blog/2018-03-29-anti-bad-habit-notebook/](https://blog.kemonine.info/blog/2018-03-29-anti-bad-habit-notebook/)
 	- [https://blog.kemonine.info/blog/2018-04-01-analog-every-day-carries/](https://blog.kemonine.info/blog/2018-04-01-analog-every-day-carries/)
 	- [https://blog.kemonine.info/blog/2018-04-02-a-riff-on-bullet-journals/](https://blog.kemonine.info/blog/2018-04-02-a-riff-on-bullet-journals/)

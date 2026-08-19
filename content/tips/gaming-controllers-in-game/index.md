@@ -37,7 +37,7 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 -   **Sprint-turn scale:** 0.8
 -   **Vertical inversion:** inverted (I'm a monster, deal with it)
 - **Buttons:** (Be sure to start with the defaults before applying the below.)
-   - **Fire:** right triger (single press)
+   - **Fire:** right trigger (single press)
    - **Hold zoom:** left trigger (single press)
    - **Reload:** left stick (double press)
    - **Alternate weapon action:** dpad right (single press)
@@ -185,7 +185,7 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 #### Base Part Editing
 
 - **View Button:** Discoveries / Options
-- **Menu Button:** Recolour Building Part
+- **Menu Button:** Recolor Building Part
 - **Left Stick Click:** Run
 - **Right Stick Click:** Toggle Build Camera
 - **Y:** Toggle Wiring Mode
@@ -197,7 +197,7 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 #### Base Part Placing
 
 - **View Button:** Discoveries / Options
-- **Menu Button:** Recolour Building Part
+- **Menu Button:** Recolor Building Part
 - **Left Stick Click:** Run
 - **Right Stick Click:** Toggle Build Camera
 - **Y:** Toggle Wiring Mode

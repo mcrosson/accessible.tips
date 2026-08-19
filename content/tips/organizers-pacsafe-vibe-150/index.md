@@ -21,7 +21,7 @@ This tip is a syndicated copy of KemoNine's [blog post](https://blog.kemonine.in
 ## The Review
 
 
-The pacsave Vibe 150 [(product page)](https://pacsafe.com/collections/slings-waist-packs/products/vibe-150-anti-theft-sling-pack) is a sling bag setup similar to a messenger bag but very small, only 2.5L in usable storage.
+The pacsafe Vibe 150 [(product page)](https://pacsafe.com/collections/slings-waist-packs/products/vibe-150-anti-theft-sling-pack) is a sling bag setup similar to a messenger bag but very small, only 2.5L in usable storage.
 
 I've had it for awhile and it has proven to be the best shoulder bag I've used to date as an EDC. When I'm headed out for the day I can carry all my essentials in the bag without any real hassles or worries. It's displaced my Timbuk2 bag as well as a ThinkTank belt pouch I've used heavily in the past.
 

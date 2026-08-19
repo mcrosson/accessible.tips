@@ -14,7 +14,7 @@ changelog:
     text: "Initial creation"
 ---
 
-This website uses the following technologies to achive a highly accessible, free to host, easy to manage online knowledge base that also works offline.
+This website uses the following technologies to achieve a highly accessible, free to host, easy to manage online knowledge base that also works offline.
 
 [Hugo](https://gohugo.io/)
 : Site generator
@@ -29,7 +29,7 @@ This website uses the following technologies to achive a highly accessible, free
 : Hosting, CMS login management via `Netlify Identify`, automated deployments via `Git Gateway`
 
 [NameCheap DNS](https://namecheap.com/)
-: DNS registrar and record managent
+: DNS registrar and record management
 
 [Plausible Analytics (Community Edition)](https://github.com/plausible/analytics)
 : Basic 'how many visitors do we get' tracking and fully self-hosted. Will be disabled if you run any kind of 'blocker' or similar.

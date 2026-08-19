@@ -24,7 +24,7 @@ This post is about the digital anti bad habit notebook. For an analog version im
 
 ## The Post
 
-Not going to lie : I have a few bad habits and have used my analog anti bad habit notebook to break some in teh past.
+Not going to lie : I have a few bad habits and have used my analog anti bad habit notebook to break some in the past.
 
 Sadly, I can no longer reliably use analog methods for my notes and similar. Due to this I went ahead and re-implemented the anti bad habit analog notebook as an Obsidian vault. So far it's proven very helpful for tracking a bad habit I want to break and should work well for pretty much any "bad habit" one may want to break.
 

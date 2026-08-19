@@ -14,7 +14,7 @@ tags:
 
 ## Attribution
 
-This is a fullly syndicated copy of KemoNine's ['Digital Art Composition Book' blog post](https://blog.kemonine.info/art/2024-09-19-digital-art-composition-book/). It has been posted here, in full, with permission. This post reads like an anecdote but is foocused on a practical approach to creating a digital composition book for art. Due to this we've included KemoNine's post as a tip, rather than anecdote as we feel this is more of a 'tip' than 'anecdote'.
+This is a fully syndicated copy of KemoNine's ['Digital Art Composition Book' blog post](https://blog.kemonine.info/art/2024-09-19-digital-art-composition-book/). It has been posted here, in full, with permission. This post reads like an anecdote but is focused on a practical approach to creating a digital composition book for art. Due to this we've included KemoNine's post as a tip, rather than anecdote as we feel this is more of a 'tip' than 'anecdote'.
 
 Note: we've only applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 

@@ -14,7 +14,7 @@ draft: false
 
 ## Attribution
 
-This is a fullly syndicated copy of KemoNine's ['How I Research' blog post](https://blog.kemonine.info/blog/2024-11-29-how-i-research/). It has been posted here, in full, with permission.
+This is a fully syndicated copy of KemoNine's ['How I Research' blog post](https://blog.kemonine.info/blog/2024-11-29-how-i-research/). It has been posted here, in full, with permission.
 
 Note: we've only changed the location of the table of contents and applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 
@@ -90,7 +90,7 @@ I have multiple areas of interest with multiple, active areas of research these 
 
 I require "zones of focus" to be successful. I need to keep related items "in one place" and have "multiple places for information" so I can better focus and avoid the overwhelm that happens when things aren't at least loosely organized by topic.
 
-I ended up creating a set of Zotero collections, one per topic, that I use to stay focused within Zotero. I also have a `__Templates` collection and a `_Completed` collection. I use `__Templates` to ensure any notes that I always attach to a Zotero item are consistent, particularly my "Main Take Aways" note. I use `_Completed` to hold any collections that I feel are fully researched and appropriately distilled within Obsidian.
+I ended up creating a set of Zotero collections, one per topic, that I use to stay focused within Zotero. I also have a `__Templates` collection and a `_Completed` collection. I use `__Templates` to ensure any notes that I always attach to a Zotero item are consistent, particularly my "Main Takeaways" note. I use `_Completed` to hold any collections that I feel are fully researched and appropriately distilled within Obsidian.
 
 I also discovered that my notes within each item were a scattered mess. I needed a way to layout the notes in a form that was useful for me with a good overall order. Thankfully I'm a huge organizer and notebook nerd. I had read about Johnny Decimal and similar systems in the past but never put them into practice as I tend to organize my information in a less rigid form. However, within Zotero I knew the more rigid nature of Johnny Decimal (and similar) would likely be beneficial.
 
@@ -269,7 +269,7 @@ These are the main tags I use within Zotero to help me manage my research. I've 
 	- "name" is the obsidian vault where the item will be distilled
 	- This helps me track if an item will be added to my "2nd Brain" or "Medical" Obsidian vaults
 - *kmn-take-away*
-	- So I can find my main take aways for items using search
+	- So I can find my main takeaways for items using search
 - *kmn-to-research*
 	- So I can find items that I've not finished reading and annotating
 
@@ -304,7 +304,7 @@ Each of the below categories should have template notes with appropriate high le
 
 Template file naming convention: `_XX.NNN - [Category Name]`
 
-- `10.NNN` - Take Aways / Notes
+- `10.NNN` - Takeaways / Notes
 	- Start at `10.011` as lowest value
 	- `10.010` - Main Take Away Note
 		- This should be a rough summary at most

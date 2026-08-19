@@ -20,7 +20,7 @@ search_terms:
 
 ## Attribution
 
-This is a fullly syndicated copy of KemoNine's ['Health Hassle Handwriting' blog post](https://blog.kemonine.info/blog/2024-11-16-health-hassle-handwriting/). It has been posted here, in full, with permission. This post reads like an anecdote but is foocused on a practical approach to handwriting when pen, pencil and paper are not options for use. Due to this we've included KemoNine's post as a tip, rather than anecdote as we feel this is more of a 'tip' than 'anecdote'.
+This is a fully syndicated copy of KemoNine's ['Health Hassle Handwriting' blog post](https://blog.kemonine.info/blog/2024-11-16-health-hassle-handwriting/). It has been posted here, in full, with permission. This post reads like an anecdote but is focused on a practical approach to handwriting when pen, pencil and paper are not options for use. Due to this we've included KemoNine's post as a tip, rather than anecdote as we feel this is more of a 'tip' than 'anecdote'.
 
 Note: we've only applied our standard site formatting to the post, inclusive of our section navigation links. The original post remains unchanged otherwise.
 
@@ -40,7 +40,7 @@ In short: I don't fuck about and never fucked about when it comes to handwritten
 
 Thanks to my health hassles, I now only keep an A5 clipboard, an A5 leather envelope full of Tomoe River paper, an A4 clipboard, an A4 leather envelope full of Tomoe River paper, an EF Japanese fountain pen, a Schmidtt refillable rollerball pen and Platinum Carbon Black ink on-hand at all times. These items are always 'good to go' and I reach for them whenever I want to write *and* have the capacity to do so.
 
-The issue I face is that I have health hassles that regularly make analog writing difficult, if not impossible. This is due to the fact my arms regularly get tremors, particularly my writing arm. Add in the fact one of my health hassles is related to memory and another is realted to speech processing (both of these benefit *greatly* from handwriting everything)... you get a recipe for major conflicting accessibility needs. The kind of conflicting needs that can cause chaos and a failure to stay on top of activies of daily life.
+The issue I face is that I have health hassles that regularly make analog writing difficult, if not impossible. This is due to the fact my arms regularly get tremors, particularly my writing arm. Add in the fact one of my health hassles is related to memory and another is related to speech processing (both of these benefit *greatly* from handwriting everything)... you get a recipe for major conflicting accessibility needs. The kind of conflicting needs that can cause chaos and a failure to stay on top of activities of daily life.
 
 To say this is Not Good and Very Problematic would be incredible understatement.
 
@@ -62,9 +62,9 @@ When my health hassles got bad enough to take away my ability to write in analog
 
 ---
 
-## Forshadowing
+## Foreshadowing
 
-After doing a lot of research, testing, tuning and more I was able to get digital writing setup in a way that is very close to analog writing. I had a lot of false starts and went down more than a few paths that turned out to be overly complex bordering on the absurd. Thankfully I'm a persistent human and ultimately found a setup is 'generally affordable' in terms of monentary cost and *not* complex in nature. I can set this up within an hour from scratch and most of the time is waiting on downlaods and installers. The actual setup of the software and hardware is mere minutes.
+After doing a lot of research, testing, tuning and more I was able to get digital writing setup in a way that is very close to analog writing. I had a lot of false starts and went down more than a few paths that turned out to be overly complex bordering on the absurd. Thankfully I'm a persistent human and ultimately found a setup is 'generally affordable' in terms of monetary cost and *not* complex in nature. I can set this up within an hour from scratch and most of the time is waiting on downloads and installers. The actual setup of the software and hardware is mere minutes.
 
 Tellingly there is very little, if any, tuning needed for my setup. It's very much 'set and forget using defaults'. When I first started down this path I was so stunned at the simplicity I thought I had somehow missed a key piece of setup/information or screwed things up greatly in some way. Turns out the approach was really straight forward and only needed one key piece of setup to be effective.
 
@@ -90,11 +90,11 @@ I cannot recommend Saber enough.
 
 I've used a ton of drawing and handwritten note taking software/apps over the years and Saber is powerful yet focused in nature. It's a great balance of concerns and is perfect for my digital handwriting needs. If you're looking for handwritten, digital notes. Start with Saber.
 
-On mobile I use devices that have native stylus support and just use Saber outright. It's a very boring and simple approach: buy a device with a native stylus, install Saber and start writing. It's acutally that simple and easy.
+On mobile I use devices that have native stylus support and just use Saber outright. It's a very boring and simple approach: buy a device with a native stylus, install Saber and start writing. It's actually that simple and easy.
 
 For a desktop computer or laptop or slate running a non-mobile operating system I use a drawing tablet with a key tweak in addition to Saber. The key tweak here is setting the tablet driver to only use a small portion of the screen. For me this means only 1/3 of my primary monitor can be used with the tablet and I size the Saber window to only fill this area of the monitor. This is the largest portion of my screen I could use while still being able to reliably write and *read* my handwriting. You'll likely need to play around with sizing in order to find what works best for you.
 
-Constraining the area of the desktop that is the active zone for the tablet will let you be able to reliably handwrite on your computer. This was the key and, ultimatley, most important piece of setup and configuration. Once I constrained the active zone for the tablet... things Just Worked.
+Constraining the area of the desktop that is the active zone for the tablet will let you be able to reliably handwrite on your computer. This was the key and, ultimately, most important piece of setup and configuration. Once I constrained the active zone for the tablet... things Just Worked.
 
 ---
 

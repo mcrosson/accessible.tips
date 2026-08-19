@@ -79,7 +79,7 @@ Ah... the 'adult' version of a writing instrument. What we desire as children an
 
 Now that I've covered pens: a quick note on inks. Inks vary wildly in their properties. I look for inks that are waterproof and fast drying. However, these may not be needs of yours. If nothing else, run a test to see. Write a sentence on a page and run it under the faucet while rubbing the text lightly with your finger. If nothing else: you'll know how long you have to cleanup a spill or if your writing will survive a good soaking.
 
-If waterproofing is something you want, the Fisher Space Pen refills are waterproof, the Ohto refills are waterproof and the Pilot G2 refills are ****not**** waterproof or spill resistant. In general the ballpoint refills tend to be more water resistant (even if not advertised as such) and the rollerball refills less water resistant. There are exceptions (the Ohto for example) and the best way to find out is to give a refill a try if it's not advertised. I use the Ohto 0.4mm refills in blak due to the quality of the rollerball (it's similar to a fountain pen) and the ink being waterproof once dry.
+If waterproofing is something you want, the Fisher Space Pen refills are waterproof, the Ohto refills are waterproof and the Pilot G2 refills are ****not**** waterproof or spill resistant. In general the ballpoint refills tend to be more water resistant (even if not advertised as such) and the rollerball refills less water resistant. There are exceptions (the Ohto for example) and the best way to find out is to give a refill a try if it's not advertised. I use the Ohto 0.4mm refills in black due to the quality of the rollerball (it's similar to a fountain pen) and the ink being waterproof once dry.
 
 ---
 

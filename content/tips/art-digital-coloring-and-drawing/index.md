@@ -39,7 +39,7 @@ Unlike Analog, there is no 'the humble pencil and paper' to fall back upon if yo
 
 ## What {#what}
 
-The below will outline what I've managed to put togther for myself that works well, gets out of my way (read: simple) and works with my finger or a 'real stylus'. Basically the equivalent of pencil/paper that can get fancy if you desire. However, much like pencil/paper you don't need to dive deep to succeed.
+The below will outline what I've managed to put together for myself that works well, gets out of my way (read: simple) and works with my finger or a 'real stylus'. Basically the equivalent of pencil/paper that can get fancy if you desire. However, much like pencil/paper you don't need to dive deep to succeed.
 
 The intent here isn't to become an artist using an iDevice living the Coffee Shop Life. It's to make coloring and drawing like Zentangle [(link)](https://zentangle.com) easy and more accessible. Ideally in a way that scales to match the moments desires.
 
@@ -49,7 +49,7 @@ See the [Complete Coloring Page](#complete-coloring-page) screen shot for a comp
 
 ## Requirements {#requirements}
 
-The only hard requirement for this setup is Sketchbook [(link)](https://www.sketchbook.com/) from your preferred app store. The app itself is a simple looking drawing app (see screenshots below) but it has a lot of standard tools like image import, multiple brushes, full color palatte, eye dropper, layers and more. The website has a good FAQ and breakdown of features. I'll leave the devs to showcase the apps features.
+The only hard requirement for this setup is Sketchbook [(link)](https://www.sketchbook.com/) from your preferred app store. The app itself is a simple looking drawing app (see screenshots below) but it has a lot of standard tools like image import, multiple brushes, full color palette, eye dropper, layers and more. The website has a good FAQ and breakdown of features. I'll leave the devs to showcase the apps features.
 
 This app was the key to unlocking the setup. It's available on iOS and Android for both phones and tablets. The interface is clean and simple despite having all kinds of tools available. Don't let the feature list overwhelm you, they are wholly optional and will stay out of your way for the most part.
 
@@ -96,7 +96,7 @@ There are basically 3 options here:
 
 ### In My Opinion... {#in-my-opinion-dot-dot-dot}
 
-Each has its own pros and cons. I myself prefer the device stylus option over others but use an Adonit Dash if no device stylus is avilable.
+Each has its own pros and cons. I myself prefer the device stylus option over others but use an Adonit Dash if no device stylus is available.
 
 Each option is valid and can make a big difference for how coloring and drawing using a digital device feels. I definitely couldn't use my finger as the primary way to color a picture. I need a bit more 'traditional' feel but others I know prefer their finger.
 
@@ -112,11 +112,11 @@ Note: you can import your coloring page and just start coloring, nothing wrong w
 
 In general I make heavy use of pan, zoom and rotate. They are the only two finger shortcuts in the app and if I hold a stylus comfortably I can still use two fingers for moving around my focus easily and fluidly. It took a little practice but made a big difference for me.
 
-### Color Palate {#color-palate}
+### Color Palette {#color-palette}
 
 For choosing a color palate I generally use Coolors [(link)](https://coolors.co/) to generate a random color palate. I highly recommend this site if you don't want to build your own set of colors.
 
-One trick with the site that I found really interesting: there is a little lock on each color shown on the generator output page. If you select the lock it'll lock the color so you can generate another palatte with that color as included. You can do this multiple times. Can be helpful for quickly finding complimentary colors to one that stands about above others.
+One trick with the site that I found really interesting: there is a little lock on each color shown on the generator output page. If you select the lock it'll lock the color so you can generate another palette with that color as included. You can do this multiple times. Can be helpful for quickly finding complimentary colors to one that stands about above others.
 
 I normally stick to a maximum of 5 colors for my images but that's a personal preference. This is art: let the mood strike.
 
@@ -128,7 +128,7 @@ If you're not sure go with a pencil/marker brush and see how it feels. This may 
 
 ### Layers {#layers}
 
-I chop up my drawings and coloring pages into multiple layers. This is due to me wanting to keep the detal work above the coloring and shading without having to go back to cleanup when done coloring/shading. I've also worked on multiple images at the same time and try to keep some additional info 'handy' in case I don't work on an image for a longer period of time.
+I chop up my drawings and coloring pages into multiple layers. This is due to me wanting to keep the detail work above the coloring and shading without having to go back to cleanup when done coloring/shading. I've also worked on multiple images at the same time and try to keep some additional info 'handy' in case I don't work on an image for a longer period of time.
 
 This approach works really well for flexibility while not being too complex overall.
 
@@ -152,11 +152,11 @@ See the [In Progress Coloring Page](#in-progress-coloring-page) screenshot for a
 
 #### Layer 3 {#layer-3}
 
-I setup the 3rd highest layer to be notes and other information I want handy but not part of the final image. This includes my color pallate, brush notes and more. I keep this in my image for when I'm working but set the layer to invisible when exporting.
+I setup the 3rd highest layer to be notes and other information I want handy but not part of the final image. This includes my color palette, brush notes and more. I keep this in my image for when I'm working but set the layer to invisible when exporting.
 
 This is really helpful as I can now bounce between images as the mood may strike and not lose all the information I need to pickup where I left off.
 
-See the [Palate Layer](#palate-layer) screenshot for how I have this setup in my images.
+See the [Palette Layer](#palette-layer) screenshot for how I have this setup in my images.
 
 #### Background {#background}
 
@@ -196,11 +196,11 @@ Hopefully you can do the same.
 
 {{< figure src="Blending---On-Top---Fox.png" alt="A zoomed in view of the coloring page with all of the toolbars, layers and brush information shown." caption="<span class=\"figure-number\">Figure 3: </span>What I see as I work through coloring a page" >}}
 
-### Palate Layer {#palate-layer}
+### Palette Layer {#palette-layer}
 
-<a id="figure--palatte-layer"></a>
+<a id="figure--palette-layer"></a>
 
-{{< figure src="Palate-Layer---Fox.png" alt="A screen shot of the coolors palatte and which brush+settings I'm using for this coloring page. The image shows this as a dedicated layer that's locked." caption="<span class=\"figure-number\">Figure 4: </span>The layer with all the info I need to work on the drawing at any time" >}}
+{{< figure src="Palette-Layer---Fox.png" alt="A screen shot of the coolors palette and which brush+settings I'm using for this coloring page. The image shows this as a dedicated layer that's locked." caption="<span class=\"figure-number\">Figure 4: </span>The layer with all the info I need to work on the drawing at any time" >}}
 
 ### Blending - Darken {#blending-darken}
 
@@ -212,7 +212,7 @@ Hopefully you can do the same.
 
 <a id="figure--blending-normal"></a>
 
-{{< figure src="Blending---Normal---Layer---Fox.png" alt="The coloring page layer settings open showing 'Blending' set to 'Normal' and a box around the layer indicater that this has been set and active." caption="<span class=\"figure-number\">Figure 6: </span>This is how I turn off the clean lines in images as I work" >}}
+{{< figure src="Blending---Normal---Layer---Fox.png" alt="The coloring page layer settings open showing 'Blending' set to 'Normal' and a box around the layer indicator that this has been set and active." caption="<span class=\"figure-number\">Figure 6: </span>This is how I turn off the clean lines in images as I work" >}}
 
 ## Advanced Coloring With Krita {#advanced-coloring-with-krita}
 
@@ -242,10 +242,10 @@ The below sections layout how I setup Krita overall and I leave the practical im
 
 - bug fix input profile settings: <https://krita-artists.org/t/cannot-save-input-profile-does-not-persist-on-startup-on-android/55693/4>
 - s pen click button is mouse middle click on galaxy fold devices
-- pop up palatte _is_ quick settings (like sketchbook puck)
+- pop up palette _is_ quick settings (like sketchbook puck)
 - gestures in the config can likely do brush size up/dn and undo/redo
-- can tune brush settings shown via the pop up palatte ui
-- go through favorite brushes and set up to 10 ; these will show on the popup palatte
+- can tune brush settings shown via the pop up palette ui
+- go through favorite brushes and set up to 10 ; these will show on the popup palette
 - use portrait mode when editing brushes ; you need the height to see everything and you can use the top of the pop-up window to move it left/right for full access
 
 ---
@@ -291,7 +291,7 @@ The below sections layout how I setup Krita overall and I leave the practical im
     - set toggle canvas mode to three finger tap
 - tablet settings
   - adjust pressure curve
-- pop-up palatte
+- pop-up palette
   - disable show rotation ring
 - s pen actions
   - click: toggle pop up palette with s-pen

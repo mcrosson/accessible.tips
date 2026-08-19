@@ -21,13 +21,13 @@ The technology used to build and manage this website can be distilled into just 
 - We use a text editor write content for the site. The content is just a folder with some files and sub-folders in it.
 - We use GitHub (a file version control hosting service) for publishing but it is *wholly optional*. You can upload the files to our hosting provider for publishing instead of using GitHub if desired.
 
-If you'd like more detal please see the [Tech Used FAQ page]({{< ref "faq/tech-used" >}}).
+If you'd like more detail please see the [Tech Used FAQ page]({{< ref "faq/tech-used" >}}).
 
 ---
 
 ## Domain Name
 
-A quick note on the domain name: we used [NameCheap](https://namecheap.com) to purchse the domain name and followed our hosting provider's instructions on how to setup the record with NameCheap.
+A quick note on the domain name: we used [NameCheap](https://namecheap.com) to purchase the domain name and followed our hosting provider's instructions on how to setup the record with NameCheap.
 
 We do not have e-mail or other services setup for the site and the domain setup was very simple and minimal.
 
@@ -57,11 +57,11 @@ Please see the [_ Contributing _ page]({{< ref "faq/contributing" >}}) for addit
 
 ### GitHub Quick and Fast
 
-Once you ignore all the programmer specific tools, GitHub starts to make a lot more sense. The items that are relevant to manging this website are:
+Once you ignore all the programmer specific tools, GitHub starts to make a lot more sense. The items that are relevant to managing this website are:
 
 - The `repository` is the main URL on GitHub for the project
 - The `Code` section is the files/folders comprising the project
-- The `Issues` section is the location of any to do items that need to be addressesd
+- The `Issues` section is the location of any to do items that need to be addressed
 - The `Edit` link is shown on individual files so you can edit them directly in your web browser
 
 ### How GitHub Is Used
@@ -76,7 +76,7 @@ By using GitHub we are able to give our contributors and users the following too
 
 ---
 
-## Content Managment
+## Content Management
 
 This site is primarily developed using a text editor and file manager with git (KemoNine's standard workflow).
 
