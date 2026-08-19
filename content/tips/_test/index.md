@@ -16,7 +16,7 @@ This is a test page for the `tips` section. It exercises the formatting features
 
 ## Headings and structure
 
-This is a `##` section. The `back_to_top` shortcode goes on the next line.
+This is a `##` section.
 
 
 A second section follows. This one has a `###` sub-section under it.
