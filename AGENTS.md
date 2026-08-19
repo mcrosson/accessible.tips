@@ -53,6 +53,51 @@ Deployed via Netlify. Licensed CC BY-SA 4.0.
   `figure` shortcode (400/800/1200) and lazy-loaded runtimes — and don't add
   heavy assets or client bundles without need.
 
+## Authorship (operative rules)
+
+- **Judge text by its job, not its location.** Text that communicates —
+  informs, describes, explains, warns, instructs, says something to a
+  reader — is **content**. Text that operates the site — markup, code,
+  styles, build/config structure — plus short functional chrome that
+  names or prompts a control (accessible names, placeholders, control
+  labels) is **code**. Length is not the test: a short description is
+  content, a long path is code. The test applies to any text in any file,
+  field, template, or branch — current or future.
+- **Content is human-authored — STOP RULE.** Never author, draft, reword,
+  expand, shorten, move, delete, reorder, or otherwise alter reader-facing
+  text, in whole or in part. Reader-facing is judged by consumption, not
+  storage: if a string can reach a visitor — on screen, spoken by
+  assistive tech, or surfaced through a search index, feed, or link
+  preview — it is content, whatever file or pipeline produces it, drafts
+  and public previews included. When in doubt: it is content. Ask.
+- **Chrome is code.** A string whose only job is to name or prompt an
+  interaction is functional chrome: write it with the code it serves,
+  under the review gate. Test: wordable correctly knowing only what the
+  control does — no knowledge of this site's subject, audience, or voice.
+  A string that communicates is content however short — alt text that
+  describes an image is content; an accessible name is chrome.
+- **Front matter and data values: classify by consequence, not field
+  name.** A value that surfaces to readers — rendered, indexed, fed to
+  any consumer — is content. Minting a new reader-visible value (a
+  taxonomy term that creates a new public page) is an editorial act:
+  content. A value that only steers machinery — routing, ordering,
+  visibility, dates — is editable. Cannot trace where a value goes?
+  Treat it as content. Ask.
+- **Mechanical carve-outs — edits requiring zero wording judgment.**
+  (1) Typo fix at the exact spot the operator identifies. (2) Syntax
+  repair — shortcode/cross-ref structure and paths, never the words
+  inside. (3) Verbatim transcription of operator-supplied text — quote
+  it back before applying, change nothing, not even typos. (4) Machinery
+  values per the consequence rule. If an edit requires choosing even one
+  word, it is authorship. When in doubt: it isn't mechanical. Ask.
+- **Code is AI-assisted behind a human review gate.** Everything that is
+  neither content nor media — structure, style, behavior, build, config,
+  tooling — is agent-writable. The operator reviews every change before
+  it lands anywhere the public can reach, preview deploys included.
+  Never self-approve. When new code needs content strings, ask for them.
+- **No AI-generated media.** Never create or add media — images,
+  diagrams, audio, video — without an explicit operator request.
+
 ## Stack pins — do not change
 
 - Hugo 0.155.3 extended, vendored at `bin/hugo-0.155.3` — NOT on PATH; call it
