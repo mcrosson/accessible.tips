@@ -7,6 +7,8 @@ date: 2023-03-20
 toc: true
 draft: false
 changelog:
+  - date: 2026-08-19
+    text: "Cleanup to match current site setup and processes"
   - date: 2024-07-04
     text: "Adjust conventions to accommodate the changelog for each page being moved to the front matter"
   - date: 2023-03-23 
@@ -88,49 +90,39 @@ Files and folders are setup with the following overall layout.
 ``` txt
 /content/
          tips/
-              category-topic-1.md
-              category-topic-2.md
+              category-topic-1/index.md
+              category-topic-2/index.md
               category-topic-3/index.md
-         posts/yyyy-MM-dd-title.md
+         news/yyyy-MM-dd-title.md
                yyyy-MM-dd-title/index.md
-         faq/title-1.md
+         faq/title-1/index.md
              title-2/index.md
-         anecdotes/[author]-[title]-[nnnn].md
+         anecdotes/[author]-[title]-[nnnn]/index.md
                    [author]-[title]-[nnnn]/index.md
 ```
+
+We use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for all content. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 
 ### Tips Directory
 
-The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[category]-[title].md` with `[category]` being the category set in the page metadata and `[title]` being the title set in the page metadata.
+The `tips` directory contains the main knowledge base data. Each file represents a different page on the site and they are named using the format `[tag]-[title].md` with `[tag]` being the 'category set' in the page metadata and `[title]` being the title set in the page metadata.
 
-This allows us to easily cross reference information within a category (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
-
-This rigid, tree'd structure is imposed by Hugo and we have adapted our file and folder organization to work with Hugo instead of against it.
-
-This is also why we can have *only one* primary category for content currently.
-
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+This allows us to easily cross reference information within a tag (see [here]({{< ref "#cross-references" >}}) for how to cross reference pages) and keep the topic file names from colliding if there is any overlap between categories.
 
 
-### Posts Directory
+### News Directory
 
-In this layout the `posts` directory contains all of the blog posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
-
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
+In this layout the `news` directory contains all of the news posts with dated file names using the given pattern. It's a pretty standard and simple folder organization scheme.
 
 
 ### FAQ Directory
 
 In this layout the `faq` directory contains all of the FAQ pages with file names matching the page title. It's a pretty standard and simple folder organization scheme.
 
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
-
 ### Anecdotes Directory
 
 In this layout the `anecdotes` directory contains all of the Anecdote pages with `[author]` being the name of the first author, `[title]` being the title of the page and `[nnnn]` being a left padded 4 digit number that counts up from 1. This numbered serial allows us to avoid file name collisions while keeping the file layout a bit easier to manage.
-
-We will also use `Page Bundles` ([Hugo docs](https://gohugo.io/content-management/page-bundles/)) for content that includes non-textual content or download links. `Page Bundles` are just folders with an `index.md` file and related assets. The `index.md` file is the main content and any files stored next to `index.md` can be easily referenced directly from `index.md`. This is particularly helpful for managing image assets and keeping them organized.
 
 ---
 
@@ -142,53 +134,11 @@ Please note: Authorship metadata will be publicly visible.
 
 ---
 
-## Using Categories
-
-We have tried to keep categories to a small, very high level set and we would like to keep this list focused and small presently.
-
-That said: everyone conceptualizes references between information differently and we are open to working with users and authors to come up with a general list over time for the site.
-
-We'd also like to point out the information contained on the site assumes just **one** category per content page. This is due to how `hugo` (our underlying technology for creating this site) organizes information as a set of folders. Due to this limitation we ask that contributors ensure that content has either `blog` or `tips` category set and only *one* other *primary* category.
-
-If you'd like to get a new category added, please create a new issue [here](https://github.com/mcrosson/accessible.tips/issues/new) with the category, a brief description and any existing content page(s) you feel should be included in the category.
-
-Please note: the submitted content page(s) do *not* have to be exhaustive or all inclusive.
-
----
-
 ## Using Tags
 
-We have tried to keep tags to a well curated list that help tie many different `Tips` togther. We have also tried to ensure tags are relevant to the category specified on each `Tip`.
+Tags are used as a kind of 'category' and only for tips. These are very high level tags that are more topical than anything. This is to help facilitate filling out the related pages section of the page headers. Nothing more. Tags should only be applied to tips and be the same as the filename prefix of the tip's folder.
 
-Given how many words have large numbers of synonyms (alternatives), we have tried to stick to single tags for single concepts.
-
-Please review the main tag list [here](/tags) (warning: this list can be large and take awhile to load) prior to creating a new tag. If one is missing, please add it.
-
-Long term we hope to build a tag glossary to enhance discovery, search and synonym management. If/when this glossary is created, we will update our guidelines related to tagging.
-
-### Conflicting Access Needs
-
-If you are working on a tip that conflicts with any access needs, the tip *must* be tagged as conflicting with the form `conflicting-need-[specific_need]` where `specific_need` is a need such as `low-vision`.
-
----
-
-## Tag and Category Extra Considerations
-
-## Anecdotes
-
-You **must** only apply the `anecdote` tag and category to anecdote pages. These pages are personal accounts of living with disability and can be very triggering for readers.
-
-We have setup the site to include a warning at the top of all anecdote pages and it *requires* the `anecdote` category be applied to these pages.
-
-Submissions not tagging or categorizing anecdotes properly will *not* be approved for inclusion on this site.
-
-### FAQ
-
-For the `FAQ` section of the site we ask that you *only tag* entries with the `faq` tag. This allows the FAQ pages to be related to each other but still remain independent of the main site content. Adding additional tags will tie the FAQ pages into other content which is exactly what we want to avoid.
-
-### News
-
-For the `News` section of the site we ask that you do **NOT** tag entries. The news pages are meant to be minimal and kept independent of the main site information. Adding a tag will tie the news pages into other content which is exactly what we want to avoid.
+We do this because there are so many synynoms for words and tags are a massive overhead for upkeep long-term. Rather than try to have all the tags for all the things we've spent time ensuring the site search is robust. The site search will let you search for content and includes synynoms in the underlying setup so we can allow more flexible searches and not be forced to make a mess of the on-page content.
 
 ---
 
@@ -196,7 +146,7 @@ For the `News` section of the site we ask that you do **NOT** tag entries. The n
 
 This site uses GitHub for tracking the changes to the content used to generate the site. Please consider GitHub the source of truth for the data contained on this website.
 
-However, that does *not* do our readers any good and we require all content pages have a `changelog` section in the front matter of each page. We require at least an entry for `Initial creation` as well.
+However, that does *not* do our readers any good and we require all content pages have a `changelog` section in the front matter of each page.
 
 If you are editing an existing page, we require that you add a dated entry with a summary of the changes made.
 
@@ -218,10 +168,8 @@ We do not have a standard format for this section and leave it to the contributo
 
 If submitting content or copy edits, please note the following
 
-- Each 2nd level heading should have the <code>{{&lt; back_to_top &gt;}}</code> short code on the line following the heading
-- Each 3rd or higher level heading should have the <code>{{&lt; end_section &gt;}}</code> or <code>{{&lt; back_to_top &gt;}}</code> shortcode present at the end of the section. Use your best judgement on which of these two shortcodes to use
 - If there are any sections beyond `Changelog`, the table of contents must be enabled
-- When naming files, categories, tags and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
+- When naming files and similar: use dashes ( `-` ) for separating words. Changes using Snakes ( `_` ) or `CamelCase` will **not** be approved for inclusion
 
 ---
 
@@ -229,7 +177,7 @@ If submitting content or copy edits, please note the following
 
 If you are cross referencing information you can use the following code.
 
-<code>[Link Text]]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the category you defined and `[file]` is the markdown file name with the content you would like to reference.
+<code>[Link Text]]({{&lt; ref "[category]-[file]" &gt;}})</code> where `[category]` is the main content folder for the page and `[file]` is the markdown file name with the content you would like to reference.
 
 Please use this format for cross references between content pages. It helps us better manage cross references between content pages over time.
 
@@ -237,28 +185,12 @@ Please use this format for cross references between content pages. It helps us b
 
 ## Images
 
-When adding images to a page the page must be setup as a `Page Bundle` and the images stored in the page's bundle.
-
 We have setup a short code that we ask authors to use for adding images. This shortcode will handle ensuring the appropriate `alt-text` is added to the image, generate responsive `WebP` variants for low-bandwidth delivery, and wire the image into the site's lightbox viewer.
 
 You can use the shortcode using the following pattern:
 
 <code>{{&lt; figure src="[filename]" alt="[alt-text]" caption="[visible-caption]" &gt;}}</code>
 
-Where `[filename]` is the filename, including extension, of the image file (must be a page-bundle resource). `[alt-text]` is the `img` tag's `alt-text` attribute value. `[visible-caption]` is the text that is shown just underneath each image as a caption; the `caption` parameter is optional and may contain inline HTML.
-
-The figure shortcode emits a responsive `<picture>` with three WebP widths (400w / 800w / 1200w) and `loading="lazy"`. The full-size 1200w variant is also wrapped in a Tobii lightbox trigger — clicking the image opens it full-screen. The lightbox runtime is lazy-loaded by the browser only when a figure is near the viewport, so pages without images pay zero JavaScript cost for the lightbox.
-
-Please note: we *require* contributors include `alt-text` on all images if not using the `figure` short code.
-
----
-
-## Related Pages and Anecdotes
-
-We encourage contributors to include `Related Pages` and `Related Anecdotes` sections to cross link information on the site.
-
-However, we know this may not be possible and will accept pages lacking these sections.
-
-These sections should be simple bulleted lists with links to related content.
+Where `[filename]` is the filename, including extension, of the image file. `[alt-text]` is the `img` tag's `alt-text` attribute value. `[visible-caption]` is the text that is shown just underneath each image as a caption; the `caption` parameter is optional and may contain inline HTML.
 
 ---
