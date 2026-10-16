@@ -40,6 +40,8 @@ After talking with many people, it seems having a visual cue for how often you'r
 
 ## Picture
 
+{{< gallery >}}
 {{< figure src="bujo-anti-bad-habit.jpg" alt="The anti-bad habit notebook with an example day filled out" caption="The Anti Bad Habit Notebook" >}}
+{{< /gallery >}}
 
 ---

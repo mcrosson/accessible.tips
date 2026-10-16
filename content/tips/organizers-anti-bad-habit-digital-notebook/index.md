@@ -30,6 +30,6 @@ Sadly, I can no longer reliably use analog methods for my notes and similar. Due
 
 I've published a template Obsidian vault [here](https://git.kemonine.info/kemonine/digital-anti-bad-habit-notebook) for those that may desire a digital form of the anti bad habit notebook. Just note: there is a small amount of setup but once you've got everything setup, it Just Works.
 
-<a id="figure--anti-bad-habit-notebook"></a>
-
+{{< gallery >}}
 {{< figure src="a-habits-main-note.png" alt="The anti-bad habit notebook with an example habit entry filled out" caption="The Anti Bad Habit Notebook" >}}
+{{< /gallery >}}

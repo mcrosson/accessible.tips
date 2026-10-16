@@ -689,6 +689,41 @@ a.footnote-ref::after {
    the operating-system preference. The dark selector arms include the html
    element so they outrank both :root:not([data-theme="light"]) and the
    attribute-based dark selectors, including the later-loaded admonition CSS. */
+
+/* -----------------------------------------------------------------------------
+   Gallery — grid of square image tiles from the {{< gallery >}} shortcode.
+   1 column on phone, 2 at >=42rem, 3 at >=64rem.
+   --------------------------------------------------------------------------- */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+@media (min-width: 42rem) {
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 64rem) {
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+}
+
+.gallery__item { margin: 0; }
+.gallery__item a { display: block; }
+.gallery__item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.gallery__caption {
+  margin: 0.5em 0 0;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+}
+
 @media print {
   html:root,
   html:root:not([data-theme="light"]),
@@ -845,6 +880,8 @@ a.footnote-ref::after {
 
   pre,
   figure,
+  .gallery,
+  .gallery__item,
   table,
   .admonition {
     break-inside: avoid;

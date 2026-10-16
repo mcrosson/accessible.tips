@@ -1,31 +1,63 @@
 {{- /*
   shortcodes/figure.html — responsive figure with lightbox trigger.
   Overrides Hugo's built-in figure shortcode. Same parameter names: src, alt, caption.
+  - alt is REQUIRED (build fails without it).
   - Looks up `src` as a page resource.
-  - Generates 400w / 800w / 1200w WebP variants for the responsive <picture>.
+  - Generates 400w / 800w / 1200w WebP variants, never wider than the original.
   - Emits a Tobii-compatible <a class="lightbox"> wrapper around the <picture>.
+  - Inside a gallery shortcode (.Parent set), renders a .gallery__item tile
+    (square thumbnail + caption) instead of a standalone <figure>.
   - Falls back to plain <img> (no lightbox) when the resource isn't found.
 */ -}}
 {{- $src := .Get "src" -}}
-{{- $alt := .Get "alt" | default "" -}}
+{{- $alt := .Get "alt" -}}
+{{- if not $alt }}{{ errorf "figure shortcode: 'alt' is required (page %s, src %q)" .Page.Path $src }}{{ end -}}
 {{- $caption := .Get "caption" -}}
 {{- $resource := .Page.Resources.Get $src -}}
+{{- $inGallery := false -}}{{- if .Parent -}}{{- $inGallery = true -}}{{- end -}}
 {{- if $resource -}}
-  {{- $thumb := $resource.Resize "400x webp" -}}
-  {{- $medium := $resource.Resize "800x webp" -}}
-  {{- $full := $resource.Resize "1200x webp" -}}
+  {{- /* Responsive variants, ascending, never wider than the original. */ -}}
+  {{- $variants := slice -}}
+  {{- range $w := (slice 400 800 1200) -}}
+    {{- if le $w $resource.Width -}}{{ $variants = $variants | append ($resource.Resize (printf "%dx webp" $w)) }}{{ end -}}
+  {{- end -}}
+  {{- /* Lightbox target: the largest variant (or the original when tiny). */ -}}
+  {{- $full := $resource -}}
+  {{- if $variants }}{{ $full = index $variants (sub (len $variants) 1) }}{{ end -}}
+  {{- /* Inline display image: the largest variant <= 800w (tile: <= 400w). */ -}}
+  {{- $limit := 800 -}}{{ if $inGallery }}{{ $limit = 400 }}{{ end -}}
+  {{- $display := $full -}}
+  {{- range $v := $variants }}{{ if le $v.Width $limit }}{{ $display = $v }}{{ end -}}{{ end -}}
+  {{- if $inGallery }}
+  <div class="gallery__item">
+    <a href="{{ $full.RelPermalink }}" class="lightbox" data-type="image">
+      <img src="{{ $display.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $display.Width }}" height="{{ $display.Height }}">
+    </a>
+    {{- with $caption }}<p class="gallery__caption">{{ . | markdownify }}</p>{{ end }}
+  </div>
+  {{- else }}
 <figure>
   <a href="{{ $full.RelPermalink }}" class="lightbox" data-type="image">
     <picture>
-      <source type="image/webp" srcset="{{ $thumb.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $full.RelPermalink }} 1200w" sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px">
-      <img src="{{ $medium.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+      {{- if $variants }}
+      <source type="image/webp" srcset="{{ range $i, $v := $variants }}{{ if $i }}, {{ end }}{{ $v.RelPermalink }} {{ $v.Width }}w{{ end }}" sizes="(max-width: 600px) 400px, (max-width: 1000px) 800px, 1200px">
+      {{- end }}
+      <img src="{{ $display.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="{{ $display.Width }}" height="{{ $display.Height }}">
     </picture>
   </a>
   {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>
+  {{- end }}
 {{- else -}}
+  {{- if $inGallery }}
+  <div class="gallery__item">
+    <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+    {{- with $caption }}<p class="gallery__caption">{{ . | markdownify }}</p>{{ end }}
+  </div>
+  {{- else }}
 <figure>
   <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async">
   {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>
+  {{- end }}
 {{- end -}}

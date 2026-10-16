@@ -1,5 +1,5 @@
 (() => {
-  const figures = document.querySelectorAll('figure');
+  const figures = document.querySelectorAll('figure, .gallery__item');
   if (!figures.length) return;
   const load = () => {
     if (!document.querySelector('link[href*="tobii.min.css"]')) {

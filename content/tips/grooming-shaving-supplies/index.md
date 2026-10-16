@@ -342,5 +342,3 @@ The above may be a long read and heavy on my opinions. However, I hope it has gi
 I'd also like to repeat: the above is what works for **me**. I totally expect you, the reader, to adapt this information to your needs and desires. I wouldn't expect my choices to be for everybody.
 
 Take some time, research and jump into the wet shaving pond. You'll appreciate it in time, trust me.
-
----

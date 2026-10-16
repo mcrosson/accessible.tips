@@ -117,10 +117,10 @@ Everything else I need a computer for day to day is supported by my phone and la
 
 ## Image Gallery
 
+{{< gallery >}}
 {{< figure src="NexDock---Duo---Puck-Buddy.jpg" alt="A Surface Duo foldable phone connected to the NexDock and a PuckBuddy ready for use as a laptop" caption="My initial desk setup" >}}
 
 {{< figure src="On-The-Go.jpg" alt="A soft case, Nexdock, usb wires, PuckBuddy and Surface Duo neatly arranged on carpet" caption="The Full Kit" >}}
 
 {{< figure src="Fixing-Servers.jpg" alt="The NexDock plugged into a Raspberry Pi showing it can be used to administer servers. The picture shows the NexDock on the floor next to a number of servers and other 'enterprise' hardware that forms the foundation of my home network." caption="Fix a server? Yep!" >}}
-
----
+{{< /gallery >}}

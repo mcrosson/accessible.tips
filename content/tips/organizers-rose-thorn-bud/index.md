@@ -55,7 +55,9 @@ If you'd like to know how to use the vault, the `Readme` file has a good overvie
 
 A screen shot of the vault showing a monthly synopsis page is below.
 
+{{< gallery >}}
 {{< figure src="obsidaian-vault-screenshot.png" alt="A screenshot of the Obsidian vault" >}}
+{{< /gallery >}}
 
 ## Going Forward
 

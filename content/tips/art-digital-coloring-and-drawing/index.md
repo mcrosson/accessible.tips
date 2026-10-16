@@ -13,7 +13,7 @@ changelog:
   - date: 2023-03-23
     text: "Initial creation"
 ---
-{{< figure src="DSC02900-3.jpg" alt="A Surface Duo foldable phone showing Sketchbook full screen and a Surface Pen sitting on the corner of the screen at an angle. The work shown on-screen is a partially complete coloring page." caption="<span class=\"figure-number\">Figure 1: </span>An in-progress coloring page" >}}
+{{< figure src="DSC02900-3.jpg" alt="A Surface Duo foldable phone showing Sketchbook full screen and a Surface Pen sitting on the corner of the screen at an angle. The work shown on-screen is a partially complete coloring page." caption="An in-progress coloring page" >}}
 
 ---
 

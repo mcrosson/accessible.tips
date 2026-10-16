@@ -1,6 +1,6 @@
 .tobii__btn:focus-visible,
 .tobii__slider:focus-visible,
-.tobii__caption-toggle:focus-visible {
+.caption-toggle:focus-visible {
   outline: 3px solid #ffd700;
   outline-offset: 2px;
 }
@@ -8,7 +8,21 @@
 @media (forced-colors: active) {
   .tobii__btn:focus-visible,
   .tobii__slider:focus-visible,
-  .tobii__caption-toggle:focus-visible {
+  .caption-toggle:focus-visible {
     outline: 3px solid CanvasText;
   }
 }
+
+/* Vendored CSS gives the caption-toggle `color: #0000` (transparent). Under
+   forced-colors that repaints opaque over the caption text; zero the label's
+   font-size so the button keeps its aria-label and :after icon. */
+@media (forced-colors: active) {
+  .caption-toggle { font-size: 0; }
+
+  /* Vendored "hidden" captions use transparent color, which forced-colors
+     makes visible again; remove from the box tree instead. */
+  .caption-hidden { display: none; }
+}
+
+/* Close button — 2.5em (~40px) vendored < 44px target (WCAG 2.5.5). */
+.tobii__btn--close { width: 44px; height: 44px; }

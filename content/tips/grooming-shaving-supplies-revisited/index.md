@@ -527,26 +527,33 @@ Below you'll find some pictures of my current hardware.
 
 > Note: some of these items are *not* available for purchase anymore.
 
+{{< gallery >}}
 {{< figure width="512px" src="RoyalTrimmer/RoyalTrimmer-1-Trimmer.jpg" alt="The Royal Trimmer in its box" caption="The Royal Trimmer in its box" >}}
 
 {{< figure width="512px" src="RoyalTrimmer/RoyalTrimmer-2-Parts.jpg" alt="All of the Royal Trimmer's parts" caption="All of the Royal Trimmer's parts" >}}
 
 {{< figure width="512px" src="RoyalTrimmer/RoyalTrimmer-3-Instructions.jpg" alt="The Royal Trimmer instruction sheet" caption="The Royal Trimmer instruction sheet" >}}
+{{< /gallery >}}
 
 ### Manmower
 
+{{< gallery >}}
 {{< figure width="512px" src="Manmower/Manmower-1-Mower.jpg" alt="The Manmower Mini (Metal)" caption="The Manmower Mini (Metal)" >}}
 
 {{< figure width="512px" src="Manmower/Manmower-2-Parts.jpg" alt="The Manmower Mini (Metal) Parts" caption="The Manmower Mini (Metal) Parts" >}}
 
 {{< figure width="512px" src="Manmower/Manmower-3-SettingNotches.jpg" alt="The Manmower Mini (Metal) Adjustment Notches" caption="The Manmower Mini (Metal) Adjustment Notches" >}}
+{{< /gallery >}}
 
 ### Manual Hair Clippers
 
+{{< gallery >}}
 {{< figure width="512px" src="ManualClippers/ManualClippers.jpg" alt="Right handed manual hair clippers" caption="Right handed manual hair clippers" >}}
+{{< /gallery >}}
 
 ### Travel
 
+{{< gallery >}}
 {{< figure width="512px" src="Travel/Travel-1-FullKit.jpg" alt="The full travel kit" caption="The full travel kit" >}}
 
 {{< figure width="512px" src="Travel/Travel-2-KitClosed.jpg" alt="The full, closed travel kit" caption="The full, closed travel kit" >}}
@@ -560,11 +567,13 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="Travel/Travel-6-CaseCloseUp.jpg" alt="A close up of the travel case" caption="A close up of the travel case" >}}
 
 {{< figure width="512px" src="Travel/Travel-7-CaseCloseUpParts.jpg" alt="A close up of the components stored in the travel case" caption="A close up of the components stored in the travel case" >}}
+{{< /gallery >}}
 
 ### Razors
 
 #### Rockwell Razors 6C
 
+{{< gallery >}}
 {{< figure width="512px" src="RockwellRazors/RockwellRazors-1-6C.jpg" alt="The Rockwell Razors 6C" caption="The Rockwell Razors 6C" >}}
 
 {{< figure width="512px" src="RockwellRazors/RockwellRazors-2-6CParts.jpg" alt="The parts of the Rockwell Razors 6C" caption="The parts of the Rockwell Razors 6C" >}}
@@ -572,9 +581,11 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="RockwellRazors/RockwellRazors-3-6CInstructions-1.jpg" alt="The Rockwell Razors 6C instructions, page 1" caption="The Rockwell Razors 6C instructions, page 1" >}}
 
 {{< figure width="512px" src="RockwellRazors/RockwellRazors-4-6CInstructions-2.jpg" alt="The Rockwell Razors 6C instructions, page 2" caption="The Rockwell Razors 6C instructions, page 2" >}}
+{{< /gallery >}}
 
 #### Henson
 
+{{< gallery >}}
 {{< figure width="512px" src="Henson/Henson-1-OnStand.jpg" alt="The Henson razor on the Henson stand" caption="The Henson razor on the Henson stand" >}}
 
 {{< figure width="512px" src="Henson/Henson-2-Razor.jpg" alt="The Henson razor on its own" caption="The Henson razor on its own" >}}
@@ -582,9 +593,11 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="Henson/Henson-3-Parts.jpg" alt="The parts of the Henson razor" caption="The parts of the Henson razor" >}}
 
 {{< figure width="512px" src="Henson/Henson-4-Stand.jpg" alt="The Henson razor stand on its own" caption="The Henson razor stand on its own" >}}
+{{< /gallery >}}
 
 #### Straight
 
+{{< gallery >}}
 {{< figure width="512px" src="StraightRazors/StraightRazor-1-All.jpg" alt="Standard straight razor collection" caption="Standard straight razor collection" >}}
 
 {{< figure width="512px" src="StraightRazors/StraightRazor-2-Folding.jpg" alt="Standard folding straight razors" caption="Standard folding straight razors" >}}
@@ -612,17 +625,21 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="StraightRazors/StraightRazor-13-CutThroat.jpg" alt="A mini straight razor with swappable blade and finger ring" caption="A mini straight razor with swappable blade and finger ring" >}}
 
 {{< figure width="512px" src="StraightRazors/StraightRazor-14-CutThroatOpen.jpg" alt="A mini straight razor with swappable blade and finger ring pulled apart to show how the swappable blade feature works" caption="A mini straight razor with swappable blade and finger ring pulled apart to show how the swappable blade feature works" >}}
+{{< /gallery >}}
 
 #### Above the Tie
 
+{{< gallery >}}
 {{< figure width="512px" src="AboveTheTie/AboveTheTie-1-Razor.jpg" alt="The Above the Tie razor discussed in this post" caption="The Above the Tie razor discussed in this post" >}}
 
 {{< figure width="512px" src="AboveTheTie/AboveTheTie-2-Parts.jpg" alt="The parts of the Above the Tie razor" caption="The parts of the Above the Tie razor" >}}
 
 {{< figure width="512px" src="AboveTheTie/AboveTheTie-3-FullKit.jpg" alt="The Above the Tie razor with brush, bowl and stand" caption="The Above the Tie razor with brush, bowl and stand" >}}
+{{< /gallery >}}
 
 #### Commercial
 
+{{< gallery >}}
 {{< figure width="512px" src="CommercialRazors/CommercialRazors-1-MerkurOpenComb.jpg" alt="The Merkur #25C razor" caption="The Merkur #25C razor" >}}
 
 {{< figure width="512px" src="CommercialRazors/CommercialRazors-2-MerkurOpenCombParts.jpg" alt="The parts of the Merkur #25C razor" caption="The parts of the Merkur #25C razor" >}}
@@ -630,13 +647,17 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="CommercialRazors/CommercialRazors-3-Mach3Handle.jpg" alt="A custom Mach3 blade handle with blade attached" caption="A custom Mach3 blade handle with blade attached" >}}
 
 {{< figure width="512px" src="CommercialRazors/CommercialRazors-4-Mach3HandleParts.jpg" alt="A custom Mach3 blade handle with blade detached" caption="A custom Mach3 blade handle with blade detached" >}}
+{{< /gallery >}}
 
 ### Blades
 
+{{< gallery >}}
 {{< figure width="512px" src="Blades/Blades.jpg" alt="A box, each, of Rapira Platinum LUX, Voskhod, and Ladas razor blades" caption="A box, each, of Rapira Platinum LUX, Voskhod, and Ladas razor blades" >}}
+{{< /gallery >}}
 
 ### Brushes & Bowls
 
+{{< gallery >}}
 {{< figure width="512px" src="BrushesAndBowls/BrushesAndBowls-1-Travel-Parts.jpg" alt="The parts of the Parker travel shave brush" caption="The parts of the Parker travel shave brush" >}}
 
 {{< figure width="512px" src="BrushesAndBowls/BrushesAndBowls-2-Travel-Brush.jpg" alt="The Parker travel shave brush setup for use" caption="The Parker travel shave brush setup for use" >}}
@@ -648,3 +669,4 @@ Below you'll find some pictures of my current hardware.
 {{< figure width="512px" src="BrushesAndBowls/BrushesAndBowls-5-TravelTin.jpg" alt="A screw top, aluminum travel tin for bar soap" caption="A screw top, aluminum travel tin for bar soap" >}}
 
 {{< figure width="512px" src="BrushesAndBowls/BrushesAndBowls-6-CopperBowl.jpg" alt="A copper shave bowl" caption="A copper shave bowl" >}}
+{{< /gallery >}}

@@ -44,14 +44,8 @@ I chose to publish the vault using version control so there is a proper history 
 
 ## Screen shots
 
-### The Dashboard
-
-{{< figure src="Vault Screenshot 1.png" alt="A screenshot of the main dashboard" >}}
-
-### The Gallery of Tangles
-
-{{< figure src="Vault Screenshot 2.png" alt="A screenshot showing the 'All Tangles' gallery" >}}
-
-### The Gallery of Complete Coloring Pages
-
-{{< figure src="Vault Screenshot 3.png" alt="A screenshot of the 'Complete Coloring Pages' gallery" >}}
+{{< gallery >}}
+{{< figure src="Vault Screenshot 1.png" alt="A screenshot of the main dashboard" caption="The Dashboard" >}}
+{{< figure src="Vault Screenshot 2.png" alt="A screenshot showing the 'All Tangles' gallery" caption="The Gallery of Tangles" >}}
+{{< figure src="Vault Screenshot 3.png" alt="A screenshot of the 'Complete Coloring Pages' gallery" caption="The Gallery of Complete Coloring Pages" >}}
+{{< /gallery >}}

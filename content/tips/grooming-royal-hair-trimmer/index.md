@@ -49,8 +49,10 @@ The only reasons I can think of for not using a Royal Hair Trimmer are health re
 
 ## Gallery
 
-{{< figure src="RoyalTrimmer-1-Trimmer.jpg" alt="The Royal Trimmer in its box" >}}
+{{< gallery >}}
+{{< figure src="RoyalTrimmer-1-Trimmer.jpg" alt="The Royal Trimmer in its box" caption="The Royal Trimmer in its box" >}}
 
-{{< figure src="RoyalTrimmer-2-Parts.jpg" alt="All of the Royal Trimmer's parts" >}}
+{{< figure src="RoyalTrimmer-2-Parts.jpg" alt="All of the Royal Trimmer's parts" caption="All of the Royal Trimmer's parts" >}}
 
-{{< figure src="RoyalTrimmer-3-Instructions.jpg" alt="The Royal Trimmer instruction sheet" >}}
+{{< figure src="RoyalTrimmer-3-Instructions.jpg" alt="The Royal Trimmer instruction sheet" caption="The Royal Trimmer instruction sheet" >}}
+{{< /gallery >}}

@@ -1,0 +1,13 @@
+{{- /*
+  shortcodes/gallery.html — image grid wrapper.
+
+  `{{< gallery >}} …inner figure shortcodes… {{< /gallery >}}` renders .Inner;
+  each inner figure shortcode detects it is inside a gallery (via .Parent) and
+  emits a .gallery__item tile (lightbox link + thumbnail + caption). Grid look
+  lives in style.css.
+*/ -}}
+<div class="gallery">
+  {{- with .Inner -}}
+    {{ . }}
+  {{- end -}}
+</div>
