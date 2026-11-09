@@ -7,7 +7,7 @@ timeZone = 'UTC'
 enableEmoji = true
 enableRobotsTXT = true
 rssLimit = 25
-
+timeout = "180s"
 
 theme = ['hugo-admonitions', 'hugo-xmin']
 
